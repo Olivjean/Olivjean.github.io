@@ -47,6 +47,13 @@ Contact: <a href="mailto:deoliveira@econ.uni-frankfurt.de">deoliveira@econ.uni-f
 ## Work in Progress
 
 ::: {.paper}
+[**War Narratives and Household Inflation Expectations**]{.paper-title}
+
+[With Johannes Zahner]{.paper-authors}
+:::
+
+<!-- Tentative WIP entries — titles not finalized, hidden until confirmed
+::: {.paper}
 [**Too Uncertain to Trust the Signal?**]{.paper-title}
 
 [With Johannes Zahner]{.paper-authors}
@@ -57,6 +64,8 @@ Contact: <a href="mailto:deoliveira@econ.uni-frankfurt.de">deoliveira@econ.uni-f
 
 [With Johannes Zahner]{.paper-authors}
 :::
+-->
+
 
 ---
 
