@@ -9,7 +9,7 @@ title: ""
 <div>
 <div class="name-block">
 <div class="display-name">Jean de Oliveira</div>
-<p style="white-space: nowrap;"><strong>PhD Candidate in Economics</strong> &nbsp; Goethe University Frankfurt</p>
+<p><strong>PhD Candidate in Economics</strong> &nbsp; Goethe University Frankfurt</p>
 </div>
 <hr/>
 <p>I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I study how trust and beliefs drive economic behavior, with applications in household finance, development, and environmental economics.</p>
