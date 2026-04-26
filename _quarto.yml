@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - CNAME
+
+website:
+  title: "Jean de Oliveira"
+  navbar: false
+  page-footer:
+    center: ""
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    page-layout: article

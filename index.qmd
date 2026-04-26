@@ -1,0 +1,84 @@
+---
+title: ""
+---
+
+<div class="home-grid">
+<div>
+<img src="assets/photo.jpg" class="profile-photo" alt="Jean de Oliveira"/>
+</div>
+<div>
+<div class="name-block">
+<div class="display-name">Jean de Oliveira</div>
+<p style="white-space: nowrap;"><strong>PhD Candidate in Economics</strong> &nbsp; Goethe University Frankfurt</p>
+</div>
+<hr/>
+<p>I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I study how trust and beliefs drive economic behavior, with applications in household finance, development, and environmental economics.</p>
+<div class="contact-block">
+Contact: <a href="mailto:deoliveira@econ.uni-frankfurt.de">deoliveira@econ.uni-frankfurt.de</a><br/><br/>
+<a href="assets/cv.pdf" class="cv-link">Curriculum Vitae</a>
+</div>
+</div>
+</div>
+
+---
+
+## Working Papers
+
+<!-- NOTE: JMP designation confirmed as Jean's preference. Verify with Haliassos before publishing. -->
+
+::: {.paper}
+[**Branches and Roots: Banking Presence and Deforestation in Amazonian Indigenous Lands**]{.paper-title} <!-- [Job Market Paper]{.jmp-label} -->
+
+[With Douglas K.G. de Araujo]{.paper-authors}
+
+[Each additional bank branch near an indigenous territory in the Amazon reduces cumulative forest loss by 1.7 km² over five years — not through income effects, but through social capital: branches increase local interactions, build community ties, and reduce criminal networks' capacity to operate.]{.paper-summary}
+
+[PDF *(coming soon)*]{.paper-links}
+:::
+
+::: {.paper}
+[**Actual and Perceived Financial Knowledge over the Life Cycle**]{.paper-title}
+
+[Overconfidence in financial knowledge — believing you understand money better than you actually do — causally increases financial distress, including falling behind on mortgages and drawing down retirement savings early. People don't learn because they don't know they have a problem.]{.paper-summary}
+
+[PDF *(coming soon)*]{.paper-links}
+:::
+
+## Work in Progress
+
+::: {.paper}
+[**Too Uncertain to Trust the Signal?**]{.paper-title}
+
+[With Johannes Zahner]{.paper-authors}
+:::
+
+::: {.paper}
+[**Bayes Rules**]{.paper-title}
+
+[With Johannes Zahner]{.paper-authors}
+:::
+
+---
+
+## Publications
+
+*In Engineering*
+
+**New Technologies for Newborn Safety**
+
+::: {.publication}
+[[Patent]]{.patent-label} [**Oral Feeding Readiness Prediction System for Neonates.**](https://doi.org/10.8080/1020240010931)
+Korean Intellectual Property Office, 2024.
+:::
+
+::: {.publication}
+[**Quantitative non-nutritive sucking measurement as a predictor of oral feeding readiness in newborns.**](https://www.frontiersin.org/articles/10.3389/fped.2023.1143416/full)
+Kyeong Jae Lee, Jean de Oliveira, et al.
+*Frontiers in Pediatrics*, 2023.
+:::
+
+::: {.publication}
+[**A silver nanowire-based flexible pressure sensor to measure the non-nutritive sucking power of neonates.**](https://mnsl-journal.springeropen.com/articles/10.1186/s40486-020-00121-0)
+Jean de Oliveira, Tausif Muhammad & Sohee Kim.
+*Micro & Nano Systems Letters*, 2020.
+:::

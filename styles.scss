@@ -1,0 +1,183 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$body-color: #1a1a1a;
+$link-color: #8B1A1A;
+$link-hover-color: #6b1414;
+$headings-color: #1a1a1a;
+$navbar-bg: #ffffff;
+$navbar-fg: #1a1a1a;
+$body-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* Headings */
+h2, h3 {
+  color: #8B1A1A;
+  margin-top: 2rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rules */
+hr {
+  border-top: 1px solid #8B1A1A;
+  opacity: 0.2;
+  margin: 2rem 0;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #e8e8e8;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+/* Profile photo */
+.profile-photo {
+  border-radius: 3px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+
+/* Home page layout */
+.home-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.display-name {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.name-block {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+  .profile-photo {
+    max-width: 160px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Contact block */
+.contact-block {
+  font-size: 0.92rem;
+  color: #444;
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+
+.contact-block a {
+  color: #8B1A1A;
+}
+
+/* CV link */
+.cv-link {
+  display: inline-block;
+  color: #8B1A1A;
+  border: 1.5px solid #8B1A1A;
+  padding: 0.25rem 0.8rem;
+  font-size: 0.88rem;
+  border-radius: 2px;
+  margin-top: 0.8rem;
+  letter-spacing: 0.02em;
+}
+
+.cv-link:hover {
+  background-color: #8B1A1A;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Patent label */
+.patent-label {
+  color: #999;
+  font-size: 0.78rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-right: 0.3rem;
+}
+
+/* JMP label */
+.jmp-label {
+  color: #8B1A1A;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-left: 0.5rem;
+}
+
+/* Paper entry */
+.paper {
+  margin-bottom: 1.8rem;
+}
+
+.paper-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.paper-authors {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.paper p:has(.paper-title) {
+  margin-bottom: 0.1rem;
+}
+
+.paper p:has(.paper-authors) {
+  margin-top: 0;
+}
+
+.paper-summary {
+  font-size: 0.92rem;
+  color: #333;
+  margin-top: 0.3rem;
+}
+
+.paper-links {
+  font-size: 0.88rem;
+  margin-top: 0.3rem;
+}
+
+/* Publication entries (smaller) */
+.publication {
+  margin-bottom: 1.2rem;
+  font-size: 0.92rem;
+}
+
+/* Teaching entries */
+.teaching-entry {
+  margin-bottom: 0.6rem;
+}
