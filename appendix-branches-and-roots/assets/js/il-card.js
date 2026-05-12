@@ -621,6 +621,13 @@ const Card = (() => {
     I18N.bind();
     I18N.apply();
 
+    // Re-translate the empty-state message (held in a data-attr, not data-i18n)
+    // whenever the user toggles language.
+    window.addEventListener("oa:langchange", () => {
+      const card = document.querySelector(".card-grid.empty .pane");
+      if (card) card.dataset.emptyMsg = I18N.t("empty.message");
+    });
+
     try {
       ilIndex = await fetch(`${dataPath}/il_attrs.json`).then(r => r.json());
     } catch (e) {
