@@ -9,6 +9,7 @@ project:
 
 website:
   title: "Jean de Oliveira"
+  favicon: assets/favicon.svg
   navbar: false
   page-footer:
     center: ""
