@@ -12,7 +12,7 @@ title: ""
 <p><strong>PhD Candidate in Economics</strong> &nbsp; Goethe University Frankfurt</p>
 </div>
 <hr/>
-<p>I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I study how trust and beliefs drive economic behavior, with applications in household finance, development, and environmental economics.</p>
+<p>I am a PhD candidate at Goethe University Frankfurt, in the Graduate School of Economics, Finance and Management. I study how trust and beliefs shape economic decisions, with work in household finance, in development, and in the green transition.</p>
 <div class="contact-block">
 Contact: <a href="mailto:deoliveira@econ.uni-frankfurt.de">deoliveira@econ.uni-frankfurt.de</a><br/><br/>
 <a href="assets/cv.pdf" class="cv-link">Curriculum Vitae</a>
