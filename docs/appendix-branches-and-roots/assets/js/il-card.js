@@ -669,18 +669,9 @@ const Card = (() => {
       });
     });
 
-    // Initial state: URL hash wins; otherwise default to Andirá-Marau as the
-    // example IL so first-time visitors land on a complete card.
-    let code = initialCode || codFromHash();
-    if (!code && ilIndex && ilIndex.length > 0) {
-      const def = ilIndex.find(r => {
-        const s = Array.isArray(r.slug) ? r.slug[0] : r.slug;
-        return s === "andira-marau";
-      });
-      if (def) {
-        code = Array.isArray(def.terrai_cod) ? def.terrai_cod[0] : def.terrai_cod;
-      }
-    }
+    // Initial state: URL hash wins; otherwise show the empty selector
+    // prompt so the visitor picks an IL themselves.
+    const code = initialCode || codFromHash();
     if (code) {
       showCard();
       await loadIL(code);
