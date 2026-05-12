@@ -64,6 +64,11 @@ hr {
   margin-top: 2rem;
 }
 
+.home-grid > div:nth-child(2) > p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .display-name {
   font-size: 2rem;
   font-weight: 700;
@@ -127,6 +132,52 @@ hr {
   background-color: #8B1A1A;
   color: #ffffff;
   text-decoration: none;
+}
+
+/* Paper buttons. Convention: a.paper-btn = clickable (red);
+   span.paper-btn = not yet clickable (muted black). */
+.paper-btn {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.85rem;
+  border-radius: 2px;
+  letter-spacing: 0.02em;
+  margin-right: 0.4rem;
+  border: 1.5px solid;
+}
+
+a.paper-btn {
+  color: #8B1A1A;
+  border-color: #8B1A1A;
+}
+
+a.paper-btn:hover {
+  background-color: #8B1A1A;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+span.paper-btn {
+  color: #555;
+  border-color: #bbb;
+}
+
+span.paper-btn em {
+  font-style: italic;
+  opacity: 0.85;
+}
+
+/* PDF icon (Bootstrap file-earmark-pdf, masked so color follows currentColor) */
+.paper-btn--pdf::before {
+  content: "";
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  margin-right: 0.4em;
+  vertical-align: -0.15em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z'/%3E%3Ctext x='3' y='12.2' font-family='Helvetica,Arial,sans-serif' font-size='5.5' font-weight='700'%3EPDF%3C/text%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z'/%3E%3Ctext x='3' y='12.2' font-family='Helvetica,Arial,sans-serif' font-size='5.5' font-weight='700'%3EPDF%3C/text%3E%3C/svg%3E") no-repeat center / contain;
 }
 
 /* Patent label */
