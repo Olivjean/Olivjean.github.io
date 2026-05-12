@@ -1005,6 +1005,9 @@ a:hover { text-decoration: underline; }
 
 /* ---- Mobile (<=700px) ---- */
 @media (max-width: 700px) {
+  /* Hard guard against any horizontal scroll on small screens */
+  html, body { overflow-x: hidden; }
+
   /* Stack header so the title isn't squeezed into a 240px column */
   .site-header {
     flex-direction: column;
@@ -1038,9 +1041,23 @@ a:hover { text-decoration: underline; }
     padding: 12px 8px 24px 8px;
     gap: 12px;
   }
-  .pane { min-width: 0; padding: 10px; }
+  .pane { min-width: 0; padding: 10px; overflow: hidden; }
   .pane > * { max-width: 100%; }
 
   /* Plot + map containers must not overflow the pane */
   #plot, #map { width: 100% !important; max-width: 100%; }
+  .map-wrap { min-height: 360px; }
+  #map { min-height: 360px; }
+
+  /* Year + legend controls: allow wrapping so they fit a phone width */
+  .year-control {
+    flex-wrap: wrap;
+    gap: 8px;
+    row-gap: 6px;
+  }
+  .year-control label { min-width: auto; }
+  .year-control input[type=range] { flex: 1 1 100%; order: 3; }
+  .year-control button.play-btn { order: 4; margin-left: auto; }
+  .year-control .year-display { order: 2; }
+  .legend { font-size: 0.72rem; gap: 8px; }
 }
