@@ -82,12 +82,16 @@ Korean Intellectual Property Office, 2024.
 
 ::: {.publication}
 [**Quantitative non-nutritive sucking measurement as a predictor of oral feeding readiness in newborns.**](https://www.frontiersin.org/articles/10.3389/fped.2023.1143416/full)
-Kyeong Jae Lee, Jean de Oliveira, et al.
+
+[With Kyeong Jae Lee, Yong Beom Shin, Ho Eun Park, Suro Choi, Daun Hong, Sohee Kim, and Jin A Yoon]{.paper-authors}
+
 *Frontiers in Pediatrics*, 2023.
 :::
 
 ::: {.publication}
 [**A silver nanowire-based flexible pressure sensor to measure the non-nutritive sucking power of neonates.**](https://mnsl-journal.springeropen.com/articles/10.1186/s40486-020-00121-0)
-Jean de Oliveira, Tausif Muhammad & Sohee Kim.
+
+[With Tausif Muhammad and Sohee Kim]{.paper-authors}
+
 *Micro & Nano Systems Letters*, 2020.
 :::
