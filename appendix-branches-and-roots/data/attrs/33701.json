@@ -1,0 +1,124 @@
+{
+  "terrai_cod": 33701,
+  "slug": "parque-do-tumucumaque",
+  "name_pt": "Parque do Tumucumaque",
+  "name_en": "Parque do Tumucumaque",
+  "ufs": [
+    "AP",
+    "PA"
+  ],
+  "area_km2": 30710.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Akuriyó",
+      "en": "Akuriyó"
+    },
+    {
+      "pt": "Aparai",
+      "en": "Aparai"
+    },
+    {
+      "pt": "Isolados Akurio",
+      "en": "Isolados Akurio"
+    },
+    {
+      "pt": "Isolados do Rio Citaré",
+      "en": "Isolados do Rio Citaré"
+    },
+    {
+      "pt": "Katxuyana",
+      "en": "Katxuyana"
+    },
+    {
+      "pt": "Tiriyó",
+      "en": "Tiriyó"
+    },
+    {
+      "pt": "Wayana",
+      "en": "Wayana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akuriyó",
+      "family": "Karib",
+      "povo": "Akuriyó"
+    },
+    {
+      "name": "Aparai",
+      "family": "Karib",
+      "povo": "Aparai"
+    },
+    {
+      "name": "Isolados Akurio",
+      "family": "—",
+      "povo": "Isolados Akurio"
+    },
+    {
+      "name": "Isolados do Rio Citaré",
+      "family": "—",
+      "povo": "Isolados do Rio Citaré"
+    },
+    {
+      "name": "Katxuyana",
+      "family": "Karib",
+      "povo": "Katxuyana"
+    },
+    {
+      "name": "Tiryó",
+      "family": "Karib",
+      "povo": "Tiriyó"
+    },
+    {
+      "name": "Wayana",
+      "family": "Karib",
+      "povo": "Wayana"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500404,
+      "name": "Alenquer",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1600279,
+      "name": "Laranjal do Jari",
+      "uf": "AP"
+    },
+    {
+      "id_municipio": 1505304,
+      "name": "Oriximiná",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1505106,
+      "name": "Óbidos",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1500503,
+      "name": "Almeirim",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1968-07-16"
+    },
+    "homologada": {
+      "date": "1997-11-03"
+    },
+    "regularizada": {
+      "date": "1998-08-18"
+    }
+  },
+  "audit_score": 9.39,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -55.4673,
+    "lat": 1.5803
+  }
+}

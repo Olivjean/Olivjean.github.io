@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 25001,
+  "slug": "lagoa-dos-brincos",
+  "name_pt": "Lagoa dos Brincos",
+  "name_en": "Lagoa dos Brincos",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 18.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Negarotê",
+      "en": "Nambikwara Negarotê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Negarotê"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103304,
+      "name": "Comodoro",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1991-08-16"
+    },
+    "delimitada": {
+      "date": "1992-06-03"
+    },
+    "declarada": {
+      "date": "1992-06-19"
+    },
+    "homologada": {
+      "date": "1996-01-05"
+    },
+    "regularizada": {
+      "date": "1996-01-18"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.1876,
+    "lat": -13.2621
+  }
+}

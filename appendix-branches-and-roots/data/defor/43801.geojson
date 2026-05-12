@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "43801",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "year": 2008 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -59.58301, -14.09469 ], [ -59.58301, -14.09448 ], [ -59.58284, -14.09469 ], [ -59.58301, -14.09469 ] ] ] } }
+]
+}

@@ -1,0 +1,133 @@
+{
+  "terrai_cod": 39501,
+  "slug": "rio-guapore",
+  "name_pt": "Rio Guaporé",
+  "name_en": "Rio Guaporé",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 1157.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Aikanã",
+      "en": "Aikanã"
+    },
+    {
+      "pt": "Arikapú",
+      "en": "Arikapú"
+    },
+    {
+      "pt": "Aruá",
+      "en": "Aruá"
+    },
+    {
+      "pt": "Djeoromitxí",
+      "en": "Djeoromitxí"
+    },
+    {
+      "pt": "Kanoê",
+      "en": "Kanoê"
+    },
+    {
+      "pt": "Kujubim",
+      "en": "Kujubim"
+    },
+    {
+      "pt": "Makurap",
+      "en": "Makurap"
+    },
+    {
+      "pt": "Tupari",
+      "en": "Tupari"
+    },
+    {
+      "pt": "Wajuru",
+      "en": "Wajuru"
+    },
+    {
+      "pt": "Wari'",
+      "en": "Wari'"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aikaná",
+      "family": "Aikaná",
+      "povo": "Aikanã"
+    },
+    {
+      "name": "Arikapú",
+      "family": "Jabuti",
+      "povo": "Arikapú"
+    },
+    {
+      "name": "Aruá",
+      "family": "Mondé",
+      "povo": "Aruá"
+    },
+    {
+      "name": "Arikapú",
+      "family": "Jabuti",
+      "povo": "Djeoromitxí"
+    },
+    {
+      "name": "Kanoe",
+      "family": "Kanoe",
+      "povo": "Kanoê"
+    },
+    {
+      "name": "Kuyubi",
+      "family": "Txapakura",
+      "povo": "Kujubim"
+    },
+    {
+      "name": "Makurap",
+      "family": "Tupari",
+      "povo": "Makurap"
+    },
+    {
+      "name": "Tupari",
+      "family": "Tupari",
+      "povo": "Tupari"
+    },
+    {
+      "name": "Tupari",
+      "family": "Tupari",
+      "povo": "Wajuru"
+    },
+    {
+      "name": "Wari (Pakaá Nova)",
+      "family": "Txapakura",
+      "povo": "Wari'"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100106,
+      "name": "Guajará-Mirim",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1993-01-25"
+    },
+    "declarada": {
+      "date": "1993-04-29"
+    },
+    "homologada": {
+      "date": "1996-05-23"
+    },
+    "regularizada": {
+      "date": "1996-06-20"
+    }
+  },
+  "audit_score": 9.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.7148,
+    "lat": -11.9511
+  }
+}

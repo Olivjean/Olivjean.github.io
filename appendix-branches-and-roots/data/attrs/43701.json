@@ -1,0 +1,51 @@
+{
+  "terrai_cod": 43701,
+  "slug": "tadarimana",
+  "name_pt": "Tadarimana",
+  "name_en": "Tadarimana",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 97.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Boe (Bororo)",
+      "en": "Boe (Bororo)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bororo",
+      "family": "Bororo",
+      "povo": "Boe (Bororo)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107602,
+      "name": "Rondonópolis",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106372,
+      "name": "Pedra Preta",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1991-12-06"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.5126,
+    "lat": -16.5306
+  }
+}

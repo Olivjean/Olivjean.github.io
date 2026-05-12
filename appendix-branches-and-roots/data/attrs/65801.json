@@ -1,0 +1,58 @@
+{
+  "terrai_cod": 65801,
+  "slug": "krenrehe",
+  "name_pt": "Krenrehé",
+  "name_en": "Krenrehé",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 59.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Krenak",
+      "en": "Krenak"
+    },
+    {
+      "pt": "Tikmu'un (Maxakali)",
+      "en": "Tikmu'un (Maxakali)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Krenák",
+      "family": "Krenák",
+      "povo": "Krenak"
+    },
+    {
+      "name": "Maxakali",
+      "family": "Maxakali",
+      "povo": "Tikmu'un (Maxakali)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105309,
+      "name": "Luciara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106778,
+      "name": "Porto Alegre do Norte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102694,
+      "name": "Canabrava do Norte",
+      "uf": "MT"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.22,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.4698,
+    "lat": -11.0527
+  }
+}

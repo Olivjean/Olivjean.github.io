@@ -1,0 +1,310 @@
+{
+  "terrai_cod": 48701,
+  "slug": "vale-do-javari",
+  "name_pt": "Vale do Javari",
+  "name_en": "Vale do Javari",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 85444.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Alto Jutaí",
+      "en": "Isolados do Alto Jutaí"
+    },
+    {
+      "pt": "Isolados do Igarapé Alerta",
+      "en": "Isolados do Igarapé Alerta"
+    },
+    {
+      "pt": "Isolados do Igarapé Amburus",
+      "en": "Isolados do Igarapé Amburus"
+    },
+    {
+      "pt": "Isolados do Igarapé Cravo",
+      "en": "Isolados do Igarapé Cravo"
+    },
+    {
+      "pt": "Isolados do Igarapé Flecheira",
+      "en": "Isolados do Igarapé Flecheira"
+    },
+    {
+      "pt": "Isolados do Igarapé Inferno",
+      "en": "Isolados do Igarapé Inferno"
+    },
+    {
+      "pt": "Isolados do Igarapé Lambança",
+      "en": "Isolados do Igarapé Lambança"
+    },
+    {
+      "pt": "Isolados do Igarapé Nauá",
+      "en": "Isolados do Igarapé Nauá"
+    },
+    {
+      "pt": "Isolados do Igarapé Pedro Lopes",
+      "en": "Isolados do Igarapé Pedro Lopes"
+    },
+    {
+      "pt": "Isolados do Igarapé São José",
+      "en": "Isolados do Igarapé São José"
+    },
+    {
+      "pt": "Isolados do Igarapé São Salvador",
+      "en": "Isolados do Igarapé São Salvador"
+    },
+    {
+      "pt": "Isolados do Jandiatuba",
+      "en": "Isolados do Jandiatuba"
+    },
+    {
+      "pt": "Isolados do Rio Bóia/Curuena",
+      "en": "Isolados do Rio Bóia/Curuena"
+    },
+    {
+      "pt": "Isolados do Rio Coari",
+      "en": "Isolados do Rio Coari"
+    },
+    {
+      "pt": "Isolados do Rio Esquerdo",
+      "en": "Isolados do Rio Esquerdo"
+    },
+    {
+      "pt": "Isolados do Rio Itaquaí",
+      "en": "Isolados do Rio Itaquaí"
+    },
+    {
+      "pt": "Isolados do Rio Pedra",
+      "en": "Isolados do Rio Pedra"
+    },
+    {
+      "pt": "Isolados do Rio Quixito",
+      "en": "Isolados do Rio Quixito"
+    },
+    {
+      "pt": "Isolados Korubo",
+      "en": "Isolados Korubo"
+    },
+    {
+      "pt": "Kanamari",
+      "en": "Kanamari"
+    },
+    {
+      "pt": "Korubo",
+      "en": "Korubo"
+    },
+    {
+      "pt": "Kulina Pano",
+      "en": "Kulina Pano"
+    },
+    {
+      "pt": "Marubo",
+      "en": "Marubo"
+    },
+    {
+      "pt": "Matis",
+      "en": "Matis"
+    },
+    {
+      "pt": "Matsés",
+      "en": "Matsés"
+    },
+    {
+      "pt": "Tsohom-dyapa",
+      "en": "Tsohom-dyapa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Alto Jutaí",
+      "family": "—",
+      "povo": "Isolados do Alto Jutaí"
+    },
+    {
+      "name": "Isolados do Igarapé Alerta",
+      "family": "—",
+      "povo": "Isolados do Igarapé Alerta"
+    },
+    {
+      "name": "Isolados do Igarapé Amburus",
+      "family": "—",
+      "povo": "Isolados do Igarapé Amburus"
+    },
+    {
+      "name": "Isolados do Igarapé Cravo",
+      "family": "—",
+      "povo": "Isolados do Igarapé Cravo"
+    },
+    {
+      "name": "Isolados do Igarapé Flecheira",
+      "family": "—",
+      "povo": "Isolados do Igarapé Flecheira"
+    },
+    {
+      "name": "Isolados do Igarapé Inferno",
+      "family": "—",
+      "povo": "Isolados do Igarapé Inferno"
+    },
+    {
+      "name": "Isolados do Igarapé Lambança",
+      "family": "—",
+      "povo": "Isolados do Igarapé Lambança"
+    },
+    {
+      "name": "Isolados do Igarapé Nauá",
+      "family": "—",
+      "povo": "Isolados do Igarapé Nauá"
+    },
+    {
+      "name": "Isolados do Igarapé Pedro Lopes",
+      "family": "—",
+      "povo": "Isolados do Igarapé Pedro Lopes"
+    },
+    {
+      "name": "Isolados do Igarapé São José",
+      "family": "—",
+      "povo": "Isolados do Igarapé São José"
+    },
+    {
+      "name": "Isolados do Igarapé São Salvador",
+      "family": "—",
+      "povo": "Isolados do Igarapé São Salvador"
+    },
+    {
+      "name": "Isolados do Jandiatuba",
+      "family": "—",
+      "povo": "Isolados do Jandiatuba"
+    },
+    {
+      "name": "Isolados do Rio Bóia/Curuena",
+      "family": "—",
+      "povo": "Isolados do Rio Bóia/Curuena"
+    },
+    {
+      "name": "Isolados do Rio Coari",
+      "family": "—",
+      "povo": "Isolados do Rio Coari"
+    },
+    {
+      "name": "Isolados do Rio Esquerdo",
+      "family": "—",
+      "povo": "Isolados do Rio Esquerdo"
+    },
+    {
+      "name": "Isolados do Rio Itaquaí",
+      "family": "—",
+      "povo": "Isolados do Rio Itaquaí"
+    },
+    {
+      "name": "Isolados do Rio Pedra",
+      "family": "—",
+      "povo": "Isolados do Rio Pedra"
+    },
+    {
+      "name": "Isolados do Rio Quixito",
+      "family": "—",
+      "povo": "Isolados do Rio Quixito"
+    },
+    {
+      "name": "Isolados Korubo",
+      "family": "—",
+      "povo": "Isolados Korubo"
+    },
+    {
+      "name": "Kanamari",
+      "family": "Katukina",
+      "povo": "Kanamari"
+    },
+    {
+      "name": "Korubo",
+      "family": "Pano",
+      "povo": "Korubo"
+    },
+    {
+      "name": "Kulina",
+      "family": "Pano",
+      "povo": "Kulina Pano"
+    },
+    {
+      "name": "Marubo",
+      "family": "Pano",
+      "povo": "Marubo"
+    },
+    {
+      "name": "Matis",
+      "family": "Pano",
+      "povo": "Matis"
+    },
+    {
+      "name": "Matsé",
+      "family": "Pano",
+      "povo": "Matsés"
+    },
+    {
+      "name": "Tsohom-dyapa",
+      "family": "Katukina",
+      "povo": "Tsohom-dyapa"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301654,
+      "name": "Guajará",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301803,
+      "name": "Ipixuna",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301407,
+      "name": "Eirunepé",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300201,
+      "name": "Atalaia do Norte",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303908,
+      "name": "São Paulo de Olivença",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-03-28"
+    },
+    "delimitada": {
+      "date": "1998-05-26"
+    },
+    "declarada": {
+      "date": "1998-12-11"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-05-29"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.3675,
+    "lat": -5.8604
+  }
+}

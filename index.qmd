@@ -33,7 +33,7 @@ Contact: <a href="mailto:deoliveira@econ.uni-frankfurt.de">deoliveira@econ.uni-f
 
 [Each additional bank branch near an indigenous territory in the Amazon reduces cumulative forest loss by 1.7 km² over five years — not through income effects, but through social capital: branches increase local interactions, build community ties, and reduce criminal networks' capacity to operate.]{.paper-summary}
 
-[PDF *(coming soon)*]{.paper-links}
+[PDF *(coming soon)* &middot; [Interactive Online Appendix](appendix-branches-and-roots/)]{.paper-links}
 :::
 
 ::: {.paper}

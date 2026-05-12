@@ -1,0 +1,48 @@
+{
+  "terrai_cod": 73769,
+  "slug": "fazenda-mabel-gaviao-akratikateje",
+  "name_pt": "Fazenda Mabel (Gavião/Akrãtikatêjê)",
+  "name_en": "Fazenda Mabel (Gavião/Akrãtikatêjê)",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 36,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Gavião Akrãtikatêjê",
+      "en": "Gavião Akrãtikatêjê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Gavião Akrãtikatêjê"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1501576,
+      "name": "Bom Jesus do Tocantins",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504208,
+      "name": "Marabá",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "regularizada": {
+      "date": "2021-08-02"
+    }
+  },
+  "audit_score": 5.13,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.9805,
+    "lat": -4.9631
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 32901,
+  "slug": "parakana",
+  "name_pt": "Parakanã",
+  "name_en": "Parakanã",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 3517,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Parakanã",
+      "en": "Parakanã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwawa",
+      "family": "Tupi-Guarani",
+      "povo": "Parakanã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1505064,
+      "name": "Novo Repartimento",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1503705,
+      "name": "Itupiranga",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1971-07-13"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1987-05-18"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.131,
+    "lat": -4.7979
+  }
+}

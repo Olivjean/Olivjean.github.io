@@ -1,0 +1,67 @@
+{
+  "terrai_cod": 49401,
+  "slug": "waiapi",
+  "name_pt": "Waiãpi",
+  "name_en": "Waiãpi",
+  "ufs": [
+    "AP"
+  ],
+  "area_km2": 6070.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wajãpi",
+      "en": "Wajãpi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wayampi",
+      "family": "Tupi-Guarani",
+      "povo": "Wajãpi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1600279,
+      "name": "Laranjal do Jari",
+      "uf": "AP"
+    },
+    {
+      "id_municipio": 1600402,
+      "name": "Mazagão",
+      "uf": "AP"
+    },
+    {
+      "id_municipio": 1600154,
+      "name": "Pedra Branca do Amapari",
+      "uf": "AP"
+    },
+    {
+      "id_municipio": 1500503,
+      "name": "Almeirim",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1985-05-03"
+    },
+    "declarada": {
+      "date": "1991-10-23"
+    },
+    "homologada": {
+      "date": "1996-05-23"
+    },
+    "regularizada": {
+      "date": "1997-03-31"
+    }
+  },
+  "audit_score": 9.03,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.8979,
+    "lat": 1.1286
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 29701,
+  "slug": "moskow",
+  "name_pt": "Moskow",
+  "name_en": "Moskow",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 142.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-11-18"
+    },
+    "delimitada": {
+      "date": "2000-01-06"
+    },
+    "declarada": {
+      "date": "1982-10-05"
+    },
+    "homologada": {
+      "date": "2003-05-30"
+    },
+    "regularizada": {
+      "date": "2004-11-24"
+    }
+  },
+  "audit_score": 8.52,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.1665,
+    "lat": 2.7574
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 22701,
+  "slug": "kaxinawa-nova-olinda",
+  "name_pt": "Kaxinawá Nova Olinda",
+  "name_en": "Kaxinawá Nova Olinda",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 275.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-08-20"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1990-08-01"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -70.7098,
+    "lat": -9.1246
+  }
+}

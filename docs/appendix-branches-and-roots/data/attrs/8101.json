@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 8101,
+  "slug": "caititu",
+  "name_pt": "Caititu",
+  "name_en": "Caititu",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 3080.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    },
+    {
+      "pt": "Jamamadi",
+      "en": "Jamamadi"
+    },
+    {
+      "pt": "Paumari",
+      "en": "Paumari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    },
+    {
+      "name": "Deni",
+      "family": "Arawá",
+      "povo": "Jamamadi"
+    },
+    {
+      "name": "Paumari",
+      "family": "Arawá",
+      "povo": "Paumari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-06-19"
+    },
+    "declarada": {
+      "date": "1986-08-06"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2016-04-26"
+    }
+  },
+  "audit_score": 8.59,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.7733,
+    "lat": -7.8682
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 24801,
+  "slug": "lagoa-comprida",
+  "name_pt": "Lagoa Comprida",
+  "name_en": "Lagoa Comprida",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 132,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2105351,
+      "name": "Itaipava do Grajaú",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2105476,
+      "name": "Jenipapo dos Vieiras",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1982-11-16"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2021-08-24"
+    }
+  },
+  "audit_score": 8.82,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.7351,
+    "lat": -5.3249
+  }
+}

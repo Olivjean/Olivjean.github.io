@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 25901,
+  "slug": "macarrao",
+  "name_pt": "Macarrão",
+  "name_en": "Macarrão",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 442.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1991-11-25"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.1411,
+    "lat": -2.9197
+  }
+}

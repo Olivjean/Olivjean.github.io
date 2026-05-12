@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 41201,
+  "slug": "santa-inez",
+  "name_pt": "Santa Inez",
+  "name_en": "Santa Inez",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 297,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1982-02-16"
+    },
+    "regularizada": {
+      "date": "1988-11-22"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.3663,
+    "lat": 4.1731
+  }
+}

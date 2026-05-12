@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 47801,
+  "slug": "ubawawe",
+  "name_pt": "Ubawawe",
+  "name_en": "Ubawawe",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 522.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106307,
+      "name": "Paranatinga",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107792,
+      "name": "Santo Antônio do Leste",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102603,
+      "name": "Campinápolis",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1996-03-26"
+    },
+    "delimitada": {
+      "date": "1997-08-29"
+    },
+    "declarada": {
+      "date": "1998-06-25"
+    },
+    "homologada": {
+      "date": "2000-08-30"
+    },
+    "regularizada": {
+      "date": "2021-10-20"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.5045,
+    "lat": -14.567
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "terrai_cod": 11801,
+  "slug": "estacao-parecis",
+  "name_pt": "Estação Parecis",
+  "name_en": "Estação Parecis",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 21.7,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106000,
+      "name": "Nortelândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103502,
+      "name": "Diamantino",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5108857,
+      "name": "Nova Marilândia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-11-19"
+    },
+    "delimitada": {
+      "date": "1994-05-31"
+    },
+    "declarada": {
+      "date": "1996-11-01"
+    },
+    "homologada": {
+      "date": "2025-11-17"
+    }
+  },
+  "audit_score": 8.18,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.9225,
+    "lat": -14.1379
+  }
+}

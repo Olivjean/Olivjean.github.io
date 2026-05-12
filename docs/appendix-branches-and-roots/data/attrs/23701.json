@@ -1,0 +1,68 @@
+{
+  "terrai_cod": 23701,
+  "slug": "kulina-do-medio-jurua",
+  "name_pt": "Kulina do Medio Jurua",
+  "name_en": "Kulina do Medio Jurua",
+  "ufs": [
+    "AM",
+    "AC"
+  ],
+  "area_km2": 7301.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1301803,
+      "name": "Ipixuna",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301407,
+      "name": "Eirunepé",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301506,
+      "name": "Envira",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1986-03-21"
+    },
+    "declarada": {
+      "date": "1992-06-01"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "2000-05-08"
+    }
+  },
+  "audit_score": 9.03,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -70.6202,
+    "lat": -7.2014
+  }
+}

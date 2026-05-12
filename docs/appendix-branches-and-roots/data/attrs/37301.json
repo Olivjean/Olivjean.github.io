@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 37301,
+  "slug": "praia-do-indio",
+  "name_pt": "Praia do Índio",
+  "name_en": "Praia do Índio",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 0.3,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1503606,
+      "name": "Itaituba",
+      "uf": "PA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.0273,
+    "lat": -4.2823
+  }
+}

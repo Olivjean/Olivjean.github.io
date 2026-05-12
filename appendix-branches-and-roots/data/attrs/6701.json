@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 6701,
+  "slug": "boqueirao",
+  "name_pt": "Boqueirão",
+  "name_en": "Boqueirão",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 163.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-03-13"
+    },
+    "delimitada": {
+      "date": "1998-11-09"
+    },
+    "declarada": {
+      "date": "1982-05-21"
+    },
+    "homologada": {
+      "date": "2003-06-06"
+    },
+    "regularizada": {
+      "date": "2005-03-08"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.2951,
+    "lat": 3.2513
+  }
+}

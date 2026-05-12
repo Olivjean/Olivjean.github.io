@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 21101,
+  "slug": "karaja-de-aruana-ii",
+  "name_pt": "Karajá de Aruanã II",
+  "name_en": "Karajá de Aruanã II",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 8.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103106,
+      "name": "Cocalinho",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-08-11"
+    },
+    "delimitada": {
+      "date": "1995-01-06"
+    },
+    "declarada": {
+      "date": "1996-05-17"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "1998-09-29"
+    }
+  },
+  "audit_score": 9.25,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.1021,
+    "lat": -14.9085
+  }
+}

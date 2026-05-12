@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 2901,
+  "slug": "apurina-km-124-br-317",
+  "name_pt": "Apurinã Km 124 BR-317",
+  "name_en": "Apurinã Km 124 BR-317",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 422,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300706,
+      "name": "Boca do Acre",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1982-07-13"
+    },
+    "delimitada": {
+      "date": "1986-12-31"
+    },
+    "declarada": {
+      "date": "1986-04-22"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1991-12-09"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.2172,
+    "lat": -9.3048
+  }
+}

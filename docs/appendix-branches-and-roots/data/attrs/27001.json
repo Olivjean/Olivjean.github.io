@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 27001,
+  "slug": "marajai",
+  "name_pt": "Marajai",
+  "name_en": "Marajai",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 12,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Matsés",
+      "en": "Matsés"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Matsé",
+      "family": "Pano",
+      "povo": "Matsés"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300029,
+      "name": "Alvarães",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-11-20"
+    },
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1991-12-05"
+    }
+  },
+  "audit_score": 8.59,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.8311,
+    "lat": -3.1957
+  }
+}

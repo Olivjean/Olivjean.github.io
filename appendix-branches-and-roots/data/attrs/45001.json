@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 45001,
+  "slug": "tereza-cristina",
+  "name_pt": "Tereza Cristina",
+  "name_en": "Tereza Cristina",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 300.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Boe (Bororo)",
+      "en": "Boe (Bororo)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bororo",
+      "family": "Bororo",
+      "povo": "Boe (Bororo)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107602,
+      "name": "Rondonópolis",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107800,
+      "name": "Santo Antônio de Leverger",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105200,
+      "name": "Juscimeira",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1992-11-18"
+    },
+    "delimitada": {
+      "date": "1995-06-22"
+    },
+    "declarada": {
+      "date": "1996-05-17"
+    }
+  },
+  "audit_score": 7,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -55.0898,
+    "lat": -16.5644
+  }
+}

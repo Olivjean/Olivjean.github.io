@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 55201,
+  "slug": "pequizal-do-naruvotu",
+  "name_pt": "Pequizal do Naruvôtu",
+  "name_en": "Pequizal do Naruvôtu",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 278.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Naruvotu",
+      "en": "Naruvotu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Naruvotu",
+      "family": "Karib",
+      "povo": "Naruvotu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103858,
+      "name": "Gaúcha do Norte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102702,
+      "name": "Canarana",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-07-07"
+    },
+    "delimitada": {
+      "date": "2006-01-11"
+    },
+    "declarada": {
+      "date": "2009-06-04"
+    },
+    "homologada": {
+      "date": "2016-04-29"
+    },
+    "regularizada": {
+      "date": "2017-12-11"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.839,
+    "lat": -12.9297
+  }
+}

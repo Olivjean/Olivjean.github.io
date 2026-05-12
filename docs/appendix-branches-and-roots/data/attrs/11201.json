@@ -1,0 +1,81 @@
+{
+  "terrai_cod": 11201,
+  "slug": "enawene-nawe",
+  "name_pt": "Enawenê-Nawê",
+  "name_en": "Enawenê-Nawê",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 7420.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Enawenê-nawê",
+      "en": "Enawenê-nawê"
+    },
+    {
+      "pt": "Isolados do Rio Iquê",
+      "en": "Isolados do Rio Iquê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Enawenê-nawê",
+      "family": "Aruak",
+      "povo": "Enawenê-nawê"
+    },
+    {
+      "name": "Isolados do Rio Iquê",
+      "family": "—",
+      "povo": "Isolados do Rio Iquê"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101902,
+      "name": "Brasnorte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103304,
+      "name": "Comodoro",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107875,
+      "name": "Sapezal",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102686,
+      "name": "Campos de Júlio",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-10-30"
+    },
+    "declarada": {
+      "date": "1991-09-13"
+    },
+    "homologada": {
+      "date": "1996-10-02"
+    },
+    "regularizada": {
+      "date": "1998-03-19"
+    }
+  },
+  "audit_score": 8.69,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.139,
+    "lat": -12.2286
+  }
+}

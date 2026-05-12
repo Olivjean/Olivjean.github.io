@@ -1,0 +1,73 @@
+{
+  "terrai_cod": 28901,
+  "slug": "meria",
+  "name_pt": "Meria",
+  "name_en": "Meria",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 5.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Karapanã",
+      "en": "Karapanã"
+    },
+    {
+      "pt": "Miranha",
+      "en": "Miranha"
+    },
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    },
+    {
+      "pt": "Witoto",
+      "en": "Witoto"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karapanã",
+      "family": "Tukano",
+      "povo": "Karapanã"
+    },
+    {
+      "name": "Bora",
+      "family": "Bora",
+      "povo": "Miranha"
+    },
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    },
+    {
+      "name": "Witoto",
+      "family": "Witoto",
+      "povo": "Witoto"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300029,
+      "name": "Alvarães",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1993-10-04"
+    },
+    "regularizada": {
+      "date": "1993-11-10"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.8534,
+    "lat": -3.2235
+  }
+}

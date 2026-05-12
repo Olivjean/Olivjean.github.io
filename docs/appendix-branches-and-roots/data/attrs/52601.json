@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 52601,
+  "slug": "apurina-do-igarape-mucuim",
+  "name_pt": "Apurinã do Igarapé Mucuim",
+  "name_en": "Apurinã do Igarapé Mucuim",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 733.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2002-02-05"
+    },
+    "delimitada": {
+      "date": "2002-10-22"
+    },
+    "declarada": {
+      "date": "2004-09-21"
+    },
+    "homologada": {
+      "date": "2010-12-31"
+    },
+    "regularizada": {
+      "date": "2011-09-21"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.022,
+    "lat": -7.5569
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 65401,
+  "slug": "maracaxi",
+  "name_pt": "Maracaxi",
+  "name_en": "Maracaxi",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 7.2,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Tembé",
+      "en": "Tembé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Tembé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500958,
+      "name": "Aurora do Pará",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1503457,
+      "name": "Ipixuna do Pará",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-08-17"
+    },
+    "delimitada": {
+      "date": "2011-01-26"
+    },
+    "declarada": {
+      "date": "2012-04-11"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -47.9684,
+    "lat": -2.3502
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 11901,
+  "slug": "estivadinho",
+  "name_pt": "Estivadinho",
+  "name_en": "Estivadinho",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 20.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107958,
+      "name": "Tangará da Serra",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-12-31"
+    },
+    "delimitada": {
+      "date": "1991-11-18"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1993-08-12"
+    },
+    "regularizada": {
+      "date": "1993-09-20"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.6423,
+    "lat": -14.5955
+  }
+}

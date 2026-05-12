@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 13401,
+  "slug": "gaviao",
+  "name_pt": "Gavião",
+  "name_en": "Gavião",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 86.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301159,
+      "name": "Careiro da Várzea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1997-05-06"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.4821,
+    "lat": -3.4258
+  }
+}

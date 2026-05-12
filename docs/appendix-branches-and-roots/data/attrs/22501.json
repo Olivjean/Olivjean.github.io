@@ -1,0 +1,79 @@
+{
+  "terrai_cod": 22501,
+  "slug": "kaxinawa-do-rio-humaita",
+  "name_pt": "Kaxinawá do Rio Humaitá",
+  "name_en": "Kaxinawá do Rio Humaitá",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 1273.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    },
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    },
+    {
+      "pt": "Isolados do Alto Rio Humaitá",
+      "en": "Isolados do Alto Rio Humaitá"
+    },
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    },
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    },
+    {
+      "name": "Isolados do Alto Rio Humaitá",
+      "family": "—",
+      "povo": "Isolados do Alto Rio Humaitá"
+    },
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2009-10-07"
+    },
+    "declarada": {
+      "date": "1984-12-10"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1986-10-08"
+    }
+  },
+  "audit_score": 8.59,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.5073,
+    "lat": -9.2482
+  }
+}

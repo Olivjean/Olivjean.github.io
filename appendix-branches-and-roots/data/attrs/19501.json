@@ -1,0 +1,80 @@
+{
+  "terrai_cod": 19501,
+  "slug": "juininha",
+  "name_pt": "Juininha",
+  "name_en": "Juininha",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 705.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106182,
+      "name": "Nova Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107958,
+      "name": "Tangará da Serra",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106752,
+      "name": "Pontes e Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103361,
+      "name": "Conquista D'Oeste",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5108352,
+      "name": "Vale de São Domingos",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102686,
+      "name": "Campos de Júlio",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-11-19"
+    },
+    "delimitada": {
+      "date": "1988-01-29"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1993-10-04"
+    },
+    "regularizada": {
+      "date": "1993-10-27"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.1557,
+    "lat": -14.4679
+  }
+}

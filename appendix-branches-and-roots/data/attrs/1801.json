@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 1801,
+  "slug": "anambe",
+  "name_pt": "Anambé",
+  "name_en": "Anambé",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 78.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Anambé",
+      "en": "Anambé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Anambé",
+      "family": "Tupi-Guarani",
+      "povo": "Anambé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1504703,
+      "name": "Moju",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-11-09"
+    },
+    "delimitada": {
+      "date": "1987-12-10"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1992-03-20"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.3028,
+    "lat": -2.8584
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "terrai_cod": 49601,
+  "slug": "waiwai",
+  "name_pt": "WaiWái",
+  "name_en": "WaiWái",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 4057,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Waiwai",
+      "en": "Waiwai"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Waiwai",
+      "family": "Karib",
+      "povo": "Waiwai"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400209,
+      "name": "Caracaraí",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400233,
+      "name": "Caroebe",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400506,
+      "name": "São João da Baliza",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400605,
+      "name": "São Luiz",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1999-04-23"
+    },
+    "declarada": {
+      "date": "1982-10-05"
+    },
+    "homologada": {
+      "date": "2003-06-23"
+    },
+    "regularizada": {
+      "date": "2003-09-05"
+    }
+  },
+  "audit_score": 8.12,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.638,
+    "lat": 1.3933
+  }
+}

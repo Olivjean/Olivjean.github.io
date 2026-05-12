@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 11401,
+  "slug": "erikpatsa",
+  "name_pt": "Erikpatsá",
+  "name_en": "Erikpatsá",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 799.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Rikbaktsa",
+      "en": "Rikbaktsa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Rikbaktsá",
+      "family": "Rikbaktsá",
+      "povo": "Rikbaktsa"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101902,
+      "name": "Brasnorte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102850,
+      "name": "Castanheira",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105101,
+      "name": "Juara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "2012-08-21"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.2681,
+    "lat": -11.266
+  }
+}

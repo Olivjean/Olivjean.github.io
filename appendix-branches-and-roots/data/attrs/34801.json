@@ -1,0 +1,73 @@
+{
+  "terrai_cod": 34801,
+  "slug": "pequizal",
+  "name_pt": "Pequizal",
+  "name_en": "Pequizal",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 98.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Alantesu",
+      "en": "Nambikwara Alantesu"
+    },
+    {
+      "pt": "Nambikwara Erihitaunsu",
+      "en": "Nambikwara Erihitaunsu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Alantesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Erihitaunsu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106182,
+      "name": "Nova Lacerda",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1987-12-31"
+    },
+    "delimitada": {
+      "date": "1992-06-16"
+    },
+    "declarada": {
+      "date": "1992-06-19"
+    },
+    "homologada": {
+      "date": "1996-01-05"
+    },
+    "regularizada": {
+      "date": "1996-01-18"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.8577,
+    "lat": -14.2652
+  }
+}

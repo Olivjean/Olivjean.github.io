@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 20401,
+  "slug": "kampa-do-rio-amonia",
+  "name_pt": "Kampa do Rio Amônia",
+  "name_en": "Kampa do Rio Amônia",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 872.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200351,
+      "name": "Marechal Thaumaturgo",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "declarada": {
+      "date": "1991-10-10"
+    },
+    "homologada": {
+      "date": "1992-11-23"
+    },
+    "regularizada": {
+      "date": "1992-12-29"
+    }
+  },
+  "audit_score": 8.6,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.972,
+    "lat": -9.3024
+  }
+}

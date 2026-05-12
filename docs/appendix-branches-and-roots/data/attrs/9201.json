@@ -1,0 +1,82 @@
+{
+  "terrai_cod": 9201,
+  "slug": "capoto-jarina",
+  "name_pt": "Capoto/Jarina",
+  "name_en": "Capoto/Jarina",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 6349.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kajkwakratxi (Tapayuna)",
+      "en": "Kajkwakratxi (Tapayuna)"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó)",
+      "en": "Mebengôkre (Kayapó)"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Metyktire",
+      "en": "Mebengôkre (Kayapó) Metyktire"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tapayuna",
+      "family": "Jê",
+      "povo": "Kajkwakratxi (Tapayuna)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Metyktire"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105580,
+      "name": "Marcelândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107354,
+      "name": "São José do Xingu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107743,
+      "name": "Santa Cruz do Xingu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106422,
+      "name": "Peixoto de Azevedo",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1984-05-07"
+    },
+    "homologada": {
+      "date": "1984-05-10"
+    },
+    "regularizada": {
+      "date": "1987-07-07"
+    }
+  },
+  "audit_score": 8.07,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.15,
+    "lat": -10.2097
+  }
+}

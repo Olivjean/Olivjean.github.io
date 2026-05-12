@@ -1,0 +1,90 @@
+{
+  "terrai_cod": 33601,
+  "slug": "parque-do-aripuana",
+  "name_pt": "Parque do Aripuanã",
+  "name_en": "Parque do Aripuanã",
+  "ufs": [
+    "MT",
+    "RO"
+  ],
+  "area_km2": 16032.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Cinta larga",
+      "en": "Cinta larga"
+    },
+    {
+      "pt": "Isolados na TI Aripuanã",
+      "en": "Isolados na TI Aripuanã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Cinta larga",
+      "family": "Mondé",
+      "povo": "Cinta larga"
+    },
+    {
+      "name": "Isolados na TI Aripuanã",
+      "family": "—",
+      "povo": "Isolados na TI Aripuanã"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100189,
+      "name": "Pimenta Bueno",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100304,
+      "name": "Vilhena",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100098,
+      "name": "Espigão D'Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101407,
+      "name": "Aripuanã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-12-24"
+    },
+    "delimitada": {
+      "date": "1986-11-05"
+    },
+    "declarada": {
+      "date": "1979-03-14"
+    },
+    "homologada": {
+      "date": "1989-11-20"
+    },
+    "regularizada": {
+      "date": "1988-09-22"
+    }
+  },
+  "audit_score": 9.22,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.9055,
+    "lat": -11.5669
+  }
+}

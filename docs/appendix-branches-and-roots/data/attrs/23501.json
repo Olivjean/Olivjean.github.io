@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 23501,
+  "slug": "krikati",
+  "name_pt": "Krikati",
+  "name_en": "Krikati",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 1447.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Krikatí",
+      "en": "Krikatí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Krikatí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2111805,
+      "name": "Sítio Novo",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2100600,
+      "name": "Amarante do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2107001,
+      "name": "Montes Altos",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2105989,
+      "name": "Lajeado Novo",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1979-07-23"
+    },
+    "delimitada": {
+      "date": "1992-05-08"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2005-11-29"
+    }
+  },
+  "audit_score": 8.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.9284,
+    "lat": -5.904
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 12901,
+  "slug": "fortaleza-do-castanho",
+  "name_pt": "Fortaleza do Castanho",
+  "name_en": "Fortaleza do Castanho",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 27.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302553,
+      "name": "Manaquiri",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301100,
+      "name": "Careiro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-01-16"
+    },
+    "delimitada": {
+      "date": "2000-01-21"
+    },
+    "declarada": {
+      "date": "2000-08-04"
+    },
+    "homologada": {
+      "date": "2003-05-05"
+    },
+    "regularizada": {
+      "date": "2003-07-10"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.526,
+    "lat": -3.7519
+  }
+}

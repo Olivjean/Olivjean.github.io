@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 36501,
+  "slug": "ponte-de-pedra",
+  "name_pt": "Ponte de Pedra",
+  "name_en": "Ponte de Pedra",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 170,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5108907,
+      "name": "Nova Maringá",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103502,
+      "name": "Diamantino",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102637,
+      "name": "Campo Novo do Parecis",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-07-01"
+    },
+    "delimitada": {
+      "date": "2006-06-22"
+    },
+    "declarada": {
+      "date": "2010-09-27"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.3494,
+    "lat": -13.566
+  }
+}

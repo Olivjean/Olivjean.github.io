@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 27701,
+  "slug": "massaco",
+  "name_pt": "Massaco",
+  "name_en": "Massaco",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 4219,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Massaco Isolados",
+      "en": "Massaco Isolados"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Massaco Isolados",
+      "family": "—",
+      "povo": "Massaco Isolados"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1101492,
+      "name": "São Francisco do Guaporé",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100015,
+      "name": "Alta Floresta D'Oeste",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1992-09-08"
+    },
+    "delimitada": {
+      "date": "1995-09-11"
+    },
+    "declarada": {
+      "date": "1996-05-17"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-03-15"
+    }
+  },
+  "audit_score": 9.36,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.5722,
+    "lat": -12.5629
+  }
+}

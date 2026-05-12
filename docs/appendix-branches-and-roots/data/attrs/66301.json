@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 66301,
+  "slug": "tanaru-restricao-de-uso",
+  "name_pt": "Tanaru ( restrição de uso )",
+  "name_en": "Tanaru ( restrição de uso )",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 80.7,
+  "current_phase": "Em Estudo",
+  "ethnicities": [
+    {
+      "pt": "Isolado do Tanaru",
+      "en": "Isolado do Tanaru"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolado do Tanaru",
+      "family": "—",
+      "povo": "Isolado do Tanaru"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100072,
+      "name": "Corumbiara",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100924,
+      "name": "Chupinguaia",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101450,
+      "name": "Parecis",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101468,
+      "name": "Pimenteiras do Oeste",
+      "uf": "RO"
+    }
+  ],
+  "phases": [],
+  "audit_score": 9,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.3683,
+    "lat": -12.6528
+  }
+}

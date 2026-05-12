@@ -1,0 +1,100 @@
+{
+  "terrai_cod": 28701,
+  "slug": "menkragnoti",
+  "name_pt": "Menkragnoti",
+  "name_en": "Menkragnoti",
+  "ufs": [
+    "PA",
+    "MT"
+  ],
+  "area_km2": 49142.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Iriri Novo",
+      "en": "Isolados do Iriri Novo"
+    },
+    {
+      "pt": "Isolados Mengra Mrari",
+      "en": "Isolados Mengra Mrari"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó)",
+      "en": "Mebengôkre (Kayapó)"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Mekrãgnoti",
+      "en": "Mebengôkre (Kayapó) Mekrãgnoti"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Iriri Novo",
+      "family": "—",
+      "povo": "Isolados do Iriri Novo"
+    },
+    {
+      "name": "Isolados Mengra Mrari",
+      "family": "—",
+      "povo": "Isolados Mengra Mrari"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Mekrãgnoti"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105606,
+      "name": "Matupá",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1507300,
+      "name": "São Félix do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 5107743,
+      "name": "Santa Cruz do Xingu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106422,
+      "name": "Peixoto de Azevedo",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-12-31"
+    },
+    "declarada": {
+      "date": "1991-11-25"
+    },
+    "homologada": {
+      "date": "1993-08-19"
+    },
+    "regularizada": {
+      "date": "1993-09-27"
+    }
+  },
+  "audit_score": 8.7,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.3224,
+    "lat": -8.6203
+  }
+}

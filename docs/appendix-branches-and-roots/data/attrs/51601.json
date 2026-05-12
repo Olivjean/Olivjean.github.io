@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 51601,
+  "slug": "anaro",
+  "name_pt": "Anaro",
+  "name_en": "Anaro",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 304.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400456,
+      "name": "Pacaraima",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-02-04"
+    },
+    "delimitada": {
+      "date": "2004-11-30"
+    },
+    "declarada": {
+      "date": "2006-06-22"
+    },
+    "homologada": {
+      "date": "2009-12-21"
+    },
+    "regularizada": {
+      "date": "2010-05-07"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.9642,
+    "lat": 3.9069
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "terrai_cod": 44701,
+  "slug": "tenharim-do-igarape-preto",
+  "name_pt": "Tenharim do Igarapé Preto",
+  "name_en": "Tenharim do Igarapé Preto",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 874.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Igarapé Preto",
+      "en": "Isolados do Igarapé Preto"
+    },
+    {
+      "pt": "Isolados Kaidjuwa",
+      "en": "Isolados Kaidjuwa"
+    },
+    {
+      "pt": "Tenharim",
+      "en": "Tenharim"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Igarapé Preto",
+      "family": "—",
+      "povo": "Isolados do Igarapé Preto"
+    },
+    {
+      "name": "Isolados Kaidjuwa",
+      "family": "—",
+      "povo": "Isolados Kaidjuwa"
+    },
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Tenharim"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303304,
+      "name": "Novo Aripuanã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-03-05"
+    },
+    "delimitada": {
+      "date": "1999-04-09"
+    },
+    "declarada": {
+      "date": "1989-11-21"
+    },
+    "homologada": {
+      "date": "2004-04-19"
+    },
+    "regularizada": {
+      "date": "2004-09-30"
+    }
+  },
+  "audit_score": 8.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.1739,
+    "lat": -8.4958
+  }
+}

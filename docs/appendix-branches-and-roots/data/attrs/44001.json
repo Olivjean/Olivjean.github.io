@@ -1,0 +1,73 @@
+{
+  "terrai_cod": 44001,
+  "slug": "tapirape-karaja",
+  "name_pt": "Tapirapé/Karajá",
+  "name_en": "Tapirapé/Karajá",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 661.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apyãwa",
+      "en": "Apyãwa"
+    },
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apyãwa (Tapirapé)",
+      "family": "Tupi-Guarani",
+      "povo": "Apyãwa"
+    },
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1711902,
+      "name": "Lagoa da Confusão",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5105309,
+      "name": "Luciara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1717503,
+      "name": "Pium",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5107776,
+      "name": "Santa Terezinha",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-07-02"
+    },
+    "homologada": {
+      "date": "1983-03-23"
+    },
+    "regularizada": {
+      "date": "1984-07-16"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.6815,
+    "lat": -10.6355
+  }
+}

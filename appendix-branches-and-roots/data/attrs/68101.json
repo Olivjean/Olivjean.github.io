@@ -1,0 +1,143 @@
+{
+  "terrai_cod": 68101,
+  "slug": "kaxuyana-tunayana",
+  "name_pt": "Kaxuyana-Tunayana",
+  "name_en": "Kaxuyana-Tunayana",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 21841.2,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Pitinga/Nhamunda-Mapuera",
+      "en": "Isolados do Pitinga/Nhamunda-Mapuera"
+    },
+    {
+      "pt": "Isolados do Rio Kaxpakuru/Igarapé Água Fria",
+      "en": "Isolados do Rio Kaxpakuru/Igarapé Água Fria"
+    },
+    {
+      "pt": "Kahyana",
+      "en": "Kahyana"
+    },
+    {
+      "pt": "Katuenayana",
+      "en": "Katuenayana"
+    },
+    {
+      "pt": "Katxuyana",
+      "en": "Katxuyana"
+    },
+    {
+      "pt": "Mawayana",
+      "en": "Mawayana"
+    },
+    {
+      "pt": "Tunayana",
+      "en": "Tunayana"
+    },
+    {
+      "pt": "Txikiyana",
+      "en": "Txikiyana"
+    },
+    {
+      "pt": "Xereu-Hixkaryana",
+      "en": "Xereu-Hixkaryana"
+    },
+    {
+      "pt": "Xereu-Katuena",
+      "en": "Xereu-Katuena"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Pitinga/Nhamunda-Mapuera",
+      "family": "—",
+      "povo": "Isolados do Pitinga/Nhamunda-Mapuera"
+    },
+    {
+      "name": "Isolados do Rio Kaxpakuru/Igarapé Água Fria",
+      "family": "—",
+      "povo": "Isolados do Rio Kaxpakuru/Igarapé Água Fria"
+    },
+    {
+      "name": "Kahyana",
+      "family": "Karib",
+      "povo": "Kahyana"
+    },
+    {
+      "name": "Katuenayana",
+      "family": "Karib",
+      "povo": "Katuenayana"
+    },
+    {
+      "name": "Katxuyana",
+      "family": "Karib",
+      "povo": "Katxuyana"
+    },
+    {
+      "name": "Mawayana",
+      "family": "Aruak",
+      "povo": "Mawayana"
+    },
+    {
+      "name": "Tunayana",
+      "family": "Karib",
+      "povo": "Tunayana"
+    },
+    {
+      "name": "Txikiyana",
+      "family": "Karib",
+      "povo": "Txikiyana"
+    },
+    {
+      "name": "Xereu-Hixkaryana",
+      "family": "—",
+      "povo": "Xereu-Hixkaryana"
+    },
+    {
+      "name": "Xereu-Katuena",
+      "family": "—",
+      "povo": "Xereu-Katuena"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1505304,
+      "name": "Oriximiná",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1503002,
+      "name": "Faro",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1303007,
+      "name": "Nhamundá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-07-31"
+    },
+    "delimitada": {
+      "date": "2015-10-19"
+    },
+    "declarada": {
+      "date": "2018-09-19"
+    },
+    "homologada": {
+      "date": "2025-11-17"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.2568,
+    "lat": -0.3208
+  }
+}

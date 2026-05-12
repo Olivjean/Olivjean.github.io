@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 60001,
+  "slug": "arara-da-volta-grande-do-xingu",
+  "name_pt": "Arara da Volta Grande do Xingu",
+  "name_en": "Arara da Volta Grande do Xingu",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 255.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arara da Volta Grande do Xingu",
+      "en": "Arara da Volta Grande do Xingu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arara da Volta Grande do Xingu",
+      "family": "—",
+      "povo": "Arara da Volta Grande do Xingu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500859,
+      "name": "Anapu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507805,
+      "name": "Senador José Porfírio",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2004-07-01"
+    },
+    "delimitada": {
+      "date": "2006-03-31"
+    },
+    "declarada": {
+      "date": "2008-06-30"
+    },
+    "homologada": {
+      "date": "2015-04-17"
+    },
+    "regularizada": {
+      "date": "2016-07-18"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.6801,
+    "lat": -3.6065
+  }
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "45001",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "year": 2017 }, "geometry": { "type": "GeometryCollection", "geometries": [ { "type": "Polygon", "coordinates": [ [ [ -54.9639, -16.60819 ], [ -54.96423, -16.60893 ], [ -54.96431, -16.60865 ], [ -54.9639, -16.60819 ] ] ] }, { "type": "LineString", "coordinates": [ [ -54.96403, -16.60961 ], [ -54.96403, -16.60962 ] ] } ] } }
+]
+}

@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 13201,
+  "slug": "funil",
+  "name_pt": "Funil",
+  "name_en": "Funil",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 157,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xerente",
+      "en": "Xerente"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Xerente",
+      "family": "Jê",
+      "povo": "Xerente"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1721109,
+      "name": "Tocantínia",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1713205,
+      "name": "Miracema do Tocantins",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-02-24"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1992-01-06"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.3116,
+    "lat": -9.6359
+  }
+}

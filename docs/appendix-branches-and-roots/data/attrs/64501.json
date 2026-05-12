@@ -1,0 +1,98 @@
+{
+  "terrai_cod": 64501,
+  "slug": "kapot-nhinore",
+  "name_pt": "Kapôt Nhinore",
+  "name_en": "Kapôt Nhinore",
+  "ufs": [
+    "PA",
+    "MT"
+  ],
+  "area_km2": 3622.4,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Isolados Capot/Nhinore",
+      "en": "Isolados Capot/Nhinore"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó)",
+      "en": "Mebengôkre (Kayapó)"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Mekrãgnoti",
+      "en": "Mebengôkre (Kayapó) Mekrãgnoti"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Metyktire",
+      "en": "Mebengôkre (Kayapó) Metyktire"
+    },
+    {
+      "pt": "Yudja",
+      "en": "Yudja"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados Capot/Nhinore",
+      "family": "—",
+      "povo": "Isolados Capot/Nhinore"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Mekrãgnoti"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Metyktire"
+    },
+    {
+      "name": "Yudjá",
+      "family": "Juruna",
+      "povo": "Yudja"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5108600,
+      "name": "Vila Rica",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1507300,
+      "name": "São Félix do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 5107743,
+      "name": "Santa Cruz do Xingu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106422,
+      "name": "Peixoto de Azevedo",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2004-09-27"
+    },
+    "delimitada": {
+      "date": "2023-07-28"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.3634,
+    "lat": -9.7479
+  }
+}

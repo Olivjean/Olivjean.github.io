@@ -1,0 +1,56 @@
+{
+  "terrai_cod": 63901,
+  "slug": "tuwa-apekuokawera",
+  "name_pt": "Tuwa Apekuokawera",
+  "name_en": "Tuwa Apekuokawera",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 117.6,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Aikewara",
+      "en": "Aikewara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aikewara",
+      "family": "Tupi-Guarani",
+      "povo": "Aikewara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1507458,
+      "name": "São Geraldo do Araguaia",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504208,
+      "name": "Marabá",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1502954,
+      "name": "Eldorado do Carajás",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1999-11-04"
+    },
+    "delimitada": {
+      "date": "2012-01-24"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.8089,
+    "lat": -5.933
+  }
+}

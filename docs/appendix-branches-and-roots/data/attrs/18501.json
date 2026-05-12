@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 18501,
+  "slug": "jaminawa-do-igarape-preto",
+  "name_pt": "Jaminawa do Igarapé Preto",
+  "name_en": "Jaminawa do Igarapé Preto",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 256.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Yaminawá",
+      "en": "Yaminawá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Yamináwa",
+      "family": "Pano",
+      "povo": "Yaminawá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200203,
+      "name": "Cruzeiro do Sul",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1986-08-13"
+    },
+    "declarada": {
+      "date": "1993-03-02"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-01-25"
+    }
+  },
+  "audit_score": 9.03,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.908,
+    "lat": -8.0331
+  }
+}

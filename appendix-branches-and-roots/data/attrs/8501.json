@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 8501,
+  "slug": "camicua",
+  "name_pt": "Camicua",
+  "name_en": "Camicua",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 585.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300706,
+      "name": "Boca do Acre",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303502,
+      "name": "Pauini",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-15"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1992-01-22"
+    }
+  },
+  "audit_score": 8.35,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.5761,
+    "lat": -8.6333
+  }
+}

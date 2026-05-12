@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 21801,
+  "slug": "karitiana",
+  "name_pt": "Karitiana",
+  "name_en": "Karitiana",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 896.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Karitiana",
+      "en": "Karitiana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karitiana",
+      "family": "Arikén",
+      "povo": "Karitiana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100205,
+      "name": "Porto Velho",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2002-11-29"
+    },
+    "homologada": {
+      "date": "1986-08-06"
+    },
+    "regularizada": {
+      "date": "1986-12-04"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.0516,
+    "lat": -9.3323
+  }
+}

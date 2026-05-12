@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 10701,
+  "slug": "cuiu-cuiu",
+  "name_pt": "Cuiu-Cuiu",
+  "name_en": "Cuiu-Cuiu",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 364.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Miranha",
+      "en": "Miranha"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bora",
+      "family": "Bora",
+      "povo": "Miranha"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304260,
+      "name": "Uarini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302801,
+      "name": "Maraã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1992-11-30"
+    },
+    "delimitada": {
+      "date": "1998-04-23"
+    },
+    "declarada": {
+      "date": "1998-12-11"
+    },
+    "homologada": {
+      "date": "2003-06-23"
+    },
+    "regularizada": {
+      "date": "2004-03-11"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.0267,
+    "lat": -2.3685
+  }
+}

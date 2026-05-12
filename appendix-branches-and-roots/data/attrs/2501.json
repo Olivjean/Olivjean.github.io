@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 2501,
+  "slug": "apipica",
+  "name_pt": "Apipica",
+  "name_en": "Apipica",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 6.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301159,
+      "name": "Careiro da Várzea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-10-09"
+    },
+    "delimitada": {
+      "date": "2000-04-24"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2003-05-05"
+    },
+    "regularizada": {
+      "date": "2003-06-30"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.3419,
+    "lat": -3.3672
+  }
+}

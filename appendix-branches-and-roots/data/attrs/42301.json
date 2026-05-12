@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 42301,
+  "slug": "sepoti",
+  "name_pt": "Sepoti",
+  "name_en": "Sepoti",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 2513.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Tenharim",
+      "en": "Tenharim"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Tenharim"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301704,
+      "name": "Humaitá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302702,
+      "name": "Manicoré",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-04-06"
+    },
+    "delimitada": {
+      "date": "1999-08-23"
+    },
+    "declarada": {
+      "date": "2000-04-13"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2007-01-17"
+    }
+  },
+  "audit_score": 8.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.6237,
+    "lat": -7.202
+  }
+}

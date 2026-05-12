@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 61401,
+  "slug": "kawahiva-do-rio-pardo",
+  "name_pt": "Kawahiva do Rio Pardo",
+  "name_en": "Kawahiva do Rio Pardo",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 4118.4,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Isolados Kawahiva do Rio Pardo",
+      "en": "Isolados Kawahiva do Rio Pardo"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados Kawahiva do Rio Pardo",
+      "family": "—",
+      "povo": "Isolados Kawahiva do Rio Pardo"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103254,
+      "name": "Colniza",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1300144,
+      "name": "Apuí",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303304,
+      "name": "Novo Aripuanã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2006-08-10"
+    },
+    "delimitada": {
+      "date": "2007-03-09"
+    },
+    "declarada": {
+      "date": "2016-04-19"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.9643,
+    "lat": -9
+  }
+}

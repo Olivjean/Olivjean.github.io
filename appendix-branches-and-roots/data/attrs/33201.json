@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 33201,
+  "slug": "parana-do-parica",
+  "name_pt": "Parana do Paricá",
+  "name_en": "Parana do Paricá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 78.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kanamari",
+      "en": "Kanamari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kanamari",
+      "family": "Katukina",
+      "povo": "Kanamari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302801,
+      "name": "Maraã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1987-12-31"
+    },
+    "delimitada": {
+      "date": "1993-06-09"
+    },
+    "declarada": {
+      "date": "1993-08-16"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "2000-09-25"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.8388,
+    "lat": -1.8772
+  }
+}

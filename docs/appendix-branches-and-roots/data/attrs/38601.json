@@ -1,0 +1,127 @@
+{
+  "terrai_cod": 38601,
+  "slug": "rio-branco",
+  "name_pt": "Rio Branco",
+  "name_en": "Rio Branco",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 2361.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Aikanã",
+      "en": "Aikanã"
+    },
+    {
+      "pt": "Arikapú",
+      "en": "Arikapú"
+    },
+    {
+      "pt": "Aruá",
+      "en": "Aruá"
+    },
+    {
+      "pt": "Djeoromitxí",
+      "en": "Djeoromitxí"
+    },
+    {
+      "pt": "Kampé",
+      "en": "Kampé"
+    },
+    {
+      "pt": "Kanoê",
+      "en": "Kanoê"
+    },
+    {
+      "pt": "Makurap",
+      "en": "Makurap"
+    },
+    {
+      "pt": "Tupari",
+      "en": "Tupari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aikaná",
+      "family": "Aikaná",
+      "povo": "Aikanã"
+    },
+    {
+      "name": "Arikapú",
+      "family": "Jabuti",
+      "povo": "Arikapú"
+    },
+    {
+      "name": "Aruá",
+      "family": "Mondé",
+      "povo": "Aruá"
+    },
+    {
+      "name": "Arikapú",
+      "family": "Jabuti",
+      "povo": "Djeoromitxí"
+    },
+    {
+      "name": "Kampé",
+      "family": "—",
+      "povo": "Kampé"
+    },
+    {
+      "name": "Kanoe",
+      "family": "Kanoe",
+      "povo": "Kanoê"
+    },
+    {
+      "name": "Makurap",
+      "family": "Tupari",
+      "povo": "Makurap"
+    },
+    {
+      "name": "Tupari",
+      "family": "Tupari",
+      "povo": "Tupari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1101492,
+      "name": "São Francisco do Guaporé",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100148,
+      "name": "Nova Brasilândia D'Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100320,
+      "name": "São Miguel do Guaporé",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100015,
+      "name": "Alta Floresta D'Oeste",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1999-09-01"
+    },
+    "homologada": {
+      "date": "1986-08-06"
+    },
+    "regularizada": {
+      "date": "1986-11-10"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.6424,
+    "lat": -12.1553
+  }
+}

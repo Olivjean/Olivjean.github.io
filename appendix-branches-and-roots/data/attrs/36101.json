@@ -1,0 +1,100 @@
+{
+  "terrai_cod": 36101,
+  "slug": "pirineus-de-souza",
+  "name_pt": "Pirineus de Souza",
+  "name_en": "Pirineus de Souza",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 282.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Idalamare",
+      "en": "Nambikwara Idalamare"
+    },
+    {
+      "pt": "Nambikwara Ilaklore",
+      "en": "Nambikwara Ilaklore"
+    },
+    {
+      "pt": "Nambikwara Mamaindê",
+      "en": "Nambikwara Mamaindê"
+    },
+    {
+      "pt": "Nambikwara Manduka",
+      "en": "Nambikwara Manduka"
+    },
+    {
+      "pt": "Nambikwara Sabanê",
+      "en": "Nambikwara Sabanê"
+    },
+    {
+      "pt": "Nambikwara Tawandê",
+      "en": "Nambikwara Tawandê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Idalamare"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Ilaklore"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Mamaindê"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Manduka"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Sabanê"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Tawandê"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103304,
+      "name": "Comodoro",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1984-04-24"
+    },
+    "regularizada": {
+      "date": "1984-08-06"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.933,
+    "lat": -12.741
+  }
+}

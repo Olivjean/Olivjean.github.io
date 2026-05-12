@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 4301,
+  "slug": "ariramba",
+  "name_pt": "Ariramba",
+  "name_en": "Ariramba",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 103.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301704,
+      "name": "Humaitá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302702,
+      "name": "Manicoré",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1996-05-31"
+    },
+    "delimitada": {
+      "date": "1998-04-23"
+    },
+    "declarada": {
+      "date": "1998-12-11"
+    },
+    "homologada": {
+      "date": "2001-12-10"
+    },
+    "regularizada": {
+      "date": "2004-10-05"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.2763,
+    "lat": -6.1199
+  }
+}

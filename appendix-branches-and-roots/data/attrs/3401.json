@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 3401,
+  "slug": "arara-do-igarape-humaita",
+  "name_pt": "Arara do Igarapé Humaitá",
+  "name_en": "Arara do Igarapé Humaitá",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 875.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arara Shawãdawa",
+      "en": "Arara Shawãdawa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arara Shawanaua",
+      "family": "Pano",
+      "povo": "Arara Shawãdawa"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200393,
+      "name": "Porto Walter",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-02-04"
+    },
+    "delimitada": {
+      "date": "2001-12-14"
+    },
+    "declarada": {
+      "date": "2002-12-04"
+    },
+    "homologada": {
+      "date": "2006-04-18"
+    },
+    "regularizada": {
+      "date": "2006-08-02"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.3769,
+    "lat": -8.4298
+  }
+}

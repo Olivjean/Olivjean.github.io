@@ -1,0 +1,76 @@
+{
+  "terrai_cod": 49501,
+  "slug": "waimiri-atroari",
+  "name_pt": "Waimiri-Atroari",
+  "name_en": "Waimiri-Atroari",
+  "ufs": [
+    "RR",
+    "AM"
+  ],
+  "area_km2": 25859.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados Cabeceira do Rio Camanaú",
+      "en": "Isolados Cabeceira do Rio Camanaú"
+    },
+    {
+      "pt": "Waimiri Atroari",
+      "en": "Waimiri Atroari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados Cabeceira do Rio Camanaú",
+      "family": "—",
+      "povo": "Isolados Cabeceira do Rio Camanaú"
+    },
+    {
+      "name": "Waimiri",
+      "family": "Karib",
+      "povo": "Waimiri Atroari"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303536,
+      "name": "Presidente Figueiredo",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303205,
+      "name": "Novo Airão",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1400506,
+      "name": "São João da Baliza",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1304302,
+      "name": "Urucará",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1400472,
+      "name": "Rorainópolis",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2014-06-17"
+    },
+    "homologada": {
+      "date": "1989-06-16"
+    }
+  },
+  "audit_score": 7.56,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.6647,
+    "lat": -0.8407
+  }
+}

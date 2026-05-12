@@ -1,0 +1,69 @@
+{
+  "terrai_cod": 3301,
+  "slug": "arara-do-rio-branco",
+  "name_pt": "Arara do Rio Branco",
+  "name_en": "Arara do Rio Branco",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1148.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arara do Rio Branco",
+      "en": "Arara do Rio Branco"
+    },
+    {
+      "pt": "Isolados na TI Arara do Rio Branco",
+      "en": "Isolados na TI Arara do Rio Branco"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arara do Rio Branco",
+      "family": "—",
+      "povo": "Arara do Rio Branco"
+    },
+    {
+      "name": "Isolados na TI Arara do Rio Branco",
+      "family": "—",
+      "povo": "Isolados na TI Arara do Rio Branco"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103254,
+      "name": "Colniza",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101407,
+      "name": "Aripuanã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1991-09-13"
+    },
+    "delimitada": {
+      "date": "1992-07-27"
+    },
+    "declarada": {
+      "date": "1992-11-24"
+    },
+    "homologada": {
+      "date": "1996-12-26"
+    },
+    "regularizada": {
+      "date": "2018-07-30"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.5997,
+    "lat": -9.7724
+  }
+}

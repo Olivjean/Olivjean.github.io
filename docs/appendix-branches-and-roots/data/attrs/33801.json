@@ -1,0 +1,232 @@
+{
+  "terrai_cod": 33801,
+  "slug": "parque-do-xingu",
+  "name_pt": "Parque do Xingu",
+  "name_en": "Parque do Xingu",
+  "ufs": [
+    "MT",
+    "PA"
+  ],
+  "area_km2": 26420,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Aweti",
+      "en": "Aweti"
+    },
+    {
+      "pt": "Ikpeng",
+      "en": "Ikpeng"
+    },
+    {
+      "pt": "Kajkwakratxi (Tapayuna)",
+      "en": "Kajkwakratxi (Tapayuna)"
+    },
+    {
+      "pt": "Kalapalo",
+      "en": "Kalapalo"
+    },
+    {
+      "pt": "Kamaiurá",
+      "en": "Kamaiurá"
+    },
+    {
+      "pt": "Kawaiwete (Kaiabi)",
+      "en": "Kawaiwete (Kaiabi)"
+    },
+    {
+      "pt": "Khisêtjê",
+      "en": "Khisêtjê"
+    },
+    {
+      "pt": "Kuikuro",
+      "en": "Kuikuro"
+    },
+    {
+      "pt": "Matipu",
+      "en": "Matipu"
+    },
+    {
+      "pt": "Mehinako",
+      "en": "Mehinako"
+    },
+    {
+      "pt": "Nahukwá",
+      "en": "Nahukwá"
+    },
+    {
+      "pt": "Naruvotu",
+      "en": "Naruvotu"
+    },
+    {
+      "pt": "Trumai",
+      "en": "Trumai"
+    },
+    {
+      "pt": "Wauja",
+      "en": "Wauja"
+    },
+    {
+      "pt": "Yawalapiti",
+      "en": "Yawalapiti"
+    },
+    {
+      "pt": "Yudja",
+      "en": "Yudja"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aweti",
+      "family": "Aweti",
+      "povo": "Aweti"
+    },
+    {
+      "name": "Txikão (ikpeng)",
+      "family": "Karib",
+      "povo": "Ikpeng"
+    },
+    {
+      "name": "Tapayuna",
+      "family": "Jê",
+      "povo": "Kajkwakratxi (Tapayuna)"
+    },
+    {
+      "name": "Kalapalo",
+      "family": "Karib",
+      "povo": "Kalapalo"
+    },
+    {
+      "name": "Kamayurá",
+      "family": "Tupi-Guarani",
+      "povo": "Kamaiurá"
+    },
+    {
+      "name": "Kayabi",
+      "family": "Tupi-Guarani",
+      "povo": "Kawaiwete (Kaiabi)"
+    },
+    {
+      "name": "Suyá",
+      "family": "Jê",
+      "povo": "Khisêtjê"
+    },
+    {
+      "name": "Kuikuro",
+      "family": "Karib",
+      "povo": "Kuikuro"
+    },
+    {
+      "name": "Matipú",
+      "family": "Karib",
+      "povo": "Matipu"
+    },
+    {
+      "name": "Mehinako",
+      "family": "Aruak",
+      "povo": "Mehinako"
+    },
+    {
+      "name": "Nahukuá",
+      "family": "Karib",
+      "povo": "Nahukwá"
+    },
+    {
+      "name": "Naruvotu",
+      "family": "Karib",
+      "povo": "Naruvotu"
+    },
+    {
+      "name": "Trumái",
+      "family": "Trumái",
+      "povo": "Trumai"
+    },
+    {
+      "name": "Waurá",
+      "family": "Aruak",
+      "povo": "Wauja"
+    },
+    {
+      "name": "Yawalapiti",
+      "family": "Aruak",
+      "povo": "Yawalapiti"
+    },
+    {
+      "name": "Yudjá",
+      "family": "Juruna",
+      "povo": "Yudja"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106307,
+      "name": "Paranatinga",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103700,
+      "name": "Feliz Natal",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105580,
+      "name": "Marcelândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107354,
+      "name": "São José do Xingu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103858,
+      "name": "Gaúcha do Norte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107065,
+      "name": "Querência",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106422,
+      "name": "Peixoto de Azevedo",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107859,
+      "name": "São Félix do Araguaia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5108303,
+      "name": "União do Sul",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102702,
+      "name": "Canarana",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106240,
+      "name": "Nova Ubiratã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1991-01-25"
+    },
+    "regularizada": {
+      "date": "2002-12-17"
+    }
+  },
+  "audit_score": 9.32,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.4021,
+    "lat": -12.0065
+  }
+}

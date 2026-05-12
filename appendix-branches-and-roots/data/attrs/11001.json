@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 11001,
+  "slug": "diahui",
+  "name_pt": "Diahui",
+  "name_en": "Diahui",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 473.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Jiahui",
+      "en": "Jiahui"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kawahiva",
+      "family": "Tupi-Guarani",
+      "povo": "Jiahui"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301704,
+      "name": "Humaitá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1999-09-01"
+    },
+    "delimitada": {
+      "date": "2000-04-24"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2005-04-25"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.2316,
+    "lat": -7.964
+  }
+}

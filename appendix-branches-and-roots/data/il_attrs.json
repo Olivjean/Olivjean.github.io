@@ -1,0 +1,8297 @@
+[
+  {
+    "terrai_cod": 101,
+    "slug": "acapuri-de-cima",
+    "name_pt": "Acapuri de Cima",
+    "name_en": "Acapuri de Cima",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 183.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.47,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.828,
+      "lat": -2.5971
+    },
+    "homologada": "2023-09-05"
+  },
+  {
+    "terrai_cod": 201,
+    "slug": "acima",
+    "name_pt": "Acimã",
+    "name_en": "Acimã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 406.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.1809,
+      "lat": -7.8409
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 1001,
+    "slug": "alto-rio-guama",
+    "name_pt": "Alto Rio Guamá",
+    "name_en": "Alto Rio Guamá",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 2799,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.38,
+    "ethnicities": [
+      "Awa Guajá",
+      "Ka'apor",
+      "Tembé"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -46.7234,
+      "lat": -2.3306
+    },
+    "homologada": "1993-10-04"
+  },
+  {
+    "terrai_cod": 1101,
+    "slug": "alto-rio-negro",
+    "name_pt": "Alto Rio Negro",
+    "name_en": "Alto Rio Negro",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 79993.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": [
+      "Arapaso",
+      "Baniwa",
+      "Bará",
+      "Barasana",
+      "Baré",
+      "Desana",
+      "Hupd'äh",
+      "Isolados do Igarapé Waranaçu",
+      "Isolados do Rio Cuririari",
+      "Isolados do Rio Uaupés",
+      "Karapanã",
+      "Koripako",
+      "Kotiria",
+      "Kubeo",
+      "Makuna",
+      "Mirity-tapuya",
+      "Pira-tapuya",
+      "Siriano",
+      "Tariana",
+      "Tukano",
+      "Tuyuka",
+      "Warekena",
+      "Yuhupdeh"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.5227,
+      "lat": 0.5711
+    },
+    "homologada": "1989-11-23"
+  },
+  {
+    "terrai_cod": 1201,
+    "slug": "alto-rio-purus",
+    "name_pt": "Alto Rio Purus",
+    "name_en": "Alto Rio Purus",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 2631.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.49,
+    "ethnicities": [
+      "Huni Kuin (Kaxinawá)",
+      "Kulina",
+      "Yaminawá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.0836,
+      "lat": -9.2964
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 1301,
+    "slug": "alto-sepatini",
+    "name_pt": "Alto Sepatini",
+    "name_en": "Alto Sepatini",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 261,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.49,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.341,
+      "lat": -8.0173
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 1401,
+    "slug": "alto-tarauaca",
+    "name_pt": "Alto Tarauacá",
+    "name_en": "Alto Tarauacá",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 1426.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Isolados do Alto Tarauacá",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.9085,
+      "lat": -9.6031
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 1501,
+    "slug": "alto-turiacu",
+    "name_pt": "Alto Turiaçu",
+    "name_en": "Alto Turiaçu",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 5305.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.75,
+    "ethnicities": [
+      "Awa Guajá",
+      "Ka'apor",
+      "Tembé"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -46.2509,
+      "lat": -2.8677
+    },
+    "homologada": "1982-12-28"
+  },
+  {
+    "terrai_cod": 1701,
+    "slug": "amanaye",
+    "name_pt": "Amanayé",
+    "name_en": "Amanayé",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1628.6,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.64,
+    "ethnicities": "Amanayé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.6833,
+      "lat": -3.9213
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 1801,
+    "slug": "anambe",
+    "name_pt": "Anambé",
+    "name_en": "Anambé",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 78.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Anambé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.3028,
+      "lat": -2.8584
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 1901,
+    "slug": "ananas",
+    "name_pt": "Ananás",
+    "name_en": "Ananás",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 17.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.23,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.4236,
+      "lat": 3.8903
+    },
+    "homologada": "1982-02-16"
+  },
+  {
+    "terrai_cod": 51601,
+    "slug": "anaro",
+    "name_pt": "Anaro",
+    "name_en": "Anaro",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 304.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Wapichana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.9642,
+      "lat": 3.9069
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 2001,
+    "slug": "andira-marau",
+    "name_pt": "Andirá-Marau",
+    "name_en": "Andirá-Marau",
+    "ufs": [
+      "AM",
+      "PA"
+    ],
+    "area_km2": 7885.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.35,
+    "ethnicities": "Sateré Mawé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.9245,
+      "lat": -3.7402
+    },
+    "homologada": "1986-08-06"
+  },
+  {
+    "terrai_cod": 2101,
+    "slug": "aningal",
+    "name_pt": "Aningal",
+    "name_en": "Aningal",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 76.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.75,
+    "ethnicities": "Macuxi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.4031,
+      "lat": 3.4611
+    },
+    "homologada": "1982-02-17"
+  },
+  {
+    "terrai_cod": 2201,
+    "slug": "anta",
+    "name_pt": "Anta",
+    "name_en": "Anta",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 31.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.77,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.1483,
+      "lat": 3.3641
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 2301,
+    "slug": "apiaka-kayabi",
+    "name_pt": "Apiaka/Kayabi",
+    "name_en": "Apiaka/Kayabi",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1092.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": [
+      "Apiaká",
+      "Isolados do Rio dos Peixes",
+      "Kawaiwete (Kaiabi)",
+      "Munduruku"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -57.3949,
+      "lat": -10.9418
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 68301,
+    "slug": "apiaka-do-pontal-e-isolados",
+    "name_pt": "Apiaká do Pontal e Isolados",
+    "name_en": "Apiaká do Pontal e Isolados",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 9823.2,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Apiaká",
+      "Isolados do Pontal",
+      "Munduruku"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -58.1054,
+      "lat": -8.3958
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 2401,
+    "slug": "apinaye",
+    "name_pt": "Apinayé",
+    "name_en": "Apinayé",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 1419,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.77,
+    "ethnicities": "Apinayé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -47.6211,
+      "lat": -6.1167
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 2501,
+    "slug": "apipica",
+    "name_pt": "Apipica",
+    "name_en": "Apipica",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 6.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.3419,
+      "lat": -3.3672
+    },
+    "homologada": "2003-05-05"
+  },
+  {
+    "terrai_cod": 52601,
+    "slug": "apurina-do-igarape-mucuim",
+    "name_pt": "Apurinã do Igarapé Mucuim",
+    "name_en": "Apurinã do Igarapé Mucuim",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 733.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.022,
+      "lat": -7.5569
+    },
+    "homologada": "2010-12-31"
+  },
+  {
+    "terrai_cod": 2701,
+    "slug": "apurina-do-igarape-sao-joao",
+    "name_pt": "Apurinã do Igarapé São João",
+    "name_en": "Apurinã do Igarapé São João",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 182.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -63.1369,
+      "lat": -5.5693
+    },
+    "homologada": "2007-03-12"
+  },
+  {
+    "terrai_cod": 2801,
+    "slug": "apurina-igarape-tauamirim",
+    "name_pt": "Apurinã Igarapé Tauamirim",
+    "name_en": "Apurinã Igarapé Tauamirim",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 964.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.9988,
+      "lat": -5.6865
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 2901,
+    "slug": "apurina-km-124-br-317",
+    "name_pt": "Apurinã Km 124 BR-317",
+    "name_en": "Apurinã Km 124 BR-317",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 422,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.2172,
+      "lat": -9.3048
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 3002,
+    "slug": "apyterewa",
+    "name_pt": "Apyterewa",
+    "name_en": "Apyterewa",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 7734.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Parakanã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.0367,
+      "lat": -5.6368
+    },
+    "homologada": "2007-04-19"
+  },
+  {
+    "terrai_cod": 3201,
+    "slug": "arara",
+    "name_pt": "Arara",
+    "name_en": "Arara",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 2740.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.88,
+    "ethnicities": "Arara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.0485,
+      "lat": -3.7521
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 60001,
+    "slug": "arara-da-volta-grande-do-xingu",
+    "name_pt": "Arara da Volta Grande do Xingu",
+    "name_en": "Arara da Volta Grande do Xingu",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 255.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Arara da Volta Grande do Xingu",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.6801,
+      "lat": -3.6065
+    },
+    "homologada": "2015-04-17"
+  },
+  {
+    "terrai_cod": 3401,
+    "slug": "arara-do-igarape-humaita",
+    "name_pt": "Arara do Igarapé Humaitá",
+    "name_en": "Arara do Igarapé Humaitá",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 875.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Arara Shawãdawa",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.3769,
+      "lat": -8.4298
+    },
+    "homologada": "2006-04-18"
+  },
+  {
+    "terrai_cod": 51801,
+    "slug": "arara-do-rio-amonia",
+    "name_pt": "Arara do Rio Amônia",
+    "name_en": "Arara do Rio Amônia",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 205.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Arara do Rio Amônia",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.8765,
+      "lat": -9.0847
+    },
+    "homologada": "2023-04-28"
+  },
+  {
+    "terrai_cod": 3301,
+    "slug": "arara-do-rio-branco",
+    "name_pt": "Arara do Rio Branco",
+    "name_en": "Arara do Rio Branco",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1148.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": [
+      "Arara do Rio Branco",
+      "Isolados na TI Arara do Rio Branco"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -59.5997,
+      "lat": -9.7724
+    },
+    "homologada": "1996-12-26"
+  },
+  {
+    "terrai_cod": 3601,
+    "slug": "arariboia",
+    "name_pt": "Arariboia",
+    "name_en": "Arariboia",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 4132.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": [
+      "Awa Guajá",
+      "Awá isolados",
+      "Guajajara"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -46.4244,
+      "lat": -5.0698
+    },
+    "homologada": "1990-01-22"
+  },
+  {
+    "terrai_cod": 3701,
+    "slug": "arary",
+    "name_pt": "Arary",
+    "name_en": "Arary",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 405.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.0291,
+      "lat": -4.7542
+    },
+    "homologada": "2015-12-17"
+  },
+  {
+    "terrai_cod": 3801,
+    "slug": "arawete-igarape-ipixuna",
+    "name_pt": "Araweté Igarapé Ipixuna",
+    "name_en": "Araweté Igarapé Ipixuna",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 9409,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": [
+      "Araweté",
+      "Isolados do Igarapé Bom Jardim"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.4491,
+      "lat": -4.9582
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 3101,
+    "slug": "araca",
+    "name_pt": "Araçá",
+    "name_en": "Araçá",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 500.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.75,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.1052,
+      "lat": 3.6252
+    },
+    "homologada": "1982-02-17"
+  },
+  {
+    "terrai_cod": 3901,
+    "slug": "areoes",
+    "name_pt": "Areões",
+    "name_en": "Areões",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 2185.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.9617,
+      "lat": -14.3891
+    },
+    "homologada": "1996-10-02"
+  },
+  {
+    "terrai_cod": 4201,
+    "slug": "aripuana",
+    "name_pt": "Aripuanã",
+    "name_en": "Aripuanã",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 7506.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.15,
+    "ethnicities": [
+      "Cinta larga",
+      "Isolados do Rio Tenente Marques"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.972,
+      "lat": -10.5737
+    },
+    "homologada": "1989-11-20"
+  },
+  {
+    "terrai_cod": 4301,
+    "slug": "ariramba",
+    "name_pt": "Ariramba",
+    "name_en": "Ariramba",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 103.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.2763,
+      "lat": -6.1199
+    },
+    "homologada": "2001-12-10"
+  },
+  {
+    "terrai_cod": 4801,
+    "slug": "awa",
+    "name_pt": "Awa",
+    "name_en": "Awa",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1165.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.53,
+    "ethnicities": [
+      "Awa Guajá",
+      "Isolados de Mão de onça"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -46.4627,
+      "lat": -3.3341
+    },
+    "homologada": "2005-04-19"
+  },
+  {
+    "terrai_cod": 4902,
+    "slug": "bacurizinho",
+    "name_pt": "Bacurizinho",
+    "name_en": "Bacurizinho",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1340.4,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.8219,
+      "lat": -5.9098
+    },
+    "homologada": "1983-08-09"
+  },
+  {
+    "terrai_cod": 5001,
+    "slug": "badjonkore",
+    "name_pt": "Badjonkore",
+    "name_en": "Badjonkore",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 2219.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Kuben Kran Krên"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.0053,
+      "lat": -8.8567
+    },
+    "homologada": "2003-06-23"
+  },
+  {
+    "terrai_cod": 5201,
+    "slug": "bakairi",
+    "name_pt": "Bakairi",
+    "name_en": "Bakairi",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 614.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Bakairi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.6234,
+      "lat": -14.2979
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 5301,
+    "slug": "balaio",
+    "name_pt": "Balaio",
+    "name_en": "Balaio",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2572.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": [
+      "Baniwa",
+      "Baré",
+      "Desana",
+      "Koripako",
+      "Kubeo",
+      "Pira-tapuya",
+      "Tariana",
+      "Tukano",
+      "Tuyuka"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.6238,
+      "lat": 0.423
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 5402,
+    "slug": "banawa",
+    "name_pt": "Banawá",
+    "name_en": "Banawá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1926.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.1,
+    "ethnicities": "Banawá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.9128,
+      "lat": -6.7631
+    },
+    "homologada": "2015-12-17"
+  },
+  {
+    "terrai_cod": 5601,
+    "slug": "barata-livramento",
+    "name_pt": "Barata Livramento",
+    "name_en": "Barata Livramento",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 128.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.69,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.0525,
+      "lat": 3.3053
+    },
+    "homologada": "2001-12-10"
+  },
+  {
+    "terrai_cod": 5901,
+    "slug": "barreira-da-missao",
+    "name_pt": "Barreira da Missão",
+    "name_en": "Barreira da Missão",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 17.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.18,
+    "ethnicities": [
+      "Kaixana",
+      "Kambeba",
+      "Miranha",
+      "Ticuna",
+      "Witoto"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.6354,
+      "lat": -3.4165
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 58801,
+    "slug": "barreirinha",
+    "name_pt": "Barreirinha",
+    "name_en": "Barreirinha",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 23.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Amanayé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.4123,
+      "lat": -3.2909
+    },
+    "homologada": "2006-04-18"
+  },
+  {
+    "terrai_cod": 52201,
+    "slug": "barro-alto",
+    "name_pt": "Barro Alto",
+    "name_en": "Barro Alto",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 19.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.6787,
+      "lat": -2.7681
+    },
+    "homologada": "2011-04-19"
+  },
+  {
+    "terrai_cod": 52401,
+    "slug": "batelao",
+    "name_pt": "Batelão",
+    "name_en": "Batelão",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1170.5,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Kawaiwete (Kaiabi)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.5935,
+      "lat": -11.1457
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 6001,
+    "slug": "batovi",
+    "name_pt": "Batovi",
+    "name_en": "Batovi",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 51.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Wauja",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.9262,
+      "lat": -12.9523
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 5101,
+    "slug": "baia-dos-guato",
+    "name_pt": "Baía dos Guató",
+    "name_en": "Baía dos Guató",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 192.2,
+    "current_phase": "Homologada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Guató",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.5576,
+      "lat": -16.966
+    },
+    "homologada": "2018-04-26"
+  },
+  {
+    "terrai_cod": 6101,
+    "slug": "bau",
+    "name_pt": "Baú",
+    "name_en": "Baú",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 15409.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Isolados Pu´rô",
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Mekrãgnoti"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.48,
+      "lat": -7.3572
+    },
+    "homologada": "2008-06-19"
+  },
+  {
+    "terrai_cod": 6201,
+    "slug": "betania",
+    "name_pt": "Betania",
+    "name_en": "Betania",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1227.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.0962,
+      "lat": -3.0449
+    },
+    "homologada": "1995-07-03"
+  },
+  {
+    "terrai_cod": 58502,
+    "slug": "boa-vista-am",
+    "name_pt": "Boa Vista - AM",
+    "name_en": "Boa Vista - AM",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.3757,
+      "lat": -3.2256
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 6401,
+    "slug": "boca-do-acre",
+    "name_pt": "Boca do Acre",
+    "name_en": "Boca do Acre",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 262.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.1448,
+      "lat": -9.0745
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 6501,
+    "slug": "bom-intento",
+    "name_pt": "Bom Intento",
+    "name_en": "Bom Intento",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 16.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.0047,
+      "lat": -4.3456
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 6601,
+    "slug": "bom-jesus",
+    "name_pt": "Bom Jesus",
+    "name_en": "Bom Jesus",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 8.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.8431,
+      "lat": 3.4511
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 6701,
+    "slug": "boqueirao",
+    "name_pt": "Boqueirão",
+    "name_en": "Boqueirão",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 163.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.2951,
+      "lat": 3.2513
+    },
+    "homologada": "2003-06-06"
+  },
+  {
+    "terrai_cod": 62501,
+    "slug": "braganca-marituba",
+    "name_pt": "Bragança-Marituba",
+    "name_en": "Bragança-Marituba",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 135.2,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.008,
+      "lat": -3.0513
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 7301,
+    "slug": "cabeceira-do-rio-acre",
+    "name_pt": "Cabeceira do Rio Acre",
+    "name_en": "Cabeceira do Rio Acre",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 785.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Isolados da cabeceira do Rio Acre",
+      "Yaminawá"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -69.97,
+      "lat": -10.8684
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 7401,
+    "slug": "cacau-do-tarauaca",
+    "name_pt": "Cacau do Tarauaca",
+    "name_en": "Cacau do Tarauaca",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 283.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.88,
+    "ethnicities": "Kulina",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.9085,
+      "lat": -7.4304
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 7601,
+    "slug": "cachoeira-seca",
+    "name_pt": "Cachoeira Seca",
+    "name_en": "Cachoeira Seca",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 7336.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.41,
+    "ethnicities": "Arara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.1678,
+      "lat": -4.3337
+    },
+    "homologada": "2016-04-04"
+  },
+  {
+    "terrai_cod": 58701,
+    "slug": "cacique-fontoura",
+    "name_pt": "Cacique Fontoura",
+    "name_en": "Cacique Fontoura",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 323,
+    "current_phase": "Homologada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Iny Karajá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -50.8056,
+      "lat": -11.3587
+    },
+    "homologada": "2024-04-18"
+  },
+  {
+    "terrai_cod": 8101,
+    "slug": "caititu",
+    "name_pt": "Caititu",
+    "name_en": "Caititu",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3080.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": [
+      "Apurinã",
+      "Jamamadi",
+      "Paumari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.7733,
+      "lat": -7.8682
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 8201,
+    "slug": "cajueiro",
+    "name_pt": "Cajueiro",
+    "name_en": "Cajueiro",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 43,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.75,
+    "ethnicities": "Macuxi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.3138,
+      "lat": 3.7635
+    },
+    "homologada": "1982-02-17"
+  },
+  {
+    "terrai_cod": 8301,
+    "slug": "cajuhiri-atravessado",
+    "name_pt": "Cajuhiri Atravessado",
+    "name_en": "Cajuhiri Atravessado",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 124.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Kambeba",
+      "Miranha",
+      "Ticuna"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -63.3744,
+      "lat": -3.9819
+    },
+    "homologada": "2015-12-17"
+  },
+  {
+    "terrai_cod": 8401,
+    "slug": "camadeni",
+    "name_pt": "Camadeni",
+    "name_en": "Camadeni",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1509.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.1,
+    "ethnicities": "Jamamadi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.1088,
+      "lat": -7.2271
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 8501,
+    "slug": "camicua",
+    "name_pt": "Camicua",
+    "name_en": "Camicua",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 585.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.35,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.5761,
+      "lat": -8.6333
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 8601,
+    "slug": "campinas-katukina",
+    "name_pt": "Campinas/Katukina",
+    "name_en": "Campinas/Katukina",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 326.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": "Katukina Pano",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.1861,
+      "lat": -7.7962
+    },
+    "homologada": "1993-08-12"
+  },
+  {
+    "terrai_cod": 8701,
+    "slug": "cana-brava-guajajara",
+    "name_pt": "Cana Brava/Guajajara",
+    "name_en": "Cana Brava/Guajajara",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1373.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.5486,
+      "lat": -5.6194
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 8801,
+    "slug": "canauanim",
+    "name_pt": "Canauanim",
+    "name_en": "Canauanim",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 111.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.1,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.505,
+      "lat": 2.7791
+    },
+    "homologada": "1996-02-15"
+  },
+  {
+    "terrai_cod": 9201,
+    "slug": "capoto-jarina",
+    "name_pt": "Capoto/Jarina",
+    "name_en": "Capoto/Jarina",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 6349.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.07,
+    "ethnicities": [
+      "Kajkwakratxi (Tapayuna)",
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Metyktire"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.15,
+      "lat": -10.2097
+    },
+    "homologada": "1984-05-10"
+  },
+  {
+    "terrai_cod": 9701,
+    "slug": "caru",
+    "name_pt": "Caru",
+    "name_en": "Caru",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1726.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.35,
+    "ethnicities": [
+      "Awa Guajá",
+      "Guajajara",
+      "Isolados dos Igarapés Presídio e Juruti"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -46.333,
+      "lat": -3.7183
+    },
+    "homologada": "1982-11-22"
+  },
+  {
+    "terrai_cod": 9801,
+    "slug": "catipari-mamoria",
+    "name_pt": "Catipari/Mamoria",
+    "name_en": "Catipari/Mamoria",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1150.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.78,
+      "lat": -7.4996
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 10001,
+    "slug": "chao-preto",
+    "name_pt": "Chão Preto",
+    "name_en": "Chão Preto",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 127.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.2245,
+      "lat": -14.5937
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 10101,
+    "slug": "coata-laranjal",
+    "name_pt": "Coata-Laranjal",
+    "name_en": "Coata-Laranjal",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 11532.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.52,
+    "ethnicities": [
+      "Munduruku",
+      "Sateré Mawé"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.1365,
+      "lat": -4.6707
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 59401,
+    "slug": "cobra-grande",
+    "name_pt": "Cobra Grande",
+    "name_en": "Cobra Grande",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 89.1,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Arapium",
+      "Jaraqui",
+      "Tapajó"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.1632,
+      "lat": -2.3161
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 10601,
+    "slug": "cuia",
+    "name_pt": "Cuia",
+    "name_en": "Cuia",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 13.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.2063,
+      "lat": -3.5176
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 10701,
+    "slug": "cuiu-cuiu",
+    "name_pt": "Cuiu-Cuiu",
+    "name_en": "Cuiu-Cuiu",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 364.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Miranha",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.0267,
+      "lat": -2.3685
+    },
+    "homologada": "2003-06-23"
+  },
+  {
+    "terrai_cod": 10801,
+    "slug": "cunha-sapucaia",
+    "name_pt": "Cunhã-Sapucaia",
+    "name_en": "Cunhã-Sapucaia",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 4714.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.4413,
+      "lat": -4.497
+    },
+    "homologada": "2006-11-01"
+  },
+  {
+    "terrai_cod": 59601,
+    "slug": "cue-cue-marabitanas",
+    "name_pt": "Cué Cué/ Marabitanas",
+    "name_en": "Cué Cué/ Marabitanas",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 8086.4,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Arapaso",
+      "Baniwa",
+      "Baré",
+      "Desana",
+      "Koripako",
+      "Pira-tapuya",
+      "Tariana",
+      "Tukano",
+      "Warekena"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.9366,
+      "lat": 0.6298
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 10901,
+    "slug": "deni",
+    "name_pt": "Deni",
+    "name_en": "Deni",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 15313,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Deni",
+      "Isolados do Rio Cuniuá",
+      "Kulina"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -67.536,
+      "lat": -6.7848
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 11001,
+    "slug": "diahui",
+    "name_pt": "Diahui",
+    "name_en": "Diahui",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 473.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Jiahui",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.2316,
+      "lat": -7.964
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 11201,
+    "slug": "enawene-nawe",
+    "name_pt": "Enawenê-Nawê",
+    "name_en": "Enawenê-Nawê",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 7420.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.69,
+    "ethnicities": [
+      "Enawenê-nawê",
+      "Isolados do Rio Iquê"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -59.139,
+      "lat": -12.2286
+    },
+    "homologada": "1996-10-02"
+  },
+  {
+    "terrai_cod": 11401,
+    "slug": "erikpatsa",
+    "name_pt": "Erikpatsá",
+    "name_en": "Erikpatsá",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 799.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Rikbaktsa",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.2681,
+      "lat": -11.266
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 11501,
+    "slug": "escondido",
+    "name_pt": "Escondido",
+    "name_en": "Escondido",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1689.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Rikbaktsa",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -58.6465,
+      "lat": -9.5108
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 11601,
+    "slug": "espirito-santo",
+    "name_pt": "Espírito Santo",
+    "name_en": "Espírito Santo",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 338.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.48,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.0932,
+      "lat": -2.7606
+    },
+    "homologada": "2005-04-19"
+  },
+  {
+    "terrai_cod": 11801,
+    "slug": "estacao-parecis",
+    "name_pt": "Estação Parecis",
+    "name_en": "Estação Parecis",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 21.7,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 8.18,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.9225,
+      "lat": -14.1379
+    },
+    "homologada": "2025-11-17"
+  },
+  {
+    "terrai_cod": 11901,
+    "slug": "estivadinho",
+    "name_pt": "Estivadinho",
+    "name_en": "Estivadinho",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 20.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.6423,
+      "lat": -14.5955
+    },
+    "homologada": "1993-08-12"
+  },
+  {
+    "terrai_cod": 12001,
+    "slug": "estrela-da-paz",
+    "name_pt": "Estrela da Paz",
+    "name_en": "Estrela da Paz",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 128.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.8587,
+      "lat": -2.8467
+    },
+    "homologada": "1995-07-03"
+  },
+  {
+    "terrai_cod": 73769,
+    "slug": "fazenda-mabel-gaviao-akratikateje",
+    "name_pt": "Fazenda Mabel (Gavião/Akrãtikatêjê)",
+    "name_en": "Fazenda Mabel (Gavião/Akrãtikatêjê)",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 36,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 5.13,
+    "ethnicities": "Gavião Akrãtikatêjê",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.9805,
+      "lat": -4.9631
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 12801,
+    "slug": "figueiras",
+    "name_pt": "Figueiras",
+    "name_en": "Figueiras",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 98.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.6474,
+      "lat": -14.7699
+    },
+    "homologada": "1995-07-03"
+  },
+  {
+    "terrai_cod": 12901,
+    "slug": "fortaleza-do-castanho",
+    "name_pt": "Fortaleza do Castanho",
+    "name_en": "Fortaleza do Castanho",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 27.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.526,
+      "lat": -3.7519
+    },
+    "homologada": "2003-05-05"
+  },
+  {
+    "terrai_cod": 13001,
+    "slug": "fortaleza-do-pataua",
+    "name_pt": "Fortaleza do Patauá",
+    "name_en": "Fortaleza do Patauá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 7.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.33,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.739,
+      "lat": -3.1459
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 13201,
+    "slug": "funil",
+    "name_pt": "Funil",
+    "name_en": "Funil",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 157,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": "Xerente",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.3116,
+      "lat": -9.6359
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 13301,
+    "slug": "galibi",
+    "name_pt": "Galibi",
+    "name_en": "Galibi",
+    "ufs": [
+      "AP"
+    ],
+    "area_km2": 66.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Galibi Kali'na",
+      "Karipuna do Amapá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.7242,
+      "lat": 3.9574
+    },
+    "homologada": "1982-11-22"
+  },
+  {
+    "terrai_cod": 13401,
+    "slug": "gaviao",
+    "name_pt": "Gavião",
+    "name_en": "Gavião",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 86.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.4821,
+      "lat": -3.4258
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 13501,
+    "slug": "geralda-toco-preto",
+    "name_pt": "Geralda Toco Preto",
+    "name_en": "Geralda Toco Preto",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 185.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": [
+      "Guajajara",
+      "Krepynkatejê"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.6979,
+      "lat": -5.018
+    },
+    "homologada": "1994-05-16"
+  },
+  {
+    "terrai_cod": 13601,
+    "slug": "governador",
+    "name_pt": "Governador",
+    "name_en": "Governador",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 416.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Gavião Pykopjê",
+      "Guajajara",
+      "Tabajara"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -46.6568,
+      "lat": -5.4973
+    },
+    "homologada": "1982-12-28"
+  },
+  {
+    "terrai_cod": 13801,
+    "slug": "guajaha",
+    "name_pt": "Guajahã",
+    "name_en": "Guajahã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 50.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.8559,
+      "lat": -7.7286
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 73785,
+    "slug": "guajanaira",
+    "name_pt": "Guajanaíra",
+    "name_en": "Guajanaíra",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 13.7,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.19,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.9797,
+      "lat": -4.9198
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 52801,
+    "slug": "guanabara",
+    "name_pt": "Guanabara",
+    "name_en": "Guanabara",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 156,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.8715,
+      "lat": -4.5474
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 15201,
+    "slug": "hi-merima",
+    "name_pt": "Hi Merimã",
+    "name_en": "Hi Merimã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 6778.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": [
+      "Hi-merimã",
+      "Isolados Hi-Merimã"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -65.7438,
+      "lat": -6.9572
+    },
+    "homologada": "2005-09-22"
+  },
+  {
+    "terrai_cod": 15601,
+    "slug": "igarape-capana",
+    "name_pt": "Igarapé Capana",
+    "name_en": "Igarapé Capana",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1225.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Jamamadi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.1477,
+      "lat": -8.8617
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 15701,
+    "slug": "igarape-do-caucho",
+    "name_pt": "Igarapé do Caucho",
+    "name_en": "Igarapé do Caucho",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 123.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.6968,
+      "lat": -8.2734
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 15801,
+    "slug": "igarape-grande",
+    "name_pt": "Igarapé Grande",
+    "name_en": "Igarapé Grande",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 15.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Kambeba",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.8734,
+      "lat": -3.2256
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 16101,
+    "slug": "igarape-lage",
+    "name_pt": "Igarapé Lage",
+    "name_en": "Igarapé Lage",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 1073.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Wari'",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.0242,
+      "lat": -10.5269
+    },
+    "homologada": "1981-09-09"
+  },
+  {
+    "terrai_cod": 16201,
+    "slug": "igarape-lourdes",
+    "name_pt": "Igarapé Lourdes",
+    "name_en": "Igarapé Lourdes",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 1855.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Ikolen",
+      "Isolados na Serra da Previdência",
+      "Karo"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -61.6447,
+      "lat": -10.4718
+    },
+    "homologada": "1983-08-09"
+  },
+  {
+    "terrai_cod": 16301,
+    "slug": "igarape-ribeirao",
+    "name_pt": "Igarapé Ribeirão",
+    "name_en": "Igarapé Ribeirão",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 478.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Wari'",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.0897,
+      "lat": -10.2695
+    },
+    "homologada": "1981-09-09"
+  },
+  {
+    "terrai_cod": 67601,
+    "slug": "igarape-taboca-do-alto-tarauaca",
+    "name_pt": "Igarapé Taboca do Alto Tarauacá",
+    "name_en": "Igarapé Taboca do Alto Tarauacá",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 2.9,
+    "current_phase": "Em Estudo",
+    "in_jmp_sample": true,
+    "audit_score": 9,
+    "ethnicities": "Isolados do Igarapé Taboca do Alto Tarauacá",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.8953,
+      "lat": -9.4404
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 16601,
+    "slug": "ilha-do-camaleao",
+    "name_pt": "Ilha do Camaleão",
+    "name_en": "Ilha do Camaleão",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.22,
+    "ethnicities": [
+      "Kokama",
+      "Ticuna"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.4998,
+      "lat": -3.6727
+    },
+    "homologada": "1995-07-03"
+  },
+  {
+    "terrai_cod": 16901,
+    "slug": "inauini-teuini",
+    "name_pt": "Inauini/Teuini",
+    "name_en": "Inauini/Teuini",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 4690,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Isolados do Igarapé Maburrã",
+      "Jamamadi"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.2041,
+      "lat": -7.9271
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 17001,
+    "slug": "inawebohona",
+    "name_pt": "Inawebohona",
+    "name_en": "Inawebohona",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 3771.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.49,
+    "ethnicities": [
+      "Avá-Canoeiro",
+      "Iny Karajá",
+      "Isolados da Ilha do Bananal",
+      "Javaé"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -50.133,
+      "lat": -10.7372
+    },
+    "homologada": "2006-04-18"
+  },
+  {
+    "terrai_cod": 17201,
+    "slug": "ipixuna",
+    "name_pt": "Ipixuna",
+    "name_en": "Ipixuna",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2153.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Parintintin",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.1684,
+      "lat": -6.7772
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 17501,
+    "slug": "itaitinga",
+    "name_pt": "Itaitinga",
+    "name_en": "Itaitinga",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.1971,
+      "lat": -3.5626
+    },
+    "homologada": "2003-05-05"
+  },
+  {
+    "terrai_cod": 45103,
+    "slug": "itixi-mitari",
+    "name_pt": "Itixi Mitari",
+    "name_en": "Itixi Mitari",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1821.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.6552,
+      "lat": -4.7027
+    },
+    "homologada": "2007-04-19"
+  },
+  {
+    "terrai_cod": 72601,
+    "slug": "ituna-itata-restricao-de-uso",
+    "name_pt": "Ituna/Itatá (restrição de uso)",
+    "name_en": "Ituna/Itatá (restrição de uso)",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1424,
+    "current_phase": "Em Estudo",
+    "in_jmp_sample": true,
+    "audit_score": 9,
+    "ethnicities": "Isolados do Igarapé Ipiaçava",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -52.0001,
+      "lat": -4.0831
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 17801,
+    "slug": "jabuti",
+    "name_pt": "Jabuti",
+    "name_en": "Jabuti",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 142.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.06,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.2911,
+      "lat": 3.2078
+    },
+    "homologada": "1996-02-15"
+  },
+  {
+    "terrai_cod": 17901,
+    "slug": "jacamim",
+    "name_pt": "Jacamim",
+    "name_en": "Jacamim",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 1934.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.45,
+    "ethnicities": "Wapichana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.8679,
+      "lat": 1.9908
+    },
+    "homologada": "2003-06-23"
+  },
+  {
+    "terrai_cod": 65901,
+    "slug": "jacareuba-katauixi-restricao-uso",
+    "name_pt": "Jacareúba/Katauixi (restrição uso)",
+    "name_en": "Jacareúba/Katauixi (restrição uso)",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 6473.9,
+    "current_phase": "Em Estudo",
+    "in_jmp_sample": true,
+    "audit_score": 9,
+    "ethnicities": "Isolados Katawixi",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -64.4188,
+      "lat": -8.322
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 18301,
+    "slug": "jaminaua-envira",
+    "name_pt": "Jaminaua/Envira",
+    "name_en": "Jaminaua/Envira",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 806.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": [
+      "Ashaninka",
+      "Kulina"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -71.0681,
+      "lat": -9.5236
+    },
+    "homologada": "2003-02-10"
+  },
+  {
+    "terrai_cod": 18401,
+    "slug": "jaminawa-arara-do-rio-bage",
+    "name_pt": "Jaminawa Arara do Rio Bagé",
+    "name_en": "Jaminawa Arara do Rio Bagé",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 289.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Arara Shawãdawa",
+      "Yaminawá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.1933,
+      "lat": -8.8345
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 18501,
+    "slug": "jaminawa-do-igarape-preto",
+    "name_pt": "Jaminawa do Igarapé Preto",
+    "name_en": "Jaminawa do Igarapé Preto",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 256.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Yaminawá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.908,
+      "lat": -8.0331
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 18601,
+    "slug": "japuira",
+    "name_pt": "Japuira",
+    "name_en": "Japuira",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1525.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Rikbaktsa",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.2331,
+      "lat": -10.7353
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 18701,
+    "slug": "jaquiri",
+    "name_pt": "Jaquiri",
+    "name_en": "Jaquiri",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 18.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Kambeba",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.8709,
+      "lat": -3.0827
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 19001,
+    "slug": "jarawara-jamamadi-kanamati",
+    "name_pt": "Jarawara/Jamamadi/Kanamati",
+    "name_en": "Jarawara/Jamamadi/Kanamati",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3902.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Jamamadi",
+      "Jarawara"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.4041,
+      "lat": -7.1631
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 19101,
+    "slug": "jarudore",
+    "name_pt": "Jarudore",
+    "name_en": "Jarudore",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 47.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 5.37,
+    "ethnicities": "Boe (Bororo)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.3203,
+      "lat": -16.1836
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 19201,
+    "slug": "jatuarana",
+    "name_pt": "Jatuarana",
+    "name_en": "Jatuarana",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 52.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.914,
+      "lat": -3.0856
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 19301,
+    "slug": "jauary",
+    "name_pt": "Jauary",
+    "name_en": "Jauary",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 248.3,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.0738,
+      "lat": -3.4181
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 19501,
+    "slug": "juininha",
+    "name_pt": "Juininha",
+    "name_en": "Juininha",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 705.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.1557,
+      "lat": -14.4679
+    },
+    "homologada": "1993-10-04"
+  },
+  {
+    "terrai_cod": 19601,
+    "slug": "juma",
+    "name_pt": "Juma",
+    "name_en": "Juma",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 383.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Juma",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -63.9735,
+      "lat": -7.3561
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 19701,
+    "slug": "jumina",
+    "name_pt": "Jumina",
+    "name_en": "Jumina",
+    "ufs": [
+      "AP"
+    ],
+    "area_km2": 416,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.88,
+    "ethnicities": [
+      "Galibi-Marworno",
+      "Karipuna do Amapá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.5856,
+      "lat": 4.0333
+    },
+    "homologada": "1992-05-21"
+  },
+  {
+    "terrai_cod": 67401,
+    "slug": "jurubaxi-tea",
+    "name_pt": "Jurubaxi-téa",
+    "name_en": "Jurubaxi-téa",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 12081.5,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.28,
+    "ethnicities": [
+      "Arapaso",
+      "Baniwa",
+      "Baré",
+      "Dâw",
+      "Desana",
+      "Koripako",
+      "Pira-tapuya",
+      "Tariana",
+      "Ticuna",
+      "Tukano"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.222,
+      "lat": -0.9682
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 62001,
+    "slug": "juruna-do-km-17",
+    "name_pt": "Juruna do Km 17",
+    "name_en": "Juruna do Km 17",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 22.9,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.63,
+    "ethnicities": "Yudja",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.1323,
+      "lat": -2.6402
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 20301,
+    "slug": "kampa-do-igarape-primavera",
+    "name_pt": "Kampa do Igarapé Primavera",
+    "name_en": "Kampa do Igarapé Primavera",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 219.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Ashaninka",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -71.7334,
+      "lat": -8.6373
+    },
+    "homologada": "2001-04-23"
+  },
+  {
+    "terrai_cod": 20401,
+    "slug": "kampa-do-rio-amonia",
+    "name_pt": "Kampa do Rio Amônia",
+    "name_en": "Kampa do Rio Amônia",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 872.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.6,
+    "ethnicities": "Ashaninka",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.972,
+      "lat": -9.3024
+    },
+    "homologada": "1992-11-23"
+  },
+  {
+    "terrai_cod": 20501,
+    "slug": "kampa-e-isolados-do-rio-envira",
+    "name_pt": "Kampa e Isolados do Rio Envira",
+    "name_en": "Kampa e Isolados do Rio Envira",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 2328,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.08,
+    "ethnicities": [
+      "Ashaninka",
+      "Mashco Isolados do Rio Envira",
+      "Yura"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.7705,
+      "lat": -9.8108
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 20601,
+    "slug": "kanamari-do-rio-jurua",
+    "name_pt": "Kanamari do Rio Juruá",
+    "name_en": "Kanamari do Rio Juruá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 5964.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Kanamari",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.0749,
+      "lat": -6.8878
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 20701,
+    "slug": "kanela",
+    "name_pt": "Kanela",
+    "name_en": "Kanela",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1252.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.21,
+    "ethnicities": "Canela Memortumré",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.1038,
+      "lat": -6.064
+    },
+    "homologada": "1982-12-21"
+  },
+  {
+    "terrai_cod": 20702,
+    "slug": "kanela-memortumre",
+    "name_pt": "Kanela Memortumré",
+    "name_en": "Kanela Memortumré",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1002.2,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Canela Memortumré",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.2067,
+      "lat": -6.2148
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 64501,
+    "slug": "kapot-nhinore",
+    "name_pt": "Kapôt Nhinore",
+    "name_en": "Kapôt Nhinore",
+    "ufs": [
+      "PA",
+      "MT"
+    ],
+    "area_km2": 3622.4,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": [
+      "Isolados Capot/Nhinore",
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Mekrãgnoti",
+      "Mebengôkre (Kayapó) Metyktire",
+      "Yudja"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.3634,
+      "lat": -9.7479
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 21101,
+    "slug": "karaja-de-aruana-ii",
+    "name_pt": "Karajá de Aruanã II",
+    "name_en": "Karajá de Aruanã II",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 8.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.25,
+    "ethnicities": "Iny Karajá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.1021,
+      "lat": -14.9085
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 21301,
+    "slug": "karaja-santana-do-araguaia",
+    "name_pt": "Karajá Santana do Araguaia",
+    "name_en": "Karajá Santana do Araguaia",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 14.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Iny Karajá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.7696,
+      "lat": -8.8801
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 21501,
+    "slug": "kararao",
+    "name_pt": "Kararaô",
+    "name_en": "Kararaô",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 3308.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": [
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Kararaô"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.9417,
+      "lat": -4.1095
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 21601,
+    "slug": "karipuna",
+    "name_pt": "Karipuna",
+    "name_en": "Karipuna",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 1529.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Karipuna de Rondônia",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.4856,
+      "lat": -10.0013
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 21801,
+    "slug": "karitiana",
+    "name_pt": "Karitiana",
+    "name_en": "Karitiana",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 896.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Karitiana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.0516,
+      "lat": -9.3323
+    },
+    "homologada": "1986-08-06"
+  },
+  {
+    "terrai_cod": 21901,
+    "slug": "katukina-kaxinawa",
+    "name_pt": "Katukina/Kaxinawá",
+    "name_en": "Katukina/Kaxinawá",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 234.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": [
+      "Huni Kuin (Kaxinawá)",
+      "Shanenawa"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.4111,
+      "lat": -8.076
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 61401,
+    "slug": "kawahiva-do-rio-pardo",
+    "name_pt": "Kawahiva do Rio Pardo",
+    "name_en": "Kawahiva do Rio Pardo",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 4118.4,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Isolados Kawahiva do Rio Pardo",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -59.9643,
+      "lat": -9
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 22001,
+    "slug": "kaxarari",
+    "name_pt": "Kaxarari",
+    "name_en": "Kaxarari",
+    "ufs": [
+      "AM",
+      "RO"
+    ],
+    "area_km2": 1458.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.69,
+    "ethnicities": "Kaxarari",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.2955,
+      "lat": -9.3969
+    },
+    "homologada": "1992-08-13"
+  },
+  {
+    "terrai_cod": 22101,
+    "slug": "kaxinawa-ashaninka-do-rio-breu",
+    "name_pt": "Kaxinawá Ashaninka do Rio Breu",
+    "name_en": "Kaxinawá Ashaninka do Rio Breu",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 312.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Ashaninka",
+      "Huni Kuin (Kaxinawá)",
+      "Isolados do Igarapé Papavo"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.31,
+      "lat": -9.5223
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 22201,
+    "slug": "kaxinawa-colonia-vinte-e-sete",
+    "name_pt": "Kaxinawá Colônia Vinte e Sete",
+    "name_en": "Kaxinawá Colônia Vinte e Sete",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 1.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.7843,
+      "lat": -8.1018
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 22301,
+    "slug": "kaxinawa-da-praia-do-carapana",
+    "name_pt": "Kaxinawá da Praia do Carapanã",
+    "name_en": "Kaxinawá da Praia do Carapanã",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 607,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -71.3601,
+      "lat": -8.396
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 22401,
+    "slug": "kaxinawa-do-baixo-rio-jordao",
+    "name_pt": "Kaxinawá do Baixo Rio Jordão",
+    "name_en": "Kaxinawá do Baixo Rio Jordão",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 87.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.0166,
+      "lat": -9.2696
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 22501,
+    "slug": "kaxinawa-do-rio-humaita",
+    "name_pt": "Kaxinawá do Rio Humaitá",
+    "name_en": "Kaxinawá do Rio Humaitá",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 1273.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": [
+      "Ashaninka",
+      "Huni Kuin (Kaxinawá)",
+      "Isolados do Alto Rio Humaitá",
+      "Kulina"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.5073,
+      "lat": -9.2482
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 22601,
+    "slug": "kaxinawa-do-rio-jordao",
+    "name_pt": "Kaxinawá do Rio Jordão",
+    "name_en": "Kaxinawá do Rio Jordão",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 872.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -72.1347,
+      "lat": -9.533
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 22701,
+    "slug": "kaxinawa-nova-olinda",
+    "name_pt": "Kaxinawá Nova Olinda",
+    "name_en": "Kaxinawá Nova Olinda",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 275.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.7098,
+      "lat": -9.1246
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 22801,
+    "slug": "kaxinawa-seringal-independencia",
+    "name_pt": "Kaxinawá Seringal Independência",
+    "name_en": "Kaxinawá Seringal Independência",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 115.8,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.09,
+    "ethnicities": "Huni Kuin (Kaxinawá)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -71.9163,
+      "lat": -9.3144
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 68101,
+    "slug": "kaxuyana-tunayana",
+    "name_pt": "Kaxuyana-Tunayana",
+    "name_en": "Kaxuyana-Tunayana",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 21841.2,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": [
+      "Isolados do Pitinga/Nhamunda-Mapuera",
+      "Isolados do Rio Kaxpakuru/Igarapé Água Fria",
+      "Kahyana",
+      "Katuenayana",
+      "Katxuyana",
+      "Mawayana",
+      "Tunayana",
+      "Txikiyana",
+      "Xereu-Hixkaryana",
+      "Xereu-Katuena"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -57.2568,
+      "lat": -0.3208
+    },
+    "homologada": "2025-11-17"
+  },
+  {
+    "terrai_cod": 22902,
+    "slug": "kayabi",
+    "name_pt": "Kayabi",
+    "name_en": "Kayabi",
+    "ufs": [
+      "MT",
+      "PA"
+    ],
+    "area_km2": 10532.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.25,
+    "ethnicities": [
+      "Apiaká",
+      "Kawaiwete (Kaiabi)",
+      "Munduruku"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -57.2912,
+      "lat": -8.7143
+    },
+    "homologada": "1982-11-22"
+  },
+  {
+    "terrai_cod": 23001,
+    "slug": "kayapo",
+    "name_pt": "Kayapó",
+    "name_en": "Kayapó",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 32840,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": [
+      "Isolados do Rio Fresco",
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Gorotire",
+      "Mebengôkre (Kayapó) Kôkraimôrô",
+      "Mebengôkre (Kayapó) Kuben Kran Krên"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -51.9186,
+      "lat": -7.7081
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 23201,
+    "slug": "koatinemo",
+    "name_pt": "Koatinemo",
+    "name_en": "Koatinemo",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 3878.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Asurini do Xingu",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -52.2776,
+      "lat": -4.2775
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 62301,
+    "slug": "kraho-kanela",
+    "name_pt": "Krahó-Kanela",
+    "name_en": "Krahó-Kanela",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 76.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 5.25,
+    "ethnicities": "Krahô-Kanela",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.8996,
+      "lat": -11.0112
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 23301,
+    "slug": "kraolandia",
+    "name_pt": "Kraolandia",
+    "name_en": "Kraolandia",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 3025.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Krahô",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -47.4142,
+      "lat": -8.3808
+    },
+    "homologada": "1990-03-07"
+  },
+  {
+    "terrai_cod": 65801,
+    "slug": "krenrehe",
+    "name_pt": "Krenrehé",
+    "name_en": "Krenrehé",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 59.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 4.22,
+    "ethnicities": [
+      "Krenak",
+      "Tikmu'un (Maxakali)"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.4698,
+      "lat": -11.0527
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 73718,
+    "slug": "krenye",
+    "name_pt": "Krenyê",
+    "name_en": "Krenyê",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 80.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.04,
+    "ethnicities": "Krenyê",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -44.7724,
+      "lat": -6.0272
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 23501,
+    "slug": "krikati",
+    "name_pt": "Krikati",
+    "name_en": "Krikati",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 1447.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.41,
+    "ethnicities": "Krikatí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -46.9284,
+      "lat": -5.904
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 23701,
+    "slug": "kulina-do-medio-jurua",
+    "name_pt": "Kulina do Medio Jurua",
+    "name_en": "Kulina do Medio Jurua",
+    "ufs": [
+      "AM",
+      "AC"
+    ],
+    "area_km2": 7301.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Kulina",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.6202,
+      "lat": -7.2014
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 23801,
+    "slug": "kulina-do-rio-envira",
+    "name_pt": "Kulina do Rio Envira",
+    "name_en": "Kulina do Rio Envira",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 843.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.19,
+    "ethnicities": "Kulina",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.4058,
+      "lat": -9.456
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 23901,
+    "slug": "kulina-igarape-do-pau",
+    "name_pt": "Kulina Igarapé do Pau",
+    "name_en": "Kulina Igarapé do Pau",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 455.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.41,
+    "ethnicities": "Kulina",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.9747,
+      "lat": -9.2712
+    },
+    "homologada": "2001-04-18"
+  },
+  {
+    "terrai_cod": 24001,
+    "slug": "kumaru-do-lago-uala",
+    "name_pt": "Kumaru do Lago Ualá",
+    "name_en": "Kumaru do Lago Ualá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 800.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Kulina",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.7898,
+      "lat": -2.966
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 38902,
+    "slug": "kuruaya",
+    "name_pt": "Kuruáya",
+    "name_en": "Kuruáya",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1667.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.41,
+    "ethnicities": "Kuruaya",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.5861,
+      "lat": -5.74
+    },
+    "homologada": "2006-04-18"
+  },
+  {
+    "terrai_cod": 24101,
+    "slug": "kwaza-do-rio-sao-pedro",
+    "name_pt": "Kwazá do Rio São Pedro",
+    "name_en": "Kwazá do Rio São Pedro",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 168,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.21,
+    "ethnicities": [
+      "Aikanã",
+      "Kwazá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.4056,
+      "lat": -12.3688
+    },
+    "homologada": "2003-02-10"
+  },
+  {
+    "terrai_cod": 24201,
+    "slug": "lago-aiapua",
+    "name_pt": "Lago Aiapua",
+    "name_en": "Lago Aiapua",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 248.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.1413,
+      "lat": -4.3775
+    },
+    "homologada": "1993-08-12"
+  },
+  {
+    "terrai_cod": 24301,
+    "slug": "lago-capana",
+    "name_pt": "Lago Capanã",
+    "name_en": "Lago Capanã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 63.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.1985,
+      "lat": -6.0426
+    },
+    "homologada": "2001-12-11"
+  },
+  {
+    "terrai_cod": 24401,
+    "slug": "lago-do-beruri",
+    "name_pt": "Lago do Beruri",
+    "name_en": "Lago do Beruri",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 40.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.2753,
+      "lat": -3.8072
+    },
+    "homologada": "1995-07-03"
+  },
+  {
+    "terrai_cod": 52701,
+    "slug": "lago-do-correio",
+    "name_pt": "Lago do Correio",
+    "name_en": "Lago do Correio",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 132.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Kokama",
+      "Ticuna"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.0542,
+      "lat": -2.9428
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 24501,
+    "slug": "lago-do-limao",
+    "name_pt": "Lago do Limão",
+    "name_en": "Lago do Limão",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 82.1,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.9196,
+      "lat": -4.2722
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 27401,
+    "slug": "lago-do-marinheiro",
+    "name_pt": "Lago do Marinheiro",
+    "name_en": "Lago do Marinheiro",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 35.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.997,
+      "lat": -3.5994
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 24701,
+    "slug": "lago-jauari",
+    "name_pt": "Lago Jauari",
+    "name_en": "Lago Jauari",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 120.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.9707,
+      "lat": -6.2024
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 24801,
+    "slug": "lagoa-comprida",
+    "name_pt": "Lagoa Comprida",
+    "name_en": "Lagoa Comprida",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 132,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.82,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.7351,
+      "lat": -5.3249
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 25001,
+    "slug": "lagoa-dos-brincos",
+    "name_pt": "Lagoa dos Brincos",
+    "name_en": "Lagoa dos Brincos",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 18.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Negarotê"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.1876,
+      "lat": -13.2621
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 56801,
+    "slug": "las-casas",
+    "name_pt": "Las Casas",
+    "name_en": "Las Casas",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 213.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Gorotire"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.9109,
+      "lat": -7.8702
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 25401,
+    "slug": "lauro-sodre",
+    "name_pt": "Lauro Sodré",
+    "name_en": "Lauro Sodré",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 94.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.9016,
+      "lat": -4.4952
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 25901,
+    "slug": "macarrao",
+    "name_pt": "Macarrão",
+    "name_en": "Macarrão",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 442.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.1411,
+      "lat": -2.9197
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 26101,
+    "slug": "malacacheta",
+    "name_pt": "Malacacheta",
+    "name_en": "Malacacheta",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 286.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Wapichana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.4735,
+      "lat": 2.601
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 26201,
+    "slug": "mamoadate",
+    "name_pt": "Mamoadate",
+    "name_en": "Mamoadate",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 3136.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": [
+      "Manchineri",
+      "Mashco Isolados do Rio Iaco",
+      "Yaminawá"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -70.2691,
+      "lat": -10.6688
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 26301,
+    "slug": "mangueira",
+    "name_pt": "Mangueira",
+    "name_en": "Mangueira",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 40.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.4053,
+      "lat": 3.2696
+    },
+    "homologada": "1982-02-16"
+  },
+  {
+    "terrai_cod": 26501,
+    "slug": "manoa-pium",
+    "name_pt": "Manoa/Pium",
+    "name_en": "Manoa/Pium",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 433.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.0795,
+      "lat": 2.9488
+    },
+    "homologada": "1982-02-16"
+  },
+  {
+    "terrai_cod": 17302,
+    "slug": "manoki",
+    "name_pt": "Manoki",
+    "name_en": "Manoki",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 2505.4,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Iranxe Manoki",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -57.6774,
+      "lat": -12.7553
+    },
+    "homologada": "1990-01-15"
+  },
+  {
+    "terrai_cod": 26601,
+    "slug": "mapari",
+    "name_pt": "Mapari",
+    "name_en": "Mapari",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1572.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Kaixana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.2117,
+      "lat": -2.1378
+    },
+    "homologada": "2015-04-17"
+  },
+  {
+    "terrai_cod": 65401,
+    "slug": "maracaxi",
+    "name_pt": "Maracaxi",
+    "name_en": "Maracaxi",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 7.2,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Tembé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -47.9684,
+      "lat": -2.3502
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 26801,
+    "slug": "maraita",
+    "name_pt": "Maraitá",
+    "name_en": "Maraitá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 530.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.3475,
+      "lat": -3.21
+    },
+    "homologada": "2006-11-01"
+  },
+  {
+    "terrai_cod": 26901,
+    "slug": "maraiwatsede",
+    "name_pt": "Maraiwatsede",
+    "name_en": "Maraiwatsede",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1652.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.6907,
+      "lat": -11.7601
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 27001,
+    "slug": "marajai",
+    "name_pt": "Marajai",
+    "name_en": "Marajai",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 12,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": "Matsés",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.8311,
+      "lat": -3.1957
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 27101,
+    "slug": "maranduba",
+    "name_pt": "Maranduba",
+    "name_en": "Maranduba",
+    "ufs": [
+      "TO",
+      "PA"
+    ],
+    "area_km2": 3.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.34,
+    "ethnicities": "Iny Karajá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.6998,
+      "lat": -8.8713
+    },
+    "homologada": "2005-04-19"
+  },
+  {
+    "terrai_cod": 26701,
+    "slug": "maraa-urubaxi",
+    "name_pt": "Maraã Urubaxi",
+    "name_en": "Maraã Urubaxi",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 944.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Isolados do Igarapé Bafuanã",
+      "Kanamari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.5095,
+      "lat": -1.6319
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 27201,
+    "slug": "marechal-rondon",
+    "name_pt": "Marechal Rondon",
+    "name_en": "Marechal Rondon",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 985,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 6.72,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.9735,
+      "lat": -13.9562
+    },
+    "homologada": "1996-10-03"
+  },
+  {
+    "terrai_cod": 55101,
+    "slug": "maro",
+    "name_pt": "Maró",
+    "name_en": "Maró",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 423.7,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Arapium",
+      "Borari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.8241,
+      "lat": -2.7858
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 27701,
+    "slug": "massaco",
+    "name_pt": "Massaco",
+    "name_en": "Massaco",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 4219,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.36,
+    "ethnicities": "Massaco Isolados",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -62.5722,
+      "lat": -12.5629
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 28101,
+    "slug": "matintin",
+    "name_pt": "Matintin",
+    "name_en": "Matintin",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 217.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.4634,
+      "lat": -2.8815
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 28201,
+    "slug": "mawetek",
+    "name_pt": "Mawetek",
+    "name_en": "Mawetek",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1154.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Kanamari",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -70.2826,
+      "lat": -6.6228
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 28701,
+    "slug": "menkragnoti",
+    "name_pt": "Menkragnoti",
+    "name_en": "Menkragnoti",
+    "ufs": [
+      "PA",
+      "MT"
+    ],
+    "area_km2": 49142.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.7,
+    "ethnicities": [
+      "Isolados do Iriri Novo",
+      "Isolados Mengra Mrari",
+      "Mebengôkre (Kayapó)",
+      "Mebengôkre (Kayapó) Mekrãgnoti"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -53.3224,
+      "lat": -8.6203
+    },
+    "homologada": "1993-08-19"
+  },
+  {
+    "terrai_cod": 28801,
+    "slug": "menku",
+    "name_pt": "Menkü",
+    "name_en": "Menkü",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 470.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Menky Manoki",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.4181,
+      "lat": -12.1917
+    },
+    "homologada": "1987-02-11"
+  },
+  {
+    "terrai_cod": 28901,
+    "slug": "meria",
+    "name_pt": "Meria",
+    "name_en": "Meria",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 5.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Karapanã",
+      "Miranha",
+      "Mura",
+      "Witoto"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.8534,
+      "lat": -3.2235
+    },
+    "homologada": "1993-10-04"
+  },
+  {
+    "terrai_cod": 29001,
+    "slug": "merure",
+    "name_pt": "Merure",
+    "name_en": "Merure",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 823,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Boe (Bororo)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.0573,
+      "lat": -15.5572
+    },
+    "homologada": "1987-02-11"
+  },
+  {
+    "terrai_cod": 29101,
+    "slug": "miguel-josefa",
+    "name_pt": "Miguel/Josefa",
+    "name_en": "Miguel/Josefa",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 16.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.45,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.1509,
+      "lat": -3.8073
+    },
+    "homologada": "2001-04-20"
+  },
+  {
+    "terrai_cod": 29201,
+    "slug": "miratu",
+    "name_pt": "Miratu",
+    "name_en": "Miratu",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 132,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": [
+      "Karapanã",
+      "Miranha",
+      "Mura",
+      "Witoto"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.2406,
+      "lat": -3.0276
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 29501,
+    "slug": "morro-branco",
+    "name_pt": "Morro Branco",
+    "name_en": "Morro Branco",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 0.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.21,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -46.1295,
+      "lat": -5.8223
+    },
+    "homologada": "1983-08-09"
+  },
+  {
+    "terrai_cod": 29701,
+    "slug": "moskow",
+    "name_pt": "Moskow",
+    "name_en": "Moskow",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 142.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.52,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.1665,
+      "lat": 2.7574
+    },
+    "homologada": "2003-05-30"
+  },
+  {
+    "terrai_cod": 29801,
+    "slug": "munduruku",
+    "name_pt": "Munduruku",
+    "name_en": "Munduruku",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 23818,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.53,
+    "ethnicities": [
+      "Apiaká",
+      "Isolados do Alto Tapajós",
+      "Munduruku"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -57.5578,
+      "lat": -7.4537
+    },
+    "homologada": "2004-02-25"
+  },
+  {
+    "terrai_cod": 58001,
+    "slug": "munduruku-taquara",
+    "name_pt": "Munduruku-Taquara",
+    "name_en": "Munduruku-Taquara",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 253.2,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.0275,
+      "lat": -3.2511
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 30001,
+    "slug": "muriru",
+    "name_pt": "Muriru",
+    "name_en": "Muriru",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 55.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Wapichana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.2082,
+      "lat": 2.5627
+    },
+    "homologada": "2003-06-23"
+  },
+  {
+    "terrai_cod": 30101,
+    "slug": "murutinga-tracaja",
+    "name_pt": "Murutinga/Tracaja",
+    "name_en": "Murutinga/Tracaja",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 132.9,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.39,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.2199,
+      "lat": -3.3702
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 26001,
+    "slug": "mae-maria",
+    "name_pt": "Mãe Maria",
+    "name_en": "Mãe Maria",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 624.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Gavião Akrãtikatêjê",
+      "Gavião Kykatejê",
+      "Gavião Parkatêjê",
+      "Guarani",
+      "Guarani Mbya"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.9182,
+      "lat": -5.1202
+    },
+    "homologada": "1986-08-20"
+  },
+  {
+    "terrai_cod": 28501,
+    "slug": "medio-rio-negro-i",
+    "name_pt": "Médio Rio Negro I",
+    "name_en": "Médio Rio Negro I",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 17761.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Arapaso",
+      "Baniwa",
+      "Baré",
+      "Dâw",
+      "Desana",
+      "Koripako",
+      "Mirity-tapuya",
+      "Pira-tapuya",
+      "Tariana",
+      "Tukano",
+      "Yuhupdeh"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.6275,
+      "lat": -0.7123
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 28601,
+    "slug": "medio-rio-negro-ii",
+    "name_pt": "Médio Rio Negro II",
+    "name_en": "Médio Rio Negro II",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3161.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": [
+      "Arapaso",
+      "Baniwa",
+      "Baré",
+      "Desana",
+      "Koripako",
+      "Mirity-tapuya",
+      "Pira-tapuya",
+      "Tariana",
+      "Tukano"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.3046,
+      "lat": -0.1896
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 30201,
+    "slug": "nambikwara",
+    "name_pt": "Nambikwara",
+    "name_en": "Nambikwara",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 10119.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.46,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Halotesu",
+      "Nambikwara Kithaulu",
+      "Nambikwara Sawentesu",
+      "Nambikwara Wakalitesu"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.4723,
+      "lat": -12.9392
+    },
+    "homologada": "1990-01-10"
+  },
+  {
+    "terrai_cod": 30401,
+    "slug": "natal-felicidade",
+    "name_pt": "Natal/Felicidade",
+    "name_en": "Natal/Felicidade",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.221,
+      "lat": -3.5657
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 30501,
+    "slug": "nhamunda-mapuera",
+    "name_pt": "Nhamundá/Mapuera",
+    "name_en": "Nhamundá/Mapuera",
+    "ufs": [
+      "AM",
+      "PA"
+    ],
+    "area_km2": 10495.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": [
+      "Hixkaryana",
+      "Katuenayana",
+      "Katxuyana",
+      "Waiwai"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.1096,
+      "lat": -0.8192
+    },
+    "homologada": "1989-08-17"
+  },
+  {
+    "terrai_cod": 31001,
+    "slug": "nova-esperanca-do-rio-jandiatuba",
+    "name_pt": "Nova Esperança do Rio Jandiatuba",
+    "name_en": "Nova Esperança do Rio Jandiatuba",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 200,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.7372,
+      "lat": -3.5779
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 31101,
+    "slug": "nova-jacunda",
+    "name_pt": "Nova Jacundá",
+    "name_en": "Nova Jacundá",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 4.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 4.09,
+    "ethnicities": [
+      "Guarani",
+      "Guarani Mbya"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.9621,
+      "lat": -4.7479
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 31201,
+    "slug": "nove-de-janeiro",
+    "name_pt": "Nove de Janeiro",
+    "name_en": "Nove de Janeiro",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2287.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.88,
+    "ethnicities": "Parintintin",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.5724,
+      "lat": -7.4337
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 31301,
+    "slug": "nukini",
+    "name_pt": "Nukini",
+    "name_en": "Nukini",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 272.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Nukini",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -73.4657,
+      "lat": -7.3709
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 31501,
+    "slug": "ouro",
+    "name_pt": "Ouro",
+    "name_en": "Ouro",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 135.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Macuxi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.6717,
+      "lat": 3.494
+    },
+    "homologada": "1982-02-17"
+  },
+  {
+    "terrai_cod": 31601,
+    "slug": "pacaas-novas",
+    "name_pt": "Pacaas Novas",
+    "name_en": "Pacaas Novas",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 2799.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.47,
+    "ethnicities": "Wari'",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.1034,
+      "lat": -11.3697
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 31901,
+    "slug": "padre",
+    "name_pt": "Padre",
+    "name_en": "Padre",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.1828,
+      "lat": -3.7425
+    },
+    "homologada": "1996-05-23"
+  },
+  {
+    "terrai_cod": 32201,
+    "slug": "panara",
+    "name_pt": "Panará",
+    "name_en": "Panará",
+    "ufs": [
+      "PA",
+      "MT"
+    ],
+    "area_km2": 4997.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Panará",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.1835,
+      "lat": -9.3683
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 32602,
+    "slug": "paquicamba",
+    "name_pt": "Paquiçamba",
+    "name_en": "Paquiçamba",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 157.3,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Yudja",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.7678,
+      "lat": -3.4585
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 32701,
+    "slug": "parabubure",
+    "name_pt": "Parabubure",
+    "name_en": "Parabubure",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 2244.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.1691,
+      "lat": -14.3813
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 32801,
+    "slug": "paracuhuba",
+    "name_pt": "Paracuhuba",
+    "name_en": "Paracuhuba",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 9.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.0725,
+      "lat": -3.5526
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 32901,
+    "slug": "parakana",
+    "name_pt": "Parakanã",
+    "name_en": "Parakanã",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 3517,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": "Parakanã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -50.131,
+      "lat": -4.7979
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 33101,
+    "slug": "parana-do-boa-boa",
+    "name_pt": "Parana do Boa Boa",
+    "name_en": "Parana do Boa Boa",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2405.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Nadöb",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.1274,
+      "lat": -1.6679
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 33201,
+    "slug": "parana-do-parica",
+    "name_pt": "Parana do Paricá",
+    "name_en": "Parana do Paricá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 78.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Kanamari",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.8388,
+      "lat": -1.8772
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 33001,
+    "slug": "parana-do-arauato",
+    "name_pt": "Paraná do Arauató",
+    "name_en": "Paraná do Arauató",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 59.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.45,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.6572,
+      "lat": -3.2166
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 33401,
+    "slug": "paresi",
+    "name_pt": "Paresi",
+    "name_en": "Paresi",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 5635.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.46,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.6471,
+      "lat": -14.259
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 33501,
+    "slug": "parque-do-araguaia",
+    "name_pt": "Parque do Araguaia",
+    "name_en": "Parque do Araguaia",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 13585,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.46,
+    "ethnicities": [
+      "Apyãwa",
+      "Avá-Canoeiro",
+      "Iny Karajá",
+      "Javaé"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -50.3709,
+      "lat": -11.686
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 33601,
+    "slug": "parque-do-aripuana",
+    "name_pt": "Parque do Aripuanã",
+    "name_en": "Parque do Aripuanã",
+    "ufs": [
+      "MT",
+      "RO"
+    ],
+    "area_km2": 16032.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.22,
+    "ethnicities": [
+      "Cinta larga",
+      "Isolados na TI Aripuanã"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -59.9055,
+      "lat": -11.5669
+    },
+    "homologada": "1989-11-20"
+  },
+  {
+    "terrai_cod": 33701,
+    "slug": "parque-do-tumucumaque",
+    "name_pt": "Parque do Tumucumaque",
+    "name_en": "Parque do Tumucumaque",
+    "ufs": [
+      "AP",
+      "PA"
+    ],
+    "area_km2": 30710.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.39,
+    "ethnicities": [
+      "Akuriyó",
+      "Aparai",
+      "Isolados Akurio",
+      "Isolados do Rio Citaré",
+      "Katxuyana",
+      "Tiriyó",
+      "Wayana"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -55.4673,
+      "lat": 1.5803
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 33801,
+    "slug": "parque-do-xingu",
+    "name_pt": "Parque do Xingu",
+    "name_en": "Parque do Xingu",
+    "ufs": [
+      "MT",
+      "PA"
+    ],
+    "area_km2": 26420,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.32,
+    "ethnicities": [
+      "Aweti",
+      "Ikpeng",
+      "Kajkwakratxi (Tapayuna)",
+      "Kalapalo",
+      "Kamaiurá",
+      "Kawaiwete (Kaiabi)",
+      "Khisêtjê",
+      "Kuikuro",
+      "Matipu",
+      "Mehinako",
+      "Nahukwá",
+      "Naruvotu",
+      "Trumai",
+      "Wauja",
+      "Yawalapiti",
+      "Yudja"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -53.4021,
+      "lat": -12.0065
+    },
+    "homologada": "1991-01-25"
+  },
+  {
+    "terrai_cod": 33901,
+    "slug": "pataua",
+    "name_pt": "Patauá",
+    "name_en": "Patauá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 6.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Kanamari",
+      "Mura"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.3001,
+      "lat": -3.4433
+    },
+    "homologada": "2003-05-05"
+  },
+  {
+    "terrai_cod": 34101,
+    "slug": "paukalirajausu",
+    "name_pt": "Paukalirajausu",
+    "name_en": "Paukalirajausu",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 84,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Nambikwara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.6474,
+      "lat": -14.755
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 34201,
+    "slug": "paumari-do-cuniua",
+    "name_pt": "Paumari do Cuniua",
+    "name_en": "Paumari do Cuniua",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 428.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Apurinã",
+      "Paumari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.9036,
+      "lat": -6.0662
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 34302,
+    "slug": "paumari-do-lago-manissua",
+    "name_pt": "Paumari do Lago Manissuã",
+    "name_en": "Paumari do Lago Manissuã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 229.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.96,
+    "ethnicities": "Paumari",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.5947,
+      "lat": -5.8019
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 34402,
+    "slug": "paumari-do-lago-maraha",
+    "name_pt": "Paumari do Lago Marahã",
+    "name_en": "Paumari do Lago Marahã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1187.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.41,
+    "ethnicities": [
+      "Apurinã",
+      "Paumari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.2363,
+      "lat": -7.627
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 34501,
+    "slug": "paumari-do-lago-parica",
+    "name_pt": "Paumari do Lago Paricá",
+    "name_en": "Paumari do Lago Paricá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 157.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.37,
+    "ethnicities": [
+      "Apurinã",
+      "Paumari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.7116,
+      "lat": -5.9348
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 34601,
+    "slug": "paumari-do-rio-ituxi",
+    "name_pt": "Paumari do Rio Ituxi",
+    "name_en": "Paumari do Rio Ituxi",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 75.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Paumari",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.979,
+      "lat": -7.3726
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 34701,
+    "slug": "peneri-tacaquiri",
+    "name_pt": "Peneri/Tacaquiri",
+    "name_en": "Peneri/Tacaquiri",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1898.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.0945,
+      "lat": -8.1499
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 34801,
+    "slug": "pequizal",
+    "name_pt": "Pequizal",
+    "name_en": "Pequizal",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 98.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Alantesu",
+      "Nambikwara Erihitaunsu"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.8577,
+      "lat": -14.2652
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 55201,
+    "slug": "pequizal-do-naruvotu",
+    "name_pt": "Pequizal do Naruvôtu",
+    "name_en": "Pequizal do Naruvôtu",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 278.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Naruvotu",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.839,
+      "lat": -12.9297
+    },
+    "homologada": "2016-04-29"
+  },
+  {
+    "terrai_cod": 34901,
+    "slug": "perigara",
+    "name_pt": "Perigara",
+    "name_en": "Perigara",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 107.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Boe (Bororo)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.19,
+      "lat": -16.8642
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 35301,
+    "slug": "pimentel-barbosa",
+    "name_pt": "Pimentel Barbosa",
+    "name_en": "Pimentel Barbosa",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 3289.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.6337,
+      "lat": -13.4218
+    },
+    "homologada": "1986-08-20"
+  },
+  {
+    "terrai_cod": 35401,
+    "slug": "pinatuba",
+    "name_pt": "Pinatuba",
+    "name_en": "Pinatuba",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 295.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.31,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.75,
+      "lat": -5.67
+    },
+    "homologada": "2001-12-10"
+  },
+  {
+    "terrai_cod": 35701,
+    "slug": "piraha",
+    "name_pt": "Pirahã",
+    "name_en": "Pirahã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3469.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.25,
+    "ethnicities": [
+      "Isolados do Rio Maici",
+      "Pirahã"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.0934,
+      "lat": -7.1064
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 36101,
+    "slug": "pirineus-de-souza",
+    "name_pt": "Pirineus de Souza",
+    "name_en": "Pirineus de Souza",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 282.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Idalamare",
+      "Nambikwara Ilaklore",
+      "Nambikwara Mamaindê",
+      "Nambikwara Manduka",
+      "Nambikwara Sabanê",
+      "Nambikwara Tawandê"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.933,
+      "lat": -12.741
+    },
+    "homologada": "1984-04-24"
+  },
+  {
+    "terrai_cod": 66901,
+    "slug": "piripkura-restricao-de-uso",
+    "name_pt": "Piripkura ( restrição de uso )",
+    "name_en": "Piripkura ( restrição de uso )",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 2425,
+    "current_phase": "Em Estudo",
+    "in_jmp_sample": true,
+    "audit_score": 9,
+    "ethnicities": "Piripkura",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -61.001,
+      "lat": -9.6694
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 73708,
+    "slug": "pirititi",
+    "name_pt": "Pirititi",
+    "name_en": "Pirititi",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 401,
+    "current_phase": "Em Estudo",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Isolados Pirititi",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -60.4394,
+      "lat": 0.0504
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 36301,
+    "slug": "pium",
+    "name_pt": "Pium",
+    "name_en": "Pium",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 46.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.1044,
+      "lat": 3.403
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 53201,
+    "slug": "ponciano",
+    "name_pt": "Ponciano",
+    "name_en": "Ponciano",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 43.3,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.4549,
+      "lat": -3.5131
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 36401,
+    "slug": "ponta-da-serra",
+    "name_pt": "Ponta da Serra",
+    "name_en": "Ponta da Serra",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 156,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.8808,
+      "lat": 3.6048
+    },
+    "homologada": "1982-02-17"
+  },
+  {
+    "terrai_cod": 36501,
+    "slug": "ponte-de-pedra",
+    "name_pt": "Ponte de Pedra",
+    "name_en": "Ponte de Pedra",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 170,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -57.3494,
+      "lat": -13.566
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 36601,
+    "slug": "porquinhos",
+    "name_pt": "Porquinhos",
+    "name_en": "Porquinhos",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 795.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": null,
+    "ethnicities": "Kanela",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.6368,
+      "lat": -6.0942
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 36602,
+    "slug": "porquinhos-dos-canela-apanjekra",
+    "name_pt": "Porquinhos dos Canela-Apãnjekra",
+    "name_en": "Porquinhos dos Canela-Apãnjekra",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 3010,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Canela Apanyekrá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.6014,
+      "lat": -6.2149
+    },
+    "homologada": "1983-08-10"
+  },
+  {
+    "terrai_cod": 59001,
+    "slug": "portal-do-encantado",
+    "name_pt": "Portal do Encantado",
+    "name_en": "Portal do Encantado",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 430.6,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Chiquitano",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.4793,
+      "lat": -16.1514
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 57101,
+    "slug": "porto-limoeiro",
+    "name_pt": "Porto Limoeiro",
+    "name_en": "Porto Limoeiro",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 45.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.941,
+      "lat": -3.0631
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 36801,
+    "slug": "porto-praia",
+    "name_pt": "Porto Praia",
+    "name_en": "Porto Praia",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 47.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.41,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.129,
+      "lat": -2.8862
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 37201,
+    "slug": "poyanawa",
+    "name_pt": "Poyanawa",
+    "name_en": "Poyanawa",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 245,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Puyanawa",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -73.0882,
+      "lat": -7.5476
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 37401,
+    "slug": "praia-do-mangue",
+    "name_pt": "Praia do Mangue",
+    "name_en": "Praia do Mangue",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 0.3,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.19,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.9737,
+      "lat": -4.2563
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 37301,
+    "slug": "praia-do-indio",
+    "name_pt": "Praia do Índio",
+    "name_en": "Praia do Índio",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 0.3,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.19,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.0273,
+      "lat": -4.2823
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 53401,
+    "slug": "prosperidade",
+    "name_pt": "Prosperidade",
+    "name_en": "Prosperidade",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 55.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.4822,
+      "lat": -2.6726
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 37701,
+    "slug": "raimundao",
+    "name_pt": "Raimundão",
+    "name_en": "Raimundão",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 42.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.4,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.3145,
+      "lat": 2.884
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 37901,
+    "slug": "raposa-serra-do-sol",
+    "name_pt": "Raposa Serra do Sol",
+    "name_en": "Raposa Serra do Sol",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 17474.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Ingarikó",
+      "Macuxi",
+      "Patamona",
+      "Taurepang",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.2681,
+      "lat": 4.334
+    },
+    "homologada": "2005-04-15"
+  },
+  {
+    "terrai_cod": 38001,
+    "slug": "recreio-sao-felix",
+    "name_pt": "Recreio/São Félix",
+    "name_en": "Recreio/São Félix",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.1994,
+      "lat": -3.5454
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 38201,
+    "slug": "rio-apaporis",
+    "name_pt": "Rio Apaporis",
+    "name_en": "Rio Apaporis",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1069.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Desana",
+      "Tukano",
+      "Tuyuka",
+      "Yuhupdeh"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.2633,
+      "lat": -1.1628
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 38501,
+    "slug": "rio-bia",
+    "name_pt": "Rio Biá",
+    "name_en": "Rio Biá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 11857.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Katukina do Rio Biá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.7254,
+      "lat": -4.8261
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 38601,
+    "slug": "rio-branco",
+    "name_pt": "Rio Branco",
+    "name_en": "Rio Branco",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 2361.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Aikanã",
+      "Arikapú",
+      "Aruá",
+      "Djeoromitxí",
+      "Kampé",
+      "Kanoê",
+      "Makurap",
+      "Tupari"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -62.6424,
+      "lat": -12.1553
+    },
+    "homologada": "1986-08-06"
+  },
+  {
+    "terrai_cod": 39301,
+    "slug": "rio-formoso",
+    "name_pt": "Rio Formoso",
+    "name_en": "Rio Formoso",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 197.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.0845,
+      "lat": -14.5101
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 39402,
+    "slug": "rio-gregorio",
+    "name_pt": "Rio Gregório",
+    "name_en": "Rio Gregório",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 1871.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.4,
+    "ethnicities": [
+      "Katukina Pano",
+      "Yawanawá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -71.7631,
+      "lat": -8.3646
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 39501,
+    "slug": "rio-guapore",
+    "name_pt": "Rio Guaporé",
+    "name_en": "Rio Guaporé",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 1157.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.41,
+    "ethnicities": [
+      "Aikanã",
+      "Arikapú",
+      "Aruá",
+      "Djeoromitxí",
+      "Kanoê",
+      "Kujubim",
+      "Makurap",
+      "Tupari",
+      "Wajuru",
+      "Wari'"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.7148,
+      "lat": -11.9511
+    },
+    "homologada": "1996-05-23"
+  },
+  {
+    "terrai_cod": 39601,
+    "slug": "rio-jumas",
+    "name_pt": "Rio Jumas",
+    "name_en": "Rio Jumas",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 94.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.8873,
+      "lat": -3.8514
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 39701,
+    "slug": "rio-manicore",
+    "name_pt": "Rio Manicoré",
+    "name_en": "Rio Manicoré",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 194.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.31,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.5244,
+      "lat": -6.1851
+    },
+    "homologada": "2001-12-10"
+  },
+  {
+    "terrai_cod": 39801,
+    "slug": "rio-mequens",
+    "name_pt": "Rio Mequens",
+    "name_en": "Rio Mequens",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 1075.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Makurap",
+      "Sakurabiat"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.7427,
+      "lat": -12.6288
+    },
+    "homologada": "1996-05-23"
+  },
+  {
+    "terrai_cod": 40002,
+    "slug": "rio-negro-ocaia",
+    "name_pt": "Rio Negro Ocaia",
+    "name_en": "Rio Negro Ocaia",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 2350.7,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Wari'",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.6612,
+      "lat": -11.0789
+    },
+    "homologada": "1981-09-09"
+  },
+  {
+    "terrai_cod": 40101,
+    "slug": "rio-omere",
+    "name_pt": "Rio Omerê",
+    "name_en": "Rio Omerê",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 261.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": [
+      "Akuntsu",
+      "Kanoê"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.105,
+      "lat": -12.8126
+    },
+    "homologada": "2006-04-18"
+  },
+  {
+    "terrai_cod": 40201,
+    "slug": "rio-paru-deste",
+    "name_pt": "Rio Paru DEste",
+    "name_en": "Rio Paru DEste",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 11957.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Aparai",
+      "isolados do alto Rio Ipitinga",
+      "Wayana"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -54.5137,
+      "lat": 0.6144
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 40301,
+    "slug": "rio-pindare",
+    "name_pt": "Rio Pindaré",
+    "name_en": "Rio Pindaré",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 150,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": [
+      "Guajajara",
+      "Guarani Mbya"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.5152,
+      "lat": -3.6313
+    },
+    "homologada": "1982-11-22"
+  },
+  {
+    "terrai_cod": 40401,
+    "slug": "rio-tea",
+    "name_pt": "Rio Téa",
+    "name_en": "Rio Téa",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 4118.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Baré",
+      "Desana",
+      "Nadöb",
+      "Pira-tapuya",
+      "Tukano"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -66.1798,
+      "lat": -0.6152
+    },
+    "homologada": "1998-04-14"
+  },
+  {
+    "terrai_cod": 40501,
+    "slug": "rio-urubu",
+    "name_pt": "Rio Urubu",
+    "name_en": "Rio Urubu",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 273.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.9508,
+      "lat": -3.1041
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 53501,
+    "slug": "riozinho",
+    "name_pt": "Riozinho",
+    "name_en": "Riozinho",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 3624.9,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": [
+      "Kokama",
+      "Ticuna"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.0146,
+      "lat": -3.5558
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 51301,
+    "slug": "riozinho-do-alto-envira",
+    "name_pt": "Riozinho do Alto Envira",
+    "name_en": "Riozinho do Alto Envira",
+    "ufs": [
+      "AC"
+    ],
+    "area_km2": 2609.7,
+    "current_phase": "Homologada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": [
+      "Ashaninka",
+      "Isolados do Rio Jaminawá",
+      "Isolados do Riozinho do Alto Envira"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.2262,
+      "lat": -9.7525
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 40601,
+    "slug": "rodeador",
+    "name_pt": "Rodeador",
+    "name_en": "Rodeador",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 23.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 4.09,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.2284,
+      "lat": -5.7034
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 40701,
+    "slug": "roosevelt",
+    "name_pt": "Roosevelt",
+    "name_en": "Roosevelt",
+    "ufs": [
+      "RO",
+      "MT"
+    ],
+    "area_km2": 2308.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.21,
+    "ethnicities": [
+      "Apurinã",
+      "Cinta larga"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.5983,
+      "lat": -11.0975
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 40801,
+    "slug": "sagarana",
+    "name_pt": "Sagarana",
+    "name_en": "Sagarana",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 181.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Wari'",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -64.9706,
+      "lat": -11.9167
+    },
+    "homologada": "1996-05-23"
+  },
+  {
+    "terrai_cod": 40901,
+    "slug": "sai-cinza",
+    "name_pt": "Sai-Cinza",
+    "name_en": "Sai-Cinza",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1255.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.0005,
+      "lat": -6.4667
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 41101,
+    "slug": "sangradouro-volta-grande",
+    "name_pt": "Sangradouro/Volta Grande",
+    "name_en": "Sangradouro/Volta Grande",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1002.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Boe (Bororo)",
+      "Xavante"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.8613,
+      "lat": -15.4478
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 53601,
+    "slug": "santa-cruz-da-nova-alianca",
+    "name_pt": "Santa Cruz da Nova Aliança",
+    "name_en": "Santa Cruz da Nova Aliança",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 59.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.7064,
+      "lat": -2.7826
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 41201,
+    "slug": "santa-inez",
+    "name_pt": "Santa Inez",
+    "name_en": "Santa Inez",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 297,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Macuxi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.3663,
+      "lat": 4.1731
+    },
+    "homologada": "1982-02-16"
+  },
+  {
+    "terrai_cod": 41301,
+    "slug": "santana",
+    "name_pt": "Santana",
+    "name_en": "Santana",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 354.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Bakairi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.4472,
+      "lat": -14.1692
+    },
+    "homologada": "1989-09-14"
+  },
+  {
+    "terrai_cod": 51501,
+    "slug": "sapotal",
+    "name_pt": "Sapotal",
+    "name_en": "Sapotal",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 12.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.5202,
+      "lat": -4.2522
+    },
+    "homologada": "2011-04-19"
+  },
+  {
+    "terrai_cod": 42101,
+    "slug": "sarare",
+    "name_pt": "Sararé",
+    "name_en": "Sararé",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 674.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Kalunhwasu",
+      "Nambikwara Katitawlu",
+      "Nambikwara Qualitsu",
+      "Nambikwara Sayulikisu",
+      "Nambikwara Uaihlatisu"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.4919,
+      "lat": -14.8081
+    },
+    "homologada": "1985-04-29"
+  },
+  {
+    "terrai_cod": 58901,
+    "slug": "saraua",
+    "name_pt": "Sarauá",
+    "name_en": "Sarauá",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 186.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Amanayé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.0403,
+      "lat": -3.0753
+    },
+    "homologada": "2011-04-19"
+  },
+  {
+    "terrai_cod": 73727,
+    "slug": "sawre-bap-in-apompu",
+    "name_pt": "Sawré Bap in (Apompu)",
+    "name_en": "Sawré Bap in (Apompu)",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1503.3,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.5815,
+      "lat": -4.6541
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 56701,
+    "slug": "sawre-muybu-pimental",
+    "name_pt": "Sawré Muybu (Pimental)",
+    "name_en": "Sawré Muybu (Pimental)",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1781.7,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.28,
+    "ethnicities": "Munduruku",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -56.5924,
+      "lat": -4.9575
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 42301,
+    "slug": "sepoti",
+    "name_pt": "Sepoti",
+    "name_en": "Sepoti",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2513.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.48,
+    "ethnicities": "Tenharim",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.6237,
+      "lat": -7.202
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 42401,
+    "slug": "serra-da-moca",
+    "name_pt": "Serra da Moça",
+    "name_en": "Serra da Moça",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 116.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Wapichana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.6868,
+      "lat": 3.2516
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 42601,
+    "slug": "serra-morena",
+    "name_pt": "Serra Morena",
+    "name_en": "Serra Morena",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1478.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.46,
+    "ethnicities": "Cinta larga",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.3567,
+      "lat": -11.0153
+    },
+    "homologada": "1990-01-15"
+  },
+  {
+    "terrai_cod": 42801,
+    "slug": "seruini-mariene",
+    "name_pt": "Seruini/Mariene",
+    "name_en": "Seruini/Mariene",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1449.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.8442,
+      "lat": -8.1666
+    },
+    "homologada": "2000-09-12"
+  },
+  {
+    "terrai_cod": 43001,
+    "slug": "sete-de-setembro",
+    "name_pt": "Sete de Setembro",
+    "name_en": "Sete de Setembro",
+    "ufs": [
+      "RO",
+      "MT"
+    ],
+    "area_km2": 2481.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Surui Paiter",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.188,
+      "lat": -10.9583
+    },
+    "homologada": "1983-10-17"
+  },
+  {
+    "terrai_cod": 43101,
+    "slug": "setema",
+    "name_pt": "Setemã",
+    "name_en": "Setemã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 497.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.44,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.0938,
+      "lat": -5.0047
+    },
+    "homologada": "2015-04-17"
+  },
+  {
+    "terrai_cod": 69001,
+    "slug": "sissaima",
+    "name_pt": "Sissaíma",
+    "name_en": "Sissaíma",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 87.8,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.4295,
+      "lat": -3.42
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 43201,
+    "slug": "sororo",
+    "name_pt": "Sororó",
+    "name_en": "Sororó",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 262.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Aikewara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.6934,
+      "lat": -5.9365
+    },
+    "homologada": "1983-08-30"
+  },
+  {
+    "terrai_cod": 43301,
+    "slug": "sucuba",
+    "name_pt": "Sucuba",
+    "name_en": "Sucuba",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 59.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.1567,
+      "lat": 2.9697
+    },
+    "homologada": "1982-02-16"
+  },
+  {
+    "terrai_cod": 53901,
+    "slug": "sururua",
+    "name_pt": "Sururuá",
+    "name_en": "Sururuá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 361.2,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Kokama",
+      "Ticuna"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.545,
+      "lat": -4.4829
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 58301,
+    "slug": "sao-domingos-mt",
+    "name_pt": "São Domingos - MT",
+    "name_en": "São Domingos - MT",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 57,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Iny Karajá",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -50.7159,
+      "lat": -11.2721
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 58201,
+    "slug": "sao-domingos-do-jacapari-e-estacao",
+    "name_pt": "São Domingos do Jacapari e Estação",
+    "name_en": "São Domingos do Jacapari e Estação",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1347.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Kokama",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.3588,
+      "lat": -2.8194
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 41501,
+    "slug": "sao-francisco-do-canimari",
+    "name_pt": "São Francisco do Canimari",
+    "name_en": "São Francisco do Canimari",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 33.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.334,
+      "lat": -3.3819
+    },
+    "homologada": "2006-11-01"
+  },
+  {
+    "terrai_cod": 41701,
+    "slug": "sao-leopoldo",
+    "name_pt": "São Leopoldo",
+    "name_en": "São Leopoldo",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 692.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.7331,
+      "lat": -4.5493
+    },
+    "homologada": "1993-08-12"
+  },
+  {
+    "terrai_cod": 58101,
+    "slug": "sao-marcos-mt",
+    "name_pt": "São Marcos - MT",
+    "name_en": "São Marcos - MT",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1884.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 6.89,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.715,
+      "lat": -15.2157
+    },
+    "homologada": "1972-09-14"
+  },
+  {
+    "terrai_cod": 58401,
+    "slug": "sao-marcos-rr",
+    "name_pt": "São Marcos - RR",
+    "name_en": "São Marcos - RR",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 6541.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Macuxi",
+      "Taurepang",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.8032,
+      "lat": 3.9125
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 41801,
+    "slug": "sao-pedro",
+    "name_pt": "São Pedro",
+    "name_en": "São Pedro",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 7.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.2374,
+      "lat": -3.7321
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 41901,
+    "slug": "sao-pedro-do-sepatini",
+    "name_pt": "São Pedro do Sepatini",
+    "name_en": "São Pedro do Sepatini",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 276.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.37,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.794,
+      "lat": -7.8908
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 42001,
+    "slug": "sao-sebastiao",
+    "name_pt": "São Sebastião",
+    "name_en": "São Sebastião",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 610.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Kaixana",
+      "Kokama"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.595,
+      "lat": -2.6719
+    },
+    "homologada": "2005-04-19"
+  },
+  {
+    "terrai_cod": 43501,
+    "slug": "tabalascada",
+    "name_pt": "Tabalascada",
+    "name_en": "Tabalascada",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 130.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.45,
+    "ethnicities": [
+      "Macuxi",
+      "Wapichana"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.5718,
+      "lat": 2.6865
+    },
+    "homologada": "2005-04-19"
+  },
+  {
+    "terrai_cod": 43601,
+    "slug": "tabocal",
+    "name_pt": "Tabocal",
+    "name_en": "Tabocal",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 9.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.42,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.4043,
+      "lat": -3.7304
+    },
+    "homologada": "2015-12-17"
+  },
+  {
+    "terrai_cod": 43701,
+    "slug": "tadarimana",
+    "name_pt": "Tadarimana",
+    "name_en": "Tadarimana",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 97.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Boe (Bororo)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.5126,
+      "lat": -16.5306
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 73301,
+    "slug": "taego-awa",
+    "name_pt": "Taego Ãwa",
+    "name_en": "Taego Ãwa",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 285.1,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Avá-Canoeiro",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.7915,
+      "lat": -11.9552
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 43801,
+    "slug": "taihantesu",
+    "name_pt": "Taihantesu",
+    "name_en": "Taihantesu",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 53.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Wasusu"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.5444,
+      "lat": -14.1086
+    },
+    "homologada": "1996-05-23"
+  },
+  {
+    "terrai_cod": 66301,
+    "slug": "tanaru-restricao-de-uso",
+    "name_pt": "Tanaru ( restrição de uso )",
+    "name_en": "Tanaru ( restrição de uso )",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 80.7,
+    "current_phase": "Em Estudo",
+    "in_jmp_sample": true,
+    "audit_score": 9,
+    "ethnicities": "Isolado do Tanaru",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -61.3683,
+      "lat": -12.6528
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 44001,
+    "slug": "tapirape-karaja",
+    "name_pt": "Tapirapé/Karajá",
+    "name_en": "Tapirapé/Karajá",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 661.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Apyãwa",
+      "Iny Karajá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -50.6815,
+      "lat": -10.6355
+    },
+    "homologada": "1983-03-23"
+  },
+  {
+    "terrai_cod": 44601,
+    "slug": "tembe",
+    "name_pt": "Tembé",
+    "name_en": "Tembé",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 10.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.88,
+    "ethnicities": [
+      "Tembé",
+      "Turiwara"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.2741,
+      "lat": -2.6854
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 44701,
+    "slug": "tenharim-do-igarape-preto",
+    "name_pt": "Tenharim do Igarapé Preto",
+    "name_en": "Tenharim do Igarapé Preto",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 874.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.41,
+    "ethnicities": [
+      "Isolados do Igarapé Preto",
+      "Isolados Kaidjuwa",
+      "Tenharim"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.1739,
+      "lat": -8.4958
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 44801,
+    "slug": "tenharim-marmelos",
+    "name_pt": "Tenharim Marmelos",
+    "name_en": "Tenharim Marmelos",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 4975.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.88,
+    "ethnicities": "Tenharim",
+    "has_isolados": true,
+    "centroid": {
+      "lon": -61.9511,
+      "lat": -8.3141
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 62901,
+    "slug": "tenharim-marmelos-gleba-b",
+    "name_pt": "Tenharim Marmelos (Gleba B)",
+    "name_en": "Tenharim Marmelos (Gleba B)",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 4747.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.1,
+    "ethnicities": "Tenharim",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.9194,
+      "lat": -7.3884
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 44901,
+    "slug": "terena-gleba-iriri",
+    "name_pt": "Terena Gleba Iriri",
+    "name_en": "Terena Gleba Iriri",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 305.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 4.22,
+    "ethnicities": "Terena",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.8308,
+      "lat": -9.707
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 45001,
+    "slug": "tereza-cristina",
+    "name_pt": "Tereza Cristina",
+    "name_en": "Tereza Cristina",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 300.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7,
+    "ethnicities": "Boe (Bororo)",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.0898,
+      "lat": -16.5644
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 46801,
+    "slug": "tikuna-de-santo-antonio",
+    "name_pt": "Tikuna de Santo Antonio",
+    "name_en": "Tikuna de Santo Antonio",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 10.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.995,
+      "lat": -4.3982
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 45301,
+    "slug": "tikuna-de-feijoal",
+    "name_pt": "Tikúna de Feijoal",
+    "name_en": "Tikúna de Feijoal",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 409.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.444,
+      "lat": -4.3484
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 45501,
+    "slug": "tirecatinga",
+    "name_pt": "Tirecatinga",
+    "name_en": "Tirecatinga",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1305.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Halotesu",
+      "Nambikwara Sawentesu",
+      "Nambikwara Wakalitesu"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.4169,
+      "lat": -13.1401
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 45901,
+    "slug": "tora",
+    "name_pt": "Torá",
+    "name_en": "Torá",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 549.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.4,
+    "ethnicities": [
+      "Apurinã",
+      "Torá"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -61.6474,
+      "lat": -6.3153
+    },
+    "homologada": "2004-10-27"
+  },
+  {
+    "terrai_cod": 46101,
+    "slug": "trincheira",
+    "name_pt": "Trincheira",
+    "name_en": "Trincheira",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 16.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.47,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.2655,
+      "lat": -3.722
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 46201,
+    "slug": "trincheira-bacaja",
+    "name_pt": "Trincheira Bacaja",
+    "name_en": "Trincheira Bacaja",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 16509.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Mebengôkre (Kayapó) Kararaô",
+      "Xikrin Mebengôkre"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.4893,
+      "lat": -4.6635
+    },
+    "homologada": "1996-10-02"
+  },
+  {
+    "terrai_cod": 46301,
+    "slug": "trocara",
+    "name_pt": "Trocará",
+    "name_en": "Trocará",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 217.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Asurini do Tocantins",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.7104,
+      "lat": -3.5785
+    },
+    "homologada": "1982-11-22"
+  },
+  {
+    "terrai_cod": 46302,
+    "slug": "trocara-doacao",
+    "name_pt": "Trocará - Doação",
+    "name_en": "Trocará - Doação",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 0.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 6.89,
+    "ethnicities": "Asurini do Tocantins",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.8256,
+      "lat": -3.6476
+    },
+    "homologada": "1982-11-22"
+  },
+  {
+    "terrai_cod": 46401,
+    "slug": "trombetas-mapuera",
+    "name_pt": "Trombetas/Mapuera",
+    "name_en": "Trombetas/Mapuera",
+    "ufs": [
+      "RR",
+      "AM",
+      "PA"
+    ],
+    "area_km2": 39709,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.49,
+    "ethnicities": [
+      "Hixkaryana",
+      "Isolados do Médio Jatapu",
+      "Isolados do Rio Cachorro/Cachorrinho",
+      "Isolados Karapawyana",
+      "Katuenayana",
+      "Waiwai"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -58.6867,
+      "lat": -0.0109
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 46501,
+    "slug": "truaru",
+    "name_pt": "Truaru",
+    "name_en": "Truaru",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 56.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Wapichana",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.9746,
+      "lat": 3.2332
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 46701,
+    "slug": "tubarao-latunde",
+    "name_pt": "Tubarão Latunde",
+    "name_en": "Tubarão Latunde",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 1166.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.29,
+    "ethnicities": [
+      "Aikanã",
+      "Kwazá",
+      "Nambikwara",
+      "Nambikwara Latundê",
+      "Nambikwara Sabanê"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.6353,
+      "lat": -12.6244
+    },
+    "homologada": "1990-03-13"
+  },
+  {
+    "terrai_cod": 46901,
+    "slug": "tukuna-porto-espiritual",
+    "name_pt": "Tukuna Porto Espiritual",
+    "name_en": "Tukuna Porto Espiritual",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 28.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.43,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.828,
+      "lat": -4.47
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 47001,
+    "slug": "tukuna-umariacu",
+    "name_pt": "Tukuna Umariaçu",
+    "name_en": "Tukuna Umariaçu",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 48.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.8859,
+      "lat": -4.2649
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 47101,
+    "slug": "tumia",
+    "name_pt": "Tumiã",
+    "name_en": "Tumiã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1243.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.76,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.5836,
+      "lat": -7.9812
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 47201,
+    "slug": "tupa-supe",
+    "name_pt": "Tupã-Supé",
+    "name_en": "Tupã-Supé",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 85.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -65.0202,
+      "lat": -3.147
+    },
+    "homologada": "2004-04-19"
+  },
+  {
+    "terrai_cod": 47301,
+    "slug": "ture-mariquita",
+    "name_pt": "Turé/Mariquita",
+    "name_en": "Turé/Mariquita",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.82,
+    "ethnicities": "Tembé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.338,
+      "lat": -2.2931
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 47401,
+    "slug": "ture-mariquita-ii",
+    "name_pt": "Turé/Mariquita II",
+    "name_en": "Turé/Mariquita II",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 5.9,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.19,
+    "ethnicities": "Tembé",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.3519,
+      "lat": -2.2847
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 63901,
+    "slug": "tuwa-apekuokawera",
+    "name_pt": "Tuwa Apekuokawera",
+    "name_en": "Tuwa Apekuokawera",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 117.6,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Aikewara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.8089,
+      "lat": -5.933
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 47701,
+    "slug": "uati-parana",
+    "name_pt": "Uati-Paraná",
+    "name_en": "Uati-Paraná",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1272,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.19,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.3761,
+      "lat": -2.3757
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 47601,
+    "slug": "uaca",
+    "name_pt": "Uaçá",
+    "name_en": "Uaçá",
+    "ufs": [
+      "AP"
+    ],
+    "area_km2": 4701.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Galibi-Marworno",
+      "Karipuna do Amapá",
+      "Palikur"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.4987,
+      "lat": 3.536
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 47801,
+    "slug": "ubawawe",
+    "name_pt": "Ubawawe",
+    "name_en": "Ubawawe",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 522.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.5045,
+      "lat": -14.567
+    },
+    "homologada": "2000-08-30"
+  },
+  {
+    "terrai_cod": 47901,
+    "slug": "uirapuru",
+    "name_pt": "Uirapuru",
+    "name_en": "Uirapuru",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 216.8,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.35,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.3245,
+      "lat": -14.3496
+    },
+    "homologada": "2025-11-17"
+  },
+  {
+    "terrai_cod": 48001,
+    "slug": "umutina",
+    "name_pt": "Umutina",
+    "name_en": "Umutina",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 281.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Balatiponé (Umutina)",
+      "Iranxe Manoki",
+      "Nambikwara",
+      "Paresí"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -57.0512,
+      "lat": -14.9987
+    },
+    "homologada": "1989-09-14"
+  },
+  {
+    "terrai_cod": 48102,
+    "slug": "uneiuxi",
+    "name_pt": "Uneiuxi",
+    "name_en": "Uneiuxi",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 5547.3,
+    "current_phase": "Homologada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": [
+      "Isolados do Igarapé do Natal",
+      "Nadöb"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -66.7079,
+      "lat": -1.3817
+    },
+    "homologada": "1998-12-11"
+  },
+  {
+    "terrai_cod": 48201,
+    "slug": "uru-eu-wau-wau",
+    "name_pt": "Uru-Eu-Wau-Wau",
+    "name_en": "Uru-Eu-Wau-Wau",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 18671.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.54,
+    "ethnicities": [
+      "Amondawa",
+      "Isolados Bananeira",
+      "Isolados do Cautário",
+      "Isolados no Igarapé Oriente",
+      "Isolados no Igarapé Tiradentes",
+      "Juma",
+      "Kawahiva Isolado do Rio Muqui",
+      "Oro Win",
+      "Uru-Eu-Wau-Wau"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -63.4778,
+      "lat": -11.1836
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 48301,
+    "slug": "urubu-branco",
+    "name_pt": "Urubu Branco",
+    "name_en": "Urubu Branco",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1675.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Apyãwa",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.2477,
+      "lat": -10.7056
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 48401,
+    "slug": "urucu-jurua",
+    "name_pt": "Urucu/Juruá",
+    "name_en": "Urucu/Juruá",
+    "ufs": [
+      "MA"
+    ],
+    "area_km2": 127,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.17,
+    "ethnicities": "Guajajara",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -45.9165,
+      "lat": -5.3754
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 62401,
+    "slug": "utaria-wyhyna-irodu-irana",
+    "name_pt": "Utaria Wyhyna/Iròdu Iràna",
+    "name_en": "Utaria Wyhyna/Iròdu Iràna",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 1774.7,
+    "current_phase": "Declarada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Iny Karajá",
+      "Javaé"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -50.2311,
+      "lat": -10.1768
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 48501,
+    "slug": "utiariti",
+    "name_pt": "Utiariti",
+    "name_en": "Utiariti",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 4123,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.38,
+    "ethnicities": "Paresí",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -58.2709,
+      "lat": -13.6483
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 73745,
+    "slug": "uty-xunati",
+    "name_pt": "Uty-Xunati",
+    "name_en": "Uty-Xunati",
+    "ufs": [
+      "RO"
+    ],
+    "area_km2": 9,
+    "current_phase": "Encaminhada RI",
+    "in_jmp_sample": true,
+    "audit_score": 4.19,
+    "ethnicities": "Terena",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.0142,
+      "lat": -12.4072
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 48601,
+    "slug": "vale-do-guapore",
+    "name_pt": "Vale do Guaporé",
+    "name_en": "Vale do Guaporé",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 2425.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": [
+      "Nambikwara",
+      "Nambikwara Alakatesu",
+      "Nambikwara Alantesu",
+      "Nambikwara Erihitaunsu",
+      "Nambikwara Hahaintesu",
+      "Nambikwara Hoskokosu",
+      "Nambikwara Mamaindê",
+      "Nambikwara Negarotê",
+      "Nambikwara Waikisu",
+      "Nambikwara Wasusu"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.9397,
+      "lat": -13.7285
+    },
+    "homologada": "1985-04-29"
+  },
+  {
+    "terrai_cod": 48701,
+    "slug": "vale-do-javari",
+    "name_pt": "Vale do Javari",
+    "name_en": "Vale do Javari",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 85444.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": [
+      "Isolados do Alto Jutaí",
+      "Isolados do Igarapé Alerta",
+      "Isolados do Igarapé Amburus",
+      "Isolados do Igarapé Cravo",
+      "Isolados do Igarapé Flecheira",
+      "Isolados do Igarapé Inferno",
+      "Isolados do Igarapé Lambança",
+      "Isolados do Igarapé Nauá",
+      "Isolados do Igarapé Pedro Lopes",
+      "Isolados do Igarapé São José",
+      "Isolados do Igarapé São Salvador",
+      "Isolados do Jandiatuba",
+      "Isolados do Rio Bóia/Curuena",
+      "Isolados do Rio Coari",
+      "Isolados do Rio Esquerdo",
+      "Isolados do Rio Itaquaí",
+      "Isolados do Rio Pedra",
+      "Isolados do Rio Quixito",
+      "Isolados Korubo",
+      "Kanamari",
+      "Korubo",
+      "Kulina Pano",
+      "Marubo",
+      "Matis",
+      "Matsés",
+      "Tsohom-dyapa"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -71.3675,
+      "lat": -5.8604
+    },
+    "homologada": "2001-04-30"
+  },
+  {
+    "terrai_cod": 54101,
+    "slug": "vista-alegre",
+    "name_pt": "Vista Alegre",
+    "name_en": "Vista Alegre",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 132.1,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.4,
+    "ethnicities": "Mura",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -60.4824,
+      "lat": -3.7113
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 49301,
+    "slug": "vui-uata-in",
+    "name_pt": "Vui-Uata-In",
+    "name_en": "Vui-Uata-In",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1212,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.38,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -68.3907,
+      "lat": -3.5611
+    },
+    "homologada": "1995-07-03"
+  },
+  {
+    "terrai_cod": 49501,
+    "slug": "waimiri-atroari",
+    "name_pt": "Waimiri-Atroari",
+    "name_en": "Waimiri-Atroari",
+    "ufs": [
+      "RR",
+      "AM"
+    ],
+    "area_km2": 25859.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.56,
+    "ethnicities": [
+      "Isolados Cabeceira do Rio Camanaú",
+      "Waimiri Atroari"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -60.6647,
+      "lat": -0.8407
+    },
+    "homologada": "1989-06-16"
+  },
+  {
+    "terrai_cod": 49601,
+    "slug": "waiwai",
+    "name_pt": "WaiWái",
+    "name_en": "WaiWái",
+    "ufs": [
+      "RR"
+    ],
+    "area_km2": 4057,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.12,
+    "ethnicities": "Waiwai",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -59.638,
+      "lat": 1.3933
+    },
+    "homologada": "2003-06-23"
+  },
+  {
+    "terrai_cod": 49401,
+    "slug": "waiapi",
+    "name_pt": "Waiãpi",
+    "name_en": "Waiãpi",
+    "ufs": [
+      "AP"
+    ],
+    "area_km2": 6070.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.03,
+    "ethnicities": "Wajãpi",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -52.8979,
+      "lat": 1.1286
+    },
+    "homologada": "1996-05-23"
+  },
+  {
+    "terrai_cod": 49801,
+    "slug": "wawi",
+    "name_pt": "Wawi",
+    "name_en": "Wawi",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1503.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.69,
+    "ethnicities": [
+      "Kajkwakratxi (Tapayuna)",
+      "Khisêtjê"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -53.0639,
+      "lat": -11.7493
+    },
+    "homologada": "1998-09-08"
+  },
+  {
+    "terrai_cod": 73601,
+    "slug": "wedeze",
+    "name_pt": "Wedezé",
+    "name_en": "Wedezé",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 1458.8,
+    "current_phase": "Delimitada",
+    "in_jmp_sample": true,
+    "audit_score": 9.27,
+    "ethnicities": "Xavante",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -51.3109,
+      "lat": -13.5463
+    },
+    "homologada": null
+  },
+  {
+    "terrai_cod": 50101,
+    "slug": "xambioa",
+    "name_pt": "Xambioá",
+    "name_en": "Xambioá",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 33.3,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Guarani",
+      "Guarani Mbya",
+      "Karajá do Norte"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -49.1646,
+      "lat": -7.1288
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 50301,
+    "slug": "xerente",
+    "name_pt": "Xerente",
+    "name_en": "Xerente",
+    "ufs": [
+      "TO"
+    ],
+    "area_km2": 1675.4,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.48,
+    "ethnicities": [
+      "Guarani",
+      "Guarani Mbya",
+      "Xerente"
+    ],
+    "has_isolados": false,
+    "centroid": {
+      "lon": -48.1146,
+      "lat": -9.5344
+    },
+    "homologada": "1989-06-16"
+  },
+  {
+    "terrai_cod": 50501,
+    "slug": "xikrin-do-rio-catete",
+    "name_pt": "Xikrin do Rio Catete",
+    "name_en": "Xikrin do Rio Catete",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 4391.5,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.41,
+    "ethnicities": [
+      "Isolados na TI Xikrin do Cateté",
+      "Mebengôkre (Kayapó)",
+      "Xikrin Mebengôkre"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -50.8148,
+      "lat": -6.3573
+    },
+    "homologada": "1991-12-24"
+  },
+  {
+    "terrai_cod": 50601,
+    "slug": "xipaya",
+    "name_pt": "Xipaya",
+    "name_en": "Xipaya",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 1787.2,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.5,
+    "ethnicities": "Xipaya",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -54.6833,
+      "lat": -5.4299
+    },
+    "homologada": "2012-06-05"
+  },
+  {
+    "terrai_cod": 50901,
+    "slug": "yanomami",
+    "name_pt": "Yanomami",
+    "name_en": "Yanomami",
+    "ufs": [
+      "RR",
+      "AM"
+    ],
+    "area_km2": 96649.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 7.29,
+    "ethnicities": [
+      "Isolados da Serra da Estrutura",
+      "Isolados do Amajari",
+      "Isolados do Auaris/Fronteira",
+      "Isolados do Baixo Rio Cauaburis",
+      "Isolados Parawa u",
+      "Isolados Surucucu/Kataroa",
+      "Yanomami",
+      "Yanomami Ninam",
+      "Yanomami Sanöma",
+      "Yanomami Yãnoma",
+      "Yanomami Yanomám",
+      "Yanomami Yanonami",
+      "Yanomami Ỹaroamë",
+      "Ye'kwana"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -63.4999,
+      "lat": 2.1567
+    },
+    "homologada": "1989-02-16"
+  },
+  {
+    "terrai_cod": 51001,
+    "slug": "zoe",
+    "name_pt": "Zoe",
+    "name_en": "Zoe",
+    "ufs": [
+      "PA"
+    ],
+    "area_km2": 6685.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.35,
+    "ethnicities": "Zo'é",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -55.7868,
+      "lat": -0.122
+    },
+    "homologada": "2009-12-21"
+  },
+  {
+    "terrai_cod": 51101,
+    "slug": "zoro",
+    "name_pt": "Zoró",
+    "name_en": "Zoró",
+    "ufs": [
+      "MT"
+    ],
+    "area_km2": 3557.9,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.21,
+    "ethnicities": [
+      "Isolados no norte da TI Zoró",
+      "Zoró"
+    ],
+    "has_isolados": true,
+    "centroid": {
+      "lon": -60.8207,
+      "lat": -10.5848
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 51201,
+    "slug": "zuruaha",
+    "name_pt": "Zuruahã",
+    "name_en": "Zuruahã",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 2390.7,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.59,
+    "ethnicities": "Zuruahã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -66.3951,
+      "lat": -6.9113
+    },
+    "homologada": "1991-10-29"
+  },
+  {
+    "terrai_cod": 401,
+    "slug": "agua-preta-inari",
+    "name_pt": "Água Preta/Inari",
+    "name_en": "Água Preta/Inari",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1397.6,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 9.49,
+    "ethnicities": "Apurinã",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -67.1695,
+      "lat": -7.4759
+    },
+    "homologada": "1997-11-03"
+  },
+  {
+    "terrai_cod": 12101,
+    "slug": "evare-i",
+    "name_pt": "Évare I",
+    "name_en": "Évare I",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 5481.8,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.47,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.5978,
+      "lat": -3.7634
+    },
+    "homologada": "1996-01-05"
+  },
+  {
+    "terrai_cod": 12201,
+    "slug": "evare-ii",
+    "name_pt": "Évare II",
+    "name_en": "Évare II",
+    "ufs": [
+      "AM"
+    ],
+    "area_km2": 1762.1,
+    "current_phase": "Regularizada",
+    "in_jmp_sample": true,
+    "audit_score": 8.47,
+    "ethnicities": "Ticuna",
+    "has_isolados": false,
+    "centroid": {
+      "lon": -69.273,
+      "lat": -3.7932
+    },
+    "homologada": "1996-01-05"
+  }
+]

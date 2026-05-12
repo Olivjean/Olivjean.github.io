@@ -1,0 +1,92 @@
+{
+  "terrai_cod": 50501,
+  "slug": "xikrin-do-rio-catete",
+  "name_pt": "Xikrin do Rio Catete",
+  "name_en": "Xikrin do Rio Catete",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 4391.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados na TI Xikrin do Cateté",
+      "en": "Isolados na TI Xikrin do Cateté"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó)",
+      "en": "Mebengôkre (Kayapó)"
+    },
+    {
+      "pt": "Xikrin Mebengôkre",
+      "en": "Xikrin Mebengôkre"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados na TI Xikrin do Cateté",
+      "family": "—",
+      "povo": "Isolados na TI Xikrin do Cateté"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Xikrin Mebengôkre"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1507300,
+      "name": "São Félix do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1505437,
+      "name": "Ourilândia do Norte",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504208,
+      "name": "Marabá",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1505536,
+      "name": "Parauapebas",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1500347,
+      "name": "Água Azul do Norte",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1502152,
+      "name": "Canaã dos Carajás",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1977-03-16"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1992-08-17"
+    }
+  },
+  "audit_score": 7.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.8148,
+    "lat": -6.3573
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 22601,
+  "slug": "kaxinawa-do-rio-jordao",
+  "name_pt": "Kaxinawá do Rio Jordão",
+  "name_en": "Kaxinawá do Rio Jordão",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 872.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200351,
+      "name": "Marechal Thaumaturgo",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1984-12-10"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1988-07-04"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.1347,
+    "lat": -9.533
+  }
+}

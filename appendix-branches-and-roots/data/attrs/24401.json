@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 24401,
+  "slug": "lago-do-beruri",
+  "name_pt": "Lago do Beruri",
+  "name_en": "Lago do Beruri",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 40.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300631,
+      "name": "Beruri",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1995-07-03"
+    },
+    "regularizada": {
+      "date": "1995-09-22"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.2753,
+    "lat": -3.8072
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "terrai_cod": 36602,
+  "slug": "porquinhos-dos-canela-apanjekra",
+  "name_pt": "Porquinhos dos Canela-Apãnjekra",
+  "name_en": "Porquinhos dos Canela-Apãnjekra",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 3010,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Canela Apanyekrá",
+      "en": "Canela Apanyekrá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Canela Apanyekrá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2104081,
+      "name": "Fernando Falcão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104099,
+      "name": "Formosa da Serra Negra",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2106706,
+      "name": "Mirador",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2101608,
+      "name": "Barra do Corda",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-10-30"
+    },
+    "delimitada": {
+      "date": "2007-07-18"
+    },
+    "homologada": {
+      "date": "1983-08-10"
+    },
+    "regularizada": {
+      "date": "2024-08-13"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.6014,
+    "lat": -6.2149
+  }
+}

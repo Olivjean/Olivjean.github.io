@@ -1,0 +1,84 @@
+{
+  "terrai_cod": 50301,
+  "slug": "xerente",
+  "name_pt": "Xerente",
+  "name_en": "Xerente",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 1675.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guarani",
+      "en": "Guarani"
+    },
+    {
+      "pt": "Guarani Mbya",
+      "en": "Guarani Mbya"
+    },
+    {
+      "pt": "Xerente",
+      "en": "Xerente"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani"
+    },
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani Mbya"
+    },
+    {
+      "name": "Xerente",
+      "family": "Jê",
+      "povo": "Xerente"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1721109,
+      "name": "Tocantínia",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1716505,
+      "name": "Pedro Afonso",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1718709,
+      "name": "Rio dos Bois",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1718758,
+      "name": "Rio Sono",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1713205,
+      "name": "Miracema do Tocantins",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1989-06-16"
+    },
+    "regularizada": {
+      "date": "1985-09-26"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.1146,
+    "lat": -9.5344
+  }
+}

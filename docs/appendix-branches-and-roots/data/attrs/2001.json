@@ -1,0 +1,75 @@
+{
+  "terrai_cod": 2001,
+  "slug": "andira-marau",
+  "name_pt": "Andirá-Marau",
+  "name_en": "Andirá-Marau",
+  "ufs": [
+    "AM",
+    "PA"
+  ],
+  "area_km2": 7885.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Sateré Mawé",
+      "en": "Sateré Mawé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mawé",
+      "family": "Mawé",
+      "povo": "Sateré Mawé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303403,
+      "name": "Parintins",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300508,
+      "name": "Barreirinha",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1503903,
+      "name": "Juruti",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1302900,
+      "name": "Maués",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1501006,
+      "name": "Aveiro",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1503606,
+      "name": "Itaituba",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-05-06"
+    },
+    "homologada": {
+      "date": "1986-08-06"
+    },
+    "regularizada": {
+      "date": "1987-02-26"
+    }
+  },
+  "audit_score": 8.35,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.9245,
+    "lat": -3.7402
+  }
+}

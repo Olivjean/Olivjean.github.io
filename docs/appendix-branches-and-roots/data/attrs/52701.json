@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 52701,
+  "slug": "lago-do-correio",
+  "name_pt": "Lago do Correio",
+  "name_en": "Lago do Correio",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 132.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303700,
+      "name": "Santo Antônio do Içá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-02-28"
+    },
+    "delimitada": {
+      "date": "2006-07-20"
+    },
+    "declarada": {
+      "date": "2007-08-14"
+    },
+    "homologada": {
+      "date": "2009-12-21"
+    },
+    "regularizada": {
+      "date": "2011-08-26"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.0542,
+    "lat": -2.9428
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 39601,
+  "slug": "rio-jumas",
+  "name_pt": "Rio Jumas",
+  "name_en": "Rio Jumas",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 94.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301100,
+      "name": "Careiro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-01-16"
+    },
+    "delimitada": {
+      "date": "1999-08-13"
+    },
+    "declarada": {
+      "date": "2000-04-13"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2004-12-07"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.8873,
+    "lat": -3.8514
+  }
+}

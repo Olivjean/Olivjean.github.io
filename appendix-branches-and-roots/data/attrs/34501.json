@@ -1,0 +1,58 @@
+{
+  "terrai_cod": 34501,
+  "slug": "paumari-do-lago-parica",
+  "name_pt": "Paumari do Lago Paricá",
+  "name_en": "Paumari do Lago Paricá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 157.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    },
+    {
+      "pt": "Paumari",
+      "en": "Paumari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    },
+    {
+      "name": "Paumari",
+      "family": "Arawá",
+      "povo": "Paumari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304104,
+      "name": "Tapauá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1989-06-23"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "1999-01-18"
+    }
+  },
+  "audit_score": 8.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.7116,
+    "lat": -5.9348
+  }
+}

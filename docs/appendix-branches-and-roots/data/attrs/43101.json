@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 43101,
+  "slug": "setema",
+  "name_pt": "Setemã",
+  "name_en": "Setemã",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 497.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303304,
+      "name": "Novo Aripuanã",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300805,
+      "name": "Borba",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2006-08-22"
+    },
+    "delimitada": {
+      "date": "2008-05-08"
+    },
+    "declarada": {
+      "date": "2009-05-05"
+    },
+    "homologada": {
+      "date": "2015-04-17"
+    },
+    "regularizada": {
+      "date": "2017-05-18"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.0938,
+    "lat": -5.0047
+  }
+}

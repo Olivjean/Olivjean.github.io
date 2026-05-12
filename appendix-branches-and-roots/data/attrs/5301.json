@@ -1,0 +1,127 @@
+{
+  "terrai_cod": 5301,
+  "slug": "balaio",
+  "name_pt": "Balaio",
+  "name_en": "Balaio",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 2572.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Baniwa",
+      "en": "Baniwa"
+    },
+    {
+      "pt": "Baré",
+      "en": "Baré"
+    },
+    {
+      "pt": "Desana",
+      "en": "Desana"
+    },
+    {
+      "pt": "Koripako",
+      "en": "Koripako"
+    },
+    {
+      "pt": "Kubeo",
+      "en": "Kubeo"
+    },
+    {
+      "pt": "Pira-tapuya",
+      "en": "Pira-tapuya"
+    },
+    {
+      "pt": "Tariana",
+      "en": "Tariana"
+    },
+    {
+      "pt": "Tukano",
+      "en": "Tukano"
+    },
+    {
+      "pt": "Tuyuka",
+      "en": "Tuyuka"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Baniwa",
+      "family": "Aruak",
+      "povo": "Baniwa"
+    },
+    {
+      "name": "Baré",
+      "family": "Aruak",
+      "povo": "Baré"
+    },
+    {
+      "name": "Desana",
+      "family": "Tukano",
+      "povo": "Desana"
+    },
+    {
+      "name": "Kuripako",
+      "family": "Aruak",
+      "povo": "Koripako"
+    },
+    {
+      "name": "Kubeo",
+      "family": "Tukano",
+      "povo": "Kubeo"
+    },
+    {
+      "name": "Pira-Tapuya",
+      "family": "Tukano",
+      "povo": "Pira-tapuya"
+    },
+    {
+      "name": "Tariano",
+      "family": "Aruak",
+      "povo": "Tariana"
+    },
+    {
+      "name": "Tukano",
+      "family": "Tukano",
+      "povo": "Tukano"
+    },
+    {
+      "name": "Tuyúca",
+      "family": "Tukano",
+      "povo": "Tuyuka"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303809,
+      "name": "São Gabriel da Cachoeira",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1988-04-25"
+    },
+    "delimitada": {
+      "date": "2002-08-22"
+    },
+    "declarada": {
+      "date": "2006-12-15"
+    },
+    "homologada": {
+      "date": "2009-12-21"
+    },
+    "regularizada": {
+      "date": "2010-02-26"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.6238,
+    "lat": 0.423
+  }
+}

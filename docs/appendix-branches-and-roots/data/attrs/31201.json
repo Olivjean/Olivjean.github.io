@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 31201,
+  "slug": "nove-de-janeiro",
+  "name_pt": "Nove de Janeiro",
+  "name_en": "Nove de Janeiro",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 2287.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Parintintin",
+      "en": "Parintintin"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Parintintin"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301704,
+      "name": "Humaitá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1987-12-10"
+    },
+    "declarada": {
+      "date": "1989-03-07"
+    },
+    "homologada": {
+      "date": "1997-11-03"
+    },
+    "regularizada": {
+      "date": "1998-07-28"
+    }
+  },
+  "audit_score": 8.88,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.5724,
+    "lat": -7.4337
+  }
+}

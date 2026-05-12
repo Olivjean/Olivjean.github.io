@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 29501,
+  "slug": "morro-branco",
+  "name_pt": "Morro Branco",
+  "name_en": "Morro Branco",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 0.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1983-08-09"
+    },
+    "regularizada": {
+      "date": "1984-01-27"
+    }
+  },
+  "audit_score": 9.21,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.1295,
+    "lat": -5.8223
+  }
+}

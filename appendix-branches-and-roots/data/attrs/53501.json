@@ -1,0 +1,63 @@
+{
+  "terrai_cod": 53501,
+  "slug": "riozinho",
+  "name_pt": "Riozinho",
+  "name_en": "Riozinho",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 3624.9,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302207,
+      "name": "Juruá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2002-12-05"
+    },
+    "delimitada": {
+      "date": "2015-01-23"
+    },
+    "declarada": {
+      "date": "2016-04-22"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.0146,
+    "lat": -3.5558
+  }
+}

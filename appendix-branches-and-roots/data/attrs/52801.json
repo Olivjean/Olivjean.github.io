@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 52801,
+  "slug": "guanabara",
+  "name_pt": "Guanabara",
+  "name_en": "Guanabara",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 156,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-05-30"
+    },
+    "delimitada": {
+      "date": "2011-04-19"
+    },
+    "declarada": {
+      "date": "2013-04-19"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.8715,
+    "lat": -4.5474
+  }
+}

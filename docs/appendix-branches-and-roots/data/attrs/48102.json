@@ -1,0 +1,69 @@
+{
+  "terrai_cod": 48102,
+  "slug": "uneiuxi",
+  "name_pt": "Uneiuxi",
+  "name_en": "Uneiuxi",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 5547.3,
+  "current_phase": "Homologada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Igarapé do Natal",
+      "en": "Isolados do Igarapé do Natal"
+    },
+    {
+      "pt": "Nadöb",
+      "en": "Nadöb"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Igarapé do Natal",
+      "family": "—",
+      "povo": "Isolados do Igarapé do Natal"
+    },
+    {
+      "name": "Nadöb",
+      "family": "Makú",
+      "povo": "Nadöb"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302108,
+      "name": "Japurá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303601,
+      "name": "Santa Isabel do Rio Negro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1982-11-30"
+    },
+    "delimitada": {
+      "date": "1993-02-26"
+    },
+    "declarada": {
+      "date": "1993-07-30"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "2001-01-03"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.7079,
+    "lat": -1.3817
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 42801,
+  "slug": "seruini-mariene",
+  "name_pt": "Seruini/Mariene",
+  "name_en": "Seruini/Mariene",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1449.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303502,
+      "name": "Pauini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-09-05"
+    },
+    "delimitada": {
+      "date": "1992-10-25"
+    },
+    "declarada": {
+      "date": "1998-12-10"
+    },
+    "homologada": {
+      "date": "2000-09-12"
+    },
+    "regularizada": {
+      "date": "2000-12-01"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.8442,
+    "lat": -8.1666
+  }
+}

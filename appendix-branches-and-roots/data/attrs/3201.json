@@ -1,0 +1,67 @@
+{
+  "terrai_cod": 3201,
+  "slug": "arara",
+  "name_pt": "Arara",
+  "name_en": "Arara",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 2740.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arara",
+      "en": "Arara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arara",
+      "family": "Karib",
+      "povo": "Arara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1508159,
+      "name": "Uruará",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504455,
+      "name": "Medicilândia",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1501725,
+      "name": "Brasil Novo",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1978-06-26"
+    },
+    "declarada": {
+      "date": "1978-10-30"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "2007-04-11"
+    }
+  },
+  "audit_score": 8.88,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.0485,
+    "lat": -3.7521
+  }
+}

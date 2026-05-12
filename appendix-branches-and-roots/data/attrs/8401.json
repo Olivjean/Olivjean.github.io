@@ -1,0 +1,57 @@
+{
+  "terrai_cod": 8401,
+  "slug": "camadeni",
+  "name_pt": "Camadeni",
+  "name_en": "Camadeni",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1509.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Jamamadi",
+      "en": "Jamamadi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Deni",
+      "family": "Arawá",
+      "povo": "Jamamadi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303502,
+      "name": "Pauini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1991-11-08"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1997-11-03"
+    },
+    "regularizada": {
+      "date": "1999-05-17"
+    }
+  },
+  "audit_score": 9.1,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.1088,
+    "lat": -7.2271
+  }
+}

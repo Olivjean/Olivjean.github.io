@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 12201,
+  "slug": "evare-ii",
+  "name_pt": "Évare II",
+  "name_en": "Évare II",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1762.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304062,
+      "name": "Tabatinga",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303908,
+      "name": "São Paulo de Olivença",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-02-11"
+    },
+    "delimitada": {
+      "date": "1985-09-26"
+    },
+    "declarada": {
+      "date": "1989-11-27"
+    },
+    "homologada": {
+      "date": "1996-01-05"
+    },
+    "regularizada": {
+      "date": "1996-06-20"
+    }
+  },
+  "audit_score": 8.47,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.273,
+    "lat": -3.7932
+  }
+}

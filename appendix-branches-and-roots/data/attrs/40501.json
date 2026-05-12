@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 40501,
+  "slug": "rio-urubu",
+  "name_pt": "Rio Urubu",
+  "name_en": "Rio Urubu",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 273.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301902,
+      "name": "Itacoatiara",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1996-05-31"
+    },
+    "delimitada": {
+      "date": "1998-11-09"
+    },
+    "declarada": {
+      "date": "2000-04-13"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2005-03-15"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.9508,
+    "lat": -3.1041
+  }
+}

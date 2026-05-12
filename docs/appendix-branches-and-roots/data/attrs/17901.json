@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 17901,
+  "slug": "jacamim",
+  "name_pt": "Jacamim",
+  "name_en": "Jacamim",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 1934.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400209,
+      "name": "Caracaraí",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-03-13"
+    },
+    "delimitada": {
+      "date": "1998-05-26"
+    },
+    "declarada": {
+      "date": "1982-10-05"
+    },
+    "homologada": {
+      "date": "2003-06-23"
+    },
+    "regularizada": {
+      "date": "2003-09-22"
+    }
+  },
+  "audit_score": 8.45,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.8679,
+    "lat": 1.9908
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "terrai_cod": 13601,
+  "slug": "governador",
+  "name_pt": "Governador",
+  "name_en": "Governador",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 416.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Gavião Pykopjê",
+      "en": "Gavião Pykopjê"
+    },
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    },
+    {
+      "pt": "Tabajara",
+      "en": "Tabajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Gavião Pykopjê"
+    },
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    },
+    {
+      "name": "Tabajara",
+      "family": "—",
+      "povo": "Tabajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2100600,
+      "name": "Amarante do Maranhão",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-06-19"
+    },
+    "homologada": {
+      "date": "1982-12-28"
+    },
+    "regularizada": {
+      "date": "1983-03-28"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.6568,
+    "lat": -5.4973
+  }
+}

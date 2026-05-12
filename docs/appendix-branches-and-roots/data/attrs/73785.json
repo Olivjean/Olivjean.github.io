@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 73785,
+  "slug": "guajanaira",
+  "name_pt": "Guajanaíra",
+  "name_en": "Guajanaíra",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 13.7,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1503705,
+      "name": "Itupiranga",
+      "uf": "PA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.9797,
+    "lat": -4.9198
+  }
+}

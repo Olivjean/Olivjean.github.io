@@ -1,0 +1,51 @@
+{
+  "terrai_cod": 42601,
+  "slug": "serra-morena",
+  "name_pt": "Serra Morena",
+  "name_en": "Serra Morena",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1478.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Cinta larga",
+      "en": "Cinta larga"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Cinta larga",
+      "family": "Mondé",
+      "povo": "Cinta larga"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101407,
+      "name": "Aripuanã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1990-01-15"
+    },
+    "regularizada": {
+      "date": "1990-03-08"
+    }
+  },
+  "audit_score": 9.46,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.3567,
+    "lat": -11.0153
+  }
+}

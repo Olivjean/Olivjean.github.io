@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 22801,
+  "slug": "kaxinawa-seringal-independencia",
+  "name_pt": "Kaxinawá Seringal Independência",
+  "name_en": "Kaxinawá Seringal Independência",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 115.8,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.09,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.9163,
+    "lat": -9.3144
+  }
+}

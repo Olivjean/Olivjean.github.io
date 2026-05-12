@@ -1,0 +1,63 @@
+{
+  "terrai_cod": 53901,
+  "slug": "sururua",
+  "name_pt": "Sururuá",
+  "name_en": "Sururuá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 361.2,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303908,
+      "name": "São Paulo de Olivença",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-05-30"
+    },
+    "delimitada": {
+      "date": "2008-05-15"
+    },
+    "declarada": {
+      "date": "2010-09-27"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.545,
+    "lat": -4.4829
+  }
+}

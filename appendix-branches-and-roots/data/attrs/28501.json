@@ -1,0 +1,155 @@
+{
+  "terrai_cod": 28501,
+  "slug": "medio-rio-negro-i",
+  "name_pt": "Médio Rio Negro I",
+  "name_en": "Médio Rio Negro I",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 17761.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arapaso",
+      "en": "Arapaso"
+    },
+    {
+      "pt": "Baniwa",
+      "en": "Baniwa"
+    },
+    {
+      "pt": "Baré",
+      "en": "Baré"
+    },
+    {
+      "pt": "Dâw",
+      "en": "Dâw"
+    },
+    {
+      "pt": "Desana",
+      "en": "Desana"
+    },
+    {
+      "pt": "Koripako",
+      "en": "Koripako"
+    },
+    {
+      "pt": "Mirity-tapuya",
+      "en": "Mirity-tapuya"
+    },
+    {
+      "pt": "Pira-tapuya",
+      "en": "Pira-tapuya"
+    },
+    {
+      "pt": "Tariana",
+      "en": "Tariana"
+    },
+    {
+      "pt": "Tukano",
+      "en": "Tukano"
+    },
+    {
+      "pt": "Yuhupdeh",
+      "en": "Yuhupdeh"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arapaso",
+      "family": "Tukano",
+      "povo": "Arapaso"
+    },
+    {
+      "name": "Baniwa",
+      "family": "Aruak",
+      "povo": "Baniwa"
+    },
+    {
+      "name": "Baré",
+      "family": "Aruak",
+      "povo": "Baré"
+    },
+    {
+      "name": "Dâw",
+      "family": "Naduhup",
+      "povo": "Dâw"
+    },
+    {
+      "name": "Desana",
+      "family": "Tukano",
+      "povo": "Desana"
+    },
+    {
+      "name": "Kuripako",
+      "family": "Aruak",
+      "povo": "Koripako"
+    },
+    {
+      "name": "Miriti Tapuia",
+      "family": "Tukano",
+      "povo": "Mirity-tapuya"
+    },
+    {
+      "name": "Pira-Tapuya",
+      "family": "Tukano",
+      "povo": "Pira-tapuya"
+    },
+    {
+      "name": "Tariano",
+      "family": "Aruak",
+      "povo": "Tariana"
+    },
+    {
+      "name": "Tukano",
+      "family": "Tukano",
+      "povo": "Tukano"
+    },
+    {
+      "name": "Yuhúp",
+      "family": "Naduhup",
+      "povo": "Yuhupdeh"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302108,
+      "name": "Japurá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303809,
+      "name": "São Gabriel da Cachoeira",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303601,
+      "name": "Santa Isabel do Rio Negro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-12-22"
+    },
+    "delimitada": {
+      "date": "1994-08-19"
+    },
+    "declarada": {
+      "date": "1995-12-13"
+    },
+    "homologada": {
+      "date": "1998-04-14"
+    },
+    "regularizada": {
+      "date": "1993-12-16"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.6275,
+    "lat": -0.7123
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "terrai_cod": 19101,
+  "slug": "jarudore",
+  "name_pt": "Jarudore",
+  "name_en": "Jarudore",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 47.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Boe (Bororo)",
+      "en": "Boe (Bororo)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bororo",
+      "family": "Bororo",
+      "povo": "Boe (Bororo)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107008,
+      "name": "Poxoréu",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-11-20"
+    }
+  },
+  "audit_score": 5.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.3203,
+    "lat": -16.1836
+  }
+}

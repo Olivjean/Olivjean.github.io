@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 46101,
+  "slug": "trincheira",
+  "name_pt": "Trincheira",
+  "name_en": "Trincheira",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 16.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-11-20"
+    },
+    "declarada": {
+      "date": "1986-08-20"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1987-12-14"
+    }
+  },
+  "audit_score": 8.47,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.2655,
+    "lat": -3.722
+  }
+}

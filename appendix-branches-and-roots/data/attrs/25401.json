@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 25401,
+  "slug": "lauro-sodre",
+  "name_pt": "Lauro Sodré",
+  "name_en": "Lauro Sodré",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 94.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-08-23"
+    },
+    "delimitada": {
+      "date": "2001-07-24"
+    },
+    "declarada": {
+      "date": "2002-03-01"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2005-05-11"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.9016,
+    "lat": -4.4952
+  }
+}

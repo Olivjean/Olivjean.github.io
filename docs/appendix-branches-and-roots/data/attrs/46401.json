@@ -1,0 +1,132 @@
+{
+  "terrai_cod": 46401,
+  "slug": "trombetas-mapuera",
+  "name_pt": "Trombetas/Mapuera",
+  "name_en": "Trombetas/Mapuera",
+  "ufs": [
+    "RR",
+    "AM",
+    "PA"
+  ],
+  "area_km2": 39709,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Hixkaryana",
+      "en": "Hixkaryana"
+    },
+    {
+      "pt": "Isolados do Médio Jatapu",
+      "en": "Isolados do Médio Jatapu"
+    },
+    {
+      "pt": "Isolados do Rio Cachorro/Cachorrinho",
+      "en": "Isolados do Rio Cachorro/Cachorrinho"
+    },
+    {
+      "pt": "Isolados Karapawyana",
+      "en": "Isolados Karapawyana"
+    },
+    {
+      "pt": "Katuenayana",
+      "en": "Katuenayana"
+    },
+    {
+      "pt": "Waiwai",
+      "en": "Waiwai"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Hixkaryana",
+      "family": "Karib",
+      "povo": "Hixkaryana"
+    },
+    {
+      "name": "Isolados do Médio Jatapu",
+      "family": "—",
+      "povo": "Isolados do Médio Jatapu"
+    },
+    {
+      "name": "Isolados do Rio Cachorro/Cachorrinho",
+      "family": "—",
+      "povo": "Isolados do Rio Cachorro/Cachorrinho"
+    },
+    {
+      "name": "Isolados Karapawyana",
+      "family": "—",
+      "povo": "Isolados Karapawyana"
+    },
+    {
+      "name": "Katuenayana",
+      "family": "Karib",
+      "povo": "Katuenayana"
+    },
+    {
+      "name": "Waiwai",
+      "family": "Karib",
+      "povo": "Waiwai"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1505304,
+      "name": "Oriximiná",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1400233,
+      "name": "Caroebe",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1303536,
+      "name": "Presidente Figueiredo",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1503002,
+      "name": "Faro",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1400506,
+      "name": "São João da Baliza",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1304302,
+      "name": "Urucará",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303007,
+      "name": "Nhamundá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-09-18"
+    },
+    "delimitada": {
+      "date": "2004-10-28"
+    },
+    "declarada": {
+      "date": "2005-09-16"
+    },
+    "homologada": {
+      "date": "2009-12-21"
+    },
+    "regularizada": {
+      "date": "2010-07-08"
+    }
+  },
+  "audit_score": 9.49,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.6867,
+    "lat": -0.0109
+  }
+}

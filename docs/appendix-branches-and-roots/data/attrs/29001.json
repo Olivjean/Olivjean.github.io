@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 29001,
+  "slug": "merure",
+  "name_pt": "Merure",
+  "name_en": "Merure",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 823,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Boe (Bororo)",
+      "en": "Boe (Bororo)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bororo",
+      "family": "Bororo",
+      "povo": "Boe (Bororo)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5108105,
+      "name": "Tesouro",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103908,
+      "name": "General Carneiro",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101803,
+      "name": "Barra do Garças",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106653,
+      "name": "Pontal do Araguaia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1987-02-11"
+    },
+    "regularizada": {
+      "date": "1996-03-28"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.0573,
+    "lat": -15.5572
+  }
+}

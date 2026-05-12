@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 34601,
+  "slug": "paumari-do-rio-ituxi",
+  "name_pt": "Paumari do Rio Ituxi",
+  "name_en": "Paumari do Rio Ituxi",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 75.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Paumari",
+      "en": "Paumari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paumari",
+      "family": "Arawá",
+      "povo": "Paumari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1988-09-15"
+    },
+    "declarada": {
+      "date": "1991-10-11"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-02-04"
+    }
+  },
+  "audit_score": 9.03,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.979,
+    "lat": -7.3726
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 2701,
+  "slug": "apurina-do-igarape-sao-joao",
+  "name_pt": "Apurinã do Igarapé São João",
+  "name_en": "Apurinã do Igarapé São João",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 182.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304104,
+      "name": "Tapauá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-10-22"
+    },
+    "delimitada": {
+      "date": "1985-12-31"
+    },
+    "declarada": {
+      "date": "2000-07-25"
+    },
+    "homologada": {
+      "date": "2007-03-12"
+    },
+    "regularizada": {
+      "date": "2007-05-04"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -63.1369,
+    "lat": -5.5693
+  }
+}

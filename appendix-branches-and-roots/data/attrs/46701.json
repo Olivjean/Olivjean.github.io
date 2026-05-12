@@ -1,0 +1,90 @@
+{
+  "terrai_cod": 46701,
+  "slug": "tubarao-latunde",
+  "name_pt": "Tubarão Latunde",
+  "name_en": "Tubarão Latunde",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 1166.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Aikanã",
+      "en": "Aikanã"
+    },
+    {
+      "pt": "Kwazá",
+      "en": "Kwazá"
+    },
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Latundê",
+      "en": "Nambikwara Latundê"
+    },
+    {
+      "pt": "Nambikwara Sabanê",
+      "en": "Nambikwara Sabanê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aikaná",
+      "family": "Aikaná",
+      "povo": "Aikanã"
+    },
+    {
+      "name": "Koazá",
+      "family": "Koazá",
+      "povo": "Kwazá"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Latundê"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Sabanê"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100304,
+      "name": "Vilhena",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100924,
+      "name": "Chupinguaia",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-17"
+    },
+    "homologada": {
+      "date": "1990-03-13"
+    },
+    "regularizada": {
+      "date": "1991-12-02"
+    }
+  },
+  "audit_score": 7.29,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.6353,
+    "lat": -12.6244
+  }
+}

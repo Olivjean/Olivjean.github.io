@@ -1,0 +1,48 @@
+{
+  "terrai_cod": 31101,
+  "slug": "nova-jacunda",
+  "name_pt": "Nova Jacundá",
+  "name_en": "Nova Jacundá",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 4.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guarani",
+      "en": "Guarani"
+    },
+    {
+      "pt": "Guarani Mbya",
+      "en": "Guarani Mbya"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani"
+    },
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani Mbya"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1506187,
+      "name": "Rondon do Pará",
+      "uf": "PA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.09,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.9621,
+    "lat": -4.7479
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "terrai_cod": 28601,
+  "slug": "medio-rio-negro-ii",
+  "name_pt": "Médio Rio Negro II",
+  "name_en": "Médio Rio Negro II",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 3161.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arapaso",
+      "en": "Arapaso"
+    },
+    {
+      "pt": "Baniwa",
+      "en": "Baniwa"
+    },
+    {
+      "pt": "Baré",
+      "en": "Baré"
+    },
+    {
+      "pt": "Desana",
+      "en": "Desana"
+    },
+    {
+      "pt": "Koripako",
+      "en": "Koripako"
+    },
+    {
+      "pt": "Mirity-tapuya",
+      "en": "Mirity-tapuya"
+    },
+    {
+      "pt": "Pira-tapuya",
+      "en": "Pira-tapuya"
+    },
+    {
+      "pt": "Tariana",
+      "en": "Tariana"
+    },
+    {
+      "pt": "Tukano",
+      "en": "Tukano"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arapaso",
+      "family": "Tukano",
+      "povo": "Arapaso"
+    },
+    {
+      "name": "Baniwa",
+      "family": "Aruak",
+      "povo": "Baniwa"
+    },
+    {
+      "name": "Baré",
+      "family": "Aruak",
+      "povo": "Baré"
+    },
+    {
+      "name": "Desana",
+      "family": "Tukano",
+      "povo": "Desana"
+    },
+    {
+      "name": "Kuripako",
+      "family": "Aruak",
+      "povo": "Koripako"
+    },
+    {
+      "name": "Miriti Tapuia",
+      "family": "Tukano",
+      "povo": "Mirity-tapuya"
+    },
+    {
+      "name": "Pira-Tapuya",
+      "family": "Tukano",
+      "povo": "Pira-tapuya"
+    },
+    {
+      "name": "Tariano",
+      "family": "Aruak",
+      "povo": "Tariana"
+    },
+    {
+      "name": "Tukano",
+      "family": "Tukano",
+      "povo": "Tukano"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303809,
+      "name": "São Gabriel da Cachoeira",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303601,
+      "name": "Santa Isabel do Rio Negro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1994-08-19"
+    },
+    "declarada": {
+      "date": "1995-12-13"
+    },
+    "homologada": {
+      "date": "1998-04-14"
+    },
+    "regularizada": {
+      "date": "1993-12-16"
+    }
+  },
+  "audit_score": 9.03,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.3046,
+    "lat": -0.1896
+  }
+}

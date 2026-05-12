@@ -1,0 +1,140 @@
+{
+  "terrai_cod": 67401,
+  "slug": "jurubaxi-tea",
+  "name_pt": "Jurubaxi-téa",
+  "name_en": "Jurubaxi-téa",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 12081.5,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Arapaso",
+      "en": "Arapaso"
+    },
+    {
+      "pt": "Baniwa",
+      "en": "Baniwa"
+    },
+    {
+      "pt": "Baré",
+      "en": "Baré"
+    },
+    {
+      "pt": "Dâw",
+      "en": "Dâw"
+    },
+    {
+      "pt": "Desana",
+      "en": "Desana"
+    },
+    {
+      "pt": "Koripako",
+      "en": "Koripako"
+    },
+    {
+      "pt": "Pira-tapuya",
+      "en": "Pira-tapuya"
+    },
+    {
+      "pt": "Tariana",
+      "en": "Tariana"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    },
+    {
+      "pt": "Tukano",
+      "en": "Tukano"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arapaso",
+      "family": "Tukano",
+      "povo": "Arapaso"
+    },
+    {
+      "name": "Baniwa",
+      "family": "Aruak",
+      "povo": "Baniwa"
+    },
+    {
+      "name": "Baré",
+      "family": "Aruak",
+      "povo": "Baré"
+    },
+    {
+      "name": "Dâw",
+      "family": "Naduhup",
+      "povo": "Dâw"
+    },
+    {
+      "name": "Desana",
+      "family": "Tukano",
+      "povo": "Desana"
+    },
+    {
+      "name": "Kuripako",
+      "family": "Aruak",
+      "povo": "Koripako"
+    },
+    {
+      "name": "Pira-Tapuya",
+      "family": "Tukano",
+      "povo": "Pira-tapuya"
+    },
+    {
+      "name": "Tariano",
+      "family": "Aruak",
+      "povo": "Tariana"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    },
+    {
+      "name": "Tukano",
+      "family": "Tukano",
+      "povo": "Tukano"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300409,
+      "name": "Barcelos",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303601,
+      "name": "Santa Isabel do Rio Negro",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302801,
+      "name": "Maraã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-05-29"
+    },
+    "delimitada": {
+      "date": "2016-04-14"
+    },
+    "declarada": {
+      "date": "2017-09-06"
+    }
+  },
+  "audit_score": 9.28,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.222,
+    "lat": -0.9682
+  }
+}

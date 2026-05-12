@@ -1,0 +1,78 @@
+{
+  "terrai_cod": 41101,
+  "slug": "sangradouro-volta-grande",
+  "name_pt": "Sangradouro/Volta Grande",
+  "name_en": "Sangradouro/Volta Grande",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1002.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Boe (Bororo)",
+      "en": "Boe (Bororo)"
+    },
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bororo",
+      "family": "Bororo",
+      "povo": "Boe (Bororo)"
+    },
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106281,
+      "name": "Novo São Joaquim",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5108105,
+      "name": "Tesouro",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103908,
+      "name": "General Carneiro",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107008,
+      "name": "Poxoréu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107040,
+      "name": "Primavera do Leste",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-04-30"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1993-08-31"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.8613,
+    "lat": -15.4478
+  }
+}

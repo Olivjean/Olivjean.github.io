@@ -1,0 +1,73 @@
+{
+  "terrai_cod": 8301,
+  "slug": "cajuhiri-atravessado",
+  "name_pt": "Cajuhiri Atravessado",
+  "name_en": "Cajuhiri Atravessado",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 124.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kambeba",
+      "en": "Kambeba"
+    },
+    {
+      "pt": "Miranha",
+      "en": "Miranha"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokama",
+      "family": "Tupi-Guarani",
+      "povo": "Kambeba"
+    },
+    {
+      "name": "Bora",
+      "family": "Bora",
+      "povo": "Miranha"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301209,
+      "name": "Coari",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-05-29"
+    },
+    "delimitada": {
+      "date": "2001-10-22"
+    },
+    "declarada": {
+      "date": "2008-08-15"
+    },
+    "homologada": {
+      "date": "2015-12-17"
+    },
+    "regularizada": {
+      "date": "2016-10-21"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -63.3744,
+    "lat": -3.9819
+  }
+}

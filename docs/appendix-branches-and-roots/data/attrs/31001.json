@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 31001,
+  "slug": "nova-esperanca-do-rio-jandiatuba",
+  "name_pt": "Nova Esperança do Rio Jandiatuba",
+  "name_en": "Nova Esperança do Rio Jandiatuba",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 200,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303908,
+      "name": "São Paulo de Olivença",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300060,
+      "name": "Amaturá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-06-09"
+    },
+    "delimitada": {
+      "date": "2000-10-06"
+    },
+    "declarada": {
+      "date": "2001-11-06"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2006-06-26"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.7372,
+    "lat": -3.5779
+  }
+}

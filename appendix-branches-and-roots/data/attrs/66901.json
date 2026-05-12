@@ -1,0 +1,48 @@
+{
+  "terrai_cod": 66901,
+  "slug": "piripkura-restricao-de-uso",
+  "name_pt": "Piripkura ( restrição de uso )",
+  "name_en": "Piripkura ( restrição de uso )",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 2425,
+  "current_phase": "Em Estudo",
+  "ethnicities": [
+    {
+      "pt": "Piripkura",
+      "en": "Piripkura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kagwahiva",
+      "family": "Tupi-Guarani",
+      "povo": "Piripkura"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103254,
+      "name": "Colniza",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-09-20"
+    }
+  },
+  "audit_score": 9,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.001,
+    "lat": -9.6694
+  }
+}

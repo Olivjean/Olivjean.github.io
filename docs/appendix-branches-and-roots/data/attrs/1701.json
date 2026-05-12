@@ -1,0 +1,53 @@
+{
+  "terrai_cod": 1701,
+  "slug": "amanaye",
+  "name_pt": "Amanayé",
+  "name_en": "Amanayé",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1628.6,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Amanayé",
+      "en": "Amanayé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Amanayé",
+      "family": "Tupi-Guarani",
+      "povo": "Amanayé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1503093,
+      "name": "Goianésia do Pará",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1506187,
+      "name": "Rondon do Pará",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1505502,
+      "name": "Paragominas",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-11-09"
+    }
+  },
+  "audit_score": 4.64,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.6833,
+    "lat": -3.9213
+  }
+}

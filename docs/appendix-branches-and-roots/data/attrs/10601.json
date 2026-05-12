@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 10601,
+  "slug": "cuia",
+  "name_pt": "Cuia",
+  "name_en": "Cuia",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 13.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1992-02-25"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.2063,
+    "lat": -3.5176
+  }
+}

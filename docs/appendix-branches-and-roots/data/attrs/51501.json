@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 51501,
+  "slug": "sapotal",
+  "name_pt": "Sapotal",
+  "name_en": "Sapotal",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 12.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304062,
+      "name": "Tabatinga",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303908,
+      "name": "São Paulo de Olivença",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-05-09"
+    },
+    "delimitada": {
+      "date": "2005-04-04"
+    },
+    "declarada": {
+      "date": "2006-12-15"
+    },
+    "homologada": {
+      "date": "2011-04-19"
+    },
+    "regularizada": {
+      "date": "2013-03-05"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.5202,
+    "lat": -4.2522
+  }
+}

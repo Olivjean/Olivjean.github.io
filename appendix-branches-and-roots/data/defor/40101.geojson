@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "40101",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "year": 2019 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -61.02489, -12.84077 ], [ -61.02471, -12.84077 ], [ -61.02471, -12.84092 ], [ -61.02619, -12.84093 ], [ -61.03272, -12.84096 ], [ -61.03277, -12.84059 ], [ -61.02489, -12.84077 ] ] ] } }
+]
+}

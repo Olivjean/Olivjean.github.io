@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 36801,
+  "slug": "porto-praia",
+  "name_pt": "Porto Praia",
+  "name_en": "Porto Praia",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 47.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304260,
+      "name": "Uarini",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1994-08-18"
+    },
+    "delimitada": {
+      "date": "2001-01-11"
+    },
+    "declarada": {
+      "date": "2001-11-06"
+    },
+    "homologada": {
+      "date": "2004-04-19"
+    },
+    "regularizada": {
+      "date": "2004-05-14"
+    }
+  },
+  "audit_score": 9.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.129,
+    "lat": -2.8862
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "terrai_cod": 5402,
+  "slug": "banawa",
+  "name_pt": "Banawá",
+  "name_en": "Banawá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1926.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Banawá",
+      "en": "Banawá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Banawa Yafi",
+      "family": "Arawá",
+      "povo": "Banawá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300904,
+      "name": "Canutama",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1304104,
+      "name": "Tapauá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1991-11-08"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "2015-12-17"
+    },
+    "regularizada": {
+      "date": "2017-12-11"
+    }
+  },
+  "audit_score": 8.1,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.9128,
+    "lat": -6.7631
+  }
+}

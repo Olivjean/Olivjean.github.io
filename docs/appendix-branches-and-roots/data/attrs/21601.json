@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 21601,
+  "slug": "karipuna",
+  "name_pt": "Karipuna",
+  "name_en": "Karipuna",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 1529.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Karipuna de Rondônia",
+      "en": "Karipuna de Rondônia"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Karipuna de Rondônia"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100452,
+      "name": "Buritis",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100205,
+      "name": "Porto Velho",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100338,
+      "name": "Nova Mamoré",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1994-09-14"
+    },
+    "delimitada": {
+      "date": "1983-02-23"
+    },
+    "declarada": {
+      "date": "1996-05-17"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "1998-10-22"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.4856,
+    "lat": -10.0013
+  }
+}

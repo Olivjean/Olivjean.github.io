@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 5601,
+  "slug": "barata-livramento",
+  "name_pt": "Barata Livramento",
+  "name_en": "Barata Livramento",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 128.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400100,
+      "name": "Boa Vista",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-01-16"
+    },
+    "declarada": {
+      "date": "1982-05-19"
+    },
+    "homologada": {
+      "date": "2001-12-10"
+    },
+    "regularizada": {
+      "date": "2002-03-21"
+    }
+  },
+  "audit_score": 8.69,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.0525,
+    "lat": 3.3053
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 39301,
+  "slug": "rio-formoso",
+  "name_pt": "Rio Formoso",
+  "name_en": "Rio Formoso",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 197.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107958,
+      "name": "Tangará da Serra",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2025-10-21"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1988-10-03"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.0845,
+    "lat": -14.5101
+  }
+}

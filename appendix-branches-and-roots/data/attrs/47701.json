@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 47701,
+  "slug": "uati-parana",
+  "name_pt": "Uati-Paraná",
+  "name_en": "Uati-Paraná",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1272,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304237,
+      "name": "Tonantins",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302108,
+      "name": "Japurá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301605,
+      "name": "Fonte Boa",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1993-05-03"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.3761,
+    "lat": -2.3757
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 58301,
+  "slug": "sao-domingos-mt",
+  "name_pt": "São Domingos - MT",
+  "name_en": "São Domingos - MT",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 57,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1711902,
+      "name": "Lagoa da Confusão",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5105309,
+      "name": "Luciara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107859,
+      "name": "São Félix do Araguaia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-11-25"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1997-11-07"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.7159,
+    "lat": -11.2721
+  }
+}

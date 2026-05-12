@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 50601,
+  "slug": "xipaya",
+  "name_pt": "Xipaya",
+  "name_en": "Xipaya",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1787.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xipaya",
+      "en": "Xipaya"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Xipáia",
+      "family": "Juruna",
+      "povo": "Xipaya"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1999-10-15"
+    },
+    "delimitada": {
+      "date": "2003-04-07"
+    },
+    "declarada": {
+      "date": "2006-12-15"
+    },
+    "homologada": {
+      "date": "2012-06-05"
+    },
+    "regularizada": {
+      "date": "2012-10-23"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.6833,
+    "lat": -5.4299
+  }
+}

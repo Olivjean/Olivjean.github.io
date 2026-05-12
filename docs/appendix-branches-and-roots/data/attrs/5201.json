@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 5201,
+  "slug": "bakairi",
+  "name_pt": "Bakairi",
+  "name_en": "Bakairi",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 614.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Bakairi",
+      "en": "Bakairi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bakairi",
+      "family": "Karib",
+      "povo": "Bakairi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106307,
+      "name": "Paranatinga",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107701,
+      "name": "Rosário Oeste",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106455,
+      "name": "Planalto da Serra",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1985-11-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2023-04-23"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.6234,
+    "lat": -14.2979
+  }
+}

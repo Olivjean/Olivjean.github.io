@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 51801,
+  "slug": "arara-do-rio-amonia",
+  "name_pt": "Arara do Rio Amônia",
+  "name_en": "Arara do Rio Amônia",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 205.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arara do Rio Amônia",
+      "en": "Arara do Rio Amônia"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arara do Rio Amônia",
+      "family": "—",
+      "povo": "Arara do Rio Amônia"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200351,
+      "name": "Marechal Thaumaturgo",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2001-12-21"
+    },
+    "delimitada": {
+      "date": "2008-09-15"
+    },
+    "declarada": {
+      "date": "2009-09-08"
+    },
+    "homologada": {
+      "date": "2023-04-28"
+    },
+    "regularizada": {
+      "date": "2023-08-14"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.8765,
+    "lat": -9.0847
+  }
+}

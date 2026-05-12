@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 26601,
+  "slug": "mapari",
+  "name_pt": "Mapari",
+  "name_en": "Mapari",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1572.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kaixana",
+      "en": "Kaixana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaixana",
+      "family": "—",
+      "povo": "Kaixana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304237,
+      "name": "Tonantins",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302108,
+      "name": "Japurá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301605,
+      "name": "Fonte Boa",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-08-11"
+    },
+    "delimitada": {
+      "date": "2006-03-31"
+    },
+    "declarada": {
+      "date": "2007-08-14"
+    },
+    "homologada": {
+      "date": "2015-04-17"
+    },
+    "regularizada": {
+      "date": "2018-05-08"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.2117,
+    "lat": -2.1378
+  }
+}

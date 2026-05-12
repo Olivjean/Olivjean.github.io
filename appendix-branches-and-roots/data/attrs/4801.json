@@ -1,0 +1,84 @@
+{
+  "terrai_cod": 4801,
+  "slug": "awa",
+  "name_pt": "Awa",
+  "name_en": "Awa",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 1165.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Awa Guajá",
+      "en": "Awa Guajá"
+    },
+    {
+      "pt": "Isolados de Mão de onça",
+      "en": "Isolados de Mão de onça"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guajá",
+      "family": "Tupi-Guarani",
+      "povo": "Awa Guajá"
+    },
+    {
+      "name": "Isolados de Mão de onça",
+      "family": "—",
+      "povo": "Isolados de Mão de onça"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 2107357,
+      "name": "Nova Olinda do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2114007,
+      "name": "Zé Doca",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2111029,
+      "name": "São João do Carú",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2103174,
+      "name": "Centro Novo do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2102002,
+      "name": "Bom Jardim",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-08-09"
+    },
+    "delimitada": {
+      "date": "1992-07-16"
+    },
+    "declarada": {
+      "date": "1988-05-03"
+    },
+    "homologada": {
+      "date": "2005-04-19"
+    },
+    "regularizada": {
+      "date": "2008-06-02"
+    }
+  },
+  "audit_score": 8.53,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.4627,
+    "lat": -3.3341
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "terrai_cod": 42001,
+  "slug": "sao-sebastiao",
+  "name_pt": "São Sebastião",
+  "name_en": "São Sebastião",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 610.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kaixana",
+      "en": "Kaixana"
+    },
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaixana",
+      "family": "—",
+      "povo": "Kaixana"
+    },
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304237,
+      "name": "Tonantins",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302108,
+      "name": "Japurá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-08-11"
+    },
+    "delimitada": {
+      "date": "2000-02-11"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2005-04-19"
+    },
+    "regularizada": {
+      "date": "2011-08-26"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.595,
+    "lat": -2.6719
+  }
+}

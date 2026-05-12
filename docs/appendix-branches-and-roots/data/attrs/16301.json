@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 16301,
+  "slug": "igarape-ribeirao",
+  "name_pt": "Igarapé Ribeirão",
+  "name_en": "Igarapé Ribeirão",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 478.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wari'",
+      "en": "Wari'"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wari (Pakaá Nova)",
+      "family": "Txapakura",
+      "povo": "Wari'"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100338,
+      "name": "Nova Mamoré",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1981-09-09"
+    },
+    "regularizada": {
+      "date": "2021-08-25"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.0897,
+    "lat": -10.2695
+  }
+}

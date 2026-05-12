@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 32201,
+  "slug": "panara",
+  "name_pt": "Panará",
+  "name_en": "Panará",
+  "ufs": [
+    "PA",
+    "MT"
+  ],
+  "area_km2": 4997.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Panará",
+      "en": "Panará"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Panará",
+      "family": "Jê",
+      "povo": "Panará"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105606,
+      "name": "Matupá",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5104104,
+      "name": "Guarantã do Norte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1994-09-19"
+    },
+    "delimitada": {
+      "date": "1994-12-09"
+    },
+    "declarada": {
+      "date": "1996-11-01"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-07-03"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.1835,
+    "lat": -9.3683
+  }
+}

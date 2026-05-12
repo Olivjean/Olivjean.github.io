@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 54101,
+  "slug": "vista-alegre",
+  "name_pt": "Vista Alegre",
+  "name_en": "Vista Alegre",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 132.1,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302553,
+      "name": "Manaquiri",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301100,
+      "name": "Careiro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-07-04"
+    },
+    "delimitada": {
+      "date": "2012-07-30"
+    },
+    "declarada": {
+      "date": "2025-11-17"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.4824,
+    "lat": -3.7113
+  }
+}

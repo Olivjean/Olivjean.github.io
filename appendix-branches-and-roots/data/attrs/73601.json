@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 73601,
+  "slug": "wedeze",
+  "name_pt": "Wedezé",
+  "name_en": "Wedezé",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1458.8,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106174,
+      "name": "Nova Nazaré",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107180,
+      "name": "Ribeirão Cascalheira",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103106,
+      "name": "Cocalinho",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102702,
+      "name": "Canarana",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-10-10"
+    },
+    "delimitada": {
+      "date": "2011-12-23"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.3109,
+    "lat": -13.5463
+  }
+}

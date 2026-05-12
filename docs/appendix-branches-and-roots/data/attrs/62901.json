@@ -1,0 +1,57 @@
+{
+  "terrai_cod": 62901,
+  "slug": "tenharim-marmelos-gleba-b",
+  "name_pt": "Tenharim Marmelos (Gleba B)",
+  "name_en": "Tenharim Marmelos (Gleba B)",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 4747.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Tenharim",
+      "en": "Tenharim"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Tenharim"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301704,
+      "name": "Humaitá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302702,
+      "name": "Manicoré",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "2004-08-11"
+    },
+    "declarada": {
+      "date": "2006-12-15"
+    },
+    "homologada": {
+      "date": "2012-06-05"
+    },
+    "regularizada": {
+      "date": "2013-03-18"
+    }
+  },
+  "audit_score": 9.1,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.9194,
+    "lat": -7.3884
+  }
+}

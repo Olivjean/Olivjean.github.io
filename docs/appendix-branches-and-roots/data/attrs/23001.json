@@ -1,0 +1,105 @@
+{
+  "terrai_cod": 23001,
+  "slug": "kayapo",
+  "name_pt": "Kayapó",
+  "name_en": "Kayapó",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 32840,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Rio Fresco",
+      "en": "Isolados do Rio Fresco"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó)",
+      "en": "Mebengôkre (Kayapó)"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Gorotire",
+      "en": "Mebengôkre (Kayapó) Gorotire"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Kôkraimôrô",
+      "en": "Mebengôkre (Kayapó) Kôkraimôrô"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Kuben Kran Krên",
+      "en": "Mebengôkre (Kayapó) Kuben Kran Krên"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Rio Fresco",
+      "family": "—",
+      "povo": "Isolados do Rio Fresco"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Gorotire"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Kôkraimôrô"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Kuben Kran Krên"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1502764,
+      "name": "Cumaru do Norte",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507300,
+      "name": "São Félix do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1501253,
+      "name": "Bannach",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1505437,
+      "name": "Ourilândia do Norte",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1508084,
+      "name": "Tucumã",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1985-05-09"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2001-06-29"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.9186,
+    "lat": -7.7081
+  }
+}

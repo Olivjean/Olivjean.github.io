@@ -1,0 +1,86 @@
+{
+  "terrai_cod": 45501,
+  "slug": "tirecatinga",
+  "name_pt": "Tirecatinga",
+  "name_en": "Tirecatinga",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1305.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Halotesu",
+      "en": "Nambikwara Halotesu"
+    },
+    {
+      "pt": "Nambikwara Sawentesu",
+      "en": "Nambikwara Sawentesu"
+    },
+    {
+      "pt": "Nambikwara Wakalitesu",
+      "en": "Nambikwara Wakalitesu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Halotesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Sawentesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Wakalitesu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101902,
+      "name": "Brasnorte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107875,
+      "name": "Sapezal",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102637,
+      "name": "Campo Novo do Parecis",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1983-12-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2005-07-20"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.4169,
+    "lat": -13.1401
+  }
+}

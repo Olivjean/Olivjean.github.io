@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 45103,
+  "slug": "itixi-mitari",
+  "name_pt": "Itixi Mitari",
+  "name_en": "Itixi Mitari",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1821.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300102,
+      "name": "Anori",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301209,
+      "name": "Coari",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300631,
+      "name": "Beruri",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1304104,
+      "name": "Tapauá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-10-30"
+    },
+    "delimitada": {
+      "date": "2003-08-22"
+    },
+    "declarada": {
+      "date": "2004-09-21"
+    },
+    "homologada": {
+      "date": "2007-04-19"
+    },
+    "regularizada": {
+      "date": "2009-03-19"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.6552,
+    "lat": -4.7027
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "terrai_cod": 27201,
+  "slug": "marechal-rondon",
+  "name_pt": "Marechal Rondon",
+  "name_en": "Marechal Rondon",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 985,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106307,
+      "name": "Paranatinga",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103858,
+      "name": "Gaúcha do Norte",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1996-10-03"
+    },
+    "regularizada": {
+      "date": "1996-12-16"
+    }
+  },
+  "audit_score": 6.72,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.9735,
+    "lat": -13.9562
+  }
+}

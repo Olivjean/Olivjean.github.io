@@ -1,0 +1,78 @@
+{
+  "terrai_cod": 40301,
+  "slug": "rio-pindare",
+  "name_pt": "Rio Pindaré",
+  "name_en": "Rio Pindaré",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 150,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    },
+    {
+      "pt": "Guarani Mbya",
+      "en": "Guarani Mbya"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    },
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani Mbya"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2106904,
+      "name": "Monção",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2108504,
+      "name": "Pindaré-Mirim",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2100477,
+      "name": "Alto Alegre do Pindaré",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2112274,
+      "name": "Tufilândia",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2102002,
+      "name": "Bom Jardim",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-08-24"
+    },
+    "homologada": {
+      "date": "1982-11-22"
+    },
+    "regularizada": {
+      "date": "2014-06-13"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.5152,
+    "lat": -3.6313
+  }
+}

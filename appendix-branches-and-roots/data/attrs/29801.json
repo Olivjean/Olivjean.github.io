@@ -1,0 +1,93 @@
+{
+  "terrai_cod": 29801,
+  "slug": "munduruku",
+  "name_pt": "Munduruku",
+  "name_en": "Munduruku",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 23818,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apiaká",
+      "en": "Apiaká"
+    },
+    {
+      "pt": "Isolados do Alto Tapajós",
+      "en": "Isolados do Alto Tapajós"
+    },
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apiaká",
+      "family": "Tupi-Guarani",
+      "povo": "Apiaká"
+    },
+    {
+      "name": "Isolados do Alto Tapajós",
+      "family": "—",
+      "povo": "Isolados do Alto Tapajós"
+    },
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5100805,
+      "name": "Apiacás",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1300144,
+      "name": "Apuí",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302900,
+      "name": "Maués",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1503606,
+      "name": "Itaituba",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1503754,
+      "name": "Jacareacanga",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-11-12"
+    },
+    "delimitada": {
+      "date": "1998-02-06"
+    },
+    "declarada": {
+      "date": "1982-08-24"
+    },
+    "homologada": {
+      "date": "2004-02-25"
+    },
+    "regularizada": {
+      "date": "2004-04-28"
+    }
+  },
+  "audit_score": 8.53,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.5578,
+    "lat": -7.4537
+  }
+}

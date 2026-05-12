@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 43201,
+  "slug": "sororo",
+  "name_pt": "Sororó",
+  "name_en": "Sororó",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 262.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Aikewara",
+      "en": "Aikewara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aikewara",
+      "family": "Tupi-Guarani",
+      "povo": "Aikewara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1501758,
+      "name": "Brejo Grande do Araguaia",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507458,
+      "name": "São Geraldo do Araguaia",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507151,
+      "name": "São Domingos do Araguaia",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504208,
+      "name": "Marabá",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1999-11-04"
+    },
+    "homologada": {
+      "date": "1983-08-30"
+    },
+    "regularizada": {
+      "date": "1983-10-21"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.6934,
+    "lat": -5.9365
+  }
+}

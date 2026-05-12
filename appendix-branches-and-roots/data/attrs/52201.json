@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 52201,
+  "slug": "barro-alto",
+  "name_pt": "Barro Alto",
+  "name_en": "Barro Alto",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 19.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304237,
+      "name": "Tonantins",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2004-06-11"
+    },
+    "delimitada": {
+      "date": "2006-11-21"
+    },
+    "declarada": {
+      "date": "2007-08-14"
+    },
+    "homologada": {
+      "date": "2011-04-19"
+    },
+    "regularizada": {
+      "date": "2011-08-26"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.6787,
+    "lat": -2.7681
+  }
+}

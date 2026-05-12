@@ -1,0 +1,69 @@
+{
+  "terrai_cod": 39801,
+  "slug": "rio-mequens",
+  "name_pt": "Rio Mequens",
+  "name_en": "Rio Mequens",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 1075.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Makurap",
+      "en": "Makurap"
+    },
+    {
+      "pt": "Sakurabiat",
+      "en": "Sakurabiat"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Makurap",
+      "family": "Tupari",
+      "povo": "Makurap"
+    },
+    {
+      "name": "Sakirabiár",
+      "family": "Tupari",
+      "povo": "Sakurabiat"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100379,
+      "name": "Alto Alegre dos Parecis",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101468,
+      "name": "Pimenteiras do Oeste",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1987-10-19"
+    },
+    "delimitada": {
+      "date": "1986-10-15"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1996-05-23"
+    },
+    "regularizada": {
+      "date": "2012-12-12"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.7427,
+    "lat": -12.6288
+  }
+}

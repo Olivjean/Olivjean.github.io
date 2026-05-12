@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 58801,
+  "slug": "barreirinha",
+  "name_pt": "Barreirinha",
+  "name_en": "Barreirinha",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 23.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Amanayé",
+      "en": "Amanayé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Amanayé",
+      "family": "Tupi-Guarani",
+      "povo": "Amanayé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1505502,
+      "name": "Paragominas",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1503457,
+      "name": "Ipixuna do Pará",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-11-09"
+    },
+    "delimitada": {
+      "date": "2001-08-09"
+    },
+    "declarada": {
+      "date": "2004-03-09"
+    },
+    "homologada": {
+      "date": "2006-04-18"
+    },
+    "regularizada": {
+      "date": "2006-07-06"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.4123,
+    "lat": -3.2909
+  }
+}

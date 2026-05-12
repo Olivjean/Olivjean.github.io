@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 2801,
+  "slug": "apurina-igarape-tauamirim",
+  "name_pt": "Apurinã Igarapé Tauamirim",
+  "name_en": "Apurinã Igarapé Tauamirim",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 964.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304104,
+      "name": "Tapauá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-08-06"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1990-05-31"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -62.9988,
+    "lat": -5.6865
+  }
+}

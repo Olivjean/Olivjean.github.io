@@ -1,0 +1,58 @@
+{
+  "terrai_cod": 55101,
+  "slug": "maro",
+  "name_pt": "Maró",
+  "name_en": "Maró",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 423.7,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Arapium",
+      "en": "Arapium"
+    },
+    {
+      "pt": "Borari",
+      "en": "Borari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arapium",
+      "family": "—",
+      "povo": "Arapium"
+    },
+    {
+      "name": "Borari",
+      "family": "—",
+      "povo": "Borari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1506807,
+      "name": "Santarém",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-07-04"
+    },
+    "delimitada": {
+      "date": "2011-10-07"
+    },
+    "declarada": {
+      "date": "2024-09-05"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -55.8241,
+    "lat": -2.7858
+  }
+}

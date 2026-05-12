@@ -1,0 +1,44 @@
+{
+  "terrai_cod": 44901,
+  "slug": "terena-gleba-iriri",
+  "name_pt": "Terena Gleba Iriri",
+  "name_en": "Terena Gleba Iriri",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 305.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Terena",
+      "en": "Terena"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Terena",
+      "family": "Aruak",
+      "povo": "Terena"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105606,
+      "name": "Matupá",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106422,
+      "name": "Peixoto de Azevedo",
+      "uf": "MT"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.22,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.8308,
+    "lat": -9.707
+  }
+}

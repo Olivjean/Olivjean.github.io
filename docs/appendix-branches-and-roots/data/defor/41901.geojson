@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "41901",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "year": 2022 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.85334, -7.9714 ], [ -65.85439, -7.97163 ], [ -65.85421, -7.97146 ], [ -65.85331, -7.97095 ], [ -65.85334, -7.9714 ] ] ] } },
+{ "type": "Feature", "properties": { "year": 2012 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -65.67947, -7.8892 ], [ -65.67866, -7.8892 ], [ -65.67866, -7.88895 ], [ -65.67849, -7.88937 ], [ -65.67836, -7.88974 ], [ -65.67947, -7.88974 ], [ -65.67947, -7.88972 ], [ -65.67947, -7.8892 ] ] ] } }
+]
+}

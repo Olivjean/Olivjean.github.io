@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 27401,
+  "slug": "lago-do-marinheiro",
+  "name_pt": "Lago do Marinheiro",
+  "name_en": "Lago do Marinheiro",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 35.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301100,
+      "name": "Careiro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-01-16"
+    },
+    "delimitada": {
+      "date": "2005-09-01"
+    },
+    "declarada": {
+      "date": "2006-12-15"
+    },
+    "homologada": {
+      "date": "2012-06-05"
+    },
+    "regularizada": {
+      "date": "2013-03-07"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.997,
+    "lat": -3.5994
+  }
+}

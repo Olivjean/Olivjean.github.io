@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 56701,
+  "slug": "sawre-muybu-pimental",
+  "name_pt": "Sawré Muybu (Pimental)",
+  "name_en": "Sawré Muybu (Pimental)",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1781.7,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1503606,
+      "name": "Itaituba",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1508050,
+      "name": "Trairão",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-11-13"
+    },
+    "delimitada": {
+      "date": "2016-04-14"
+    },
+    "declarada": {
+      "date": "2024-09-25"
+    }
+  },
+  "audit_score": 9.28,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.5924,
+    "lat": -4.9575
+  }
+}

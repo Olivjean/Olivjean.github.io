@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 21301,
+  "slug": "karaja-santana-do-araguaia",
+  "name_pt": "Karajá Santana do Araguaia",
+  "name_en": "Karajá Santana do Araguaia",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 14.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1506583,
+      "name": "Santa Maria das Barreiras",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-07-25"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1988-03-10"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.7696,
+    "lat": -8.8801
+  }
+}

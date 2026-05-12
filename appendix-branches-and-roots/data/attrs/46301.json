@@ -1,0 +1,56 @@
+{
+  "terrai_cod": 46301,
+  "slug": "trocara",
+  "name_pt": "Trocará",
+  "name_en": "Trocará",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 217.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Asurini do Tocantins",
+      "en": "Asurini do Tocantins"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Asurini",
+      "family": "Tupi-Guarani",
+      "povo": "Asurini do Tocantins"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1501782,
+      "name": "Breu Branco",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1508100,
+      "name": "Tucuruí",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1501204,
+      "name": "Baião",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1982-11-22"
+    },
+    "regularizada": {
+      "date": "1986-03-24"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.7104,
+    "lat": -3.5785
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "terrai_cod": 72601,
+  "slug": "ituna-itata-restricao-de-uso",
+  "name_pt": "Ituna/Itatá (restrição de uso)",
+  "name_en": "Ituna/Itatá (restrição de uso)",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1424,
+  "current_phase": "Em Estudo",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Igarapé Ipiaçava",
+      "en": "Isolados do Igarapé Ipiaçava"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Igarapé Ipiaçava",
+      "family": "—",
+      "povo": "Isolados do Igarapé Ipiaçava"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507805,
+      "name": "Senador José Porfírio",
+      "uf": "PA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 9,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.0001,
+    "lat": -4.0831
+  }
+}

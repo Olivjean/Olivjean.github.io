@@ -1,0 +1,79 @@
+{
+  "terrai_cod": 5901,
+  "slug": "barreira-da-missao",
+  "name_pt": "Barreira da Missão",
+  "name_en": "Barreira da Missão",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 17.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kaixana",
+      "en": "Kaixana"
+    },
+    {
+      "pt": "Kambeba",
+      "en": "Kambeba"
+    },
+    {
+      "pt": "Miranha",
+      "en": "Miranha"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    },
+    {
+      "pt": "Witoto",
+      "en": "Witoto"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaixana",
+      "family": "—",
+      "povo": "Kaixana"
+    },
+    {
+      "name": "Kokama",
+      "family": "Tupi-Guarani",
+      "povo": "Kambeba"
+    },
+    {
+      "name": "Bora",
+      "family": "Bora",
+      "povo": "Miranha"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    },
+    {
+      "name": "Witoto",
+      "family": "Witoto",
+      "povo": "Witoto"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304203,
+      "name": "Tefé",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1991-10-29"
+    }
+  },
+  "audit_score": 7.18,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.6354,
+    "lat": -3.4165
+  }
+}

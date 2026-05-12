@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 23301,
+  "slug": "kraolandia",
+  "name_pt": "Kraolandia",
+  "name_en": "Kraolandia",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 3025.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Krahô",
+      "en": "Krahô"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Krahô"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1718501,
+      "name": "Recursolândia",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1710508,
+      "name": "Itacajá",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1709005,
+      "name": "Goiatins",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1703842,
+      "name": "Campos Lindos",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1990-03-07"
+    },
+    "regularizada": {
+      "date": "1992-03-19"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -47.4142,
+    "lat": -8.3808
+  }
+}

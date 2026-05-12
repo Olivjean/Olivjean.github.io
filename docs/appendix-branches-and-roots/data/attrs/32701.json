@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 32701,
+  "slug": "parabubure",
+  "name_pt": "Parabubure",
+  "name_en": "Parabubure",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 2244.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106307,
+      "name": "Paranatinga",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5100201,
+      "name": "Água Boa",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107792,
+      "name": "Santo Antônio do Leste",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102603,
+      "name": "Campinápolis",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-07-12"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2022-01-25"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.1691,
+    "lat": -14.3813
+  }
+}

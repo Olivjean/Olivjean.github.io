@@ -1,0 +1,58 @@
+{
+  "terrai_cod": 22001,
+  "slug": "kaxarari",
+  "name_pt": "Kaxarari",
+  "name_en": "Kaxarari",
+  "ufs": [
+    "AM",
+    "RO"
+  ],
+  "area_km2": 1458.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kaxarari",
+      "en": "Kaxarari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxarari",
+      "family": "Pano",
+      "povo": "Kaxarari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100205,
+      "name": "Porto Velho",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-04-13"
+    },
+    "declarada": {
+      "date": "1991-10-10"
+    },
+    "homologada": {
+      "date": "1992-08-13"
+    },
+    "regularizada": {
+      "date": "1988-12-23"
+    }
+  },
+  "audit_score": 8.69,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.2955,
+    "lat": -9.3969
+  }
+}

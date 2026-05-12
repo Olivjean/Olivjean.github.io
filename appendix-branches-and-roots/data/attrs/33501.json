@@ -1,0 +1,113 @@
+{
+  "terrai_cod": 33501,
+  "slug": "parque-do-araguaia",
+  "name_pt": "Parque do Araguaia",
+  "name_en": "Parque do Araguaia",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 13585,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apyãwa",
+      "en": "Apyãwa"
+    },
+    {
+      "pt": "Avá-Canoeiro",
+      "en": "Avá-Canoeiro"
+    },
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    },
+    {
+      "pt": "Javaé",
+      "en": "Javaé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apyãwa (Tapirapé)",
+      "family": "Tupi-Guarani",
+      "povo": "Apyãwa"
+    },
+    {
+      "name": "Ava-Canoeiro",
+      "family": "Tupi-Guarani",
+      "povo": "Avá-Canoeiro"
+    },
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    },
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Javaé"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106315,
+      "name": "Novo Santo Antônio",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1708205,
+      "name": "Formoso do Araguaia",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1711902,
+      "name": "Lagoa da Confusão",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5105309,
+      "name": "Luciara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1718840,
+      "name": "Sandolândia",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1717503,
+      "name": "Pium",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5107776,
+      "name": "Santa Terezinha",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107859,
+      "name": "São Félix do Araguaia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103106,
+      "name": "Cocalinho",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1998-04-14"
+    },
+    "regularizada": {
+      "date": "1998-09-22"
+    }
+  },
+  "audit_score": 9.46,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.3709,
+    "lat": -11.686
+  }
+}

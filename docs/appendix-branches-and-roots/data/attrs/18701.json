@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 18701,
+  "slug": "jaquiri",
+  "name_pt": "Jaquiri",
+  "name_en": "Jaquiri",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 18.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kambeba",
+      "en": "Kambeba"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokama",
+      "family": "Tupi-Guarani",
+      "povo": "Kambeba"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304260,
+      "name": "Uarini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300029,
+      "name": "Alvarães",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1991-11-27"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.8709,
+    "lat": -3.0827
+  }
+}

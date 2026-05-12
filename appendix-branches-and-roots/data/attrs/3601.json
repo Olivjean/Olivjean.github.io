@@ -1,0 +1,92 @@
+{
+  "terrai_cod": 3601,
+  "slug": "arariboia",
+  "name_pt": "Arariboia",
+  "name_en": "Arariboia",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 4132.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Awa Guajá",
+      "en": "Awa Guajá"
+    },
+    {
+      "pt": "Awá isolados",
+      "en": "Awá isolados"
+    },
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guajá",
+      "family": "Tupi-Guarani",
+      "povo": "Awa Guajá"
+    },
+    {
+      "name": "Awá isolados",
+      "family": "—",
+      "povo": "Awá isolados"
+    },
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 2100956,
+      "name": "Arame",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2102325,
+      "name": "Buriticupu",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2110005,
+      "name": "Santa Luzia",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2102036,
+      "name": "Bom Jesus das Selvas",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2100600,
+      "name": "Amarante do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-11-05"
+    },
+    "homologada": {
+      "date": "1990-01-22"
+    },
+    "regularizada": {
+      "date": "2023-06-19"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.4244,
+    "lat": -5.0698
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "terrai_cod": 48201,
+  "slug": "uru-eu-wau-wau",
+  "name_pt": "Uru-Eu-Wau-Wau",
+  "name_en": "Uru-Eu-Wau-Wau",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 18671.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Amondawa",
+      "en": "Amondawa"
+    },
+    {
+      "pt": "Isolados Bananeira",
+      "en": "Isolados Bananeira"
+    },
+    {
+      "pt": "Isolados do Cautário",
+      "en": "Isolados do Cautário"
+    },
+    {
+      "pt": "Isolados no Igarapé Oriente",
+      "en": "Isolados no Igarapé Oriente"
+    },
+    {
+      "pt": "Isolados no Igarapé Tiradentes",
+      "en": "Isolados no Igarapé Tiradentes"
+    },
+    {
+      "pt": "Juma",
+      "en": "Juma"
+    },
+    {
+      "pt": "Kawahiva Isolado do Rio Muqui",
+      "en": "Kawahiva Isolado do Rio Muqui"
+    },
+    {
+      "pt": "Oro Win",
+      "en": "Oro Win"
+    },
+    {
+      "pt": "Uru-Eu-Wau-Wau",
+      "en": "Uru-Eu-Wau-Wau"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Amondawa"
+    },
+    {
+      "name": "Isolados Bananeira",
+      "family": "—",
+      "povo": "Isolados Bananeira"
+    },
+    {
+      "name": "Isolados do Cautário",
+      "family": "—",
+      "povo": "Isolados do Cautário"
+    },
+    {
+      "name": "Isolados no Igarapé Oriente",
+      "family": "—",
+      "povo": "Isolados no Igarapé Oriente"
+    },
+    {
+      "name": "Isolados no Igarapé Tiradentes",
+      "family": "—",
+      "povo": "Isolados no Igarapé Tiradentes"
+    },
+    {
+      "name": "Kawahib",
+      "family": "Tupi-Guarani",
+      "povo": "Juma"
+    },
+    {
+      "name": "Kawahiva Isolado do Rio Muqui",
+      "family": "—",
+      "povo": "Kawahiva Isolado do Rio Muqui"
+    },
+    {
+      "name": "Oro Win",
+      "family": "Txapakura",
+      "povo": "Oro Win"
+    },
+    {
+      "name": "Kawahiva",
+      "family": "Tupi-Guarani",
+      "povo": "Uru-Eu-Wau-Wau"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1101708,
+      "name": "Urupá",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101492,
+      "name": "São Francisco do Guaporé",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101500,
+      "name": "Seringueiras",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100320,
+      "name": "São Miguel do Guaporé",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100338,
+      "name": "Nova Mamoré",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100346,
+      "name": "Alvorada D'Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101302,
+      "name": "Mirante da Serra",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100080,
+      "name": "Costa Marques",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101401,
+      "name": "Monte Negro",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100106,
+      "name": "Guajará-Mirim",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100114,
+      "name": "Jaru",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1101005,
+      "name": "Governador Jorge Teixeira",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100601,
+      "name": "Cacaulândia",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100700,
+      "name": "Campo Novo de Rondônia",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1988-06-08"
+    },
+    "declarada": {
+      "date": "1985-07-09"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1987-02-27"
+    }
+  },
+  "audit_score": 8.54,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -63.4778,
+    "lat": -11.1836
+  }
+}

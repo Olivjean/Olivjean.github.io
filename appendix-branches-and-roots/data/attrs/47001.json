@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 47001,
+  "slug": "tukuna-umariacu",
+  "name_pt": "Tukuna Umariaçu",
+  "name_en": "Tukuna Umariaçu",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 48.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304062,
+      "name": "Tabatinga",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1978-09-29"
+    },
+    "delimitada": {
+      "date": "1996-12-27"
+    },
+    "declarada": {
+      "date": "1997-11-12"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "2000-11-20"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.8859,
+    "lat": -4.2649
+  }
+}

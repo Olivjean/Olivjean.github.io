@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 34402,
+  "slug": "paumari-do-lago-maraha",
+  "name_pt": "Paumari do Lago Marahã",
+  "name_en": "Paumari do Lago Marahã",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1187.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    },
+    {
+      "pt": "Paumari",
+      "en": "Paumari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    },
+    {
+      "name": "Paumari",
+      "family": "Arawá",
+      "povo": "Paumari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-09-05"
+    },
+    "delimitada": {
+      "date": "1992-01-22"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "2003-04-15"
+    }
+  },
+  "audit_score": 8.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.2363,
+    "lat": -7.627
+  }
+}

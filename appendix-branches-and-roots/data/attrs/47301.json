@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 47301,
+  "slug": "ture-mariquita",
+  "name_pt": "Turé/Mariquita",
+  "name_en": "Turé/Mariquita",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Tembé",
+      "en": "Tembé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Tembé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1508001,
+      "name": "Tomé-Açu",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1989-12-31"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2015-12-10"
+    }
+  },
+  "audit_score": 8.82,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.338,
+    "lat": -2.2931
+  }
+}

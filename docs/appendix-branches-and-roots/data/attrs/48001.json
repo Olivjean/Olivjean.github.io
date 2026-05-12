@@ -1,0 +1,83 @@
+{
+  "terrai_cod": 48001,
+  "slug": "umutina",
+  "name_pt": "Umutina",
+  "name_en": "Umutina",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 281.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Balatiponé (Umutina)",
+      "en": "Balatiponé (Umutina)"
+    },
+    {
+      "pt": "Iranxe Manoki",
+      "en": "Iranxe Manoki"
+    },
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Umutina",
+      "family": "Bororo",
+      "povo": "Balatiponé (Umutina)"
+    },
+    {
+      "name": "Iranxe",
+      "family": "Iranxe",
+      "povo": "Iranxe Manoki"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5100508,
+      "name": "Alto Paraguai",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103452,
+      "name": "Denise",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101704,
+      "name": "Barra do Bugres",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1989-09-14"
+    },
+    "regularizada": {
+      "date": "1992-02-26"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.0512,
+    "lat": -14.9987
+  }
+}

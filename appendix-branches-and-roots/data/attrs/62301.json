@@ -1,0 +1,53 @@
+{
+  "terrai_cod": 62301,
+  "slug": "kraho-kanela",
+  "name_pt": "Krahó-Kanela",
+  "name_en": "Krahó-Kanela",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 76.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Krahô-Kanela",
+      "en": "Krahô-Kanela"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Krahô-Kanela"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1711902,
+      "name": "Lagoa da Confusão",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1718899,
+      "name": "Santa Rita do Tocantins",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1707306,
+      "name": "Dueré",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-06-26"
+    }
+  },
+  "audit_score": 5.25,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.8996,
+    "lat": -11.0112
+  }
+}

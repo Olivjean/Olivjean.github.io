@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 49301,
+  "slug": "vui-uata-in",
+  "name_pt": "Vui-Uata-In",
+  "name_en": "Vui-Uata-In",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1212,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303908,
+      "name": "São Paulo de Olivença",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300060,
+      "name": "Amaturá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-10-19"
+    },
+    "delimitada": {
+      "date": "1991-11-18"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1995-07-03"
+    },
+    "regularizada": {
+      "date": "1996-05-02"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.3907,
+    "lat": -3.5611
+  }
+}

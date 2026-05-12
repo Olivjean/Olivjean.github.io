@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 8701,
+  "slug": "cana-brava-guajajara",
+  "name_pt": "Cana Brava/Guajajara",
+  "name_en": "Cana Brava/Guajajara",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 1373.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2105351,
+      "name": "Itaipava do Grajaú",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2105476,
+      "name": "Jenipapo dos Vieiras",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2101608,
+      "name": "Barra do Corda",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1977-06-23"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2024-09-02"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.5486,
+    "lat": -5.6194
+  }
+}

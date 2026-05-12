@@ -1,0 +1,58 @@
+{
+  "terrai_cod": 21901,
+  "slug": "katukina-kaxinawa",
+  "name_pt": "Katukina/Kaxinawá",
+  "name_en": "Katukina/Kaxinawá",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 234.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    },
+    {
+      "pt": "Shanenawa",
+      "en": "Shanenawa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    },
+    {
+      "name": "Katukina do acre",
+      "family": "Pano",
+      "povo": "Shanenawa"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1984-03-29"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1989-10-05"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -70.4111,
+    "lat": -8.076
+  }
+}

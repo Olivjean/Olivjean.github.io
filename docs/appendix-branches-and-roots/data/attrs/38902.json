@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 38902,
+  "slug": "kuruaya",
+  "name_pt": "Kuruáya",
+  "name_en": "Kuruáya",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1667.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kuruaya",
+      "en": "Kuruaya"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kuruaia",
+      "family": "Munduruku",
+      "povo": "Kuruaya"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-05-10"
+    },
+    "delimitada": {
+      "date": "1992-08-10"
+    },
+    "declarada": {
+      "date": "1992-11-16"
+    },
+    "homologada": {
+      "date": "2006-04-18"
+    },
+    "regularizada": {
+      "date": "2006-08-29"
+    }
+  },
+  "audit_score": 8.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.5861,
+    "lat": -5.74
+  }
+}

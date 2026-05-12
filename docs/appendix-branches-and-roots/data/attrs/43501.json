@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 43501,
+  "slug": "tabalascada",
+  "name_pt": "Tabalascada",
+  "name_en": "Tabalascada",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 130.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400175,
+      "name": "Cantá",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-03-13"
+    },
+    "delimitada": {
+      "date": "2001-05-23"
+    },
+    "declarada": {
+      "date": "1982-04-21"
+    },
+    "homologada": {
+      "date": "2005-04-19"
+    },
+    "regularizada": {
+      "date": "2005-06-02"
+    }
+  },
+  "audit_score": 8.45,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.5718,
+    "lat": 2.6865
+  }
+}

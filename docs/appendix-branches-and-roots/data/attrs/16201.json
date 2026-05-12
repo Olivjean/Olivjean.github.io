@@ -1,0 +1,74 @@
+{
+  "terrai_cod": 16201,
+  "slug": "igarape-lourdes",
+  "name_pt": "Igarapé Lourdes",
+  "name_en": "Igarapé Lourdes",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 1855.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ikolen",
+      "en": "Ikolen"
+    },
+    {
+      "pt": "Isolados na Serra da Previdência",
+      "en": "Isolados na Serra da Previdência"
+    },
+    {
+      "pt": "Karo",
+      "en": "Karo"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Gavião",
+      "family": "Mondé",
+      "povo": "Ikolen"
+    },
+    {
+      "name": "Isolados na Serra da Previdência",
+      "family": "—",
+      "povo": "Isolados na Serra da Previdência"
+    },
+    {
+      "name": "Karo",
+      "family": "Ramarama",
+      "povo": "Karo"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100155,
+      "name": "Ouro Preto do Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100122,
+      "name": "Ji-Paraná",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1983-08-09"
+    },
+    "regularizada": {
+      "date": "2022-01-13"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.6447,
+    "lat": -10.4718
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 30001,
+  "slug": "muriru",
+  "name_pt": "Muriru",
+  "name_en": "Muriru",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 55.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400175,
+      "name": "Cantá",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-04-04"
+    },
+    "delimitada": {
+      "date": "1999-04-09"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2003-06-23"
+    },
+    "regularizada": {
+      "date": "2007-09-13"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.2082,
+    "lat": 2.5627
+  }
+}

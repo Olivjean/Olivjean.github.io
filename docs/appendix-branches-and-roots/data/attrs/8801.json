@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 8801,
+  "slug": "canauanim",
+  "name_pt": "Canauanim",
+  "name_en": "Canauanim",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 111.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400175,
+      "name": "Cantá",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1992-09-10"
+    },
+    "declarada": {
+      "date": "1982-05-21"
+    },
+    "homologada": {
+      "date": "1996-02-15"
+    },
+    "regularizada": {
+      "date": "2002-04-01"
+    }
+  },
+  "audit_score": 9.1,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.505,
+    "lat": 2.7791
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "terrai_cod": 37901,
+  "slug": "raposa-serra-do-sol",
+  "name_pt": "Raposa Serra do Sol",
+  "name_en": "Raposa Serra do Sol",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 17474.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ingarikó",
+      "en": "Ingarikó"
+    },
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Patamona",
+      "en": "Patamona"
+    },
+    {
+      "pt": "Taurepang",
+      "en": "Taurepang"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ingarikó",
+      "family": "Karib",
+      "povo": "Ingarikó"
+    },
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Patamona",
+      "family": "Karib",
+      "povo": "Patamona"
+    },
+    {
+      "name": "Taulipáng (Pemóng)",
+      "family": "Karib",
+      "povo": "Taurepang"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400100,
+      "name": "Boa Vista",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400704,
+      "name": "Uiramutã",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400407,
+      "name": "Normandia",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400456,
+      "name": "Pacaraima",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-05-29"
+    },
+    "delimitada": {
+      "date": "1993-05-18"
+    },
+    "declarada": {
+      "date": "1998-12-11"
+    },
+    "homologada": {
+      "date": "2005-04-15"
+    },
+    "regularizada": {
+      "date": "2005-08-12"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.2681,
+    "lat": 4.334
+  }
+}

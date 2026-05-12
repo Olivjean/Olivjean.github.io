@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 3901,
+  "slug": "areoes",
+  "name_pt": "Areões",
+  "name_en": "Areões",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 2185.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106174,
+      "name": "Nova Nazaré",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5100201,
+      "name": "Água Boa",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103106,
+      "name": "Cocalinho",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106257,
+      "name": "Nova Xavantina",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1972-09-19"
+    },
+    "homologada": {
+      "date": "1996-10-02"
+    },
+    "regularizada": {
+      "date": "1996-10-18"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.9617,
+    "lat": -14.3891
+  }
+}

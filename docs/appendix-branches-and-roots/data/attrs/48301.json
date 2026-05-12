@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 48301,
+  "slug": "urubu-branco",
+  "name_pt": "Urubu Branco",
+  "name_en": "Urubu Branco",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1675.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apyãwa",
+      "en": "Apyãwa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apyãwa (Tapirapé)",
+      "family": "Tupi-Guarani",
+      "povo": "Apyãwa"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105309,
+      "name": "Luciara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106778,
+      "name": "Porto Alegre do Norte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103353,
+      "name": "Confresa",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107776,
+      "name": "Santa Terezinha",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-10-11"
+    },
+    "delimitada": {
+      "date": "1994-08-11"
+    },
+    "declarada": {
+      "date": "1996-10-02"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "2021-09-27"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.2477,
+    "lat": -10.7056
+  }
+}

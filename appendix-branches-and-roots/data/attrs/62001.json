@@ -1,0 +1,44 @@
+{
+  "terrai_cod": 62001,
+  "slug": "juruna-do-km-17",
+  "name_pt": "Juruna do Km 17",
+  "name_en": "Juruna do Km 17",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 22.9,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Yudja",
+      "en": "Yudja"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Yudjá",
+      "family": "Juruna",
+      "povo": "Yudja"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1505908,
+      "name": "Porto de Moz",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1508357,
+      "name": "Vitória do Xingu",
+      "uf": "PA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.63,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.1323,
+    "lat": -2.6402
+  }
+}

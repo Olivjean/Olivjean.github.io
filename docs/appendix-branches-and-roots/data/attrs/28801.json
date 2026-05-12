@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 28801,
+  "slug": "menku",
+  "name_pt": "Menkü",
+  "name_en": "Menkü",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 470.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Menky Manoki",
+      "en": "Menky Manoki"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Iranxe",
+      "family": "Iranxe",
+      "povo": "Menky Manoki"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101902,
+      "name": "Brasnorte",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107875,
+      "name": "Sapezal",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-10-30"
+    },
+    "homologada": {
+      "date": "1987-02-11"
+    },
+    "regularizada": {
+      "date": "2021-09-02"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.4181,
+    "lat": -12.1917
+  }
+}

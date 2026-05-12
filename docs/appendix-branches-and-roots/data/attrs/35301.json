@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 35301,
+  "slug": "pimentel-barbosa",
+  "name_pt": "Pimentel Barbosa",
+  "name_en": "Pimentel Barbosa",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 3289.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106174,
+      "name": "Nova Nazaré",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107180,
+      "name": "Ribeirão Cascalheira",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5100201,
+      "name": "Água Boa",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103106,
+      "name": "Cocalinho",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102702,
+      "name": "Canarana",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1986-08-20"
+    },
+    "regularizada": {
+      "date": "1994-05-05"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.6337,
+    "lat": -13.4218
+  }
+}

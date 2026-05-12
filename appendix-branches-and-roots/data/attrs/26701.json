@@ -1,0 +1,74 @@
+{
+  "terrai_cod": 26701,
+  "slug": "maraa-urubaxi",
+  "name_pt": "Maraã Urubaxi",
+  "name_en": "Maraã Urubaxi",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 944.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Igarapé Bafuanã",
+      "en": "Isolados do Igarapé Bafuanã"
+    },
+    {
+      "pt": "Kanamari",
+      "en": "Kanamari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Igarapé Bafuanã",
+      "family": "—",
+      "povo": "Isolados do Igarapé Bafuanã"
+    },
+    {
+      "name": "Kanamari",
+      "family": "Katukina",
+      "povo": "Kanamari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300409,
+      "name": "Barcelos",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1303601,
+      "name": "Santa Isabel do Rio Negro",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302801,
+      "name": "Maraã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1987-05-06"
+    },
+    "delimitada": {
+      "date": "1993-07-30"
+    },
+    "declarada": {
+      "date": "1993-09-30"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-01-29"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.5095,
+    "lat": -1.6319
+  }
+}

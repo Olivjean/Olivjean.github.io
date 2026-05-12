@@ -1,0 +1,81 @@
+{
+  "terrai_cod": 22902,
+  "slug": "kayabi",
+  "name_pt": "Kayabi",
+  "name_en": "Kayabi",
+  "ufs": [
+    "MT",
+    "PA"
+  ],
+  "area_km2": 10532.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apiaká",
+      "en": "Apiaká"
+    },
+    {
+      "pt": "Kawaiwete (Kaiabi)",
+      "en": "Kawaiwete (Kaiabi)"
+    },
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apiaká",
+      "family": "Tupi-Guarani",
+      "povo": "Apiaká"
+    },
+    {
+      "name": "Kayabi",
+      "family": "Tupi-Guarani",
+      "povo": "Kawaiwete (Kaiabi)"
+    },
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106299,
+      "name": "Paranaíta",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5100805,
+      "name": "Apiacás",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1503754,
+      "name": "Jacareacanga",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-11-12"
+    },
+    "delimitada": {
+      "date": "1999-06-23"
+    },
+    "homologada": {
+      "date": "1982-11-22"
+    },
+    "regularizada": {
+      "date": "2018-09-24"
+    }
+  },
+  "audit_score": 9.25,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.2912,
+    "lat": -8.7143
+  }
+}

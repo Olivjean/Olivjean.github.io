@@ -1,0 +1,62 @@
+{
+  "terrai_cod": 47901,
+  "slug": "uirapuru",
+  "name_pt": "Uirapuru",
+  "name_en": "Uirapuru",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 216.8,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Paresí",
+      "en": "Paresí"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Paresi",
+      "family": "Aruak",
+      "povo": "Paresí"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106182,
+      "name": "Nova Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103361,
+      "name": "Conquista D'Oeste",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102686,
+      "name": "Campos de Júlio",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-11-19"
+    },
+    "delimitada": {
+      "date": "2006-11-14"
+    },
+    "declarada": {
+      "date": "2009-03-20"
+    },
+    "homologada": {
+      "date": "2025-11-17"
+    }
+  },
+  "audit_score": 9.35,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.3245,
+    "lat": -14.3496
+  }
+}

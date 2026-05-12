@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 24101,
+  "slug": "kwaza-do-rio-sao-pedro",
+  "name_pt": "Kwazá do Rio São Pedro",
+  "name_en": "Kwazá do Rio São Pedro",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 168,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Aikanã",
+      "en": "Aikanã"
+    },
+    {
+      "pt": "Kwazá",
+      "en": "Kwazá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Aikaná",
+      "family": "Aikaná",
+      "povo": "Aikanã"
+    },
+    {
+      "name": "Koazá",
+      "family": "Koazá",
+      "povo": "Kwazá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1101450,
+      "name": "Parecis",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-09-30"
+    },
+    "delimitada": {
+      "date": "1999-01-28"
+    },
+    "declarada": {
+      "date": "2000-07-25"
+    },
+    "homologada": {
+      "date": "2003-02-10"
+    },
+    "regularizada": {
+      "date": "2003-06-04"
+    }
+  },
+  "audit_score": 9.21,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.4056,
+    "lat": -12.3688
+  }
+}

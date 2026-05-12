@@ -1,0 +1,97 @@
+{
+  "terrai_cod": 30201,
+  "slug": "nambikwara",
+  "name_pt": "Nambikwara",
+  "name_en": "Nambikwara",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 10119.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Halotesu",
+      "en": "Nambikwara Halotesu"
+    },
+    {
+      "pt": "Nambikwara Kithaulu",
+      "en": "Nambikwara Kithaulu"
+    },
+    {
+      "pt": "Nambikwara Sawentesu",
+      "en": "Nambikwara Sawentesu"
+    },
+    {
+      "pt": "Nambikwara Wakalitesu",
+      "en": "Nambikwara Wakalitesu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Halotesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Kithaulu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Sawentesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Wakalitesu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5103304,
+      "name": "Comodoro",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107875,
+      "name": "Sapezal",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102686,
+      "name": "Campos de Júlio",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1990-01-10"
+    },
+    "regularizada": {
+      "date": "1987-04-10"
+    }
+  },
+  "audit_score": 9.46,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.4723,
+    "lat": -12.9392
+  }
+}

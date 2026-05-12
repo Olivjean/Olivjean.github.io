@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 3002,
+  "slug": "apyterewa",
+  "name_pt": "Apyterewa",
+  "name_en": "Apyterewa",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 7734.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Parakanã",
+      "en": "Parakanã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwawa",
+      "family": "Tupi-Guarani",
+      "povo": "Parakanã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1507300,
+      "name": "São Félix do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1996-08-30"
+    },
+    "delimitada": {
+      "date": "1986-05-08"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "2007-04-19"
+    },
+    "regularizada": {
+      "date": "2007-05-08"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.0367,
+    "lat": -5.6368
+  }
+}

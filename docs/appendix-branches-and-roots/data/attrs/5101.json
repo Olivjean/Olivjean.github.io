@@ -1,0 +1,57 @@
+{
+  "terrai_cod": 5101,
+  "slug": "baia-dos-guato",
+  "name_pt": "Baía dos Guató",
+  "name_en": "Baía dos Guató",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 192.2,
+  "current_phase": "Homologada",
+  "ethnicities": [
+    {
+      "pt": "Guató",
+      "en": "Guató"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guató",
+      "family": "Guató",
+      "povo": "Guató"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101605,
+      "name": "Barão de Melgaço",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106505,
+      "name": "Poconé",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-11-08"
+    },
+    "delimitada": {
+      "date": "2003-07-16"
+    },
+    "declarada": {
+      "date": "2009-05-22"
+    },
+    "homologada": {
+      "date": "2018-04-26"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.5576,
+    "lat": -16.966
+  }
+}

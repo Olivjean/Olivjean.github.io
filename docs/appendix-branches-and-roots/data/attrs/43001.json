@@ -1,0 +1,62 @@
+{
+  "terrai_cod": 43001,
+  "slug": "sete-de-setembro",
+  "name_pt": "Sete de Setembro",
+  "name_en": "Sete de Setembro",
+  "ufs": [
+    "RO",
+    "MT"
+  ],
+  "area_km2": 2481.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Surui Paiter",
+      "en": "Surui Paiter"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Surui Paiter",
+      "family": "Mondé",
+      "povo": "Surui Paiter"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1101203,
+      "name": "Ministro Andreazza",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100049,
+      "name": "Cacoal",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100098,
+      "name": "Espigão D'Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1983-10-17"
+    },
+    "regularizada": {
+      "date": "1996-09-23"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.188,
+    "lat": -10.9583
+  }
+}

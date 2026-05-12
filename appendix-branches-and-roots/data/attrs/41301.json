@@ -1,0 +1,56 @@
+{
+  "terrai_cod": 41301,
+  "slug": "santana",
+  "name_pt": "Santana",
+  "name_en": "Santana",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 354.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Bakairi",
+      "en": "Bakairi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bakairi",
+      "family": "Karib",
+      "povo": "Bakairi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105903,
+      "name": "Nobres",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107768,
+      "name": "Santa Rita do Trivelato",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106224,
+      "name": "Nova Mutum",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1989-09-14"
+    },
+    "regularizada": {
+      "date": "1991-04-08"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -55.4472,
+    "lat": -14.1692
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 6401,
+  "slug": "boca-do-acre",
+  "name_pt": "Boca do Acre",
+  "name_en": "Boca do Acre",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 262.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300706,
+      "name": "Boca do Acre",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1981-08-21"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1989-05-02"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.1448,
+    "lat": -9.0745
+  }
+}

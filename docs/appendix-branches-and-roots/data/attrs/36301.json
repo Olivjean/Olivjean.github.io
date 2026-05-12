@@ -1,0 +1,63 @@
+{
+  "terrai_cod": 36301,
+  "slug": "pium",
+  "name_pt": "Pium",
+  "name_en": "Pium",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 46.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-06-21"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2021-04-28"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.1044,
+    "lat": 3.403
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "terrai_cod": 59401,
+  "slug": "cobra-grande",
+  "name_pt": "Cobra Grande",
+  "name_en": "Cobra Grande",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 89.1,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Arapium",
+      "en": "Arapium"
+    },
+    {
+      "pt": "Jaraqui",
+      "en": "Jaraqui"
+    },
+    {
+      "pt": "Tapajó",
+      "en": "Tapajó"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arapium",
+      "family": "—",
+      "povo": "Arapium"
+    },
+    {
+      "name": "Jaraqui",
+      "family": "—",
+      "povo": "Jaraqui"
+    },
+    {
+      "name": "Tapajó",
+      "family": "—",
+      "povo": "Tapajó"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1506807,
+      "name": "Santarém",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-07-01"
+    },
+    "delimitada": {
+      "date": "2015-09-25"
+    },
+    "declarada": {
+      "date": "2024-09-05"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -55.1632,
+    "lat": -2.3161
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 23801,
+  "slug": "kulina-do-rio-envira",
+  "name_pt": "Kulina do Rio Envira",
+  "name_en": "Kulina do Rio Envira",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 843.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-08-20"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    }
+  },
+  "audit_score": 7.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.4058,
+    "lat": -9.456
+  }
+}

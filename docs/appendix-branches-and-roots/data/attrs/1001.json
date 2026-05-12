@@ -1,0 +1,102 @@
+{
+  "terrai_cod": 1001,
+  "slug": "alto-rio-guama",
+  "name_pt": "Alto Rio Guamá",
+  "name_en": "Alto Rio Guamá",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 2799,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Awa Guajá",
+      "en": "Awa Guajá"
+    },
+    {
+      "pt": "Ka'apor",
+      "en": "Ka'apor"
+    },
+    {
+      "pt": "Tembé",
+      "en": "Tembé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guajá",
+      "family": "Tupi-Guarani",
+      "povo": "Awa Guajá"
+    },
+    {
+      "name": "Kaapor",
+      "family": "Tupi-Guarani",
+      "povo": "Ka'apor"
+    },
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Tembé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1503077,
+      "name": "Garrafão do Norte",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1502301,
+      "name": "Capitão Poço",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504950,
+      "name": "Nova Esperança do Piriá",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1501956,
+      "name": "Cachoeira do Piriá",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 2103174,
+      "name": "Centro Novo do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 1508308,
+      "name": "Viseu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1505502,
+      "name": "Paragominas",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1506559,
+      "name": "Santa Luzia do Pará",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1988-07-28"
+    },
+    "homologada": {
+      "date": "1993-10-04"
+    },
+    "regularizada": {
+      "date": "1994-10-17"
+    }
+  },
+  "audit_score": 8.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.7234,
+    "lat": -2.3306
+  }
+}

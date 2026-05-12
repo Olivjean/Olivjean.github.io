@@ -1,0 +1,56 @@
+{
+  "terrai_cod": 31501,
+  "slug": "ouro",
+  "name_pt": "Ouro",
+  "name_en": "Ouro",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 135.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400100,
+      "name": "Boa Vista",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400456,
+      "name": "Pacaraima",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1982-02-17"
+    },
+    "regularizada": {
+      "date": "1988-11-22"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.6717,
+    "lat": 3.494
+  }
+}

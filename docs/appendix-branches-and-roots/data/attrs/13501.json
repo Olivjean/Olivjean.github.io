@@ -1,0 +1,63 @@
+{
+  "terrai_cod": 13501,
+  "slug": "geralda-toco-preto",
+  "name_pt": "Geralda Toco Preto",
+  "name_en": "Geralda Toco Preto",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 185.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    },
+    {
+      "pt": "Krepynkatejê",
+      "en": "Krepynkatejê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    },
+    {
+      "name": "Krepynkatejê",
+      "family": "Jê",
+      "povo": "Krepynkatejê"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2100956,
+      "name": "Arame",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2105351,
+      "name": "Itaipava do Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-09-17"
+    },
+    "homologada": {
+      "date": "1994-05-16"
+    },
+    "regularizada": {
+      "date": "2024-08-19"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.6979,
+    "lat": -5.018
+  }
+}

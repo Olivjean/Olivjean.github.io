@@ -1,0 +1,78 @@
+{
+  "terrai_cod": 4201,
+  "slug": "aripuana",
+  "name_pt": "Aripuanã",
+  "name_en": "Aripuanã",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 7506.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Cinta larga",
+      "en": "Cinta larga"
+    },
+    {
+      "pt": "Isolados do Rio Tenente Marques",
+      "en": "Isolados do Rio Tenente Marques"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Cinta larga",
+      "family": "Mondé",
+      "povo": "Cinta larga"
+    },
+    {
+      "name": "Isolados do Rio Tenente Marques",
+      "family": "—",
+      "povo": "Isolados do Rio Tenente Marques"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100304,
+      "name": "Vilhena",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100098,
+      "name": "Espigão D'Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101407,
+      "name": "Aripuanã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-12-24"
+    },
+    "homologada": {
+      "date": "1989-11-20"
+    },
+    "regularizada": {
+      "date": "1992-01-22"
+    }
+  },
+  "audit_score": 9.15,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.972,
+    "lat": -10.5737
+  }
+}

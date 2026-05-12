@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 11501,
+  "slug": "escondido",
+  "name_pt": "Escondido",
+  "name_en": "Escondido",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1689.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Rikbaktsa",
+      "en": "Rikbaktsa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Rikbaktsá",
+      "family": "Rikbaktsá",
+      "povo": "Rikbaktsa"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106158,
+      "name": "Nova Bandeirantes",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103379,
+      "name": "Cotriguaçu",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-12-31"
+    },
+    "delimitada": {
+      "date": "1994-06-03"
+    },
+    "declarada": {
+      "date": "1996-11-01"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "2009-11-25"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.6465,
+    "lat": -9.5108
+  }
+}

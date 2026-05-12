@@ -1,0 +1,57 @@
+{
+  "terrai_cod": 17302,
+  "slug": "manoki",
+  "name_pt": "Manoki",
+  "name_en": "Manoki",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 2505.4,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Iranxe Manoki",
+      "en": "Iranxe Manoki"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Iranxe",
+      "family": "Iranxe",
+      "povo": "Iranxe Manoki"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5108907,
+      "name": "Nova Maringá",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101902,
+      "name": "Brasnorte",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-11-08"
+    },
+    "delimitada": {
+      "date": "2002-11-13"
+    },
+    "homologada": {
+      "date": "1990-01-15"
+    },
+    "regularizada": {
+      "date": "2005-07-13"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.6774,
+    "lat": -12.7553
+  }
+}

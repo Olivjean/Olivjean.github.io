@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 48401,
+  "slug": "urucu-jurua",
+  "name_pt": "Urucu/Juruá",
+  "name_en": "Urucu/Juruá",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 127,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2100956,
+      "name": "Arame",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2105351,
+      "name": "Itaipava do Grajaú",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-03-12"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1992-02-17"
+    }
+  },
+  "audit_score": 9.17,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.9165,
+    "lat": -5.3754
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 17801,
+  "slug": "jabuti",
+  "name_pt": "Jabuti",
+  "name_en": "Jabuti",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 142.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400100,
+      "name": "Boa Vista",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1993-03-10"
+    },
+    "declarada": {
+      "date": "1982-09-17"
+    },
+    "homologada": {
+      "date": "1996-02-15"
+    },
+    "regularizada": {
+      "date": "2002-06-25"
+    }
+  },
+  "audit_score": 8.06,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.2911,
+    "lat": 3.2078
+  }
+}

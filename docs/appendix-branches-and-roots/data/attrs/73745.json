@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 73745,
+  "slug": "uty-xunati",
+  "name_pt": "Uty-Xunati",
+  "name_en": "Uty-Xunati",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 9,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Terena",
+      "en": "Terena"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Terena",
+      "family": "Aruak",
+      "povo": "Terena"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100304,
+      "name": "Vilhena",
+      "uf": "RO"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.0142,
+    "lat": -12.4072
+  }
+}

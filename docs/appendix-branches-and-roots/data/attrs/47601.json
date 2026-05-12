@@ -1,0 +1,67 @@
+{
+  "terrai_cod": 47601,
+  "slug": "uaca",
+  "name_pt": "Uaçá",
+  "name_en": "Uaçá",
+  "ufs": [
+    "AP"
+  ],
+  "area_km2": 4701.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Galibi-Marworno",
+      "en": "Galibi-Marworno"
+    },
+    {
+      "pt": "Karipuna do Amapá",
+      "en": "Karipuna do Amapá"
+    },
+    {
+      "pt": "Palikur",
+      "en": "Palikur"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Creoulo",
+      "family": "Creoulo",
+      "povo": "Galibi-Marworno"
+    },
+    {
+      "name": "Creoulo",
+      "family": "Creoulo",
+      "povo": "Karipuna do Amapá"
+    },
+    {
+      "name": "Palikur",
+      "family": "Aruak",
+      "povo": "Palikur"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1600501,
+      "name": "Oiapoque",
+      "uf": "AP"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-12-06"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1992-03-06"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.4987,
+    "lat": 3.536
+  }
+}

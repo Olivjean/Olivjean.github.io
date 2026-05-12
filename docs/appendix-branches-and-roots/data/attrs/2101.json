@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 2101,
+  "slug": "aningal",
+  "name_pt": "Aningal",
+  "name_en": "Aningal",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 76.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1977-03-14"
+    },
+    "declarada": {
+      "date": "1981-11-06"
+    },
+    "homologada": {
+      "date": "1982-02-17"
+    },
+    "regularizada": {
+      "date": "1988-11-22"
+    }
+  },
+  "audit_score": 8.75,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.4031,
+    "lat": 3.4611
+  }
+}

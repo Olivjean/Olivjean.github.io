@@ -1,0 +1,62 @@
+{
+  "terrai_cod": 32602,
+  "slug": "paquicamba",
+  "name_pt": "Paquiçamba",
+  "name_en": "Paquiçamba",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 157.3,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Yudja",
+      "en": "Yudja"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Yudjá",
+      "family": "Juruna",
+      "povo": "Yudja"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500859,
+      "name": "Anapu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1508357,
+      "name": "Vitória do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507805,
+      "name": "Senador José Porfírio",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-02-25"
+    },
+    "delimitada": {
+      "date": "2012-10-22"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1990-11-12"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.7678,
+    "lat": -3.4585
+  }
+}

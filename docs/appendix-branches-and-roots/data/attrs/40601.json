@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 40601,
+  "slug": "rodeador",
+  "name_pt": "Rodeador",
+  "name_en": "Rodeador",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 23.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2101608,
+      "name": "Barra do Corda",
+      "uf": "MA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.09,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.2284,
+    "lat": -5.7034
+  }
+}

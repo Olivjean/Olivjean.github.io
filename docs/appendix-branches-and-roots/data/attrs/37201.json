@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 37201,
+  "slug": "poyanawa",
+  "name_pt": "Poyanawa",
+  "name_en": "Poyanawa",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 245,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Puyanawa",
+      "en": "Puyanawa"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Poyanáwa",
+      "family": "Pano",
+      "povo": "Puyanawa"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200336,
+      "name": "Mâncio Lima",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1986-01-28"
+    },
+    "declarada": {
+      "date": "1993-03-02"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-06-04"
+    }
+  },
+  "audit_score": 9.03,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -73.0882,
+    "lat": -7.5476
+  }
+}

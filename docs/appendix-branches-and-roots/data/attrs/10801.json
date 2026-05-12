@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 10801,
+  "slug": "cunha-sapucaia",
+  "name_pt": "Cunhã-Sapucaia",
+  "name_en": "Cunhã-Sapucaia",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 4714.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300805,
+      "name": "Borba",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301100,
+      "name": "Careiro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "delimitada": {
+      "date": "2002-01-28"
+    },
+    "declarada": {
+      "date": "2002-12-04"
+    },
+    "homologada": {
+      "date": "2006-11-01"
+    },
+    "regularizada": {
+      "date": "2011-12-21"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.4413,
+    "lat": -4.497
+  }
+}

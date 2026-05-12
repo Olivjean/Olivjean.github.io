@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 28101,
+  "slug": "matintin",
+  "name_pt": "Matintin",
+  "name_en": "Matintin",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 217.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303700,
+      "name": "Santo Antônio do Içá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1304237,
+      "name": "Tonantins",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-06-09"
+    },
+    "delimitada": {
+      "date": "2003-10-03"
+    },
+    "declarada": {
+      "date": "2005-09-16"
+    },
+    "homologada": {
+      "date": "2012-06-05"
+    },
+    "regularizada": {
+      "date": "2013-03-07"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.4634,
+    "lat": -2.8815
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "terrai_cod": 34101,
+  "slug": "paukalirajausu",
+  "name_pt": "Paukalirajausu",
+  "name_en": "Paukalirajausu",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 84,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105507,
+      "name": "Vila Bela da Santíssima Trindade",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106182,
+      "name": "Nova Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103361,
+      "name": "Conquista D'Oeste",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1995-08-23"
+    },
+    "delimitada": {
+      "date": "2010-09-27"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.6474,
+    "lat": -14.755
+  }
+}

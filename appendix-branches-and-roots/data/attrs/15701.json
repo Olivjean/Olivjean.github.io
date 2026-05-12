@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 15701,
+  "slug": "igarape-do-caucho",
+  "name_pt": "Igarapé do Caucho",
+  "name_en": "Igarapé do Caucho",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 123.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-08-06"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1991-12-12"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -70.6968,
+    "lat": -8.2734
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 28201,
+  "slug": "mawetek",
+  "name_pt": "Mawetek",
+  "name_en": "Mawetek",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1154.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kanamari",
+      "en": "Kanamari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kanamari",
+      "family": "Katukina",
+      "povo": "Kanamari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301407,
+      "name": "Eirunepé",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1995-10-30"
+    },
+    "delimitada": {
+      "date": "1999-04-23"
+    },
+    "declarada": {
+      "date": "1999-10-07"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-06-05"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -70.2826,
+    "lat": -6.6228
+  }
+}

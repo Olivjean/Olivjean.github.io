@@ -1,0 +1,63 @@
+{
+  "terrai_cod": 62401,
+  "slug": "utaria-wyhyna-irodu-irana",
+  "name_pt": "Utaria Wyhyna/Iròdu Iràna",
+  "name_en": "Utaria Wyhyna/Iròdu Iràna",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 1774.7,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    },
+    {
+      "pt": "Javaé",
+      "en": "Javaé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    },
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Javaé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1717503,
+      "name": "Pium",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5107776,
+      "name": "Santa Terezinha",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-10-13"
+    },
+    "delimitada": {
+      "date": "2009-02-27"
+    },
+    "declarada": {
+      "date": "2010-11-03"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.2311,
+    "lat": -10.1768
+  }
+}

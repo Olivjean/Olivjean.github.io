@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 27101,
+  "slug": "maranduba",
+  "name_pt": "Maranduba",
+  "name_en": "Maranduba",
+  "ufs": [
+    "TO",
+    "PA"
+  ],
+  "area_km2": 3.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1701903,
+      "name": "Araguacema",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1506583,
+      "name": "Santa Maria das Barreiras",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2000-03-17"
+    },
+    "delimitada": {
+      "date": "2001-09-27"
+    },
+    "declarada": {
+      "date": "2002-12-18"
+    },
+    "homologada": {
+      "date": "2005-04-19"
+    },
+    "regularizada": {
+      "date": "2005-12-26"
+    }
+  },
+  "audit_score": 9.34,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.6998,
+    "lat": -8.8713
+  }
+}

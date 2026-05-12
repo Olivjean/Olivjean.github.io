@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 13001,
+  "slug": "fortaleza-do-pataua",
+  "name_pt": "Fortaleza do Patauá",
+  "name_en": "Fortaleza do Patauá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 7.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302504,
+      "name": "Manacapuru",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-11-12"
+    },
+    "delimitada": {
+      "date": "1999-01-25"
+    },
+    "declarada": {
+      "date": "1999-08-12"
+    },
+    "homologada": {
+      "date": "2004-04-19"
+    },
+    "regularizada": {
+      "date": "2004-10-14"
+    }
+  },
+  "audit_score": 9.33,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.739,
+    "lat": -3.1459
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 7401,
+  "slug": "cacau-do-tarauaca",
+  "name_pt": "Cacau do Tarauaca",
+  "name_en": "Cacau do Tarauaca",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 283.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301506,
+      "name": "Envira",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-03-11"
+    },
+    "declarada": {
+      "date": "1986-08-20"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1992-10-22"
+    }
+  },
+  "audit_score": 7.88,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.9085,
+    "lat": -7.4304
+  }
+}

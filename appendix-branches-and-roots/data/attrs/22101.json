@@ -1,0 +1,78 @@
+{
+  "terrai_cod": 22101,
+  "slug": "kaxinawa-ashaninka-do-rio-breu",
+  "name_pt": "Kaxinawá Ashaninka do Rio Breu",
+  "name_en": "Kaxinawá Ashaninka do Rio Breu",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 312.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    },
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    },
+    {
+      "pt": "Isolados do Igarapé Papavo",
+      "en": "Isolados do Igarapé Papavo"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    },
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    },
+    {
+      "name": "Isolados do Igarapé Papavo",
+      "family": "—",
+      "povo": "Isolados do Igarapé Papavo"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200351,
+      "name": "Marechal Thaumaturgo",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1987-02-10"
+    },
+    "delimitada": {
+      "date": "1994-03-23"
+    },
+    "declarada": {
+      "date": "1996-10-02"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-06-17"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.31,
+    "lat": -9.5223
+  }
+}

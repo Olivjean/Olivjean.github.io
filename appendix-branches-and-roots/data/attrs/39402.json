@@ -1,0 +1,64 @@
+{
+  "terrai_cod": 39402,
+  "slug": "rio-gregorio",
+  "name_pt": "Rio Gregório",
+  "name_en": "Rio Gregório",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 1871.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Katukina Pano",
+      "en": "Katukina Pano"
+    },
+    {
+      "pt": "Yawanawá",
+      "en": "Yawanawá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Katukina do Acre",
+      "family": "Pano",
+      "povo": "Katukina Pano"
+    },
+    {
+      "name": "Yawanáwa",
+      "family": "Pano",
+      "povo": "Yawanawá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2004-10-29"
+    },
+    "delimitada": {
+      "date": "2006-03-31"
+    },
+    "declarada": {
+      "date": "1983-12-28"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2024-05-03"
+    }
+  },
+  "audit_score": 8.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.7631,
+    "lat": -8.3646
+  }
+}

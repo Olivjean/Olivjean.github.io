@@ -1,0 +1,76 @@
+{
+  "terrai_cod": 29201,
+  "slug": "miratu",
+  "name_pt": "Miratu",
+  "name_en": "Miratu",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 132,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Karapanã",
+      "en": "Karapanã"
+    },
+    {
+      "pt": "Miranha",
+      "en": "Miranha"
+    },
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    },
+    {
+      "pt": "Witoto",
+      "en": "Witoto"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karapanã",
+      "family": "Tukano",
+      "povo": "Karapanã"
+    },
+    {
+      "name": "Bora",
+      "family": "Bora",
+      "povo": "Miranha"
+    },
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    },
+    {
+      "name": "Witoto",
+      "family": "Witoto",
+      "povo": "Witoto"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304260,
+      "name": "Uarini",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1992-01-14"
+    }
+  },
+  "audit_score": 7.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.2406,
+    "lat": -3.0276
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "terrai_cod": 1501,
+  "slug": "alto-turiacu",
+  "name_pt": "Alto Turiaçu",
+  "name_en": "Alto Turiaçu",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 5305.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Awa Guajá",
+      "en": "Awa Guajá"
+    },
+    {
+      "pt": "Ka'apor",
+      "en": "Ka'apor"
+    },
+    {
+      "pt": "Tembé",
+      "en": "Tembé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Guajá",
+      "family": "Tupi-Guarani",
+      "povo": "Awa Guajá"
+    },
+    {
+      "name": "Kaapor",
+      "family": "Tupi-Guarani",
+      "povo": "Ka'apor"
+    },
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Tembé"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 2107357,
+      "name": "Nova Olinda do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2100873,
+      "name": "Araguanã",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2114007,
+      "name": "Zé Doca",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2103174,
+      "name": "Centro Novo do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2103158,
+      "name": "Centro do Guilherme",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 1505502,
+      "name": "Paragominas",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 2106375,
+      "name": "Maranhãozinho",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2009-07-10"
+    },
+    "declarada": {
+      "date": "1982-09-14"
+    },
+    "homologada": {
+      "date": "1982-12-28"
+    },
+    "regularizada": {
+      "date": "1983-03-28"
+    }
+  },
+  "audit_score": 8.75,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -46.2509,
+    "lat": -2.8677
+  }
+}

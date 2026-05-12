@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 101,
+  "slug": "acapuri-de-cima",
+  "name_pt": "Acapuri de Cima",
+  "name_en": "Acapuri de Cima",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 183.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301605,
+      "name": "Fonte Boa",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-12-03"
+    },
+    "delimitada": {
+      "date": "1999-08-23"
+    },
+    "declarada": {
+      "date": "2000-04-13"
+    },
+    "homologada": {
+      "date": "2023-09-05"
+    },
+    "regularizada": {
+      "date": "2023-11-07"
+    }
+  },
+  "audit_score": 9.47,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.828,
+    "lat": -2.5971
+  }
+}

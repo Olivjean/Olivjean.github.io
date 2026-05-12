@@ -1,0 +1,51 @@
+{
+  "terrai_cod": 20701,
+  "slug": "kanela",
+  "name_pt": "Kanela",
+  "name_en": "Kanela",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 1252.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Canela Memortumré",
+      "en": "Canela Memortumré"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Canela Memortumré"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2104081,
+      "name": "Fernando Falcão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2101608,
+      "name": "Barra do Corda",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1982-12-21"
+    },
+    "regularizada": {
+      "date": "2023-02-28"
+    }
+  },
+  "audit_score": 9.21,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.1038,
+    "lat": -6.064
+  }
+}

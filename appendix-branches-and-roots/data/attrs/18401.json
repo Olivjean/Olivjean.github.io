@@ -1,0 +1,74 @@
+{
+  "terrai_cod": 18401,
+  "slug": "jaminawa-arara-do-rio-bage",
+  "name_pt": "Jaminawa Arara do Rio Bagé",
+  "name_en": "Jaminawa Arara do Rio Bagé",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 289.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Arara Shawãdawa",
+      "en": "Arara Shawãdawa"
+    },
+    {
+      "pt": "Yaminawá",
+      "en": "Yaminawá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arara Shawanaua",
+      "family": "Pano",
+      "povo": "Arara Shawãdawa"
+    },
+    {
+      "name": "Yamináwa",
+      "family": "Pano",
+      "povo": "Yaminawá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200351,
+      "name": "Marechal Thaumaturgo",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-02-04"
+    },
+    "delimitada": {
+      "date": "1993-04-22"
+    },
+    "declarada": {
+      "date": "1993-07-30"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-03-15"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -72.1933,
+    "lat": -8.8345
+  }
+}

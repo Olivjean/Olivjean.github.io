@@ -1,0 +1,137 @@
+{
+  "terrai_cod": 48601,
+  "slug": "vale-do-guapore",
+  "name_pt": "Vale do Guaporé",
+  "name_en": "Vale do Guaporé",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 2425.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Alakatesu",
+      "en": "Nambikwara Alakatesu"
+    },
+    {
+      "pt": "Nambikwara Alantesu",
+      "en": "Nambikwara Alantesu"
+    },
+    {
+      "pt": "Nambikwara Erihitaunsu",
+      "en": "Nambikwara Erihitaunsu"
+    },
+    {
+      "pt": "Nambikwara Hahaintesu",
+      "en": "Nambikwara Hahaintesu"
+    },
+    {
+      "pt": "Nambikwara Hoskokosu",
+      "en": "Nambikwara Hoskokosu"
+    },
+    {
+      "pt": "Nambikwara Mamaindê",
+      "en": "Nambikwara Mamaindê"
+    },
+    {
+      "pt": "Nambikwara Negarotê",
+      "en": "Nambikwara Negarotê"
+    },
+    {
+      "pt": "Nambikwara Waikisu",
+      "en": "Nambikwara Waikisu"
+    },
+    {
+      "pt": "Nambikwara Wasusu",
+      "en": "Nambikwara Wasusu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Alakatesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Alantesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Erihitaunsu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Hahaintesu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Hoskokosu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Mamaindê"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Negarotê"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Waikisu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Wasusu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106182,
+      "name": "Nova Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1100304,
+      "name": "Vilhena",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 5103304,
+      "name": "Comodoro",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1985-04-29"
+    },
+    "regularizada": {
+      "date": "1988-06-07"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.9397,
+    "lat": -13.7285
+  }
+}

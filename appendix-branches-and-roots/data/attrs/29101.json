@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 29101,
+  "slug": "miguel-josefa",
+  "name_pt": "Miguel/Josefa",
+  "name_en": "Miguel/Josefa",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 16.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-01-28"
+    },
+    "delimitada": {
+      "date": "1998-07-10"
+    },
+    "declarada": {
+      "date": "1999-07-14"
+    },
+    "homologada": {
+      "date": "2001-04-20"
+    },
+    "regularizada": {
+      "date": "2002-03-19"
+    }
+  },
+  "audit_score": 8.45,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.1509,
+    "lat": -3.8073
+  }
+}

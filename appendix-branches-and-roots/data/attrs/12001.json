@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 12001,
+  "slug": "estrela-da-paz",
+  "name_pt": "Estrela da Paz",
+  "name_en": "Estrela da Paz",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 128.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-09-28"
+    },
+    "homologada": {
+      "date": "1995-07-03"
+    },
+    "regularizada": {
+      "date": "1995-08-25"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -66.8587,
+    "lat": -2.8467
+  }
+}

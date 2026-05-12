@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 6601,
+  "slug": "bom-jesus",
+  "name_pt": "Bom Jesus",
+  "name_en": "Bom Jesus",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 8.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400159,
+      "name": "Bonfim",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1977-03-14"
+    },
+    "declarada": {
+      "date": "1984-04-30"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1988-08-23"
+    }
+  },
+  "audit_score": 8.59,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.8431,
+    "lat": 3.4511
+  }
+}

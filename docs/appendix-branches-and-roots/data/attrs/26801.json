@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 26801,
+  "slug": "maraita",
+  "name_pt": "Maraitá",
+  "name_en": "Maraitá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 530.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303700,
+      "name": "Santo Antônio do Içá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300060,
+      "name": "Amaturá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-06-09"
+    },
+    "delimitada": {
+      "date": "2003-03-14"
+    },
+    "declarada": {
+      "date": "2004-03-25"
+    },
+    "homologada": {
+      "date": "2006-11-01"
+    },
+    "regularizada": {
+      "date": "2009-03-18"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.3475,
+    "lat": -3.21
+  }
+}

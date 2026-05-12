@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 30101,
+  "slug": "murutinga-tracaja",
+  "name_pt": "Murutinga/Tracaja",
+  "name_en": "Murutinga/Tracaja",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 132.9,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301159,
+      "name": "Careiro da Várzea",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "delimitada": {
+      "date": "2012-07-30"
+    },
+    "declarada": {
+      "date": "2016-04-20"
+    }
+  },
+  "audit_score": 9.39,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.2199,
+    "lat": -3.3702
+  }
+}

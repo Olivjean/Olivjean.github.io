@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Branches and Roots — Online Appendix</title>
+<meta name="description" content="Per-Indigenous-Land online appendix for the working paper 'Branches and roots: banking presence and deforestation in Amazonian Indigenous lands' by Araujo & de Oliveira." />
+
+<!-- Open Graph (Facebook, LinkedIn, Slack, iMessage) -->
+<meta property="og:type"        content="website" />
+<meta property="og:site_name"   content="Branches and Roots — Online Appendix" />
+<meta property="og:title"       content="Branches and Roots: banking presence and deforestation in Amazonian Indigenous lands" />
+<meta property="og:description" content="Interactive online appendix to the working paper by Douglas Araujo and Jean de Oliveira. 382 Indigenous lands, PRODES deforestation, FUNAI demarcation history." />
+<meta property="og:url"         content="https://jean-de-oliveira.com/appendix-branches-and-roots/index.html" />
+<meta property="og:image"       content="https://jean-de-oliveira.com/appendix-branches-and-roots/assets/og-image.png" />
+<meta property="og:image:width"  content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:title"       content="Online Appendix — Branches and Roots" />
+<meta name="twitter:description" content="Banking presence and deforestation across 382 Amazonian Indigenous lands. Interactive maps and per-IL data." />
+<meta name="twitter:image"       content="https://jean-de-oliveira.com/appendix-branches-and-roots/assets/og-image.png" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="assets/css/site.css?v=1778578142" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-text">
+    <h1>
+      <a class="home-link" href="#" title="Back to overview">
+        <span class="appendix-prefix" data-i18n="site.appendix_prefix">Online Appendix —</span>
+        <span data-i18n="site.paper_title">Branches and roots: banking presence and deforestation in Amazonian Indigenous lands</span>
+      </a>
+    </h1>
+    <span class="subtitle" data-i18n="site.subtitle">Douglas Araujo &amp; Jean de Oliveira</span>
+  </div>
+  <div class="header-right">
+    <div class="cite-actions">
+      <button id="copy-url" class="cite-btn" data-i18n="footer.copy_url"
+              data-i18n-title="footer.copy_url_tooltip" title="Copy URL">URL</button>
+      <button id="copy-bib" class="cite-btn" data-i18n="footer.copy_bib"
+              data-i18n-title="footer.copy_bib_tooltip" title="Copy BibTeX">BibTeX</button>
+    </div>
+    <div class="contact-wrap">
+      <button id="contact-btn" class="contact-btn"
+              data-i18n="contact.button"
+              data-i18n-title="contact.tooltip"
+              aria-haspopup="dialog" aria-expanded="false"
+              title="Contact">✉ Contact</button>
+      <div id="contact-popover" class="contact-popover" role="dialog">
+        <span class="contact-prompt-inline" data-i18n="contact.prompt">Found a problem?</span>
+        <span class="contact-label-inline" data-i18n="contact.label">Contact:</span>
+        <a class="contact-link" id="contact-email"
+           href="mailto:jeanoli@stud.uni-frankfurt.de"
+           data-i18n="contact.email_value">jeanoli@stud.uni-frankfurt.de</a>
+      </div>
+    </div>
+    <div class="lang-switcher">
+      <button data-lang="en">EN</button>
+      <button data-lang="pt">PT-BR</button>
+    </div>
+  </div>
+</header>
+
+<nav class="il-selector-bar">
+  <label class="il-selector-label" for="il-picker-input"
+         data-i18n="selector.label">Indigenous Land:</label>
+  <div class="il-picker-wrap il-picker-wrap-large">
+    <input type="text" id="il-picker-input"
+           class="il-picker-input il-picker-input-large"
+           data-i18n-placeholder="selector.placeholder"
+           placeholder="Select or search an Indigenous Land…" autocomplete="off" />
+    <div id="il-picker-list" class="il-picker-list"></div>
+  </div>
+  <button id="random-il-btn" class="random-il-btn"
+          data-i18n="selector.random"
+          data-i18n-title="selector.random_tooltip"
+          title="Open a random Indigenous Land">Random</button>
+  <div id="state-filters" class="state-filters"></div>
+</nav>
+
+<main class="card-grid" id="card-view">
+  <section class="pane" aria-label="map">
+    <div class="map-header">
+      <div class="map-mode-toggle">
+        <button data-mode="focused" class="active"
+                data-i18n="map.mode.focused"
+                data-i18n-title="map.mode.tooltip_focused">Focused view</button>
+        <button data-mode="context"
+                data-i18n="map.mode.context"
+                data-i18n-title="map.mode.tooltip_context">Place on map</button>
+      </div>
+    </div>
+
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div id="inset-map" class="inset-map" aria-hidden="true"></div>
+    </div>
+
+    <div class="year-control">
+      <label data-i18n="map.year_label" for="year-slider">Year:</label>
+      <input type="range" id="year-slider" min="2008" max="2024" value="2024" step="1" />
+      <span class="year-display" id="year-display">2024</span>
+      <button id="play-btn" class="play-btn" data-i18n="map.play">▶ Play</button>
+    </div>
+
+    <div class="legend">
+      <span><span class="swatch il"></span><span data-i18n="map.layer.il">Indigenous Land</span></span>
+      <span><span class="swatch iltf"></span><span data-i18n="map.layer.iltf">ILTF</span></span>
+      <span><span class="swatch defor"></span><span data-i18n="map.layer.defor">Clear-cut polygons</span></span>
+    </div>
+  </section>
+
+  <section class="pane" aria-label="info">
+    <div class="right-pane-header">
+      <h2 class="pane-title" id="right-pane-title"></h2>
+      <div class="view-toggle">
+        <button data-view="il"   class="active" data-i18n="toggle.il">Indigenous Land</button>
+        <button data-view="iltf"               data-i18n="toggle.iltf">ILTF</button>
+      </div>
+    </div>
+
+    <div class="info-block" id="info-block"></div>
+
+    <div class="plot-block">
+      <div class="plot-header">
+        <div class="plot-caption" id="plot-caption"></div>
+        <div class="plot-mode-toggle">
+          <button data-mode="yearly" class="active" data-i18n="plot.mode.yearly">Yearly</button>
+          <button data-mode="cumulative" data-i18n="plot.mode.cumulative">Cumulative</button>
+        </div>
+      </div>
+      <div id="plot"></div>
+    </div>
+  </section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+<script>
+  window.OA_DATA_PATH = "data";
+  window.OA_BASE_PATH = "assets/lang";
+</script>
+<script src="assets/js/i18n.js?v=1778578142"></script>
+<script src="assets/js/brazil-map.js?v=1778578142"></script>
+<script src="assets/js/il-picker.js?v=1778578142"></script>
+<script src="assets/js/il-card.js?v=1778578142"></script>
+<script src="assets/js/contact.js?v=1778578142"></script>
+<script>Card.init(); IlPicker.init();</script>
+
+</body>
+</html>

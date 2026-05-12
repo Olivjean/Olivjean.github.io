@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 15601,
+  "slug": "igarape-capana",
+  "name_pt": "Igarapé Capana",
+  "name_en": "Igarapé Capana",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1225.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Jamamadi",
+      "en": "Jamamadi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Deni",
+      "family": "Arawá",
+      "povo": "Jamamadi"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300706,
+      "name": "Boca do Acre",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-09-05"
+    },
+    "delimitada": {
+      "date": "1992-02-21"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1997-11-03"
+    },
+    "regularizada": {
+      "date": "1997-12-29"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.1477,
+    "lat": -8.8617
+  }
+}

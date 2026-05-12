@@ -1,0 +1,59 @@
+{
+  "terrai_cod": 59001,
+  "slug": "portal-do-encantado",
+  "name_pt": "Portal do Encantado",
+  "name_en": "Portal do Encantado",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 430.6,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Chiquitano",
+      "en": "Chiquitano"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Chiquito",
+      "family": "Chiquito",
+      "povo": "Chiquitano"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5106828,
+      "name": "Porto Esperidião",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5105507,
+      "name": "Vila Bela da Santíssima Trindade",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106752,
+      "name": "Pontes e Lacerda",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2002-11-11"
+    },
+    "delimitada": {
+      "date": "2005-09-01"
+    },
+    "declarada": {
+      "date": "2010-12-30"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.4793,
+    "lat": -16.1514
+  }
+}

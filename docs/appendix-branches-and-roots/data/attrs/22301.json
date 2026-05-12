@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 22301,
+  "slug": "kaxinawa-da-praia-do-carapana",
+  "name_pt": "Kaxinawá da Praia do Carapanã",
+  "name_en": "Kaxinawá da Praia do Carapanã",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 607,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Huni Kuin (Kaxinawá)",
+      "en": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kaxinawa",
+      "family": "Pano",
+      "povo": "Huni Kuin (Kaxinawá)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1993-11-25"
+    },
+    "delimitada": {
+      "date": "1997-09-29"
+    },
+    "declarada": {
+      "date": "1998-06-25"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-01-02"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.3601,
+    "lat": -8.396
+  }
+}

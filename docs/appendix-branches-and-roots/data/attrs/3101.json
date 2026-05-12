@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 3101,
+  "slug": "araca",
+  "name_pt": "Araçá",
+  "name_en": "Araçá",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 500.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1977-10-21"
+    },
+    "declarada": {
+      "date": "1981-11-06"
+    },
+    "homologada": {
+      "date": "1982-02-17"
+    },
+    "regularizada": {
+      "date": "1988-11-22"
+    }
+  },
+  "audit_score": 8.75,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.1052,
+    "lat": 3.6252
+  }
+}

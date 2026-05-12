@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 6201,
+  "slug": "betania",
+  "name_pt": "Betania",
+  "name_en": "Betania",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 1227.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303700,
+      "name": "Santo Antônio do Içá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1304237,
+      "name": "Tonantins",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300060,
+      "name": "Amaturá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302306,
+      "name": "Jutaí",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-11-20"
+    },
+    "delimitada": {
+      "date": "1985-10-01"
+    },
+    "declarada": {
+      "date": "1991-11-25"
+    },
+    "homologada": {
+      "date": "1995-07-03"
+    },
+    "regularizada": {
+      "date": "1995-10-10"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.0962,
+    "lat": -3.0449
+  }
+}

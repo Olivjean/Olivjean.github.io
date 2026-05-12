@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 47201,
+  "slug": "tupa-supe",
+  "name_pt": "Tupã-Supé",
+  "name_en": "Tupã-Supé",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 85.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304260,
+      "name": "Uarini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300029,
+      "name": "Alvarães",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1994-08-18"
+    },
+    "delimitada": {
+      "date": "2001-01-24"
+    },
+    "declarada": {
+      "date": "2001-11-06"
+    },
+    "homologada": {
+      "date": "2004-04-19"
+    },
+    "regularizada": {
+      "date": "2004-05-14"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.0202,
+    "lat": -3.147
+  }
+}

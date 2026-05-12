@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 40002,
+  "slug": "rio-negro-ocaia",
+  "name_pt": "Rio Negro Ocaia",
+  "name_en": "Rio Negro Ocaia",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 2350.7,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Wari'",
+      "en": "Wari'"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wari (Pakaá Nova)",
+      "family": "Txapakura",
+      "povo": "Wari'"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100106,
+      "name": "Guajará-Mirim",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-07-09"
+    },
+    "delimitada": {
+      "date": "2009-09-04"
+    },
+    "homologada": {
+      "date": "1981-09-09"
+    },
+    "regularizada": {
+      "date": "1981-09-23"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.6612,
+    "lat": -11.0789
+  }
+}

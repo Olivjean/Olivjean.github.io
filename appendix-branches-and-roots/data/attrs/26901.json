@@ -1,0 +1,75 @@
+{
+  "terrai_cod": 26901,
+  "slug": "maraiwatsede",
+  "name_pt": "Maraiwatsede",
+  "name_en": "Maraiwatsede",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1652.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101852,
+      "name": "Bom Jesus do Araguaia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5100359,
+      "name": "Alto Boa Vista",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107883,
+      "name": "Serra Nova Dourada",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107859,
+      "name": "São Félix do Araguaia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102694,
+      "name": "Canabrava do Norte",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1992-01-20"
+    },
+    "delimitada": {
+      "date": "1992-07-29"
+    },
+    "declarada": {
+      "date": "1993-09-30"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-04-08"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.6907,
+    "lat": -11.7601
+  }
+}

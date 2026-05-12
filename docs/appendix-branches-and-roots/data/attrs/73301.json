@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 73301,
+  "slug": "taego-awa",
+  "name_pt": "Taego Ãwa",
+  "name_en": "Taego Ãwa",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 285.1,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Avá-Canoeiro",
+      "en": "Avá-Canoeiro"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ava-Canoeiro",
+      "family": "Tupi-Guarani",
+      "povo": "Avá-Canoeiro"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1708205,
+      "name": "Formoso do Araguaia",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2011-08-11"
+    },
+    "delimitada": {
+      "date": "2012-04-18"
+    },
+    "declarada": {
+      "date": "2016-05-11"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -49.7915,
+    "lat": -11.9552
+  }
+}

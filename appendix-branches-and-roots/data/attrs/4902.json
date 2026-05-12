@@ -1,0 +1,57 @@
+{
+  "terrai_cod": 4902,
+  "slug": "bacurizinho",
+  "name_pt": "Bacurizinho",
+  "name_en": "Bacurizinho",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 1340.4,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Guajajara",
+      "en": "Guajajara"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Guajajara"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2105476,
+      "name": "Jenipapo dos Vieiras",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 2104800,
+      "name": "Grajaú",
+      "uf": "MA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2001-08-30"
+    },
+    "delimitada": {
+      "date": "2007-10-25"
+    },
+    "homologada": {
+      "date": "1983-08-09"
+    },
+    "regularizada": {
+      "date": "1984-01-27"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.8219,
+    "lat": -5.9098
+  }
+}

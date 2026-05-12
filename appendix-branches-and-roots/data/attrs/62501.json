@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 62501,
+  "slug": "braganca-marituba",
+  "name_pt": "Bragança-Marituba",
+  "name_en": "Bragança-Marituba",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 135.2,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1501451,
+      "name": "Belterra",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-08-15"
+    },
+    "delimitada": {
+      "date": "2009-10-29"
+    },
+    "declarada": {
+      "date": "2016-05-11"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -55.008,
+    "lat": -3.0513
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "terrai_cod": 51101,
+  "slug": "zoro",
+  "name_pt": "Zoró",
+  "name_en": "Zoró",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 3557.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados no norte da TI Zoró",
+      "en": "Isolados no norte da TI Zoró"
+    },
+    {
+      "pt": "Zoró",
+      "en": "Zoró"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados no norte da TI Zoró",
+      "family": "—",
+      "povo": "Isolados no norte da TI Zoró"
+    },
+    {
+      "name": "Zoró",
+      "family": "Mondé",
+      "povo": "Zoró"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101407,
+      "name": "Aripuanã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1987-03-11"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2021-09-06"
+    }
+  },
+  "audit_score": 8.21,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.8207,
+    "lat": -10.5848
+  }
+}

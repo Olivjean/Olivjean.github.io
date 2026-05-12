@@ -1,0 +1,87 @@
+{
+  "terrai_cod": 68301,
+  "slug": "apiaka-do-pontal-e-isolados",
+  "name_pt": "Apiaká do Pontal e Isolados",
+  "name_en": "Apiaká do Pontal e Isolados",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 9823.2,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Apiaká",
+      "en": "Apiaká"
+    },
+    {
+      "pt": "Isolados do Pontal",
+      "en": "Isolados do Pontal"
+    },
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apiaká",
+      "family": "Tupi-Guarani",
+      "povo": "Apiaká"
+    },
+    {
+      "name": "Isolados do Pontal",
+      "family": "—",
+      "povo": "Isolados do Pontal"
+    },
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5100805,
+      "name": "Apiacás",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106158,
+      "name": "Nova Bandeirantes",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1300144,
+      "name": "Apuí",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 5103379,
+      "name": "Cotriguaçu",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 1503754,
+      "name": "Jacareacanga",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2008-09-02"
+    },
+    "delimitada": {
+      "date": "2011-04-19"
+    },
+    "declarada": {
+      "date": "2024-09-05"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.1054,
+    "lat": -8.3958
+  }
+}

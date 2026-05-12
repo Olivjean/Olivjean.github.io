@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 20501,
+  "slug": "kampa-e-isolados-do-rio-envira",
+  "name_pt": "Kampa e Isolados do Rio Envira",
+  "name_en": "Kampa e Isolados do Rio Envira",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 2328,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    },
+    {
+      "pt": "Mashco Isolados do Rio Envira",
+      "en": "Mashco Isolados do Rio Envira"
+    },
+    {
+      "pt": "Yura",
+      "en": "Yura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    },
+    {
+      "name": "Mashco Isolados do Rio Envira",
+      "family": "—",
+      "povo": "Mashco Isolados do Rio Envira"
+    },
+    {
+      "name": "Yura",
+      "family": "Pano",
+      "povo": "Yura"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "delimitada": {
+      "date": "1992-09-02"
+    },
+    "declarada": {
+      "date": "1992-11-16"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "1999-02-09"
+    }
+  },
+  "audit_score": 8.08,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.7705,
+    "lat": -9.8108
+  }
+}

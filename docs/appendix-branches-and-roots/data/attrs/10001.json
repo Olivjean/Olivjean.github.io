@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 10001,
+  "slug": "chao-preto",
+  "name_pt": "Chão Preto",
+  "name_en": "Chão Preto",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 127.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Xavante",
+      "en": "Xavante"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Akwen",
+      "family": "Jê",
+      "povo": "Xavante"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107792,
+      "name": "Santo Antônio do Leste",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5102603,
+      "name": "Campinápolis",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1996-03-26"
+    },
+    "delimitada": {
+      "date": "1997-08-29"
+    },
+    "declarada": {
+      "date": "1998-06-25"
+    },
+    "homologada": {
+      "date": "2001-04-30"
+    },
+    "regularizada": {
+      "date": "2002-04-01"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.2245,
+    "lat": -14.5937
+  }
+}

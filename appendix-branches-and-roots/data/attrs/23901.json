@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 23901,
+  "slug": "kulina-igarape-do-pau",
+  "name_pt": "Kulina Igarapé do Pau",
+  "name_en": "Kulina Igarapé do Pau",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 455.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1983-10-20"
+    },
+    "delimitada": {
+      "date": "1993-07-22"
+    },
+    "declarada": {
+      "date": "1993-08-16"
+    },
+    "homologada": {
+      "date": "2001-04-18"
+    },
+    "regularizada": {
+      "date": "2001-06-06"
+    }
+  },
+  "audit_score": 8.41,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -70.9747,
+    "lat": -9.2712
+  }
+}

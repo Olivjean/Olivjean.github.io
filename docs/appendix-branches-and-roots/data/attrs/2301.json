@@ -1,0 +1,79 @@
+{
+  "terrai_cod": 2301,
+  "slug": "apiaka-kayabi",
+  "name_pt": "Apiaka/Kayabi",
+  "name_en": "Apiaka/Kayabi",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1092.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apiaká",
+      "en": "Apiaká"
+    },
+    {
+      "pt": "Isolados do Rio dos Peixes",
+      "en": "Isolados do Rio dos Peixes"
+    },
+    {
+      "pt": "Kawaiwete (Kaiabi)",
+      "en": "Kawaiwete (Kaiabi)"
+    },
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apiaká",
+      "family": "Tupi-Guarani",
+      "povo": "Apiaká"
+    },
+    {
+      "name": "Isolados do Rio dos Peixes",
+      "family": "—",
+      "povo": "Isolados do Rio dos Peixes"
+    },
+    {
+      "name": "Kayabi",
+      "family": "Tupi-Guarani",
+      "povo": "Kawaiwete (Kaiabi)"
+    },
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105101,
+      "name": "Juara",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1982-12-02"
+    },
+    "declarada": {
+      "date": "1987-07-14"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1988-08-19"
+    }
+  },
+  "audit_score": 8.59,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -57.3949,
+    "lat": -10.9418
+  }
+}

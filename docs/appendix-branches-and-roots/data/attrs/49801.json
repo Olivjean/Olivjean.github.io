@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 49801,
+  "slug": "wawi",
+  "name_pt": "Wawi",
+  "name_en": "Wawi",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 1503.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kajkwakratxi (Tapayuna)",
+      "en": "Kajkwakratxi (Tapayuna)"
+    },
+    {
+      "pt": "Khisêtjê",
+      "en": "Khisêtjê"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tapayuna",
+      "family": "Jê",
+      "povo": "Kajkwakratxi (Tapayuna)"
+    },
+    {
+      "name": "Suyá",
+      "family": "Jê",
+      "povo": "Khisêtjê"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5107065,
+      "name": "Querência",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107859,
+      "name": "São Félix do Araguaia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2007-08-23"
+    },
+    "declarada": {
+      "date": "1997-10-01"
+    },
+    "homologada": {
+      "date": "1998-09-08"
+    },
+    "regularizada": {
+      "date": "1998-12-09"
+    }
+  },
+  "audit_score": 8.69,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -53.0639,
+    "lat": -11.7493
+  }
+}

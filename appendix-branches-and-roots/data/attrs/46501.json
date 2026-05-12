@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 46501,
+  "slug": "truaru",
+  "name_pt": "Truaru",
+  "name_en": "Truaru",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 56.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400100,
+      "name": "Boa Vista",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1982-05-21"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1992-03-24"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.9746,
+    "lat": 3.2332
+  }
+}

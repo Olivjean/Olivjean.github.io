@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 31601,
+  "slug": "pacaas-novas",
+  "name_pt": "Pacaas Novas",
+  "name_en": "Pacaas Novas",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 2799.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wari'",
+      "en": "Wari'"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wari (Pakaá Nova)",
+      "family": "Txapakura",
+      "povo": "Wari'"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100106,
+      "name": "Guajará-Mirim",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1992-04-03"
+    }
+  },
+  "audit_score": 9.47,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.1034,
+    "lat": -11.3697
+  }
+}

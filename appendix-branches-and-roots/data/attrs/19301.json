@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 19301,
+  "slug": "jauary",
+  "name_pt": "Jauary",
+  "name_en": "Jauary",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 248.3,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1997-04-09"
+    },
+    "delimitada": {
+      "date": "2012-10-05"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.0738,
+    "lat": -3.4181
+  }
+}

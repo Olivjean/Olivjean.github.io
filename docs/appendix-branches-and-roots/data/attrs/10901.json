@@ -1,0 +1,93 @@
+{
+  "terrai_cod": 10901,
+  "slug": "deni",
+  "name_pt": "Deni",
+  "name_en": "Deni",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 15313,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Deni",
+      "en": "Deni"
+    },
+    {
+      "pt": "Isolados do Rio Cuniuá",
+      "en": "Isolados do Rio Cuniuá"
+    },
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Deni",
+      "family": "Arawá",
+      "povo": "Deni"
+    },
+    {
+      "name": "Isolados do Rio Cuniuá",
+      "family": "—",
+      "povo": "Isolados do Rio Cuniuá"
+    },
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303502,
+      "name": "Pauini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301001,
+      "name": "Carauari",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301951,
+      "name": "Itamarati",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1304104,
+      "name": "Tapauá",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-07"
+    },
+    "delimitada": {
+      "date": "2001-02-19"
+    },
+    "declarada": {
+      "date": "2001-10-16"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2006-10-18"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -67.536,
+    "lat": -6.7848
+  }
+}

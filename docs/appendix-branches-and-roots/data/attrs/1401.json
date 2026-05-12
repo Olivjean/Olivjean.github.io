@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 1401,
+  "slug": "alto-tarauaca",
+  "name_pt": "Alto Tarauacá",
+  "name_en": "Alto Tarauacá",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 1426.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Alto Tarauacá",
+      "en": "Isolados do Alto Tarauacá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Alto Tarauacá",
+      "family": "—",
+      "povo": "Isolados do Alto Tarauacá"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-05-22"
+    },
+    "delimitada": {
+      "date": "2000-04-18"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2007-07-04"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.9085,
+    "lat": -9.6031
+  }
+}

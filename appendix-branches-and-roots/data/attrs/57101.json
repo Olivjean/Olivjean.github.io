@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 57101,
+  "slug": "porto-limoeiro",
+  "name_pt": "Porto Limoeiro",
+  "name_en": "Porto Limoeiro",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 45.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303700,
+      "name": "Santo Antônio do Içá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2003-02-28"
+    },
+    "delimitada": {
+      "date": "2006-07-20"
+    },
+    "declarada": {
+      "date": "2007-12-14"
+    },
+    "homologada": {
+      "date": "2012-06-05"
+    },
+    "regularizada": {
+      "date": "2013-03-07"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -68.941,
+    "lat": -3.0631
+  }
+}

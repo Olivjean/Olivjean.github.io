@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 31901,
+  "slug": "padre",
+  "name_pt": "Padre",
+  "name_en": "Padre",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-10-09"
+    },
+    "delimitada": {
+      "date": "1999-12-21"
+    },
+    "declarada": {
+      "date": "1986-08-20"
+    },
+    "homologada": {
+      "date": "1996-05-23"
+    },
+    "regularizada": {
+      "date": "2003-09-17"
+    }
+  },
+  "audit_score": 8.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.1828,
+    "lat": -3.7425
+  }
+}

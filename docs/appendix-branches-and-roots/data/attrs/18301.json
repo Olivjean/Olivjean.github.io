@@ -1,0 +1,69 @@
+{
+  "terrai_cod": 18301,
+  "slug": "jaminaua-envira",
+  "name_pt": "Jaminaua/Envira",
+  "name_en": "Jaminaua/Envira",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 806.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    },
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    },
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200435,
+      "name": "Santa Rosa do Purus",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1996-05-31"
+    },
+    "delimitada": {
+      "date": "1999-05-06"
+    },
+    "declarada": {
+      "date": "2000-04-13"
+    },
+    "homologada": {
+      "date": "2003-02-10"
+    },
+    "regularizada": {
+      "date": "2003-03-25"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.0681,
+    "lat": -9.5236
+  }
+}

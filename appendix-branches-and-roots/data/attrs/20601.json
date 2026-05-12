@@ -1,0 +1,70 @@
+{
+  "terrai_cod": 20601,
+  "slug": "kanamari-do-rio-jurua",
+  "name_pt": "Kanamari do Rio Juruá",
+  "name_en": "Kanamari do Rio Juruá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 5964.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kanamari",
+      "en": "Kanamari"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kanamari",
+      "family": "Katukina",
+      "povo": "Kanamari"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1303502,
+      "name": "Pauini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301407,
+      "name": "Eirunepé",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301506,
+      "name": "Envira",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1301951,
+      "name": "Itamarati",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1984-11-23"
+    },
+    "delimitada": {
+      "date": "1986-04-11"
+    },
+    "declarada": {
+      "date": "1992-06-01"
+    },
+    "homologada": {
+      "date": "1997-11-03"
+    },
+    "regularizada": {
+      "date": "1999-05-17"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.0749,
+    "lat": -6.8878
+  }
+}

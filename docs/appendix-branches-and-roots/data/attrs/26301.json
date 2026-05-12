@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 26301,
+  "slug": "mangueira",
+  "name_pt": "Mangueira",
+  "name_en": "Mangueira",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 40.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1982-02-16"
+    },
+    "regularizada": {
+      "date": "1988-11-22"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.4053,
+    "lat": 3.2696
+  }
+}

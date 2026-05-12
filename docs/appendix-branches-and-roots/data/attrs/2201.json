@@ -1,0 +1,61 @@
+{
+  "terrai_cod": 2201,
+  "slug": "anta",
+  "name_pt": "Anta",
+  "name_en": "Anta",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 31.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Macuxi",
+      "en": "Macuxi"
+    },
+    {
+      "pt": "Wapichana",
+      "en": "Wapichana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Macuxi",
+      "family": "Karib",
+      "povo": "Macuxi"
+    },
+    {
+      "name": "Wapichana",
+      "family": "Aruak",
+      "povo": "Wapichana"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1977-10-21"
+    },
+    "declarada": {
+      "date": "1982-05-21"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "2021-04-28"
+    }
+  },
+  "audit_score": 7.77,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.1483,
+    "lat": 3.3641
+  }
+}

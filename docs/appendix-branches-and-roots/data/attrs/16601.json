@@ -1,0 +1,66 @@
+{
+  "terrai_cod": 16601,
+  "slug": "ilha-do-camaleao",
+  "name_pt": "Ilha do Camaleão",
+  "name_en": "Ilha do Camaleão",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 2.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kokama",
+      "en": "Kokama"
+    },
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kokáma",
+      "family": "Tupi-Guarani",
+      "povo": "Kokama"
+    },
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300102,
+      "name": "Anori",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300086,
+      "name": "Anamã",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1986-10-09"
+    },
+    "delimitada": {
+      "date": "1989-12-31"
+    },
+    "homologada": {
+      "date": "1995-07-03"
+    },
+    "regularizada": {
+      "date": "1996-09-30"
+    }
+  },
+  "audit_score": 9.22,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -61.4998,
+    "lat": -3.6727
+  }
+}

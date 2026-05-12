@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 32801,
+  "slug": "paracuhuba",
+  "name_pt": "Paracuhuba",
+  "name_en": "Paracuhuba",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 9.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1992-02-25"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.0725,
+    "lat": -3.5526
+  }
+}

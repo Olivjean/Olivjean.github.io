@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 46801,
+  "slug": "tikuna-de-santo-antonio",
+  "name_pt": "Tikuna de Santo Antonio",
+  "name_en": "Tikuna de Santo Antonio",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 10.7,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-04-15"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "1994-06-13"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.995,
+    "lat": -4.3982
+  }
+}

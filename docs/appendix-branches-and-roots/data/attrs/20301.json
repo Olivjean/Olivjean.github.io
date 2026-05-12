@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 20301,
+  "slug": "kampa-do-igarape-primavera",
+  "name_pt": "Kampa do Igarapé Primavera",
+  "name_en": "Kampa do Igarapé Primavera",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 219.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200609,
+      "name": "Tarauacá",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1994-02-28"
+    },
+    "delimitada": {
+      "date": "1997-06-09"
+    },
+    "declarada": {
+      "date": "1998-06-25"
+    },
+    "homologada": {
+      "date": "2001-04-23"
+    },
+    "regularizada": {
+      "date": "2002-01-02"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.7334,
+    "lat": -8.6373
+  }
+}

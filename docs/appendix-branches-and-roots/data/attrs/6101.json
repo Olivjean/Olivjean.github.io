@@ -1,0 +1,73 @@
+{
+  "terrai_cod": 6101,
+  "slug": "bau",
+  "name_pt": "Baú",
+  "name_en": "Baú",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 15409.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados Pu´rô",
+      "en": "Isolados Pu´rô"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó)",
+      "en": "Mebengôkre (Kayapó)"
+    },
+    {
+      "pt": "Mebengôkre (Kayapó) Mekrãgnoti",
+      "en": "Mebengôkre (Kayapó) Mekrãgnoti"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados Pu´rô",
+      "family": "—",
+      "povo": "Isolados Pu´rô"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó)"
+    },
+    {
+      "name": "Kayapó",
+      "family": "Jê",
+      "povo": "Mebengôkre (Kayapó) Mekrãgnoti"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1990-12-31"
+    },
+    "delimitada": {
+      "date": "1977-12-31"
+    },
+    "declarada": {
+      "date": "1991-12-21"
+    },
+    "homologada": {
+      "date": "2008-06-19"
+    },
+    "regularizada": {
+      "date": "2008-07-25"
+    }
+  },
+  "audit_score": 9.37,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -54.48,
+    "lat": -7.3572
+  }
+}

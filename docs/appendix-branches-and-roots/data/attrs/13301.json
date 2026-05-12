@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 13301,
+  "slug": "galibi",
+  "name_pt": "Galibi",
+  "name_en": "Galibi",
+  "ufs": [
+    "AP"
+  ],
+  "area_km2": 66.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Galibi Kali'na",
+      "en": "Galibi Kali'na"
+    },
+    {
+      "pt": "Karipuna do Amapá",
+      "en": "Karipuna do Amapá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Galibi Kali'na",
+      "family": "Karib",
+      "povo": "Galibi Kali'na"
+    },
+    {
+      "name": "Creoulo",
+      "family": "Creoulo",
+      "povo": "Karipuna do Amapá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1600501,
+      "name": "Oiapoque",
+      "uf": "AP"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1982-11-22"
+    },
+    "regularizada": {
+      "date": "1983-10-14"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -51.7242,
+    "lat": 3.9574
+  }
+}

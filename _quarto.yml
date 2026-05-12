@@ -5,6 +5,7 @@ project:
     - index.qmd
   resources:
     - CNAME
+    - appendix-branches-and-roots/**
 
 website:
   title: "Jean de Oliveira"

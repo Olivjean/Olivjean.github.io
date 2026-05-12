@@ -1,0 +1,52 @@
+{
+  "terrai_cod": 31301,
+  "slug": "nukini",
+  "name_pt": "Nukini",
+  "name_en": "Nukini",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 272.6,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nukini",
+      "en": "Nukini"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nukini",
+      "family": "Pano",
+      "povo": "Nukini"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200336,
+      "name": "Mâncio Lima",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-11-20"
+    },
+    "delimitada": {
+      "date": "1985-12-17"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "1996-05-06"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -73.4657,
+    "lat": -7.3709
+  }
+}

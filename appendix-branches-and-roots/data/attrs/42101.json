@@ -1,0 +1,106 @@
+{
+  "terrai_cod": 42101,
+  "slug": "sarare",
+  "name_pt": "Sararé",
+  "name_en": "Sararé",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 674.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Nambikwara",
+      "en": "Nambikwara"
+    },
+    {
+      "pt": "Nambikwara Kalunhwasu",
+      "en": "Nambikwara Kalunhwasu"
+    },
+    {
+      "pt": "Nambikwara Katitawlu",
+      "en": "Nambikwara Katitawlu"
+    },
+    {
+      "pt": "Nambikwara Qualitsu",
+      "en": "Nambikwara Qualitsu"
+    },
+    {
+      "pt": "Nambikwara Sayulikisu",
+      "en": "Nambikwara Sayulikisu"
+    },
+    {
+      "pt": "Nambikwara Uaihlatisu",
+      "en": "Nambikwara Uaihlatisu"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Kalunhwasu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Katitawlu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Qualitsu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Sayulikisu"
+    },
+    {
+      "name": "Nambikwara",
+      "family": "Nambikwára",
+      "povo": "Nambikwara Uaihlatisu"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5105507,
+      "name": "Vila Bela da Santíssima Trindade",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106182,
+      "name": "Nova Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5106752,
+      "name": "Pontes e Lacerda",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5103361,
+      "name": "Conquista D'Oeste",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1985-04-29"
+    },
+    "regularizada": {
+      "date": "2004-05-21"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.4919,
+    "lat": -14.8081
+  }
+}

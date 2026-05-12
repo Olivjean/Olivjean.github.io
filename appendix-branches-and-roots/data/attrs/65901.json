@@ -1,0 +1,49 @@
+{
+  "terrai_cod": 65901,
+  "slug": "jacareuba-katauixi-restricao-uso",
+  "name_pt": "Jacareúba/Katauixi (restrição uso)",
+  "name_en": "Jacareúba/Katauixi (restrição uso)",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 6473.9,
+  "current_phase": "Em Estudo",
+  "ethnicities": [
+    {
+      "pt": "Isolados Katawixi",
+      "en": "Isolados Katawixi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Katawixi",
+      "family": "Katukina",
+      "povo": "Isolados Katawixi"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100205,
+      "name": "Porto Velho",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1300904,
+      "name": "Canutama",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302405,
+      "name": "Lábrea",
+      "uf": "AM"
+    }
+  ],
+  "phases": [],
+  "audit_score": 9,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -64.4188,
+    "lat": -8.322
+  }
+}

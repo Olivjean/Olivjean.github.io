@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 46901,
+  "slug": "tukuna-porto-espiritual",
+  "name_pt": "Tukuna Porto Espiritual",
+  "name_en": "Tukuna Porto Espiritual",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 28.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Ticuna",
+      "en": "Ticuna"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Magüta (Tikuna)",
+      "family": "Tikuna",
+      "povo": "Ticuna"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1300607,
+      "name": "Benjamin Constant",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2012-11-20"
+    },
+    "delimitada": {
+      "date": "1982-12-31"
+    },
+    "declarada": {
+      "date": "1991-11-25"
+    },
+    "homologada": {
+      "date": "1996-01-05"
+    },
+    "regularizada": {
+      "date": "1996-01-29"
+    }
+  },
+  "audit_score": 9.43,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -69.828,
+    "lat": -4.47
+  }
+}

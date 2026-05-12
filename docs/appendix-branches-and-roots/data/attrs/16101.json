@@ -1,0 +1,51 @@
+{
+  "terrai_cod": 16101,
+  "slug": "igarape-lage",
+  "name_pt": "Igarapé Lage",
+  "name_en": "Igarapé Lage",
+  "ufs": [
+    "RO"
+  ],
+  "area_km2": 1073.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Wari'",
+      "en": "Wari'"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Wari (Pakaá Nova)",
+      "family": "Txapakura",
+      "povo": "Wari'"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100338,
+      "name": "Nova Mamoré",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100106,
+      "name": "Guajará-Mirim",
+      "uf": "RO"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1981-09-09"
+    },
+    "regularizada": {
+      "date": "1981-09-23"
+    }
+  },
+  "audit_score": 9.5,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.0242,
+    "lat": -10.5269
+  }
+}

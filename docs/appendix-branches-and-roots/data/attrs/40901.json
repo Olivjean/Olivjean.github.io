@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 40901,
+  "slug": "sai-cinza",
+  "name_pt": "Sai-Cinza",
+  "name_en": "Sai-Cinza",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1255.5,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1302900,
+      "name": "Maués",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1503754,
+      "name": "Jacareacanga",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1987-07-14"
+    },
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "2016-04-05"
+    }
+  },
+  "audit_score": 8.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -58.0005,
+    "lat": -6.4667
+  }
+}

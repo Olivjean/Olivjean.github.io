@@ -1,0 +1,87 @@
+{
+  "terrai_cod": 17001,
+  "slug": "inawebohona",
+  "name_pt": "Inawebohona",
+  "name_en": "Inawebohona",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 3771.1,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Avá-Canoeiro",
+      "en": "Avá-Canoeiro"
+    },
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    },
+    {
+      "pt": "Isolados da Ilha do Bananal",
+      "en": "Isolados da Ilha do Bananal"
+    },
+    {
+      "pt": "Javaé",
+      "en": "Javaé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ava-Canoeiro",
+      "family": "Tupi-Guarani",
+      "povo": "Avá-Canoeiro"
+    },
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    },
+    {
+      "name": "Isolados da Ilha do Bananal",
+      "family": "—",
+      "povo": "Isolados da Ilha do Bananal"
+    },
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Javaé"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1711902,
+      "name": "Lagoa da Confusão",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1717503,
+      "name": "Pium",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1998-10-05"
+    },
+    "delimitada": {
+      "date": "1999-11-26"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2006-04-18"
+    },
+    "regularizada": {
+      "date": "2007-02-21"
+    }
+  },
+  "audit_score": 9.49,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.133,
+    "lat": -10.7372
+  }
+}

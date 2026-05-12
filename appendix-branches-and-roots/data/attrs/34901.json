@@ -1,0 +1,46 @@
+{
+  "terrai_cod": 34901,
+  "slug": "perigara",
+  "name_pt": "Perigara",
+  "name_en": "Perigara",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 107.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Boe (Bororo)",
+      "en": "Boe (Bororo)"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bororo",
+      "family": "Bororo",
+      "povo": "Boe (Bororo)"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 5101605,
+      "name": "Barão de Melgaço",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1991-12-24"
+    },
+    "regularizada": {
+      "date": "2021-09-10"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.19,
+    "lat": -16.8642
+  }
+}

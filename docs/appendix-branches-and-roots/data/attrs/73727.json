@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 73727,
+  "slug": "sawre-bap-in-apompu",
+  "name_pt": "Sawré Bap in (Apompu)",
+  "name_en": "Sawré Bap in (Apompu)",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 1503.3,
+  "current_phase": "Delimitada",
+  "ethnicities": [
+    {
+      "pt": "Munduruku",
+      "en": "Munduruku"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Munduruku",
+      "family": "Munduruku",
+      "povo": "Munduruku"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1503606,
+      "name": "Itaituba",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1508050,
+      "name": "Trairão",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2014-09-23"
+    },
+    "delimitada": {
+      "date": "2023-04-28"
+    },
+    "declarada": {
+      "date": "2025-11-17"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -56.5815,
+    "lat": -4.6541
+  }
+}

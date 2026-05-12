@@ -1,0 +1,87 @@
+{
+  "terrai_cod": 26001,
+  "slug": "mae-maria",
+  "name_pt": "Mãe Maria",
+  "name_en": "Mãe Maria",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 624.9,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Gavião Akrãtikatêjê",
+      "en": "Gavião Akrãtikatêjê"
+    },
+    {
+      "pt": "Gavião Kykatejê",
+      "en": "Gavião Kykatejê"
+    },
+    {
+      "pt": "Gavião Parkatêjê",
+      "en": "Gavião Parkatêjê"
+    },
+    {
+      "pt": "Guarani",
+      "en": "Guarani"
+    },
+    {
+      "pt": "Guarani Mbya",
+      "en": "Guarani Mbya"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Gavião Akrãtikatêjê"
+    },
+    {
+      "name": "Gavião Kykatejê",
+      "family": "Jê",
+      "povo": "Gavião Kykatejê"
+    },
+    {
+      "name": "Timbira",
+      "family": "Jê",
+      "povo": "Gavião Parkatêjê"
+    },
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani"
+    },
+    {
+      "name": "Guarani",
+      "family": "Tupi-Guarani",
+      "povo": "Guarani Mbya"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1501576,
+      "name": "Bom Jesus do Tocantins",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1504208,
+      "name": "Marabá",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "homologada": {
+      "date": "1986-08-20"
+    },
+    "regularizada": {
+      "date": "1985-07-17"
+    }
+  },
+  "audit_score": 9.48,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.9182,
+    "lat": -5.1202
+  }
+}

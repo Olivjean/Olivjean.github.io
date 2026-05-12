@@ -1,0 +1,54 @@
+{
+  "terrai_cod": 53201,
+  "slug": "ponciano",
+  "name_pt": "Ponciano",
+  "name_en": "Ponciano",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 43.3,
+  "current_phase": "Declarada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301159,
+      "name": "Careiro da Várzea",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1300300,
+      "name": "Autazes",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2005-09-29"
+    },
+    "delimitada": {
+      "date": "2012-07-30"
+    },
+    "declarada": {
+      "date": "2015-12-11"
+    }
+  },
+  "audit_score": 9.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.4549,
+    "lat": -3.5131
+  }
+}

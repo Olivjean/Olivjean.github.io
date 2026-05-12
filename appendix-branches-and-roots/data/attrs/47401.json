@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 47401,
+  "slug": "ture-mariquita-ii",
+  "name_pt": "Turé/Mariquita II",
+  "name_en": "Turé/Mariquita II",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 5.9,
+  "current_phase": "Encaminhada RI",
+  "ethnicities": [
+    {
+      "pt": "Tembé",
+      "en": "Tembé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Tenetehara",
+      "family": "Tupi-Guarani",
+      "povo": "Tembé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1508001,
+      "name": "Tomé-Açu",
+      "uf": "PA"
+    }
+  ],
+  "phases": [],
+  "audit_score": 4.19,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -48.3519,
+    "lat": -2.2847
+  }
+}

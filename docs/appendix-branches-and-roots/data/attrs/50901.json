@@ -1,0 +1,202 @@
+{
+  "terrai_cod": 50901,
+  "slug": "yanomami",
+  "name_pt": "Yanomami",
+  "name_en": "Yanomami",
+  "ufs": [
+    "RR",
+    "AM"
+  ],
+  "area_km2": 96649.8,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Isolados da Serra da Estrutura",
+      "en": "Isolados da Serra da Estrutura"
+    },
+    {
+      "pt": "Isolados do Amajari",
+      "en": "Isolados do Amajari"
+    },
+    {
+      "pt": "Isolados do Auaris/Fronteira",
+      "en": "Isolados do Auaris/Fronteira"
+    },
+    {
+      "pt": "Isolados do Baixo Rio Cauaburis",
+      "en": "Isolados do Baixo Rio Cauaburis"
+    },
+    {
+      "pt": "Isolados Parawa u",
+      "en": "Isolados Parawa u"
+    },
+    {
+      "pt": "Isolados Surucucu/Kataroa",
+      "en": "Isolados Surucucu/Kataroa"
+    },
+    {
+      "pt": "Yanomami",
+      "en": "Yanomami"
+    },
+    {
+      "pt": "Yanomami Ninam",
+      "en": "Yanomami Ninam"
+    },
+    {
+      "pt": "Yanomami Sanöma",
+      "en": "Yanomami Sanöma"
+    },
+    {
+      "pt": "Yanomami Yãnoma",
+      "en": "Yanomami Yãnoma"
+    },
+    {
+      "pt": "Yanomami Yanomám",
+      "en": "Yanomami Yanomám"
+    },
+    {
+      "pt": "Yanomami Yanonami",
+      "en": "Yanomami Yanonami"
+    },
+    {
+      "pt": "Yanomami Ỹaroamë",
+      "en": "Yanomami Ỹaroamë"
+    },
+    {
+      "pt": "Ye'kwana",
+      "en": "Ye'kwana"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados da Serra da Estrutura",
+      "family": "Yanomami",
+      "povo": "Isolados da Serra da Estrutura"
+    },
+    {
+      "name": "Isolados do Amajari",
+      "family": "—",
+      "povo": "Isolados do Amajari"
+    },
+    {
+      "name": "Isolados do Auaris/Fronteira",
+      "family": "—",
+      "povo": "Isolados do Auaris/Fronteira"
+    },
+    {
+      "name": "Isolados do Baixo Rio Cauaburis",
+      "family": "—",
+      "povo": "Isolados do Baixo Rio Cauaburis"
+    },
+    {
+      "name": "Isolados Parawa u",
+      "family": "—",
+      "povo": "Isolados Parawa u"
+    },
+    {
+      "name": "Isolados Surucucu/Kataroa",
+      "family": "—",
+      "povo": "Isolados Surucucu/Kataroa"
+    },
+    {
+      "name": "Ninam, Sanöma, Yãnoma, Yanomám, Yanonami, Ỹaroamë",
+      "family": "Yanomami",
+      "povo": "Yanomami"
+    },
+    {
+      "name": "Ninam",
+      "family": "Yanomami",
+      "povo": "Yanomami Ninam"
+    },
+    {
+      "name": "Sanumá",
+      "family": "Yanomami",
+      "povo": "Yanomami Sanöma"
+    },
+    {
+      "name": "Yãnoma",
+      "family": "Yanomami",
+      "povo": "Yanomami Yãnoma"
+    },
+    {
+      "name": "Yanomám",
+      "family": "Yanomami",
+      "povo": "Yanomami Yanomám"
+    },
+    {
+      "name": "Yanonami",
+      "family": "Yanomami",
+      "povo": "Yanomami Yanonami"
+    },
+    {
+      "name": "Ỹaroamë",
+      "family": "Yanomami",
+      "povo": "Yanomami Ỹaroamë"
+    },
+    {
+      "name": "Yekuana",
+      "family": "Karib",
+      "povo": "Ye'kwana"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400209,
+      "name": "Caracaraí",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1300409,
+      "name": "Barcelos",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1400282,
+      "name": "Iracema",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400027,
+      "name": "Amajari",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1400050,
+      "name": "Alto Alegre",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1303809,
+      "name": "São Gabriel da Cachoeira",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1400308,
+      "name": "Mucajaí",
+      "uf": "RR"
+    },
+    {
+      "id_municipio": 1303601,
+      "name": "Santa Isabel do Rio Negro",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1988-09-13"
+    },
+    "homologada": {
+      "date": "1989-02-16"
+    },
+    "regularizada": {
+      "date": "1993-10-01"
+    }
+  },
+  "audit_score": 7.29,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -63.4999,
+    "lat": 2.1567
+  }
+}

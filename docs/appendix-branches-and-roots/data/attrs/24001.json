@@ -1,0 +1,60 @@
+{
+  "terrai_cod": 24001,
+  "slug": "kumaru-do-lago-uala",
+  "name_pt": "Kumaru do Lago Ualá",
+  "name_en": "Kumaru do Lago Ualá",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 800.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kulina",
+      "en": "Kulina"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kulina",
+      "family": "Arawá",
+      "povo": "Kulina"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1304260,
+      "name": "Uarini",
+      "uf": "AM"
+    },
+    {
+      "id_municipio": 1302207,
+      "name": "Juruá",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1991-12-31"
+    },
+    "delimitada": {
+      "date": "2000-09-01"
+    },
+    "declarada": {
+      "date": "2001-04-20"
+    },
+    "homologada": {
+      "date": "2004-10-27"
+    },
+    "regularizada": {
+      "date": "2004-12-03"
+    }
+  },
+  "audit_score": 9.44,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -65.7898,
+    "lat": -2.966
+  }
+}

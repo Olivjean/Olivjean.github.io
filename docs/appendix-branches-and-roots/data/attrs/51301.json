@@ -1,0 +1,75 @@
+{
+  "terrai_cod": 51301,
+  "slug": "riozinho-do-alto-envira",
+  "name_pt": "Riozinho do Alto Envira",
+  "name_en": "Riozinho do Alto Envira",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 2609.7,
+  "current_phase": "Homologada",
+  "ethnicities": [
+    {
+      "pt": "Ashaninka",
+      "en": "Ashaninka"
+    },
+    {
+      "pt": "Isolados do Rio Jaminawá",
+      "en": "Isolados do Rio Jaminawá"
+    },
+    {
+      "pt": "Isolados do Riozinho do Alto Envira",
+      "en": "Isolados do Riozinho do Alto Envira"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Ashaninka",
+      "family": "Aruak",
+      "povo": "Ashaninka"
+    },
+    {
+      "name": "Isolados do Rio Jaminawá",
+      "family": "—",
+      "povo": "Isolados do Rio Jaminawá"
+    },
+    {
+      "name": "Isolados do Riozinho do Alto Envira",
+      "family": "—",
+      "povo": "Isolados do Riozinho do Alto Envira"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200435,
+      "name": "Santa Rosa do Purus",
+      "uf": "AC"
+    },
+    {
+      "id_municipio": 1200302,
+      "name": "Feijó",
+      "uf": "AC"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1987-02-10"
+    },
+    "delimitada": {
+      "date": "2005-09-01"
+    },
+    "declarada": {
+      "date": "2007-04-19"
+    },
+    "homologada": {
+      "date": "2012-06-05"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.2262,
+    "lat": -9.7525
+  }
+}

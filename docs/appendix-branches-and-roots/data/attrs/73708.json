@@ -1,0 +1,43 @@
+{
+  "terrai_cod": 73708,
+  "slug": "pirititi",
+  "name_pt": "Pirititi",
+  "name_en": "Pirititi",
+  "ufs": [
+    "RR"
+  ],
+  "area_km2": 401,
+  "current_phase": "Em Estudo",
+  "ethnicities": [
+    {
+      "pt": "Isolados Pirititi",
+      "en": "Isolados Pirititi"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados Pirititi",
+      "family": "—",
+      "povo": "Isolados Pirititi"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1400472,
+      "name": "Rorainópolis",
+      "uf": "RR"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2022-02-22"
+    }
+  },
+  "audit_score": 9.42,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.4394,
+    "lat": 0.0504
+  }
+}

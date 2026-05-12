@@ -1,0 +1,33 @@
+{
+  "terrai_cod": 36601,
+  "slug": "porquinhos",
+  "name_pt": "Porquinhos",
+  "name_en": "Porquinhos",
+  "ufs": [
+    "MA"
+  ],
+  "area_km2": 795.2,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Kanela",
+      "en": "Kanela"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Kanela",
+      "family": "—",
+      "povo": "Kanela"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [],
+  "phases": [],
+  "audit_score": null,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -45.6368,
+    "lat": -6.0942
+  }
+}

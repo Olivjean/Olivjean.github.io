@@ -1,0 +1,55 @@
+{
+  "terrai_cod": 58502,
+  "slug": "boa-vista-am",
+  "name_pt": "Boa Vista - AM",
+  "name_en": "Boa Vista - AM",
+  "ufs": [
+    "AM"
+  ],
+  "area_km2": 3.4,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Mura",
+      "en": "Mura"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Mura",
+      "family": "Mura",
+      "povo": "Mura"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1301159,
+      "name": "Careiro da Várzea",
+      "uf": "AM"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1985-01-08"
+    },
+    "delimitada": {
+      "date": "1993-01-07"
+    },
+    "declarada": {
+      "date": "1993-03-02"
+    },
+    "homologada": {
+      "date": "1998-12-11"
+    },
+    "regularizada": {
+      "date": "2021-11-09"
+    }
+  },
+  "audit_score": 8.4,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -59.3757,
+    "lat": -3.2256
+  }
+}

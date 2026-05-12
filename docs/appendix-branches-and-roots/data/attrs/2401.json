@@ -1,0 +1,87 @@
+{
+  "terrai_cod": 2401,
+  "slug": "apinaye",
+  "name_pt": "Apinayé",
+  "name_en": "Apinayé",
+  "ufs": [
+    "TO"
+  ],
+  "area_km2": 1419,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apinayé",
+      "en": "Apinayé"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apinayé",
+      "family": "Jê",
+      "povo": "Apinayé"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 2102556,
+      "name": "Campestre do Maranhão",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 1712454,
+      "name": "Luzinópolis",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 2109551,
+      "name": "Ribamar Fiquene",
+      "uf": "MA"
+    },
+    {
+      "id_municipio": 1720101,
+      "name": "São Bento do Tocantins",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1712801,
+      "name": "Maurilândia do Tocantins",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1721208,
+      "name": "Tocantinópolis",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1710706,
+      "name": "Itaguatins",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 1703826,
+      "name": "Cachoeirinha",
+      "uf": "TO"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1980-11-11"
+    },
+    "declarada": {
+      "date": "1985-02-14"
+    },
+    "homologada": {
+      "date": "1997-11-03"
+    },
+    "regularizada": {
+      "date": "1997-11-26"
+    }
+  },
+  "audit_score": 7.77,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -47.6211,
+    "lat": -6.1167
+  }
+}

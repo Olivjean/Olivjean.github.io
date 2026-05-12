@@ -1,0 +1,39 @@
+{
+  "terrai_cod": 67601,
+  "slug": "igarape-taboca-do-alto-tarauaca",
+  "name_pt": "Igarapé Taboca do Alto Tarauacá",
+  "name_en": "Igarapé Taboca do Alto Tarauacá",
+  "ufs": [
+    "AC"
+  ],
+  "area_km2": 2.9,
+  "current_phase": "Em Estudo",
+  "ethnicities": [
+    {
+      "pt": "Isolados do Igarapé Taboca do Alto Tarauacá",
+      "en": "Isolados do Igarapé Taboca do Alto Tarauacá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Isolados do Igarapé Taboca do Alto Tarauacá",
+      "family": "—",
+      "povo": "Isolados do Igarapé Taboca do Alto Tarauacá"
+    }
+  ],
+  "has_isolados": true,
+  "iltf_munis": [
+    {
+      "id_municipio": 1200328,
+      "name": "Jordão",
+      "uf": "AC"
+    }
+  ],
+  "phases": [],
+  "audit_score": 9,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -71.8953,
+    "lat": -9.4404
+  }
+}

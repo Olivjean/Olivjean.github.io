@@ -1,0 +1,65 @@
+{
+  "terrai_cod": 58701,
+  "slug": "cacique-fontoura",
+  "name_pt": "Cacique Fontoura",
+  "name_en": "Cacique Fontoura",
+  "ufs": [
+    "MT"
+  ],
+  "area_km2": 323,
+  "current_phase": "Homologada",
+  "ethnicities": [
+    {
+      "pt": "Iny Karajá",
+      "en": "Iny Karajá"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Karajá",
+      "family": "Karajá",
+      "povo": "Iny Karajá"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1711902,
+      "name": "Lagoa da Confusão",
+      "uf": "TO"
+    },
+    {
+      "id_municipio": 5105309,
+      "name": "Luciara",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107859,
+      "name": "São Félix do Araguaia",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "2001-07-17"
+    },
+    "delimitada": {
+      "date": "2002-11-13"
+    },
+    "declarada": {
+      "date": "2007-08-14"
+    },
+    "homologada": {
+      "date": "2024-04-18"
+    },
+    "regularizada": {
+      "date": "2025-06-12"
+    }
+  },
+  "audit_score": 9.38,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -50.8056,
+    "lat": -11.3587
+  }
+}

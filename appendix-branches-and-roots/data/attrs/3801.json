@@ -1,0 +1,74 @@
+{
+  "terrai_cod": 3801,
+  "slug": "arawete-igarape-ipixuna",
+  "name_pt": "Araweté Igarapé Ipixuna",
+  "name_en": "Araweté Igarapé Ipixuna",
+  "ufs": [
+    "PA"
+  ],
+  "area_km2": 9409,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Araweté",
+      "en": "Araweté"
+    },
+    {
+      "pt": "Isolados do Igarapé Bom Jardim",
+      "en": "Isolados do Igarapé Bom Jardim"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Araweté",
+      "family": "Tupi-Guarani",
+      "povo": "Araweté"
+    },
+    {
+      "name": "Isolados do Igarapé Bom Jardim",
+      "family": "—",
+      "povo": "Isolados do Igarapé Bom Jardim"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1507300,
+      "name": "São Félix do Xingu",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1500602,
+      "name": "Altamira",
+      "uf": "PA"
+    },
+    {
+      "id_municipio": 1507805,
+      "name": "Senador José Porfírio",
+      "uf": "PA"
+    }
+  ],
+  "phases": {
+    "em_estudo": {
+      "date": "1979-10-15"
+    },
+    "delimitada": {
+      "date": "1986-11-05"
+    },
+    "declarada": {
+      "date": "1992-05-28"
+    },
+    "homologada": {
+      "date": "1996-01-05"
+    },
+    "regularizada": {
+      "date": "1996-02-09"
+    }
+  },
+  "audit_score": 9.27,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -52.4491,
+    "lat": -4.9582
+  }
+}

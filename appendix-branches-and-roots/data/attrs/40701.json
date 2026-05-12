@@ -1,0 +1,84 @@
+{
+  "terrai_cod": 40701,
+  "slug": "roosevelt",
+  "name_pt": "Roosevelt",
+  "name_en": "Roosevelt",
+  "ufs": [
+    "RO",
+    "MT"
+  ],
+  "area_km2": 2308.3,
+  "current_phase": "Regularizada",
+  "ethnicities": [
+    {
+      "pt": "Apurinã",
+      "en": "Apurinã"
+    },
+    {
+      "pt": "Cinta larga",
+      "en": "Cinta larga"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Apurina",
+      "family": "Aruak-maipure",
+      "povo": "Apurinã"
+    },
+    {
+      "name": "Cinta larga",
+      "family": "Mondé",
+      "povo": "Cinta larga"
+    }
+  ],
+  "has_isolados": false,
+  "iltf_munis": [
+    {
+      "id_municipio": 1100189,
+      "name": "Pimenta Bueno",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100304,
+      "name": "Vilhena",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 1100098,
+      "name": "Espigão D'Oeste",
+      "uf": "RO"
+    },
+    {
+      "id_municipio": 5105150,
+      "name": "Juína",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5107578,
+      "name": "Rondolândia",
+      "uf": "MT"
+    },
+    {
+      "id_municipio": 5101407,
+      "name": "Aripuanã",
+      "uf": "MT"
+    }
+  ],
+  "phases": {
+    "declarada": {
+      "date": "1986-11-05"
+    },
+    "homologada": {
+      "date": "1991-10-29"
+    },
+    "regularizada": {
+      "date": "2021-09-06"
+    }
+  },
+  "audit_score": 8.21,
+  "in_jmp_sample": true,
+  "centroid": {
+    "lon": -60.5983,
+    "lat": -11.0975
+  }
+}
