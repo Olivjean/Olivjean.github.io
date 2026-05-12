@@ -459,11 +459,6 @@ const Card = (() => {
       xaxis: { gridcolor: "#355577", tickcolor: "#355577", color: "#a8b8cc", dtick: 2 },
       yaxis: { title: ylabel, gridcolor: "#355577", tickcolor: "#355577",
                color: "#a8b8cc", rangemode: "tozero", range: [0, yMax] },
-      shapes: [{
-        type: "line",
-        x0: currentYear, x1: currentYear, yref: "paper", y0: 0, y1: 1,
-        line: { color: "#ffd166", width: 1.5, dash: "dot" },
-      }],
     };
     Plotly.react("plot", [trace], layout, { displayModeBar: false, responsive: true });
     // Sync the active state of the yearly/cumulative pill
