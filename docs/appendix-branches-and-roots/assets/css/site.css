@@ -1002,3 +1002,45 @@ a:hover { text-decoration: underline; }
   color: var(--text-dim) !important;
 }
 .leaflet-control-attribution a { color: var(--accent) !important; }
+
+/* ---- Mobile (<=700px) ---- */
+@media (max-width: 700px) {
+  /* Stack header so the title isn't squeezed into a 240px column */
+  .site-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px 16px 28px 16px;
+  }
+  .site-header .header-text { max-width: 100%; }
+  .site-header h1 { font-size: 0.92rem; }
+  .header-right {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .contact-popover {
+    width: calc(100vw - 32px);
+    right: auto;
+    left: 0;
+  }
+
+  /* Picker area: let chips wrap onto multiple lines */
+  .selector-bar,
+  .il-picker-wrap-large {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Card-grid already stacks at 900px; tighten padding + let panes shrink */
+  .card-grid {
+    padding: 12px 8px 24px 8px;
+    gap: 12px;
+  }
+  .pane { min-width: 0; padding: 10px; }
+  .pane > * { max-width: 100%; }
+
+  /* Plot + map containers must not overflow the pane */
+  #plot, #map { width: 100% !important; max-width: 100%; }
+}
