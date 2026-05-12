@@ -654,6 +654,12 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
   font-size: 0.85rem;
 }
+.year-control button.play-btn::before {
+  content: "▶ ";
+}
+.year-control button.play-btn.playing::before {
+  content: "⏸ ";
+}
 .year-control button.play-btn.playing {
   background: var(--accent-2);
 }
@@ -1024,9 +1030,12 @@ a:hover { text-decoration: underline; }
     gap: 8px;
   }
   .contact-popover {
-    width: calc(100vw - 32px);
-    right: auto;
-    left: 0;
+    position: fixed;
+    top: auto;
+    left: 16px;
+    right: 16px;
+    width: auto;
+    max-width: none;
   }
 
   /* Picker area: let chips wrap onto multiple lines */
@@ -1049,15 +1058,30 @@ a:hover { text-decoration: underline; }
   .map-wrap { min-height: 360px; }
   #map { min-height: 360px; }
 
-  /* Year + legend controls: allow wrapping so they fit a phone width */
+  /* Year + legend controls: allow wrapping so they fit a phone width.
+     Play button drops its box and sits to the LEFT of "Year:" as an icon. */
   .year-control {
     flex-wrap: wrap;
     gap: 8px;
     row-gap: 6px;
   }
-  .year-control label { min-width: auto; }
-  .year-control input[type=range] { flex: 1 1 100%; order: 3; }
-  .year-control button.play-btn { order: 4; margin-left: auto; }
-  .year-control .year-display { order: 2; }
+  .year-control label { min-width: auto; order: 2; }
+  .year-control .year-display { order: 3; margin-left: auto; }
+  .year-control input[type=range] { flex: 1 1 100%; order: 4; }
+  .year-control button.play-btn {
+    order: 1;
+    background: transparent;
+    color: var(--accent);
+    border: none;
+    padding: 0 6px 0 0;
+    font-size: 0;
+    line-height: 1;
+    box-shadow: none;
+  }
+  .year-control button.play-btn::before { font-size: 1.2rem; }
+  .year-control button.play-btn.playing { background: transparent; color: var(--accent-2); }
   .legend { font-size: 0.72rem; gap: 8px; }
+
+  /* Hard contain everything to the viewport — no element can push beyond */
+  * { max-width: 100vw; }
 }
