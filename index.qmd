@@ -39,7 +39,7 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 ::: {.paper}
 [**Actual and Perceived Financial Knowledge over the Life Cycle**]{.paper-title}
 
-[Overconfidence in financial knowledge — believing you understand money better than you actually do — causally increases financial distress, including falling behind on mortgages and drawing down retirement savings early. People don't learn because they don't know they have a problem.]{.paper-summary}
+[Unjustified financial confidence raises the probability of retirement-account leakage, identified using parental financial teaching as exogenous variation; the welfare cost is small over the working life (0.08% of consumption) but reaches 1.7% at retirement, when labor income no longer buffers miscalibrated decisions.]{.paper-summary}
 
 [PDF *(coming soon)*]{.paper-btn .paper-btn--pdf}
 :::
