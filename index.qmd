@@ -15,7 +15,7 @@ title: ""
 <p>I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I study how trust and beliefs drive economic behavior, with applications in household finance, development, and environmental economics.</p>
 <div class="contact-block">
 Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfurt.de</a><br/><br/>
-<a href="assets/cv.pdf" class="cv-link">Curriculum Vitae</a>
+<a href="cv.pdf" class="cv-link">Curriculum Vitae</a>
 </div>
 </div>
 </div>
@@ -47,24 +47,16 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 ## Work in Progress
 
 ::: {.paper}
-[**War Narratives and Household Inflation Expectations**]{.paper-title}
+[**Too Uncertain to Listen: Trust and the Updating of Household Inflation Expectations**]{.paper-title}
 
-[With Johannes Zahner]{.paper-authors}
-:::
-
-<!-- Tentative WIP entries — titles not finalized, hidden until confirmed
-::: {.paper}
-[**Too Uncertain to Trust the Signal?**]{.paper-title}
-
-[With Johannes Zahner]{.paper-authors}
+[With Michael Haliassos and Johannes Zahner]{.paper-authors}
 :::
 
 ::: {.paper}
-[**Bayes Rules**]{.paper-title}
+[**Causal Effects of War Framing on Inflation Expectations**]{.paper-title}
 
-[With Johannes Zahner]{.paper-authors}
+[With Michael Haliassos and Johannes Zahner]{.paper-authors}
 :::
--->
 
 
 ---

@@ -5,6 +5,7 @@ project:
     - index.qmd
   resources:
     - CNAME
+    - cv.pdf
     - appendix-branches-and-roots/**
 
 website:
