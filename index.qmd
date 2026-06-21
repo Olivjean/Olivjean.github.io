@@ -39,7 +39,7 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 ::: {.paper}
 [**Actual and Perceived Financial Knowledge over the Life Cycle**]{.paper-title}
 
-[What happens when households believe they know more than they actually do about financial matters? In this paper, I use empirical evidence and theory to show that overconfidence causally leads households to drain their retirement savings early, fall behind on their mortgages, and lean too heavily on credit cards, with the damage worst of all in retirement.]{.paper-summary}
+[What happens when households believe they know more than they actually do about financial matters? I use causal evidence to show that overconfidence leads households to drain their retirement savings early, fall behind on their mortgages, and lean too heavily on credit cards. A calibrated life-cycle model then traces how the damage compounds, worst of all in retirement.]{.paper-summary}
 
 [PDF](papers/actual-perceived-financial-knowledge.pdf){.paper-btn .paper-btn--pdf}
 :::
