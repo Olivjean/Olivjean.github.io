@@ -41,7 +41,7 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 
 [Unjustified financial confidence raises the probability of retirement-account leakage, identified using parental financial teaching as exogenous variation; the welfare cost is small over the working life (0.08% of consumption) but reaches 1.7% at retirement, when labor income no longer buffers miscalibrated decisions.]{.paper-summary}
 
-[PDF *(coming soon)*]{.paper-btn .paper-btn--pdf}
+[PDF](papers/actual-perceived-financial-knowledge.pdf){.paper-btn .paper-btn--pdf}
 :::
 
 ## Work in Progress
