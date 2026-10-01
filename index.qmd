@@ -47,6 +47,10 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 ## Work in Progress
 
 ::: {.paper}
+[**Carbon Contracting on Brazilian Indigenous Lands**]{.paper-title}
+:::
+
+::: {.paper}
 [**Too Uncertain to Listen: Trust and the Updating of Household Inflation Expectations**]{.paper-title}
 
 [With Michael Haliassos and Johannes Zahner]{.paper-authors}
