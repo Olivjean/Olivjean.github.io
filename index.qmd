@@ -9,10 +9,10 @@ title: ""
 <div>
 <div class="name-block">
 <div class="display-name">Jean de Oliveira</div>
-<p><strong>PhD Candidate in Economics</strong><br/>Goethe University Frankfurt<br/><span class="jm-line">2027 Job Market Candidate</span></p>
+<p><strong>PhD Candidate in Economics</strong><br/>Goethe University Frankfurt</p>
 </div>
 <hr/>
-<p>I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I work on the economics of deforestation, with a special focus on Indigenous territories of the Amazon. My research asks how land rights and the financial system shape what happens to forests, combining administrative records with spatial data. I also study household beliefs and expectations, and how they shape financial decisions.</p>
+<p class="intro">I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I work on the economics of deforestation, with a special focus on Indigenous territories of the Amazon. My research asks how land rights and the financial system shape what happens to forests, combining administrative records with spatial data. I also study household beliefs and expectations, and how they shape financial decisions.</p>
 <div class="contact-block">
 Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfurt.de</a><br/><br/>
 <a href="cv.pdf" class="cv-link">Curriculum Vitae</a>
@@ -22,10 +22,12 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 
 ---
 
-## Job Market Paper
+## Working Papers
 
 ::: {.paper}
-[**Branches and Roots: Banking Presence and Deforestation in Amazonian Indigenous Lands**]{.paper-title} [Job Market Paper]{.jmp-label}
+[**Branches and Roots: Banking Presence and Deforestation in Amazonian Indigenous Lands**]{.paper-title}
+
+[Job Market Paper]{.jmp-label}
 
 [With Douglas K.G. de Araujo]{.paper-authors}
 
@@ -33,8 +35,6 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 
 [PDF *(coming soon)*]{.paper-btn .paper-btn--pdf} [Interactive Online Appendix](appendix-branches-and-roots/){.paper-btn}
 :::
-
-## Working Papers
 
 ::: {.paper}
 [**Actual and Perceived Financial Knowledge over the Life Cycle**]{.paper-title}

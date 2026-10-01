@@ -191,9 +191,9 @@ span.paper-btn em {
 }
 
 /* JMP label */
-.jm-line {
-  color: #8B1A1A;
-  font-weight: 600;
+.intro {
+  text-align: justify;
+  hyphens: auto;
 }
 
 .jmp-label {
@@ -202,7 +202,8 @@ span.paper-btn em {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin-left: 0.5rem;
+  display: block;
+  margin-top: 0.35rem;
 }
 
 /* Paper entry */
