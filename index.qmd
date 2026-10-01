@@ -7,14 +7,18 @@ title: ""
 <img src="assets/photo.jpg" class="profile-photo" alt="Jean de Oliveira"/>
 </div>
 <div>
+<div class="bio-box">
 <div class="name-block">
 <div class="display-name">Jean de Oliveira</div>
 <p><strong>PhD Candidate in Economics</strong><br/>Goethe University Frankfurt</p>
 </div>
 <hr/>
-<p class="intro">I am a PhD candidate at Goethe University Frankfurt (Graduate School of Economics, Finance and Management). I work on the economics of deforestation, with a special focus on Indigenous territories of the Amazon. My research asks how land rights and the financial system shape what happens to forests, combining administrative records with spatial data. I also study household beliefs and expectations, and how they shape financial decisions.</p>
+<p class="intro">I am a PhD candidate at Goethe University Frankfurt. I work on the economics of deforestation, with a special focus on Indigenous territories of the Amazon. My research asks how land rights and the financial system shape what happens to forests, combining administrative records with spatial data. I also study household beliefs and expectations, and how they shape financial decisions.</p>
 <div class="contact-block">
-Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfurt.de</a><br/><br/>
+Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfurt.de</a>
+</div>
+</div>
+<div class="cv-block">
 <a href="cv.pdf" class="cv-link">Curriculum Vitae</a>
 </div>
 </div>

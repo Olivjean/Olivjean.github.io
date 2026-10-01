@@ -65,8 +65,37 @@ hr {
 }
 
 .home-grid > div:nth-child(2) > p {
-  text-align: left;
-  hyphens: manual;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Bio box: matches the rendered photo height (300px wide x 1.1057 aspect),
+   with space-between distributing the gaps evenly. */
+.bio-box {
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bio-box > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bio-box hr {
+  width: 100%;
+}
+
+.cv-block {
+  margin-top: 1.5rem;
+}
+
+/* Quarto wraps bare content in <p>; zero those so the flex maths is exact. */
+.home-grid > div:first-child p,
+.bio-box .contact-block p,
+.cv-block p {
+  margin: 0;
 }
 
 .display-name {
@@ -79,7 +108,6 @@ hr {
 
 .name-block {
   text-align: right;
-  margin-bottom: 1rem;
 }
 
 @media (max-width: 700px) {
@@ -102,13 +130,19 @@ hr {
   .contact-block {
     text-align: center;
   }
+  .bio-box {
+    height: auto;
+    gap: 0.75rem;
+  }
+  .cv-block {
+    text-align: center;
+  }
 }
 
 /* Contact block */
 .contact-block {
   font-size: 0.92rem;
   color: #444;
-  margin-top: 1.5rem;
   line-height: 1.8;
 }
 
