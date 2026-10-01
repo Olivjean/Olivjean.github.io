@@ -267,6 +267,9 @@ span.paper-btn em {
   font-size: 0.92rem;
   color: #333;
   margin-top: 0.3rem;
+  display: block;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .paper-links {
