@@ -8,15 +8,17 @@
     "RO"
   ],
   "area_km2": 16032.5,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Cinta larga",
       "en": "Cinta larga"
     },
     {
-      "pt": "Isolados na TI Aripuanã",
-      "en": "Isolados na TI Aripuanã"
+      "pt": "Isolados do Rio Tenente Marques",
+      "en": "Isolados do Rio Tenente Marques"
     }
   ],
   "languages": [
@@ -24,11 +26,6 @@
       "name": "Cinta larga",
       "family": "Mondé",
       "povo": "Cinta larga"
-    },
-    {
-      "name": "Isolados na TI Aripuanã",
-      "family": "—",
-      "povo": "Isolados na TI Aripuanã"
     }
   ],
   "has_isolados": true,

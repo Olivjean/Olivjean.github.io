@@ -7,7 +7,9 @@
     "RO"
   ],
   "area_km2": 1855.3,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Ikolen",
@@ -27,11 +29,6 @@
       "name": "Gavião",
       "family": "Mondé",
       "povo": "Ikolen"
-    },
-    {
-      "name": "Isolados na Serra da Previdência",
-      "family": "—",
-      "povo": "Isolados na Serra da Previdência"
     },
     {
       "name": "Karo",

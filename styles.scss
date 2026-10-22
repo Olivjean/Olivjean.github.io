@@ -1,61 +1,72 @@
 /*-- scss:defaults --*/
 
-$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+$web-font-path: false;
+
+$font-family-serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+$font-family-sans-serif: $font-family-serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-serif;
+$font-size-base: 1.0625rem;
+$line-height-base: 1.6;
 $body-color: #1a1a1a;
 $link-color: #8B1A1A;
 $link-hover-color: #6b1414;
+$link-decoration: none;
 $headings-color: #1a1a1a;
+$headings-font-weight: 600;
 $navbar-bg: #ffffff;
 $navbar-fg: #1a1a1a;
 $body-bg: #ffffff;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
-
-/* Headings */
-h2, h3 {
-  color: #8B1A1A;
-  margin-top: 2rem;
+body {
+  font-feature-settings: "kern", "liga";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Links */
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: rgba(139, 26, 26, 0.38);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
 a:hover {
   text-decoration: underline;
+  text-decoration-color: currentColor;
 }
 
-/* Horizontal rules */
+:focus-visible {
+  outline: 2px solid #8B1A1A;
+  outline-offset: 2px;
+}
+
+h2 {
+  color: #8B1A1A;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin-top: 2.4rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 hr {
   border-top: 1px solid #8B1A1A;
-  opacity: 0.2;
-  margin: 2rem 0;
+  opacity: 0.22;
+  margin: 2.2rem 0;
 }
 
-/* Navbar */
-.navbar {
-  border-bottom: 1px solid #e8e8e8;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
-}
-
-.navbar-brand {
-  font-weight: 600;
-  font-size: 1.05rem;
-}
-
-/* Profile photo */
 .profile-photo {
-  border-radius: 3px;
+  border-radius: 2px;
   width: 100%;
   max-width: 300px;
   display: block;
 }
 
-/* Home page layout */
 .home-grid {
   display: grid;
   grid-template-columns: 300px 1fr;
@@ -64,13 +75,6 @@ hr {
   margin-top: 2rem;
 }
 
-.home-grid > div:nth-child(2) > p {
-  text-align: justify;
-  hyphens: auto;
-}
-
-/* Bio box: matches the rendered photo height (300px wide x 1.1057 aspect),
-   with space-between distributing the gaps evenly. */
 .bio-box {
   height: 332px;
   display: flex;
@@ -85,29 +89,184 @@ hr {
 
 .bio-box hr {
   width: 100%;
+  margin: 0;
 }
 
-.cv-block {
-  margin-top: 1.5rem;
-}
-
-/* Quarto wraps bare content in <p>; zero those so the flex maths is exact. */
 .home-grid > div:first-child p,
 .bio-box .contact-block p,
 .cv-block p {
   margin: 0;
 }
 
+.name-block {
+  text-align: right;
+}
+
+.name-block p {
+  margin: 0;
+  line-height: 1.45;
+}
+
 .display-name {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.55rem;
   color: #1a1a1a;
 }
 
-.name-block {
-  text-align: right;
+.intro {
+  font-size: 0.95rem;
+  line-height: 1.52;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 7 3 3;
+}
+
+.contact-block {
+  font-size: 0.94rem;
+  color: #4d4d4d;
+  line-height: 1.6;
+}
+
+.cv-block {
+  margin-top: 1.4rem;
+}
+
+.cv-link,
+a.paper-btn {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  padding: 0 13px;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  border: 1px solid #949494;
+  border-bottom-color: #6e6e6e;
+  border-radius: 3px;
+  font-size: 0.94rem;
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.cv-link:hover,
+a.paper-btn:hover {
+  background-color: #f3f3f1;
+  border-color: #5c5c5c;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.cv-link:active,
+a.paper-btn:active {
+  background-color: #e3e3e0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.paper-btn {
+  margin-right: 0.45rem;
+}
+
+span.paper-btn {
+  display: inline;
+  margin-right: 0.9rem;
+  color: #5a5a5a;
+  font-style: italic;
+  font-size: 0.94rem;
+  padding: 0;
+  border: 0;
+}
+
+span.paper-btn em {
+  font-style: italic;
+}
+
+a.paper-btn--pdf::before {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.4em;
+  vertical-align: -0.1em;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z'/%3E%3Ctext x='3' y='12.2' font-family='Helvetica,Arial,sans-serif' font-size='5.5' font-weight='700'%3EPDF%3C/text%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z'/%3E%3Ctext x='3' y='12.2' font-family='Helvetica,Arial,sans-serif' font-size='5.5' font-weight='700'%3EPDF%3C/text%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+.paper {
+  margin-bottom: 1.9rem;
+}
+
+.paper p {
+  margin-bottom: 0;
+}
+
+.paper p + p {
+  margin-top: 0.35rem;
+}
+
+.paper-title {
+  font-weight: 600;
+  font-size: 1.04rem;
+  line-height: 1.4;
+}
+
+.jmp-label {
+  display: block;
+  font-style: italic;
+  color: #1a1a1a;
+  margin-top: 0.15rem;
+}
+
+.paper-authors {
+  font-size: 0.94rem;
+  color: #5a5a5a;
+}
+
+.paper-summary {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #1a1a1a;
+  margin-top: 0.15rem;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 7 3 3;
+}
+
+.paper p:has(.paper-btn) {
+  margin-top: 0.75rem;
+}
+
+.publication {
+  margin-bottom: 1.25rem;
+  font-size: 0.97rem;
+}
+
+.publication p {
+  margin-bottom: 0.2rem;
+}
+
+.patent-label {
+  color: #5a5a5a;
+  margin-right: 0.25rem;
+}
+
+@media (max-width: 700px), (pointer: coarse) {
+  .cv-link,
+  a.paper-btn {
+    height: 40px;
+  }
+  .contact-block a {
+    padding: 10px 0;
+  }
 }
 
 @media (max-width: 700px) {
@@ -125,165 +284,24 @@ hr {
     margin-bottom: 0.5rem;
   }
   .display-name {
-    font-size: 1.8rem;
-  }
-  .contact-block {
-    text-align: center;
+    font-size: 2rem;
   }
   .bio-box {
     height: auto;
-    gap: 0.75rem;
+    gap: 0.9rem;
   }
+  .intro {
+    text-align: left;
+    hyphens: manual;
+    -webkit-hyphens: manual;
+  }
+  .contact-block,
   .cv-block {
     text-align: center;
   }
-}
-
-/* Contact block */
-.contact-block {
-  font-size: 0.92rem;
-  color: #444;
-  line-height: 1.8;
-}
-
-.contact-block a {
-  color: #8B1A1A;
-}
-
-/* CV link */
-.cv-link {
-  display: inline-block;
-  color: #8B1A1A;
-  border: 1.5px solid #8B1A1A;
-  padding: 0.25rem 0.8rem;
-  font-size: 0.88rem;
-  border-radius: 2px;
-  margin-top: 0.8rem;
-  letter-spacing: 0.02em;
-}
-
-.cv-link:hover {
-  background-color: #8B1A1A;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* Paper buttons. Convention: a.paper-btn = clickable (red);
-   span.paper-btn = not yet clickable (muted black). */
-.paper-btn {
-  display: inline-block;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.85rem;
-  border-radius: 2px;
-  letter-spacing: 0.02em;
-  margin-right: 0.4rem;
-  border: 1.5px solid;
-}
-
-a.paper-btn {
-  color: #8B1A1A;
-  border-color: #8B1A1A;
-}
-
-a.paper-btn:hover {
-  background-color: #8B1A1A;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-span.paper-btn {
-  color: #555;
-  border-color: #bbb;
-}
-
-span.paper-btn em {
-  font-style: italic;
-  opacity: 0.85;
-}
-
-/* PDF icon (Bootstrap file-earmark-pdf, masked so color follows currentColor) */
-.paper-btn--pdf::before {
-  content: "";
-  display: inline-block;
-  width: 0.95em;
-  height: 0.95em;
-  margin-right: 0.4em;
-  vertical-align: -0.15em;
-  background-color: currentColor;
-  -webkit-mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z'/%3E%3Ctext x='3' y='12.2' font-family='Helvetica,Arial,sans-serif' font-size='5.5' font-weight='700'%3EPDF%3C/text%3E%3C/svg%3E") no-repeat center / contain;
-  mask: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z'/%3E%3Ctext x='3' y='12.2' font-family='Helvetica,Arial,sans-serif' font-size='5.5' font-weight='700'%3EPDF%3C/text%3E%3C/svg%3E") no-repeat center / contain;
-}
-
-/* Patent label */
-.patent-label {
-  color: #999;
-  font-size: 0.78rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-right: 0.3rem;
-}
-
-/* JMP label */
-.intro {
-  text-align: justify;
-  hyphens: auto;
-}
-
-.jmp-label {
-  color: #8B1A1A;
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  display: block;
-  margin-top: 0.35rem;
-}
-
-/* Paper entry */
-.paper {
-  margin-bottom: 1.8rem;
-}
-
-.paper-title {
-  font-weight: 600;
-  font-size: 1rem;
-}
-
-.paper-authors {
-  font-size: 0.8rem;
-  color: #777;
-}
-
-.paper p:has(.paper-title) {
-  margin-bottom: 0.1rem;
-}
-
-.paper p:has(.paper-authors) {
-  margin-top: 0;
-}
-
-.paper-summary {
-  font-size: 0.92rem;
-  color: #333;
-  margin-top: 0.3rem;
-  display: block;
-  text-align: justify;
-  hyphens: auto;
-}
-
-.paper-links {
-  font-size: 0.88rem;
-  margin-top: 0.3rem;
-}
-
-/* Publication entries (smaller) */
-.publication {
-  margin-bottom: 1.2rem;
-  font-size: 0.92rem;
-}
-
-/* Teaching entries */
-.teaching-entry {
-  margin-bottom: 0.6rem;
+  .paper-summary {
+    text-align: left;
+    hyphens: manual;
+    -webkit-hyphens: manual;
+  }
 }

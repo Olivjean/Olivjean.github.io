@@ -7,20 +7,16 @@
     "PA"
   ],
   "area_km2": 1424,
-  "current_phase": "Em Estudo",
+  "current_phase": "restricao_de_uso",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Igarapé Ipiaçava",
       "en": "Isolados do Igarapé Ipiaçava"
     }
   ],
-  "languages": [
-    {
-      "name": "Isolados do Igarapé Ipiaçava",
-      "family": "—",
-      "povo": "Isolados do Igarapé Ipiaçava"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

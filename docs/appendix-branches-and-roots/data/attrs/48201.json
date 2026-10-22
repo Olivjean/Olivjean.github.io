@@ -7,7 +7,9 @@
     "RO"
   ],
   "area_km2": 18671.2,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Amondawa",
@@ -51,36 +53,6 @@
       "name": "Kawahib",
       "family": "Tupi-Guarani",
       "povo": "Amondawa"
-    },
-    {
-      "name": "Isolados Bananeira",
-      "family": "—",
-      "povo": "Isolados Bananeira"
-    },
-    {
-      "name": "Isolados do Cautário",
-      "family": "—",
-      "povo": "Isolados do Cautário"
-    },
-    {
-      "name": "Isolados no Igarapé Oriente",
-      "family": "—",
-      "povo": "Isolados no Igarapé Oriente"
-    },
-    {
-      "name": "Isolados no Igarapé Tiradentes",
-      "family": "—",
-      "povo": "Isolados no Igarapé Tiradentes"
-    },
-    {
-      "name": "Kawahib",
-      "family": "Tupi-Guarani",
-      "povo": "Juma"
-    },
-    {
-      "name": "Kawahiva Isolado do Rio Muqui",
-      "family": "—",
-      "povo": "Kawahiva Isolado do Rio Muqui"
     },
     {
       "name": "Oro Win",

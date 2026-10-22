@@ -7,7 +7,9 @@
     "TO"
   ],
   "area_km2": 1675.4,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Guarani",
@@ -27,16 +29,6 @@
       "name": "Guarani",
       "family": "Tupi-Guarani",
       "povo": "Guarani"
-    },
-    {
-      "name": "Guarani",
-      "family": "Tupi-Guarani",
-      "povo": "Guarani Mbya"
-    },
-    {
-      "name": "Xerente",
-      "family": "Jê",
-      "povo": "Xerente"
     }
   ],
   "has_isolados": false,

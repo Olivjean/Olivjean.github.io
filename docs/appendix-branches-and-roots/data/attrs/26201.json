@@ -7,7 +7,9 @@
     "AC"
   ],
   "area_km2": 3136.5,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Manchineri",
@@ -27,11 +29,6 @@
       "name": "Piro",
       "family": "Aruak",
       "povo": "Manchineri"
-    },
-    {
-      "name": "Mashco Isolados do Rio Iaco",
-      "family": "—",
-      "povo": "Mashco Isolados do Rio Iaco"
     },
     {
       "name": "Yamináwa",

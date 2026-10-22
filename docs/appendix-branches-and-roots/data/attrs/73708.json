@@ -7,20 +7,16 @@
     "RR"
   ],
   "area_km2": 401,
-  "current_phase": "Em Estudo",
+  "current_phase": "em_estudo",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados Pirititi",
       "en": "Isolados Pirititi"
     }
   ],
-  "languages": [
-    {
-      "name": "Isolados Pirititi",
-      "family": "—",
-      "povo": "Isolados Pirititi"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {
@@ -37,7 +33,7 @@
   "audit_score": 9.42,
   "in_jmp_sample": true,
   "centroid": {
-    "lon": -60.4394,
-    "lat": 0.0504
+    "lon": -60.3801,
+    "lat": 0.062
   }
 }

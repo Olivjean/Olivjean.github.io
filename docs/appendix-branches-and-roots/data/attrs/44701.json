@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 874.1,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Igarapé Preto",
@@ -23,16 +25,6 @@
     }
   ],
   "languages": [
-    {
-      "name": "Isolados do Igarapé Preto",
-      "family": "—",
-      "povo": "Isolados do Igarapé Preto"
-    },
-    {
-      "name": "Isolados Kaidjuwa",
-      "family": "—",
-      "povo": "Isolados Kaidjuwa"
-    },
     {
       "name": "Kawahib",
       "family": "Tupi-Guarani",

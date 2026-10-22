@@ -7,20 +7,16 @@
     "AC"
   ],
   "area_km2": 205.3,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Arara do Rio Amônia",
       "en": "Arara do Rio Amônia"
     }
   ],
-  "languages": [
-    {
-      "name": "Arara do Rio Amônia",
-      "family": "—",
-      "povo": "Arara do Rio Amônia"
-    }
-  ],
+  "languages": [],
   "has_isolados": false,
   "iltf_munis": [
     {

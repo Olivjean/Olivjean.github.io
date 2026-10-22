@@ -7,7 +7,9 @@
     "MT"
   ],
   "area_km2": 282.1,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Nambikwara",
@@ -43,36 +45,6 @@
       "name": "Nambikwara",
       "family": "Nambikwára",
       "povo": "Nambikwara"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Idalamare"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Ilaklore"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Mamaindê"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Manduka"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Sabanê"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Tawandê"
     }
   ],
   "has_isolados": false,

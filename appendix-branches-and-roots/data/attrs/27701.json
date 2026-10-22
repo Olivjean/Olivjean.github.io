@@ -7,20 +7,16 @@
     "RO"
   ],
   "area_km2": 4219,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Massaco Isolados",
       "en": "Massaco Isolados"
     }
   ],
-  "languages": [
-    {
-      "name": "Massaco Isolados",
-      "family": "—",
-      "povo": "Massaco Isolados"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

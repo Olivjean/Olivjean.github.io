@@ -7,7 +7,9 @@
     "RO"
   ],
   "area_km2": 1157.9,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Aikanã",
@@ -67,11 +69,6 @@
       "povo": "Aruá"
     },
     {
-      "name": "Arikapú",
-      "family": "Jabuti",
-      "povo": "Djeoromitxí"
-    },
-    {
       "name": "Kanoe",
       "family": "Kanoe",
       "povo": "Kanoê"
@@ -90,11 +87,6 @@
       "name": "Tupari",
       "family": "Tupari",
       "povo": "Tupari"
-    },
-    {
-      "name": "Tupari",
-      "family": "Tupari",
-      "povo": "Wajuru"
     },
     {
       "name": "Wari (Pakaá Nova)",

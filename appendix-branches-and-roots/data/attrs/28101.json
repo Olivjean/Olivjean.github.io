@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 217.6,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Ticuna",
@@ -54,7 +56,7 @@
   "audit_score": 9.48,
   "in_jmp_sample": true,
   "centroid": {
-    "lon": -68.4634,
-    "lat": -2.8815
+    "lon": -68.4787,
+    "lat": -2.9374
   }
 }

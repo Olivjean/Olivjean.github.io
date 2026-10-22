@@ -7,7 +7,9 @@
     "PA"
   ],
   "area_km2": 22.9,
-  "current_phase": "Encaminhada RI",
+  "current_phase": "sem_processo",
+  "legally_protected_2024": false,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Yudja",

@@ -9,7 +9,9 @@
     "PA"
   ],
   "area_km2": 39709,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Hixkaryana",
@@ -41,26 +43,6 @@
       "name": "Hixkaryana",
       "family": "Karib",
       "povo": "Hixkaryana"
-    },
-    {
-      "name": "Isolados do Médio Jatapu",
-      "family": "—",
-      "povo": "Isolados do Médio Jatapu"
-    },
-    {
-      "name": "Isolados do Rio Cachorro/Cachorrinho",
-      "family": "—",
-      "povo": "Isolados do Rio Cachorro/Cachorrinho"
-    },
-    {
-      "name": "Isolados Karapawyana",
-      "family": "—",
-      "povo": "Isolados Karapawyana"
-    },
-    {
-      "name": "Katuenayana",
-      "family": "Karib",
-      "povo": "Katuenayana"
     },
     {
       "name": "Waiwai",

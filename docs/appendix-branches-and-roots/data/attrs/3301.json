@@ -7,7 +7,9 @@
     "MT"
   ],
   "area_km2": 1148.4,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Arara do Rio Branco",
@@ -18,18 +20,7 @@
       "en": "Isolados na TI Arara do Rio Branco"
     }
   ],
-  "languages": [
-    {
-      "name": "Arara do Rio Branco",
-      "family": "—",
-      "povo": "Arara do Rio Branco"
-    },
-    {
-      "name": "Isolados na TI Arara do Rio Branco",
-      "family": "—",
-      "povo": "Isolados na TI Arara do Rio Branco"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

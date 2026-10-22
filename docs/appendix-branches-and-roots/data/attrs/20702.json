@@ -7,7 +7,9 @@
     "MA"
   ],
   "area_km2": 1002.2,
-  "current_phase": "Delimitada",
+  "current_phase": "delimitada",
+  "legally_protected_2024": false,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Canela Memortumré",
@@ -50,7 +52,7 @@
   "audit_score": 9.27,
   "in_jmp_sample": true,
   "centroid": {
-    "lon": -45.2067,
-    "lat": -6.2148
+    "lon": -45.2843,
+    "lat": -6.2292
   }
 }

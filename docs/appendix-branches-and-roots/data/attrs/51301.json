@@ -7,7 +7,9 @@
     "AC"
   ],
   "area_km2": 2609.7,
-  "current_phase": "Homologada",
+  "current_phase": "homologada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Ashaninka",
@@ -27,16 +29,6 @@
       "name": "Ashaninka",
       "family": "Aruak",
       "povo": "Ashaninka"
-    },
-    {
-      "name": "Isolados do Rio Jaminawá",
-      "family": "—",
-      "povo": "Isolados do Rio Jaminawá"
-    },
-    {
-      "name": "Isolados do Riozinho do Alto Envira",
-      "family": "—",
-      "povo": "Isolados do Riozinho do Alto Envira"
     }
   ],
   "has_isolados": true,

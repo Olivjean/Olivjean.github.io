@@ -7,7 +7,9 @@
     "PA"
   ],
   "area_km2": 1628.6,
-  "current_phase": "Encaminhada RI",
+  "current_phase": "em_estudo",
+  "legally_protected_2024": false,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Amanayé",

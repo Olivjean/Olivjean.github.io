@@ -29,13 +29,13 @@ Contact: <a href="mailto:jeanoli@stud.uni-frankfurt.de">jeanoli@stud.uni-frankfu
 ## Working Papers
 
 ::: {.paper}
-[**Branches and Roots: Banking Presence and Deforestation in Amazonian Indigenous Lands**]{.paper-title}
+[**Branches and Roots: Bank Presence and Forest Preservation in Amazonian Indigenous Lands**]{.paper-title}
 
 [Job Market Paper]{.jmp-label}
 
-[With Douglas K.G. de Araujo]{.paper-authors}
+[With Douglas K.G. Araujo]{.paper-authors}
 
-[Indigenous lands shelter much of the Brazilian Amazon's intact forest, yet illegal deforestation inside their boundaries has been climbing despite formal legal protection. We exploit a sharp expansion and subsequent contraction of the region's bank-branch network between 2008 and 2024 to ask whether local banking presence affects deforestation inside nearby Indigenous lands. We find that each additional branch near an Indigenous land lowers cumulative forest loss inside that area by roughly 2.5 km² over five years. Mediation analysis attributes the bulk of this effect to a single channel: bank presence raises local social capital, and exogenous variation in social capital in turn lowers deforestation. By contrast, we find no evidence that either local economic conditions or access to capital for clearing transmits the effect.]{.paper-summary}
+[Indigenous lands shelter a large portion of the Brazilian Amazon's intact forest, yet illegal deforestation inside their boundaries has been climbing despite legal protection. We exploit the expansion and subsequent contraction of the bank-branch network between 2008 and 2024 in the traditionally underbanked Amazon to analyze whether local banking presence affects deforestation inside nearby Indigenous lands. Using branch dynamics in surrounding municipalities as instrumental variables, we find that each additional branch near an Indigenous land lowers cumulative forest loss inside that area by roughly 2.7 km² within three years. We then show that this effect runs through local social capital. New branches also bring more restaurants, bars and supermarkets, the everyday venues where social ties form.]{.paper-summary}
 
 [PDF *(coming soon)*]{.paper-btn .paper-btn--pdf} [Interactive Online Appendix](appendix-branches-and-roots/){.paper-btn}
 :::

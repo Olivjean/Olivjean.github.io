@@ -7,7 +7,9 @@
     "MT"
   ],
   "area_km2": 9823.2,
-  "current_phase": "Declarada",
+  "current_phase": "declarada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Apiaká",
@@ -27,11 +29,6 @@
       "name": "Apiaká",
       "family": "Tupi-Guarani",
       "povo": "Apiaká"
-    },
-    {
-      "name": "Isolados do Pontal",
-      "family": "—",
-      "povo": "Isolados do Pontal"
     },
     {
       "name": "Munduruku",

@@ -7,7 +7,9 @@
     "MA"
   ],
   "area_km2": 3010,
-  "current_phase": "Delimitada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Canela Apanyekrá",

@@ -1,159 +1,205 @@
-// IL picker: searchable dropdown listing every IL in il_attrs.json,
-// with multi-select UF filter chips. Selecting an IL navigates to its page.
-//
-// Mount points (must exist in the breadcrumb row):
-//   #il-picker-input   <input type="text">
-//   #il-picker-list    <div>            -- options drop down here
-//   #state-filters     <div>            -- UF chips render here
-
 const IlPicker = (() => {
-  let all = [];        // array of attrs rows
-  let activeUFs = new Set();   // empty set = no filter
-  let activeQuery = "";
-  let currentCod = null;
+  const dataPath = window.OA_DATA_PATH || "data";
+  const LIMIT = 100;
+  let rows = [];
+  let indexPromise = null;
+  let ufs = [];
+  const activeUFs = new Set();
+  let query = "";
+  let currentSlug = null;
+  let options = [];
+  let active = -1;
+  let input, panel, list, states, field;
 
-  const dataPath = (window.OA_DATA_PATH || "../data");
-
-  // Helpers — il_attrs.json sometimes has scalar / sometimes array fields
   const scalar = v => Array.isArray(v) ? v[0] : v;
   const flatUfs = u => {
     if (!u) return [];
     if (!Array.isArray(u)) return [String(u)];
     const out = [];
     for (const x of u) {
-      if (Array.isArray(x)) out.push(...x);
+      if (Array.isArray(x)) out.push(...x.map(String));
       else out.push(String(x));
     }
     return out;
   };
+  const normalize = s => (s || "").toString().toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
 
-  // Lowercase + strip accents so "andira" matches "Andirá".
-  function normalize(s) {
-    return (s || "").toString().toLowerCase()
-      .normalize("NFD").replace(/\p{M}/gu, "");
+  function index() {
+    if (!indexPromise) {
+      indexPromise = fetch(`${dataPath}/il_attrs.json`)
+        .then(r => r.json())
+        .then(data => {
+          rows = (data || []).filter(r => r && (r.slug || r.terrai_cod)).map(r => ({
+            cod: scalar(r.terrai_cod),
+            slug: String(scalar(r.slug) || scalar(r.terrai_cod)),
+            name: String(scalar(r.name_pt) || ""),
+            key: normalize(scalar(r.name_pt)),
+            ufs: flatUfs(r.ufs),
+          }));
+          rows.sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
+          return rows;
+        })
+        .catch(e => { console.warn("il-picker: failed to load il_attrs.json", e); rows = []; return rows; });
+    }
+    return indexPromise;
   }
 
-  function matchesFilters(row) {
-    const ufs = flatUfs(row.ufs);
-    if (activeUFs.size > 0 && !ufs.some(u => activeUFs.has(u))) return false;
-    const q = normalize(activeQuery.trim());
-    if (!q) return true;
-    // Prefix match on the IL name — typing "g" returns names starting with g,
-    // "go" narrows to names starting with go, etc.
-    return normalize(scalar(row.name_pt)).startsWith(q);
+  function matches() {
+    const q = normalize(query.trim());
+    const pool = activeUFs.size ? rows.filter(r => r.ufs.some(u => activeUFs.has(u))) : rows;
+    if (!q) return pool;
+    const starts = [], contains = [];
+    for (const r of pool) {
+      if (r.key.startsWith(q)) starts.push(r);
+      else if (r.key.includes(q)) contains.push(r);
+    }
+    return starts.concat(contains);
+  }
+
+  function renderStates() {
+    states.textContent = "";
+    const label = document.createElement("span");
+    label.className = "picker-states-label";
+    label.textContent = I18N.t("picker.uf_label");
+    states.appendChild(label);
+    const strip = document.createElement("span");
+    strip.className = "state-strip";
+    strip.setAttribute("role", "group");
+    strip.setAttribute("aria-label", I18N.t("picker.uf_label").replace(/:\s*$/, ""));
+    states.appendChild(strip);
+    for (const u of ufs) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "state";
+      b.textContent = u;
+      b.setAttribute("aria-pressed", activeUFs.has(u) ? "true" : "false");
+      b.addEventListener("click", () => {
+        if (activeUFs.has(u)) activeUFs.delete(u); else activeUFs.add(u);
+        b.setAttribute("aria-pressed", activeUFs.has(u) ? "true" : "false");
+        renderList();
+        input.focus();
+      });
+      strip.appendChild(b);
+    }
   }
 
   function renderList() {
-    const list = document.getElementById("il-picker-list");
-    if (!list) return;
-    const filtered = all.filter(matchesFilters);
-    if (filtered.length === 0) {
-      list.innerHTML = `<div class="il-picker-empty">${I18N.t("picker.no_results")}</div>`;
+    const found = matches();
+    list.textContent = "";
+    options = [];
+    active = -1;
+    input.removeAttribute("aria-activedescendant");
+    if (found.length === 0) {
+      const p = document.createElement("p");
+      p.className = "picker-empty";
+      p.textContent = I18N.t("picker.no_results");
+      list.appendChild(p);
       return;
     }
-    list.innerHTML = filtered.slice(0, 100).map(row => {
-      const cod = scalar(row.terrai_cod);
-      const slug = scalar(row.slug) || String(cod);
-      const name = scalar(row.name_pt) || "—";
-      const ufs = flatUfs(row.ufs).join(", ");
-      const cur = (cod == currentCod) ? "current" : "";
-      // SPA: navigate by URL hash. Card.js listens for hashchange.
-      return `<a class="il-picker-option ${cur}" href="#il=${slug}" data-slug="${slug}">
-        <span class="il-picker-name">${name}</span>
-        <span class="il-picker-uf">${ufs}</span>
-      </a>`;
-    }).join("");
-    // After click, close the list and update the input value
-    list.querySelectorAll(".il-picker-option").forEach(a => {
-      a.addEventListener("click", () => {
-        const input = document.getElementById("il-picker-input");
-        if (input) {
-          input.value = "";
-          activeQuery = "";
-        }
-        list.classList.remove("open");
-      });
+    found.slice(0, LIMIT).forEach((r, i) => {
+      const a = document.createElement("a");
+      a.className = "picker-option";
+      a.id = `il-opt-${i}`;
+      a.href = `#il=${r.slug}`;
+      a.setAttribute("role", "option");
+      a.tabIndex = -1;
+      if (r.slug === currentSlug) a.setAttribute("aria-current", "true");
+      const name = document.createElement("span");
+      name.className = "picker-name";
+      name.textContent = r.name || "–";
+      const uf = document.createElement("span");
+      uf.className = "picker-uf";
+      uf.textContent = r.ufs.join(", ");
+      a.append(name, uf);
+      a.addEventListener("click", () => { reset(); close(); input.blur(); });
+      list.appendChild(a);
+      options.push(a);
     });
-    if (filtered.length > 100) {
-      const tmpl = I18N.t("picker.more");
-      const msg = tmpl.replace("{n}", filtered.length - 100);
-      list.insertAdjacentHTML("beforeend",
-        `<div class="il-picker-more">${msg}</div>`);
+    if (found.length > LIMIT) {
+      const p = document.createElement("p");
+      p.className = "picker-more";
+      p.textContent = I18N.t("picker.more").replace("{n}", found.length - LIMIT);
+      list.appendChild(p);
     }
   }
 
-  function renderFilters() {
-    const host = document.getElementById("state-filters");
-    if (!host) return;
-    const allUfs = new Set();
-    for (const r of all) for (const u of flatUfs(r.ufs)) allUfs.add(u);
-    const sorted = Array.from(allUfs).sort();
-    host.innerHTML = `<span class="filter-label">${I18N.t("picker.uf_label")}</span>` +
-      sorted.map(u =>
-        `<button class="uf-chip ${activeUFs.has(u) ? 'active' : ''}" data-uf="${u}">${u}</button>`
-      ).join("");
-    host.querySelectorAll(".uf-chip").forEach(btn => {
-      btn.addEventListener("click", () => {
-        const u = btn.dataset.uf;
-        if (activeUFs.has(u)) activeUFs.delete(u);
-        else activeUFs.add(u);
-        renderFilters();
-        renderList();
-      });
-    });
+  function setActive(i) {
+    if (!options.length) return;
+    if (active >= 0 && options[active]) options[active].removeAttribute("aria-selected");
+    active = (i + options.length) % options.length;
+    const el = options[active];
+    el.setAttribute("aria-selected", "true");
+    input.setAttribute("aria-activedescendant", el.id);
+    el.scrollIntoView({ block: "nearest" });
+  }
+
+  function open() {
+    if (!panel.hidden) return;
+    renderList();
+    panel.hidden = false;
+    input.setAttribute("aria-expanded", "true");
+  }
+
+  function close() {
+    panel.hidden = true;
+    input.setAttribute("aria-expanded", "false");
+    input.removeAttribute("aria-activedescendant");
+  }
+
+  function reset() {
+    input.value = "";
+    query = "";
+  }
+
+  function go(slug) {
+    reset();
+    close();
+    input.blur();
+    if (slug) window.location.hash = `#il=${slug}`;
+  }
+
+  function onKey(e) {
+    if (e.key === "ArrowDown") { e.preventDefault(); open(); setActive(active + 1); }
+    else if (e.key === "ArrowUp") { e.preventDefault(); open(); setActive(active - 1); }
+    else if (e.key === "Enter") {
+      const el = options[active >= 0 ? active : 0];
+      if (!panel.hidden && el) { e.preventDefault(); go(el.getAttribute("href").replace("#il=", "")); }
+    } else if (e.key === "Escape") {
+      if (input.value) { reset(); renderList(); }
+      else { close(); input.blur(); }
+    }
+  }
+
+  function setCurrent(slug) {
+    currentSlug = slug;
+    if (!panel.hidden) renderList();
   }
 
   async function init() {
-    // Ensure the i18n dictionary is loaded BEFORE we render anything;
-    // otherwise renderFilters() falls back to raw keys like "picker.uf_label".
-    try { await I18N.load(); } catch (e) { /* already loaded */ }
-    try {
-      all = await fetch(`${dataPath}/il_attrs.json`).then(r => r.json());
-    } catch (e) {
-      console.warn("il-picker: failed to load il_attrs.json", e);
-      return;
-    }
-    function readHashCod() {
-      const m = (window.location.hash || "").match(/[#&?]il=([^&]+)/);
-      if (!m) return null;
-      const v = decodeURIComponent(m[1]);
-      const hit = all.find(r => String(scalar(r.slug)) === v || String(scalar(r.terrai_cod)) === v);
-      return hit ? scalar(hit.terrai_cod) : null;
-    }
-    currentCod = readHashCod() || window.OA_IL_CODE;
-    window.addEventListener("hashchange", () => {
-      currentCod = readHashCod() || currentCod;
-      renderList();
-    });
+    field = document.querySelector(".picker-field");
+    input = document.getElementById("il-picker-input");
+    panel = document.getElementById("il-picker-panel");
+    list = document.getElementById("il-picker-list");
+    states = document.getElementById("state-filters");
+    if (!field || !input || !panel || !list || !states) return;
 
-    const input = document.getElementById("il-picker-input");
-    const list = document.getElementById("il-picker-list");
-    if (!input || !list) return;
+    await I18N.load();
+    await index();
+    const all = new Set();
+    rows.forEach(r => r.ufs.forEach(u => all.add(u)));
+    ufs = Array.from(all).sort();
+    renderStates();
 
-    // Show/hide list on focus/blur (with a small delay so option clicks fire first)
-    input.addEventListener("focus", () => { list.classList.add("open"); });
-    input.addEventListener("blur",  () => { setTimeout(() => list.classList.remove("open"), 150); });
-    input.addEventListener("input", () => {
-      activeQuery = input.value;
-      list.classList.add("open");
-      renderList();
+    panel.addEventListener("mousedown", e => { if (!e.target.closest("a")) e.preventDefault(); });
+    input.addEventListener("focus", open);
+    input.addEventListener("click", open);
+    input.addEventListener("input", () => { query = input.value; open(); renderList(); });
+    input.addEventListener("keydown", onKey);
+    field.addEventListener("focusout", e => {
+      if (!field.contains(e.relatedTarget)) setTimeout(() => { if (!field.contains(document.activeElement)) close(); }, 120);
     });
-    // Esc clears query
-    input.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") { input.value = ""; activeQuery = ""; renderList(); input.blur(); }
-    });
-
-    renderFilters();
-    renderList();
-
-    // Re-translate when language changes
-    window.addEventListener("oa:langchange", () => {
-      renderFilters();
-      renderList();
-      input.placeholder = I18N.t("picker.placeholder");
-    });
-    input.placeholder = I18N.t("picker.placeholder");
+    window.addEventListener("oa:langchange", () => { renderStates(); if (!panel.hidden) renderList(); });
   }
 
-  return { init };
+  return { init, index, setCurrent };
 })();

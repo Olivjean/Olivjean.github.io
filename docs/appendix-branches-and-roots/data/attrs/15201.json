@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 6778.4,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Hi-merimã",
@@ -18,18 +20,7 @@
       "en": "Isolados Hi-Merimã"
     }
   ],
-  "languages": [
-    {
-      "name": "Hi-merimã",
-      "family": "Arawá",
-      "povo": "Hi-merimã"
-    },
-    {
-      "name": "Isolados Hi-Merimã",
-      "family": "Arawá",
-      "povo": "Isolados Hi-Merimã"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

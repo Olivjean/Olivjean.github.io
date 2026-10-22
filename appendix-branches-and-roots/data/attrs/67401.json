@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 12081.5,
-  "current_phase": "Declarada",
+  "current_phase": "declarada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Arapaso",
@@ -65,11 +67,6 @@
       "name": "Baré",
       "family": "Aruak",
       "povo": "Baré"
-    },
-    {
-      "name": "Dâw",
-      "family": "Naduhup",
-      "povo": "Dâw"
     },
     {
       "name": "Desana",

@@ -8,7 +8,9 @@
     "AM"
   ],
   "area_km2": 96649.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados da Serra da Estrutura",
@@ -69,69 +71,39 @@
   ],
   "languages": [
     {
-      "name": "Isolados da Serra da Estrutura",
-      "family": "Yanomami",
-      "povo": "Isolados da Serra da Estrutura"
-    },
-    {
-      "name": "Isolados do Amajari",
-      "family": "—",
-      "povo": "Isolados do Amajari"
-    },
-    {
-      "name": "Isolados do Auaris/Fronteira",
-      "family": "—",
-      "povo": "Isolados do Auaris/Fronteira"
-    },
-    {
-      "name": "Isolados do Baixo Rio Cauaburis",
-      "family": "—",
-      "povo": "Isolados do Baixo Rio Cauaburis"
-    },
-    {
-      "name": "Isolados Parawa u",
-      "family": "—",
-      "povo": "Isolados Parawa u"
-    },
-    {
-      "name": "Isolados Surucucu/Kataroa",
-      "family": "—",
-      "povo": "Isolados Surucucu/Kataroa"
-    },
-    {
-      "name": "Ninam, Sanöma, Yãnoma, Yanomám, Yanonami, Ỹaroamë",
+      "name": "Ninam",
       "family": "Yanomami",
       "povo": "Yanomami"
     },
     {
-      "name": "Ninam",
+      "name": "Sanöma",
       "family": "Yanomami",
-      "povo": "Yanomami Ninam"
+      "povo": "Yanomami"
+    },
+    {
+      "name": "Yãnoma",
+      "family": "Yanomami",
+      "povo": "Yanomami"
+    },
+    {
+      "name": "Yanomám",
+      "family": "Yanomami",
+      "povo": "Yanomami"
+    },
+    {
+      "name": "Yanonami",
+      "family": "Yanomami",
+      "povo": "Yanomami"
+    },
+    {
+      "name": "Ỹaroamë",
+      "family": "Yanomami",
+      "povo": "Yanomami"
     },
     {
       "name": "Sanumá",
       "family": "Yanomami",
       "povo": "Yanomami Sanöma"
-    },
-    {
-      "name": "Yãnoma",
-      "family": "Yanomami",
-      "povo": "Yanomami Yãnoma"
-    },
-    {
-      "name": "Yanomám",
-      "family": "Yanomami",
-      "povo": "Yanomami Yanomám"
-    },
-    {
-      "name": "Yanonami",
-      "family": "Yanomami",
-      "povo": "Yanomami Yanonami"
-    },
-    {
-      "name": "Ỹaroamë",
-      "family": "Yanomami",
-      "povo": "Yanomami Ỹaroamë"
     },
     {
       "name": "Yekuana",
@@ -196,7 +168,7 @@
   "audit_score": 7.29,
   "in_jmp_sample": true,
   "centroid": {
-    "lon": -63.4999,
-    "lat": 2.1567
+    "lon": -62.5841,
+    "lat": 1.982
   }
 }

@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 944.1,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Igarapé Bafuanã",
@@ -19,11 +21,6 @@
     }
   ],
   "languages": [
-    {
-      "name": "Isolados do Igarapé Bafuanã",
-      "family": "—",
-      "povo": "Isolados do Igarapé Bafuanã"
-    },
     {
       "name": "Kanamari",
       "family": "Katukina",

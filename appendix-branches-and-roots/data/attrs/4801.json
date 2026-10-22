@@ -7,7 +7,9 @@
     "MA"
   ],
   "area_km2": 1165.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Awa Guajá",
@@ -23,11 +25,6 @@
       "name": "Guajá",
       "family": "Tupi-Guarani",
       "povo": "Awa Guajá"
-    },
-    {
-      "name": "Isolados de Mão de onça",
-      "family": "—",
-      "povo": "Isolados de Mão de onça"
     }
   ],
   "has_isolados": true,

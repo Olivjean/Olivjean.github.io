@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 85444.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Alto Jutaí",
@@ -115,101 +117,6 @@
     }
   ],
   "languages": [
-    {
-      "name": "Isolados do Alto Jutaí",
-      "family": "—",
-      "povo": "Isolados do Alto Jutaí"
-    },
-    {
-      "name": "Isolados do Igarapé Alerta",
-      "family": "—",
-      "povo": "Isolados do Igarapé Alerta"
-    },
-    {
-      "name": "Isolados do Igarapé Amburus",
-      "family": "—",
-      "povo": "Isolados do Igarapé Amburus"
-    },
-    {
-      "name": "Isolados do Igarapé Cravo",
-      "family": "—",
-      "povo": "Isolados do Igarapé Cravo"
-    },
-    {
-      "name": "Isolados do Igarapé Flecheira",
-      "family": "—",
-      "povo": "Isolados do Igarapé Flecheira"
-    },
-    {
-      "name": "Isolados do Igarapé Inferno",
-      "family": "—",
-      "povo": "Isolados do Igarapé Inferno"
-    },
-    {
-      "name": "Isolados do Igarapé Lambança",
-      "family": "—",
-      "povo": "Isolados do Igarapé Lambança"
-    },
-    {
-      "name": "Isolados do Igarapé Nauá",
-      "family": "—",
-      "povo": "Isolados do Igarapé Nauá"
-    },
-    {
-      "name": "Isolados do Igarapé Pedro Lopes",
-      "family": "—",
-      "povo": "Isolados do Igarapé Pedro Lopes"
-    },
-    {
-      "name": "Isolados do Igarapé São José",
-      "family": "—",
-      "povo": "Isolados do Igarapé São José"
-    },
-    {
-      "name": "Isolados do Igarapé São Salvador",
-      "family": "—",
-      "povo": "Isolados do Igarapé São Salvador"
-    },
-    {
-      "name": "Isolados do Jandiatuba",
-      "family": "—",
-      "povo": "Isolados do Jandiatuba"
-    },
-    {
-      "name": "Isolados do Rio Bóia/Curuena",
-      "family": "—",
-      "povo": "Isolados do Rio Bóia/Curuena"
-    },
-    {
-      "name": "Isolados do Rio Coari",
-      "family": "—",
-      "povo": "Isolados do Rio Coari"
-    },
-    {
-      "name": "Isolados do Rio Esquerdo",
-      "family": "—",
-      "povo": "Isolados do Rio Esquerdo"
-    },
-    {
-      "name": "Isolados do Rio Itaquaí",
-      "family": "—",
-      "povo": "Isolados do Rio Itaquaí"
-    },
-    {
-      "name": "Isolados do Rio Pedra",
-      "family": "—",
-      "povo": "Isolados do Rio Pedra"
-    },
-    {
-      "name": "Isolados do Rio Quixito",
-      "family": "—",
-      "povo": "Isolados do Rio Quixito"
-    },
-    {
-      "name": "Isolados Korubo",
-      "family": "—",
-      "povo": "Isolados Korubo"
-    },
     {
       "name": "Kanamari",
       "family": "Katukina",

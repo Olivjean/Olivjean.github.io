@@ -1,707 +1,703 @@
-// IL card controller — orchestrates map, year slider, toggles, and plot.
-// Expects window.OA_IL_CODE to be set before this script loads.
-
 const Card = (() => {
-  let attrs = null;
-  let series = null;
-  let geo = null;
-  let defor = null;
-  let map = null;
-  let tileLayer = null;
-  let layers = {};
-  let deforLayer = null;
-  let currentYear = 2024;
-  let view = "il";  // "il" or "iltf"
-  let mapMode = "focused";  // "focused" or "context"
-  let playInterval = null;
+  const dataPath = window.OA_DATA_PATH || "data";
+  const DEFAULT_SLUG = "andira-marau";
+  const DEFAULT_COD = 2001;
+  const PHASE_KEYS = ["em_estudo", "delimitada", "declarada", "homologada",
+                      "regularizada", "reserva", "restricao_de_uso",
+                      "dominial_indigena", "sem_processo"];
+  const C = {
+    ink: "#1a1a1a",
+    ink2: "#4d4d4d",
+    grid: "#e6e6e6",
+    base: "#a6a6a6",
+    il: "#cfe8c8",
+    iltf: "#e8e8e8",
+    iltfLine: "#a3a3a3",
+    iltfHot: "#c9c9c9",
+    defor: "#b22222",
+    deforLater: "#ebcaca",
+    band: "#8b1a1a",
+  };
+  const FONT = '"Source Serif 4", "Source Serif Pro", Georgia, serif';
 
-  // Default + hover styles for ILTF municipalities (used both at init and on hover).
-  const ILTF_DEFAULT_STYLE = { fillColor: "#888888", fillOpacity: 0.5,
-                               color: "#cfd8e3", weight: 0.6, opacity: 0.55 };
-  const ILTF_HOVER_STYLE   = { fillColor: "#6bd5b4", fillOpacity: 0.55,
-                               color: "#ffd166", weight: 2.5, opacity: 1 };
-
-  const dataPath = (window.OA_DATA_PATH || "../data");
-
+  let rows = [];
   let legalAmazon = null;
-  let plotMode = "yearly";   // "yearly" or "cumulative"
-  let ilIndex = null;        // il_attrs.json (used for slug → cod lookup)
+  let current = null;
+  let map, tiles, iltfLayer, ilLayer, ilEdge;
+  let deforLayers = [];
+  let year = 2024;
+  let view = "il";
+  let mapMode = "focused";
+  let userMoved = false;   // set once the reader drags or zooms the map
+  let plotMode = "yearly";
+  let timer = null;
+  let token = 0;
+  const pending = new Map();
 
-  function slugToCod(slug) {
-    if (!ilIndex || !slug) return null;
-    const s = String(slug);
-    const hit = ilIndex.find(r => String(r.slug) === s || String(r.terrai_cod) === s);
-    return hit ? (Array.isArray(hit.terrai_cod) ? hit.terrai_cod[0] : hit.terrai_cod) : null;
+  const t = k => I18N.t(k);
+  const $ = id => document.getElementById(id);
+  const cap = s => s ? s.charAt(0).toLocaleUpperCase(I18N.locale) + s.slice(1) : s;
+  const json = url => fetch(url).then(r => { if (!r.ok) throw new Error(`${r.status} ${url}`); return r.json(); });
+
+  function fetchLand(cod) {
+    const key = String(cod);
+    if (!pending.has(key)) {
+      const p = Promise.all([
+        json(`${dataPath}/attrs/${key}.json`),
+        json(`${dataPath}/series/${key}.json`),
+        json(`${dataPath}/geo/${key}.geojson`),
+        json(`${dataPath}/defor/${key}.geojson`),
+      ]);
+      pending.set(key, p);
+      p.catch(() => pending.delete(key));
+      if (pending.size > 6) pending.delete(pending.keys().next().value);
+    }
+    return pending.get(key);
   }
-  function codFromHash() {
+
+  function landName(a) {
+    return (I18N.current === "pt" ? a.name_pt : a.name_en) || a.name_pt || a.name_en || "";
+  }
+
+  function slugFromHash() {
     const m = (window.location.hash || "").match(/[#&?]il=([^&]+)/);
-    if (!m) return null;
-    return slugToCod(decodeURIComponent(m[1]));
-  }
-  function codToSlug(cod) {
-    if (!ilIndex) return null;
-    const c = String(cod);
-    const hit = ilIndex.find(r => String(Array.isArray(r.terrai_cod) ? r.terrai_cod[0] : r.terrai_cod) === c);
-    return hit ? (Array.isArray(hit.slug) ? hit.slug[0] : hit.slug) : null;
+    return m ? decodeURIComponent(m[1]) : null;
   }
 
-  async function loadData(code) {
-    const [a, s, g, d, la] = await Promise.all([
-      fetch(`${dataPath}/attrs/${code}.json`).then(r => r.json()),
-      fetch(`${dataPath}/series/${code}.json`).then(r => r.json()),
-      fetch(`${dataPath}/geo/${code}.geojson`).then(r => r.json()),
-      fetch(`${dataPath}/defor/${code}.geojson`).then(r => r.json()),
-      fetch(`${dataPath}/legal_amazon.geojson`).then(r => r.json())
-        .catch(() => null),
-    ]);
-    attrs = a; series = s; geo = g; defor = d; legalAmazon = la;
-    currentYear = series.years[series.years.length - 1];
+  function find(key) {
+    if (key == null) return null;
+    const k = String(key);
+    return rows.find(r => r.slug === k || String(r.cod) === k) || null;
   }
 
-  // ---- Map ----
   function initMap() {
     map = L.map("map", {
-      zoomControl: true,
-      attributionControl: true,
       preferCanvas: true,
+      zoomSnap: 0.25,
+      zoomDelta: 0.5,
+      wheelPxPerZoomLevel: 120,
     });
-
-    // Tile layer (only added in "context" mode)
-    tileLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 14,
-      opacity: 0.65,
+    map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
+    [["iltf", 410], ["il", 420], ["defor", 430], ["edge", 440]].forEach(([name, z]) => {
+      map.createPane(name).style.zIndex = z;
     });
-
-    const styles = {
-      iltf: ILTF_DEFAULT_STYLE,
-      il:   { fillColor: "#4fc784", fillOpacity: 0.6,
-              color: "#ffffff", weight: 2.0 },
-    };
-
-    // Order: iltf (under), il (top). Outer ring is intentionally not rendered.
-    for (const layerName of ["iltf", "il"]) {
-      const feats = geo.features.filter(f => f.properties.layer === layerName);
-      if (feats.length === 0) continue;
-      const layer = L.geoJSON({ type: "FeatureCollection", features: feats }, {
-        style: styles[layerName],
-      }).addTo(map);
-      layers[layerName] = layer;
-    }
-
-    // Defor "dots": render one circleMarker at the centroid of every feature.
-    // This is robust to whatever geometry type the GeoJSON serializer produced
-    // (Polygon / MultiPolygon / GeometryCollection alike) and stays visible at any zoom.
-    deforLayer = L.layerGroup().addTo(map);
-
-    updateDeforYear(currentYear);
-    applyMapMode();  // sets initial bounds, interaction state, and tile visibility
+    tiles = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 18,
+      className: "basemap",
+    });
+    map.setView([-4, -60], 4);
   }
 
-  function fitToBounds(targetLayers, padding = 20) {
-    let b = null;
-    for (const k of targetLayers) {
-      if (layers[k]) {
-        const lb = layers[k].getBounds();
-        b = b ? b.extend(lb) : lb;
-      }
+  function iltfStyle(hot) {
+    if (mapMode === "focused") {
+      return hot
+        ? { fillColor: C.iltfHot, fillOpacity: 1, color: C.ink, weight: 1.2, opacity: 1 }
+        : { fillColor: C.iltf, fillOpacity: 1, color: C.iltfLine, weight: 0.7, opacity: 1 };
     }
-    if (b) map.fitBounds(b, { padding: [padding, padding] });
+    return hot
+      ? { fillColor: "#5c5c5c", fillOpacity: 0.28, color: C.ink, weight: 1.4, opacity: 1 }
+      : { fillColor: "#7a7a7a", fillOpacity: 0.1, color: "#6b6b6b", weight: 0.8, opacity: 0.9 };
   }
 
-  function applyMapMode() {
-    const focused = mapMode === "focused";
-    if (focused) {
-      if (map.hasLayer(tileLayer)) map.removeLayer(tileLayer);
-      // Allow zooming/panning within the ILTF only.
-      // 1. Compute the ILTF extent (fallback to IL if ILTF missing).
-      const iltfLayer = layers.iltf || layers.il;
-      if (iltfLayer) {
-        const iltfBounds = iltfLayer.getBounds();
-        // Min zoom = the zoom level where the ILTF just fits the viewport.
-        // setMaxBounds keeps panning constrained to the ILTF rectangle.
-        map.setMaxBounds(iltfBounds.pad(0.04));
-        map.setMinZoom(map.getBoundsZoom(iltfBounds, true));
-        // No artificial maxZoom — let users zoom into deforestation dots.
-        map.setMaxZoom(18);
-      }
-      // Re-enable interactions (zoom + pan are now naturally clamped).
-      map.dragging.enable();
-      map.scrollWheelZoom.enable();
-      map.doubleClickZoom.enable();
-      map.touchZoom.enable();
-      map.boxZoom.enable();
-      map.keyboard.enable();
-      if (!map.zoomControl) map.zoomControl = L.control.zoom().addTo(map);
-      // Default view: IL fills the frame.
-      fitToBounds(["il"], 18);
+  function ilStyle() {
+    return mapMode === "focused"
+      ? { stroke: false, fillColor: C.il, fillOpacity: 1 }
+      : { stroke: false, fillColor: "#7fc070", fillOpacity: 0.32 };
+  }
+
+  const edgeStyle = { color: C.ink, weight: 1.3, opacity: 1, fill: false };
+  const deforStyle = { color: C.defor, weight: 0.8, opacity: 1, fillColor: C.defor, fillOpacity: 1 };
+
+  function clearLand() {
+    [iltfLayer, ilLayer, ilEdge].forEach(l => { if (l) map.removeLayer(l); });
+    deforLayers.forEach(d => map.removeLayer(d.layer));
+    deforLayers = [];
+  }
+
+  function drawLand(geo, defor) {
+    clearLand();
+    const feats = (geo && geo.features) || [];
+    const pick = name => ({ type: "FeatureCollection", features: feats.filter(f => f.properties && f.properties.layer === name) });
+    iltfLayer = L.geoJSON(pick("iltf"), { pane: "iltf", interactive: false, style: () => iltfStyle(false) }).addTo(map);
+    ilLayer = L.geoJSON(pick("il"), { pane: "il", interactive: false, style: ilStyle }).addTo(map);
+    ilEdge = L.geoJSON(pick("il"), { pane: "edge", interactive: false, style: edgeStyle }).addTo(map);
+
+    const byYear = new Map();
+    for (const f of (defor && defor.features) || []) {
+      const y = (f.properties && f.properties.year) || 0;
+      if (!byYear.has(y)) byYear.set(y, []);
+      byYear.get(y).push(f);
+    }
+    deforLayers = Array.from(byYear.keys()).sort((a, b) => a - b).map(y => ({
+      year: y,
+      layer: L.geoJSON({ type: "FeatureCollection", features: byYear.get(y) },
+                       { pane: "defor", interactive: false, style: deforStyle }),
+    }));
+    showYear(year);
+  }
+
+  function showYear(y) {
+    for (const d of deforLayers) {
+      const on = d.year <= y;
+      if (on && !map.hasLayer(d.layer)) d.layer.addTo(map);
+      if (!on && map.hasLayer(d.layer)) map.removeLayer(d.layer);
+    }
+  }
+
+  function bounds(layer) {
+    return layer && layer.getLayers().length ? layer.getBounds() : null;
+  }
+
+  function frame() {
+    const ilB = bounds(ilLayer) || bounds(iltfLayer);
+    if (!ilB) return;
+    userMoved = false;
+    const outer = (bounds(iltfLayer) || ilB).extend(ilB);
+    map.setMaxBounds(null);
+    map.setMinZoom(0);
+    iltfLayer.setStyle(() => iltfStyle(false));
+    ilLayer.setStyle(ilStyle);
+    if (mapMode === "focused") {
+      if (map.hasLayer(tiles)) map.removeLayer(tiles);
+      map.options.zoomSnap = 0.25;
+      map.fitBounds(ilB, { padding: [22, 22], animate: false });
+      const minZ = Math.min(map.getZoom(), map.getBoundsZoom(outer.pad(0.05), false) - 0.25);
+      map.setMinZoom(Math.max(0, minZ));
+      map.setMaxBounds(outer.pad(0.25));
     } else {
-      if (!map.hasLayer(tileLayer)) tileLayer.addTo(map);
-      // Context mode: free zoom + pan.
-      map.setMaxBounds(null);
-      map.setMinZoom(0);
-      map.setMaxZoom(18);
-      map.dragging.enable();
-      map.scrollWheelZoom.enable();
-      map.doubleClickZoom.enable();
-      map.touchZoom.enable();
-      map.boxZoom.enable();
-      map.keyboard.enable();
-      if (!map.zoomControl) map.zoomControl = L.control.zoom().addTo(map);
-      // Context: zoom out to IL + full ILTF so the territorial footprint is visible.
-      fitToBounds(["iltf", "il"], 40);
+      if (!map.hasLayer(tiles)) tiles.addTo(map);
+      map.options.zoomSnap = 0.5;
+      map.fitBounds(outer, { padding: [28, 28], animate: false });
+      map.setMinZoom(Math.min(3, map.getZoom()));
     }
-    // Update the toggle button labels
-    document.querySelectorAll(".map-mode-toggle button").forEach(b =>
-      b.classList.toggle("active", b.dataset.mode === mapMode));
+    document.querySelectorAll("#map-mode button").forEach(b =>
+      b.setAttribute("aria-pressed", b.dataset.mode === mapMode ? "true" : "false"));
   }
 
-  // Compute bbox-centroid (lng, lat) of any GeoJSON geometry.
-  function geomCentroid(geom) {
-    if (!geom) return null;
-    let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
-    function walk(node) {
-      if (Array.isArray(node)) {
-        if (node.length > 0 && typeof node[0] === "number" && typeof node[1] === "number") {
-          if (node[0] < minX) minX = node[0];
-          if (node[0] > maxX) maxX = node[0];
-          if (node[1] < minY) minY = node[1];
-          if (node[1] > maxY) maxY = node[1];
-        } else {
-          for (const x of node) walk(x);
-        }
-      } else if (node && Array.isArray(node.coordinates)) {
-        walk(node.coordinates);
-      } else if (node && Array.isArray(node.geometries)) {
-        for (const g of node.geometries) walk(g);
-      }
-    }
-    walk(geom);
-    if (!isFinite(minX)) return null;
-    return [(minX + maxX) / 2, (minY + maxY) / 2];
-  }
-
-  function updateDeforYear(year) {
-    currentYear = year;
-    deforLayer.clearLayers();
-    for (const f of (defor.features || [])) {
-      if ((f.properties && f.properties.year || 0) > year) continue;
-      const c = geomCentroid(f.geometry);
-      if (!c) continue;
-      L.circleMarker([c[1], c[0]], {
-        radius: 2.5, color: "#ff4d4d", fillColor: "#ff4d4d",
-        fillOpacity: 0.85, weight: 0,
-      }).addTo(deforLayer);
-    }
-  }
-
-  // ---- Slider ----
-  function initSlider() {
-    const slider = document.getElementById("year-slider");
-    const display = document.getElementById("year-display");
-    const playBtn = document.getElementById("play-btn");
-    const years = series.years;
-    slider.min = years[0];
-    slider.max = years[years.length - 1];
-    slider.value = currentYear;
-    display.textContent = currentYear;
-
-    slider.addEventListener("input", () => {
-      const y = parseInt(slider.value, 10);
-      display.textContent = y;
-      updateDeforYear(y);
-    });
-
-    playBtn.addEventListener("click", () => {
-      if (playInterval) {
-        clearInterval(playInterval);
-        playInterval = null;
-        playBtn.classList.remove("playing");
-        playBtn.textContent = I18N.t("map.play");
-      } else {
-        playBtn.classList.add("playing");
-        playBtn.textContent = I18N.t("map.pause");
-        let y = parseInt(slider.value, 10);
-        if (y >= parseInt(slider.max, 10)) y = parseInt(slider.min, 10);
-        playInterval = setInterval(() => {
-          y += 1;
-          if (y > parseInt(slider.max, 10)) {
-            clearInterval(playInterval);
-            playInterval = null;
-            playBtn.classList.remove("playing");
-            playBtn.textContent = I18N.t("map.play");
-            return;
-          }
-          slider.value = y;
-          display.textContent = y;
-          updateDeforYear(y);
-        }, 800);
+  function highlightMuni(name, hot) {
+    if (!iltfLayer) return;
+    iltfLayer.eachLayer(l => {
+      if (l.feature && l.feature.properties && l.feature.properties.name === name) {
+        l.setStyle(iltfStyle(hot));
+        if (hot && l.bringToFront) l.bringToFront();
       }
     });
-  }
-
-  // ---- Info block ----
-  function fmtList(items, lang) {
-    if (!items || items.length === 0) return "—";
-    const labelOf = x => typeof x === "string" ? x : (x[lang] || x.en || x.name || x.pt) || "";
-    const tagged = [];
-    let isoladosCount = 0;
-    let firstIsolado = null;
-    const seen = new Set();
-    for (const x of items) {
-      const text = labelOf(x);
-      if (!text) continue;
-      if (/^isolados?\b/i.test(text)) {
-        isoladosCount += 1;
-        if (!firstIsolado) firstIsolado = text;
-        continue;
-      }
-      if (seen.has(text)) continue;
-      seen.add(text);
-      tagged.push(text);
-    }
-    if (isoladosCount > 0 && isoladosCount <= 3) {
-      // 1–3 isolados: keep each as its own tag
-      for (const x of items) {
-        const text = labelOf(x);
-        if (/^isolados?\b/i.test(text) && !seen.has(text)) {
-          seen.add(text);
-          tagged.push(text);
-        }
-      }
-    } else if (isoladosCount > 3) {
-      tagged.push(lang === "pt" ? "Isolados (vários)" : "Isolados (various)");
-    }
-    return tagged.map(t => `<span class="tag">${t}</span>`).join("");
-  }
-
-  function auditBadge(score) {
-    if (score == null || isNaN(score)) {
-      return `<span class="audit-pill audit-unknown">${I18N.t("audit.unknown")}</span>`;
-    }
-    if (score >= 8) return `<span class="audit-pill audit-high">${score.toFixed(1)} — ${I18N.t("audit.high")}</span>`;
-    if (score >= 5) return `<span class="audit-pill audit-medium">${score.toFixed(1)} — ${I18N.t("audit.medium")}</span>`;
-    return `<span class="audit-pill audit-low">${score.toFixed(1)} — ${I18N.t("audit.low")}</span>`;
-  }
-
-  function renderNarrative() {
-    const host = document.getElementById("narrative");
-    if (!host) return;
-    const lang = I18N.current;
-    const name = (lang === "pt" ? attrs.name_pt : attrs.name_en) || "";
-    const area = (typeof attrs.area_km2 === "number")
-      ? attrs.area_km2.toLocaleString(undefined, { maximumFractionDigits: 0 }) + " km²"
-      : "";
-    const ufs = (attrs.ufs || []).map(u => Array.isArray(u) ? u[0] : u).join(", ");
-    const peoples = (attrs.ethnicities || []).map(e => {
-      if (typeof e === "string") return e;
-      return e[lang] || e.en || e.pt || e.name || "";
-    }).filter(Boolean).join(", ") || "—";
-    const homDate = attrs.phases && attrs.phases.homologada && attrs.phases.homologada.date;
-    const homYear = homDate ? String(homDate).slice(0, 4) : null;
-    const last = series.years[series.years.length - 1];
-    const total = (series.defor_km2 || []).reduce((a, b) => a + (Number(b) || 0), 0);
-    const totalStr = total.toFixed(1);
-    let s;
-    if (lang === "pt") {
-      const homClause = homYear ? `, homologada em ${homYear}` : "";
-      s = `${name} é uma terra indígena de ${area} do povo ${peoples}, em ${ufs}${homClause}. ` +
-          `O PRODES registrou ${totalStr} km² de desmatamento por corte raso em seus limites entre 2008 e ${last}.`;
-    } else {
-      const homClause = homYear ? `, homologated in ${homYear}` : "";
-      s = `${name} is a ${area} territory of the ${peoples} people in ${ufs}${homClause}. ` +
-          `PRODES recorded ${totalStr} km² of clear-cut forest loss inside it between 2008 and ${last}.`;
-    }
-    host.textContent = s;
-  }
-
-  function renderPhaseTimeline() {
-    const host = document.getElementById("phase-timeline");
-    if (!host) return;
-    const t = (k) => I18N.t(k);
-    const phases = [
-      ["em_estudo",    "phases.em_estudo"],
-      ["delimitada",   "phases.delimitada"],
-      ["declarada",    "phases.declarada"],
-      ["homologada",   "phases.homologada"],
-      ["regularizada", "phases.regularizada"],
-    ];
-    // Current phase index (so steps before/equal-to current are "filled")
-    const currentMap = { "em estudo": 0, "delimitada": 1, "declarada": 2,
-                         "homologada": 3, "regularizada": 4 };
-    const curIdx = (attrs.current_phase || "").toLowerCase().normalize("NFD")
-                   .replace(/[̀-ͯ]/g, "");
-    const curRank = currentMap[curIdx];
-    host.innerHTML = phases.map(([key, i18nKey], i) => {
-      const date = attrs.phases && attrs.phases[key] && attrs.phases[key].date;
-      const dateStr = date ? String(date).slice(0, 10) : "—";
-      const reached = (typeof curRank === "number" && i <= curRank) || !!date;
-      const klass = "phase-step" + (reached ? " reached" : "") +
-                    (date ? " has-date" : "");
-      return `<div class="${klass}">
-        <div class="phase-dot"></div>
-        <div class="phase-meta">
-          <div class="phase-label">${t(i18nKey)}</div>
-          <div class="phase-date">${dateStr}</div>
-        </div>
-      </div>`;
-    }).join('<div class="phase-line"></div>');
   }
 
   function renderInset() {
-    const host = document.getElementById("inset-map");
-    if (!host || !legalAmazon || !attrs.centroid) return;
-    BrazilMap.renderInset(host, legalAmazon, attrs.centroid, { W: 110, H: 90 });
+    const host = $("inset-map");
+    if (!host || !legalAmazon || !current || !current.attrs.centroid) return;
+    BrazilMap.renderInset(host, legalAmazon, current.attrs.centroid, { W: 112, H: 92 });
+  }
+
+  function names(items) {
+    const lang = I18N.current;
+    const out = [];
+    const seen = new Set();
+    const isolated = [];
+    for (const x of items || []) {
+      const raw = typeof x === "string" ? x : (x[lang] || x.en || x.name || x.pt || "");
+      for (const part of String(raw).split(/\s*,\s*/)) {
+        const n = part.trim();
+        if (!n) continue;
+        const key = n.toLocaleLowerCase("pt-BR");
+        if (/^isolados?\b/i.test(n)) {
+          if (!isolated.some(v => v.toLocaleLowerCase("pt-BR") === key)) isolated.push(n);
+          continue;
+        }
+        if (seen.has(key)) continue;
+        seen.add(key);
+        out.push(n);
+      }
+    }
+    if (isolated.length > 3) {
+      const label = t("info.isolados");
+      out.push(out.length ? label.charAt(0).toLocaleLowerCase(I18N.locale) + label.slice(1) : label);
+    } else {
+      out.push(...isolated);
+    }
+    return out;
+  }
+
+  function row(label, value) {
+    const tr = document.createElement("tr");
+    const th = document.createElement("th");
+    th.scope = "row";
+    th.textContent = label;
+    const td = document.createElement("td");
+    if (value instanceof Node) td.appendChild(value);
+    else td.textContent = value;
+    tr.append(th, td);
+    return tr;
+  }
+
+  function listOrDash(list) {
+    return list.length ? list.join(", ") : "–";
   }
 
   function renderInfo() {
-    const lang = I18N.current;
-    const t = (k) => I18N.t(k);
-    const yes = t("info.yes"), no = t("info.no");
-    const titleEl = document.getElementById("right-pane-title");
-    const infoEl = document.getElementById("info-block");
-    const name = lang === "pt" ? attrs.name_pt : attrs.name_en;
-    titleEl.textContent = name;
-
+    const body = $("info-block");
+    const note = $("info-note");
+    const a = current.attrs;
+    body.textContent = "";
     if (view === "il") {
-      // Translate the current_phase using the phases.* i18n keys.
-      const phaseRaw = attrs.current_phase || "";
-      const phaseKey = "phases." + phaseRaw.toLowerCase()
-        .normalize("NFD").replace(/[̀-ͯ]/g, "")
-        .replace(/\s+/g, "_");
-      const phaseTranslated = t(phaseKey);
-      const phaseLabel = (phaseTranslated === phaseKey) ? (phaseRaw || "—") : phaseTranslated;
-      const infoUrl = t("phases.info_url");
-      const infoTooltip = t("phases.info_tooltip");
-      infoEl.innerHTML = `
-        <div class="info-row"><span class="label" data-i18n="info.ethnicities">${t("info.ethnicities")}</span>
-          <span class="value">${fmtList(attrs.ethnicities, lang)}</span></div>
-        <div class="info-row"><span class="label" data-i18n="info.languages">${t("info.languages")}</span>
-          <span class="value">${fmtList(attrs.languages, lang)}</span></div>
-        <div class="info-row"><span class="label" data-i18n="info.ufs">${t("info.ufs")}</span>
-          <span class="value">${(attrs.ufs || []).join(", ") || "—"}</span></div>
-        <div class="info-row"><span class="label" data-i18n="info.area_km2">${t("info.area_km2")}</span>
-          <span class="value">${attrs.area_km2 ? attrs.area_km2.toLocaleString() + " " + t("info.area_unit") : "—"}</span></div>
-        <div class="info-row phase-row">
-          <span class="label" data-i18n="info.phase">${t("info.phase")}</span>
-          <span class="value phase-value">
-            <span>${phaseLabel}</span>
-            <a class="phase-info" href="${infoUrl}" target="_blank" rel="noopener"
-               title="${infoTooltip}" aria-label="${infoTooltip}">ⓘ</a>
-          </span></div>
-`;
-    } else {
-      // ILTF view
-      const munis = attrs.iltf_munis || [];
-      const muniHtml = munis.length > 0
-        ? `<div class="iltf-muni-list">${munis.map(m => {
-            const label = m.name || m.id_municipio;
-            return `<span class="muni" data-muni-name="${label}">${label}</span>`;
-          }).join("")}</div>`
-        : `<em style="color:var(--text-dim)">${t("info.n_munis")}: ${munis.length}</em>`;
-      infoEl.innerHTML = `
-        <div class="info-row"><span class="label" data-i18n="info.iltf_intro_short">ILTF</span>
-          <span class="value" style="font-style:italic; color:var(--text-dim); font-size:0.85rem;">
-            ${t("info.iltf_intro")}</span></div>
-        <div class="info-row"><span class="label" data-i18n="info.n_munis">${t("info.n_munis")}</span>
-          <span class="value">${munis.length}</span></div>
-        <div class="info-row"><span class="label" data-i18n="info.iltf_munis_label">${t("info.iltf_munis_label")}</span>
-          <span class="value">${muniHtml}</span></div>`;
-    }
-  }
-
-  // ---- Plot ----
-  function renderPlot() {
-    const t = (k) => I18N.t(k);
-    const x = series.years;
-    let y, title, ylabel, caption, color, plotType;
-    // Toggle visibility of the cumulative pill (only meaningful for the IL view)
-    const cumWrap = document.querySelector(".plot-mode-toggle");
-    if (cumWrap) cumWrap.style.display = (view === "il") ? "inline-flex" : "none";
-
-    if (view === "il") {
-      const isCum = plotMode === "cumulative";
-      y = isCum ? (series.defor_cumulative_km2 || []) : (series.defor_km2 || []);
-      title   = isCum ? t("plot.defor_cum.title")  : t("plot.defor.title");
-      ylabel  = isCum ? t("plot.defor_cum.y")      : t("plot.defor.y");
-      caption = isCum ? t("plot.defor_cum.caption"): t("plot.defor.caption");
-      color   = "#ff4d4d";
-      plotType = isCum ? "scatter" : "bar";
-    } else {
-      y = series.branches_iltf;
-      title   = t("plot.branches.title");
-      ylabel  = t("plot.branches.y");
-      caption = t("plot.branches.caption");
-      color   = "#6bd5b4";
-      plotType = "bar";
-    }
-    document.getElementById("plot-caption").textContent = caption;
-
-    const trace = plotType === "scatter" ? {
-      x, y, type: "scatter", mode: "lines+markers",
-      line: { color, width: 2.5 },
-      marker: { color, size: 6 },
-      fill: "tozeroy",
-      fillcolor: "rgba(255,77,77,0.15)",
-      hovertemplate: "%{x}: %{y:.2f} km²<extra></extra>",
-    } : {
-      x, y, type: "bar",
-      marker: { color },
-      hovertemplate: "%{x}: %{y:.2f}<extra></extra>",
-    };
-    const yMax = Math.max(0, ...((y || []).map(v => Number(v) || 0))) * 1.10 + 0.5;
-    const layout = {
-      margin: { l: 50, r: 16, t: 36, b: 40 },
-      paper_bgcolor: "transparent",
-      plot_bgcolor: "transparent",
-      font: { color: "#e8eef5", family: "-apple-system, sans-serif", size: 11 },
-      title: { text: title, font: { size: 13 }, x: 0.02 },
-      xaxis: { gridcolor: "#355577", tickcolor: "#355577", color: "#a8b8cc", dtick: 2 },
-      yaxis: { title: ylabel, gridcolor: "#355577", tickcolor: "#355577",
-               color: "#a8b8cc", rangemode: "tozero", range: [0, yMax] },
-    };
-    Plotly.react("plot", [trace], layout, { displayModeBar: false, responsive: true });
-    // Sync the active state of the yearly/cumulative pill
-    document.querySelectorAll(".plot-mode-toggle button").forEach(b =>
-      b.classList.toggle("active", b.dataset.mode === plotMode));
-  }
-
-  function initPlotModeToggle() {
-    document.querySelectorAll(".plot-mode-toggle button").forEach(btn => {
-      btn.addEventListener("click", () => {
-        plotMode = btn.dataset.mode;
-        renderPlot();
-      });
-    });
-  }
-
-  // ---- View toggle ----
-  function initToggle() {
-    document.querySelectorAll(".view-toggle button").forEach(btn => {
-      btn.addEventListener("click", () => {
-        view = btn.dataset.view;
-        document.querySelectorAll(".view-toggle button").forEach(b =>
-          b.classList.toggle("active", b.dataset.view === view));
-        renderInfo();
-        renderPlot();
-      });
-    });
-  }
-
-  // ---- Highlight a single ILTF muni polygon on hover ----
-  function setMuniStyle(name, style) {
-    if (!layers.iltf) return;
-    layers.iltf.eachLayer(l => {
-      if (l.feature && l.feature.properties && l.feature.properties.name === name) {
-        l.setStyle(style);
+      note.hidden = true;
+      note.textContent = "";
+      const area = typeof a.area_km2 === "number" ? `${I18N.num(a.area_km2, 1)} ${t("info.area_unit")}` : "–";
+      let status = document.createTextNode("–");
+      if (PHASE_KEYS.includes(a.current_phase)) {
+        status = document.createElement("a");
+        status.href = `${t("phases.info_url")}#${a.current_phase === "sem_processo" ? "classification" : a.current_phase}`;
+        status.title = t("phases.info_tooltip");
+        status.textContent = t(`phases.${a.current_phase}`);
       }
-    });
-  }
-
-  function initMuniHover() {
-    const infoEl = document.getElementById("info-block");
-    if (!infoEl) return;
-    // Event delegation — info-block is re-rendered on view/lang change, so the
-    // bind has to be on the stable parent. The handler checks data-muni-name.
-    infoEl.addEventListener("mouseover", (e) => {
-      const t = e.target.closest && e.target.closest(".muni");
-      if (t && t.dataset.muniName) setMuniStyle(t.dataset.muniName, ILTF_HOVER_STYLE);
-    });
-    infoEl.addEventListener("mouseout", (e) => {
-      const t = e.target.closest && e.target.closest(".muni");
-      if (t && t.dataset.muniName) setMuniStyle(t.dataset.muniName, ILTF_DEFAULT_STYLE);
-    });
-  }
-
-  // ---- Map-mode toggle (focused / context) ----
-  function initMapModeToggle() {
-    document.querySelectorAll(".map-mode-toggle button").forEach(btn => {
-      btn.addEventListener("click", () => {
-        mapMode = btn.dataset.mode;
-        applyMapMode();
+      body.append(
+        row(t("info.ethnicities"), listOrDash(names(a.ethnicities))),
+        row(t("info.languages"), listOrDash(names(a.languages))),
+        row(t("info.ufs"), listOrDash(a.ufs || [])),
+        row(t("info.area_km2"), area),
+        row(t("info.phase"), status),
+      );
+    } else {
+      const munis = a.iltf_munis || [];
+      const list = document.createElement("span");
+      list.className = "munis";
+      munis.forEach((m, i) => {
+        const label = m.name || String(m.id_municipio);
+        const s = document.createElement("span");
+        s.className = "muni";
+        s.tabIndex = 0;
+        s.dataset.name = label;
+        s.textContent = label;
+        if (i) list.append(", ");
+        list.appendChild(s);
       });
-    });
-  }
-
-  // ---- Citation actions in the header ----
-  function initFooter() {
-    const flash = (btn, originalKey) => {
-      const original = btn.textContent;
-      btn.textContent = "✓";
-      btn.classList.add("copied");
-      setTimeout(() => {
-        btn.textContent = originalKey ? I18N.t(originalKey) : original;
-        btn.classList.remove("copied");
-      }, 1500);
-    };
-    const urlBtn = document.getElementById("copy-url");
-    if (urlBtn) urlBtn.addEventListener("click", () => {
-      navigator.clipboard.writeText(window.location.href);
-      flash(urlBtn, "footer.copy_url");
-    });
-    const bibBtn = document.getElementById("copy-bib");
-    if (bibBtn) bibBtn.addEventListener("click", () => {
-      const bib = `@unpublished{araujoDeOliveira2026branches,
-  author = {Araujo, Douglas K.G. and de Oliveira, Jean G.},
-  title  = {Branches and Roots: Banking Presence and Deforestation in Amazonian Indigenous Lands},
-  year   = {2026},
-  note   = {Working paper. Online appendix entry for {${attrs.name_pt}} (terrai\\_cod ${attrs.terrai_cod}): \\url{${window.location.href}}},
-}`;
-      navigator.clipboard.writeText(bib);
-      flash(bibBtn, "footer.copy_bib");
-    });
-  }
-
-  async function loadIL(code) {
-    if (!code) return;
-    // Tear down any previous Leaflet instance + animation timer
-    if (playInterval) { clearInterval(playInterval); playInterval = null; }
-    if (map) { try { map.remove(); } catch (e) {} map = null; }
-    layers = {};
-    deforLayer = null;
-
-    await loadData(code);
-
-    // Reset slider DOM state (initSlider re-binds listeners)
-    const slider = document.getElementById("year-slider");
-    const display = document.getElementById("year-display");
-    const playBtn = document.getElementById("play-btn");
-    if (playBtn) {
-      playBtn.classList.remove("playing");
-      playBtn.textContent = I18N.t("map.play");
+      body.append(
+        row(cap(t("info.n_munis")), I18N.num(munis.length, 0)),
+        row(t("info.iltf_munis_label"), munis.length ? list : "–"),
+      );
+      note.textContent = t("info.iltf_intro");
+      note.hidden = false;
     }
+    document.querySelectorAll("#view-tabs [role=tab]").forEach(b => {
+      const on = b.dataset.view === view;
+      b.setAttribute("aria-selected", on ? "true" : "false");
+      b.tabIndex = on ? 0 : -1;
+    });
+  }
 
-    initMap();
-    initSlider();
-    I18N.apply();
+  function plotSpec() {
+    const s = current.series;
+    if (view === "il") {
+      const cum = plotMode === "cumulative";
+      return {
+        y: (cum ? s.defor_cumulative_km2 : s.defor_km2) || [],
+        kind: cum ? "line" : "bar",
+        color: C.defor,
+        unit: t(cum ? "plot.defor_cum.y" : "plot.defor.y"),
+        title: t(cum ? "plot.defor_cum.title" : "plot.defor.title"),
+        caption: t(cum ? "plot.defor_cum.caption" : "plot.defor.caption"),
+        suffix: ` ${t("info.area_unit")}`,
+      };
+    }
+    return {
+      y: s.branches_iltf || [],
+      kind: "line",
+      color: C.ink,
+      unit: t("plot.branches.y"),
+      title: t("plot.branches.title"),
+      caption: t("plot.branches.caption"),
+      suffix: "",
+    };
+  }
+
+  function emphasis(spec, x) {
+    if (spec.kind === "bar") return { "marker.color": [x.map(v => v <= year ? spec.color : C.deforLater)] };
+    return { "marker.size": [x.map(v => v === year ? 7 : 0)] };
+  }
+
+  function yearBand(x) {
+    if (!x.length || year >= x[x.length - 1]) return [];
+    return [{
+      type: "line", xref: "x", yref: "paper", layer: "below",
+      x0: year, x1: year, y0: 0, y1: 1,
+      line: { color: C.band, width: 1.25, dash: "dot" },
+    }];
+  }
+
+  function renderPlot() {
+    const host = $("plot");
+    const spec = plotSpec();
+    // The description keeps the caption style. The source sits flush right, smaller.
+    const cap = $("plot-caption");
+    const parts = spec.caption.match(/^(.*?)\s*((?:Source|Fonte):.*)$/);
+    cap.textContent = "";
+    const desc = document.createElement("span");
+    desc.className = "cap-desc";
+    desc.textContent = parts ? parts[1] : spec.caption;
+    cap.append(desc);
+    if (parts) {
+      const src = document.createElement("span");
+      src.className = "cap-source";
+      src.textContent = parts[2];
+      cap.append(src);
+    }
+    const modes = $("plot-mode");
+    modes.hidden = view !== "il";
+    modes.querySelectorAll("button").forEach(b =>
+      b.setAttribute("aria-pressed", b.dataset.mode === plotMode ? "true" : "false"));
+    if (typeof Plotly === "undefined") return;
+    const x = current.series.years;
+    const ys = spec.y.map(v => Number(v) || 0);
+    const top = Math.max(0, ...ys);
+    const yMax = top > 0 ? top * 1.12 : 1;
+    const trace = spec.kind === "bar"
+      ? { x, y: ys, type: "bar", marker: { color: x.map(v => v <= year ? spec.color : C.deforLater) } }
+      : { x, y: ys, type: "scatter", mode: "lines+markers",
+          line: { color: spec.color, width: 2 },
+          marker: { color: spec.color, size: x.map(v => v === year ? 7 : 0) } };
+    trace.hovertemplate = `%{x}: %{y:,.2f}${spec.suffix}<extra></extra>`;
+    const fine = window.matchMedia && window.matchMedia("(pointer: fine)").matches;
+    const layout = {
+      height: host.clientHeight || 250,
+      margin: { l: 42, r: 6, t: 26, b: 28 },
+      paper_bgcolor: "#ffffff",
+      plot_bgcolor: "#ffffff",
+      font: { family: FONT, size: 13, color: C.ink2 },
+      separators: I18N.current === "pt" ? ",." : ".,",
+      showlegend: false,
+      bargap: 0.3,
+      dragmode: fine ? "zoom" : false,
+      hovermode: "x",
+      xaxis: {
+        type: "linear",
+        range: [x[0] - 0.6, x[x.length - 1] + 0.6],
+        tickmode: "array",
+        tickvals: x.filter(v => (v - x[0]) % 4 === 0),
+        tickformat: "d",
+        hoverformat: "d",
+        showgrid: false,
+        zeroline: false,
+        showline: false,
+        ticks: "",
+        fixedrange: !fine,
+      },
+      yaxis: {
+        range: [0, yMax],
+        nticks: 5,
+        tickformat: ",.2~f",
+        showgrid: true,
+        gridcolor: C.grid,
+        gridwidth: 1,
+        zeroline: true,
+        zerolinecolor: C.base,
+        zerolinewidth: 1,
+        showline: false,
+        ticks: "",
+        fixedrange: true,
+      },
+      shapes: yearBand(x),
+      annotations: [{
+        text: spec.unit, xref: "paper", yref: "paper", x: 0, y: 1,
+        xanchor: "left", yanchor: "bottom", xshift: -42, yshift: 6,
+        showarrow: false, font: { family: FONT, size: 13, color: C.ink2 },
+      }],
+      hoverlabel: {
+        bgcolor: "#ffffff", bordercolor: "#bdbdbd",
+        font: { family: FONT, size: 13, color: C.ink },
+      },
+    };
+    Plotly.newPlot(host, [trace], layout, { displayModeBar: false, responsive: true, doubleClick: "reset" });
+    host.setAttribute("aria-label", spec.title);
+    host.on("plotly_click", ev => {
+      const pt = ev && ev.points && ev.points[0];
+      if (!pt || !current) return;
+      const y = Math.round(Number(pt.x));
+      if (!isFinite(y)) return;
+      if (timer) stop();
+      if (y !== year) setYear(y);
+    });
+  }
+
+  function updatePlotYear() {
+    const host = $("plot");
+    if (!current || !host.data || typeof Plotly === "undefined") return;
+    const spec = plotSpec();
+    const x = current.series.years;
+    Plotly.update(host, emphasis(spec, x), { shapes: yearBand(x) }, [0]);
+  }
+
+  function setYear(y) {
+    year = y;
+    const slider = $("year-slider");
+    slider.value = String(y);
+    const lo = Number(slider.min), hi = Number(slider.max);
+    const frac = hi > lo ? (y - lo) / (hi - lo) : 1;
+    $("scrub").style.setProperty("--frac", String(frac));
+    $("year-display").textContent = String(y);
+    $("year-ticks").querySelectorAll("[data-year]").forEach(el => {
+      const v = Number(el.dataset.year);
+      el.classList.toggle("is-later", v > y);
+      el.classList.toggle("is-current", v === y);
+    });
+    showYear(y);
+    updatePlotYear();
+  }
+
+  function buildTicks(lo, hi) {
+    const host = $("year-ticks");
+    if (host.dataset.range === `${lo}-${hi}`) return;
+    host.dataset.range = `${lo}-${hi}`;
+    host.textContent = "";
+    const span = hi - lo || 1;
+    for (let y = lo; y <= hi; y++) {
+      const major = (y - lo) % 4 === 0 || y === hi;
+      const left = `${((y - lo) / span) * 100}%`;
+      const tick = document.createElement("span");
+      tick.className = major ? "tick major" : "tick";
+      tick.dataset.year = String(y);
+      tick.style.left = left;
+      host.appendChild(tick);
+      if (major) {
+        const label = document.createElement("span");
+        label.className = "tick-label";
+        label.dataset.year = String(y);
+        label.style.left = left;
+        label.textContent = String(y);
+        host.appendChild(label);
+      }
+    }
+  }
+
+  function syncSlider() {
+    const years = current.series.years;
+    const slider = $("year-slider");
+    slider.min = String(years[0]);
+    slider.max = String(years[years.length - 1]);
+    buildTicks(years[0], years[years.length - 1]);
+    setYear(year);
+  }
+
+  function playLabel() {
+    $("play-btn").setAttribute("aria-pressed", timer ? "true" : "false");
+  }
+
+  function stop() {
+    if (timer) { clearInterval(timer); timer = null; }
+    playLabel();
+  }
+
+  function play() {
+    if (timer) { stop(); return; }
+    const years = current.series.years;
+    const last = years[years.length - 1];
+    if (year >= last) setYear(years[0]);
+    timer = setInterval(() => {
+      if (year >= last) { stop(); return; }
+      setYear(year + 1);
+      if (year >= last) stop();
+    }, 750);
+    playLabel();
+  }
+
+  async function show(rowInfo) {
+    const my = ++token;
+    stop();
+    $("land-name").textContent = rowInfo.name || " ";
+    document.querySelector(".card").classList.add("is-loading");
+    let a, s, g, d;
+    try {
+      [a, s, g, d] = await fetchLand(rowInfo.cod);
+    } catch (e) {
+      console.warn("card: failed to load", rowInfo.slug, e);
+      if (my === token) document.querySelector(".card").classList.remove("is-loading");
+      return;
+    }
+    if (my !== token) return;
+    current = { slug: rowInfo.slug, attrs: a, series: s };
+    year = s.years[s.years.length - 1];
+    $("land-name").textContent = landName(a);
+    drawLand(g, d);
+    frame();
+    syncSlider();
     renderInset();
     renderInfo();
     renderPlot();
+    IlPicker.setCurrent(rowInfo.slug);
+    document.querySelector(".card").classList.remove("is-loading");
+  }
 
-    // Keep URL hash in sync (so browser back/forward works + sharing is stable)
-    const slug = codToSlug(code);
-    if (slug) {
-      const want = `#il=${slug}`;
-      if (window.location.hash !== want) {
-        history.replaceState(null, "", want);
-      }
+  async function route() {
+    const wanted = slugFromHash();
+    const target = find(wanted) || find(DEFAULT_SLUG) || rows[0];
+    if (!target) return;
+    if (window.location.hash !== `#il=${target.slug}`) {
+      history.replaceState(null, "", `${window.location.pathname}${window.location.search}#il=${target.slug}`);
+    }
+    if (current && current.slug === target.slug) return;
+    await show(target);
+  }
+
+  async function copyText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch (e) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      let ok = false;
+      try { ok = document.execCommand("copy"); } catch (err) { ok = false; }
+      ta.remove();
+      return ok;
     }
   }
 
-  // No IL selected → empty card-grid + a pulsing highlight on the selector
-  // input to make it obvious that's the entry point.
-  function showEmpty() {
-    const card = document.querySelector(".card-grid");
-    if (card) {
-      card.classList.add("empty");
-      const firstPane = card.querySelector(".pane");
-      if (firstPane) firstPane.dataset.emptyMsg = I18N.t("empty.message");
-    }
-    const input = document.getElementById("il-picker-input");
-    if (input) input.classList.add("attention");
-    if (playInterval) { clearInterval(playInterval); playInterval = null; }
-    if (map) { try { map.remove(); } catch (e) {} map = null; }
-    layers = {};
-    attrs = null;
-  }
-  function showCard() {
-    const card = document.querySelector(".card-grid");
-    if (card) card.classList.remove("empty");
-    const input = document.getElementById("il-picker-input");
-    if (input) input.classList.remove("attention");
+  function flash(btn) {
+    btn.classList.add("done");
+    clearTimeout(btn._flash);
+    btn._flash = setTimeout(() => btn.classList.remove("done"), 1600);
   }
 
-  async function init(initialCode) {
+  function bibtex() {
+    const a = current && current.attrs;
+    const entry = a
+      ? `Online appendix entry for {${a.name_pt}} (terrai\\_cod ${a.terrai_cod})`
+      : "Online appendix";
+    return `@unpublished{araujoDeOliveira2026branches,
+  author = {Araujo, Douglas K.G. and de Oliveira, Jean G.},
+  title  = {Branches and roots: bank presence and forest preservation in {Amazonian} {Indigenous} lands},
+  year   = {2026},
+  note   = {Working paper. ${entry}: \\url{${window.location.href}}},
+}`;
+  }
+
+  function bind() {
+    $("copy-url").addEventListener("click", async () => {
+      if (await copyText(window.location.href)) flash($("copy-url"));
+    });
+    $("copy-bib").addEventListener("click", async () => {
+      if (await copyText(bibtex())) flash($("copy-bib"));
+    });
+
+    $("random-il-btn").addEventListener("click", () => {
+      const pool = rows.filter(r => !current || r.slug !== current.slug);
+      if (!pool.length) return;
+      const pickRow = pool[Math.floor(Math.random() * pool.length)];
+      window.location.hash = `#il=${pickRow.slug}`;
+    });
+
+    document.querySelectorAll("#map-mode button").forEach(b => b.addEventListener("click", () => {
+      if (mapMode === b.dataset.mode) return;
+      mapMode = b.dataset.mode;
+      if (current) frame();
+    }));
+
+    const tabs = Array.from(document.querySelectorAll("#view-tabs [role=tab]"));
+    tabs.forEach((b, i) => {
+      b.addEventListener("click", () => {
+        if (view === b.dataset.view) return;
+        view = b.dataset.view;
+        if (current) { renderInfo(); renderPlot(); }
+      });
+      b.addEventListener("keydown", e => {
+        if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+        const next = tabs[(i + (e.key === "ArrowRight" ? 1 : tabs.length - 1)) % tabs.length];
+        next.focus();
+        next.click();
+      });
+    });
+
+    document.querySelectorAll("#plot-mode button").forEach(b => b.addEventListener("click", () => {
+      if (plotMode === b.dataset.mode) return;
+      plotMode = b.dataset.mode;
+      if (current) renderPlot();
+    }));
+
+    $("year-slider").addEventListener("input", e => {
+      if (timer) stop();
+      setYear(parseInt(e.target.value, 10));
+    });
+    $("play-btn").addEventListener("click", () => { if (current) play(); });
+
+    $("year-ticks").addEventListener("pointerdown", e => {
+      if (!current) return;
+      const slider = $("year-slider");
+      const box = e.currentTarget.getBoundingClientRect();
+      const lo = Number(slider.min), hi = Number(slider.max);
+      const f = Math.min(1, Math.max(0, (e.clientX - box.left) / (box.width || 1)));
+      const y = Math.round(lo + f * (hi - lo));
+      if (timer) stop();
+      if (y !== year) setYear(y);
+      slider.focus({ preventScroll: true });
+      e.preventDefault();
+    });
+
+    const info = $("info-block");
+    const hot = (e, on) => {
+      const m = e.target.closest && e.target.closest(".muni");
+      if (m) highlightMuni(m.dataset.name, on);
+    };
+    info.addEventListener("mouseover", e => hot(e, true));
+    info.addEventListener("mouseout", e => hot(e, false));
+    info.addEventListener("focusin", e => hot(e, true));
+    info.addEventListener("focusout", e => hot(e, false));
+
+    window.addEventListener("hashchange", route);
+    window.addEventListener("oa:langchange", () => {
+      playLabel();
+      if (!current) return;
+      $("land-name").textContent = landName(current.attrs);
+      renderInfo();
+      renderPlot();
+    });
+  }
+
+  // Keep the map and the chart filling their boxes when the boxes change
+  // height (the two columns are stretched to end on the same line).
+  function watchSizes() {
+    if (!window.ResizeObserver) return;
+    const box = document.querySelector(".map-frame");
+    if (box) {
+      ["pointerdown", "wheel", "keydown"].forEach(ev =>
+        map.getContainer().addEventListener(ev, () => { userMoved = true; }, { passive: true }));
+      new ResizeObserver(() => {
+        if (!map) return;
+        map.invalidateSize({ pan: false });
+        if (!userMoved && ilLayer) frame();
+      }).observe(box);
+    }
+    const host = document.getElementById("plot");
+    if (host) new ResizeObserver(() => {
+      const h = host.clientHeight;
+      if (h && host.layout && Math.abs((host.layout.height || 0) - h) > 1) Plotly.relayout(host, { height: h });
+    }).observe(host);
+  }
+
+  async function init() {
     await I18N.load();
     I18N.bind();
     I18N.apply();
-
-    // Re-translate the empty-state message (held in a data-attr, not data-i18n)
-    // whenever the user toggles language.
-    window.addEventListener("oa:langchange", () => {
-      const card = document.querySelector(".card-grid.empty .pane");
-      if (card) card.dataset.emptyMsg = I18N.t("empty.message");
-    });
-
-    try {
-      ilIndex = await fetch(`${dataPath}/il_attrs.json`).then(r => r.json());
-    } catch (e) {
-      console.warn("Card: failed to load il_attrs.json", e);
-      ilIndex = [];
-    }
-
-    initToggle();
-    initMapModeToggle();
-    initPlotModeToggle();
-    initMuniHover();
-    initFooter();
-
-    // Random-IL button: jump to a uniformly-random IL.
-    // The click handler is lazy: if il_attrs.json hasn't finished loading yet
-    // when the user clicks, the handler fetches it on demand.
-    const randomBtn = document.getElementById("random-il-btn");
-    if (randomBtn) {
-      randomBtn.addEventListener("click", async () => {
-        if (!ilIndex || ilIndex.length === 0) {
-          try {
-            ilIndex = await fetch(`${dataPath}/il_attrs.json`).then(r => r.json());
-          } catch (e) { console.warn("random: failed to load il_attrs", e); return; }
-        }
-        const pool = (ilIndex || []).filter(r => r && (r.slug || r.terrai_cod));
-        if (pool.length === 0) return;
-        let pick;
-        // Avoid landing on the same IL the user is already viewing
-        const cur = codFromHash();
-        for (let i = 0; i < 5; i++) {
-          pick = pool[Math.floor(Math.random() * pool.length)];
-          const codNum = Array.isArray(pick.terrai_cod) ? pick.terrai_cod[0] : pick.terrai_cod;
-          if (codNum !== cur) break;
-        }
-        const slug = Array.isArray(pick.slug) ? pick.slug[0] : (pick.slug || String(pick.terrai_cod));
-        window.location.hash = `#il=${slug}`;
-      });
-    }
-
-    // "Home" click: title in the banner clears the hash and resets to empty.
-    document.querySelectorAll(".home-link").forEach(a => {
-      a.addEventListener("click", (e) => {
-        e.preventDefault();
-        history.pushState(null, "", window.location.pathname + window.location.search);
-        showEmpty();
-      });
-    });
-
-    // Initial state: URL hash wins; otherwise show the empty selector
-    // prompt so the visitor picks an IL themselves.
-    const code = initialCode || codFromHash();
-    if (code) {
-      showCard();
-      await loadIL(code);
-    } else {
-      showEmpty();
-    }
-
-    window.addEventListener("hashchange", () => {
-      const c = codFromHash();
-      if (c) {
-        showCard();
-        loadIL(c);
-      } else {
-        showEmpty();
-      }
-    });
-
-    window.addEventListener("oa:langchange", () => {
-      I18N.apply();
-      // Only re-render the card pieces if an IL is actually loaded
-      if (attrs) {
-        renderInfo();
-        renderPlot();
-      }
-      const playBtn = document.getElementById("play-btn");
-      if (playBtn && !playInterval) playBtn.textContent = I18N.t("map.play");
-    });
+    playLabel();
+    initMap();
+    bind();
+    watchSizes();
+    const wanted = slugFromHash();
+    if (!wanted || wanted === DEFAULT_SLUG) fetchLand(DEFAULT_COD).catch(() => null);
+    const [list, la] = await Promise.all([
+      IlPicker.index(),
+      json(`${dataPath}/legal_amazon.geojson`).catch(() => null),
+      document.fonts ? document.fonts.ready : Promise.resolve(),
+    ]);
+    rows = list;
+    legalAmazon = la;
+    await route();
   }
 
-  return { init, loadIL };
+  return { init };
 })();

@@ -7,7 +7,9 @@
     "RO"
   ],
   "area_km2": 1166.1,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Aikanã",
@@ -45,16 +47,6 @@
       "name": "Nambikwara",
       "family": "Nambikwára",
       "povo": "Nambikwara"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Latundê"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Sabanê"
     }
   ],
   "has_isolados": false,

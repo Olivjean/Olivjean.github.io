@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 15313,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Deni",
@@ -27,11 +29,6 @@
       "name": "Deni",
       "family": "Arawá",
       "povo": "Deni"
-    },
-    {
-      "name": "Isolados do Rio Cuniuá",
-      "family": "—",
-      "povo": "Isolados do Rio Cuniuá"
     },
     {
       "name": "Kulina",

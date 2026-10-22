@@ -21,5 +21,11 @@ format:
     theme:
       - cosmo
       - styles.scss
+    css: assets/fonts/fonts.css
+    include-in-header:
+      text: |
+        <link rel="preload" href="assets/fonts/source-serif-4-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
+    resources:
+      - assets/fonts/OFL.txt
     toc: false
     page-layout: article

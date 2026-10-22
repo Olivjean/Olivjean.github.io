@@ -7,7 +7,9 @@
     "MT"
   ],
   "area_km2": 6349.2,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Kajkwakratxi (Tapayuna)",
@@ -32,11 +34,6 @@
       "name": "Kayapó",
       "family": "Jê",
       "povo": "Mebengôkre (Kayapó)"
-    },
-    {
-      "name": "Kayapó",
-      "family": "Jê",
-      "povo": "Mebengôkre (Kayapó) Metyktire"
     }
   ],
   "has_isolados": false,

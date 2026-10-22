@@ -7,7 +7,9 @@
     "PA"
   ],
   "area_km2": 1667.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Kuruaya",

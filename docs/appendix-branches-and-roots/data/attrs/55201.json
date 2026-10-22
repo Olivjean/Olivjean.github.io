@@ -7,20 +7,16 @@
     "MT"
   ],
   "area_km2": 278.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Naruvotu",
       "en": "Naruvotu"
     }
   ],
-  "languages": [
-    {
-      "name": "Naruvotu",
-      "family": "Karib",
-      "povo": "Naruvotu"
-    }
-  ],
+  "languages": [],
   "has_isolados": false,
   "iltf_munis": [
     {

@@ -7,7 +7,9 @@
     "PA"
   ],
   "area_km2": 21841.2,
-  "current_phase": "Declarada",
+  "current_phase": "declarada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Pitinga/Nhamunda-Mapuera",
@@ -52,54 +54,9 @@
   ],
   "languages": [
     {
-      "name": "Isolados do Pitinga/Nhamunda-Mapuera",
-      "family": "—",
-      "povo": "Isolados do Pitinga/Nhamunda-Mapuera"
-    },
-    {
-      "name": "Isolados do Rio Kaxpakuru/Igarapé Água Fria",
-      "family": "—",
-      "povo": "Isolados do Rio Kaxpakuru/Igarapé Água Fria"
-    },
-    {
-      "name": "Kahyana",
-      "family": "Karib",
-      "povo": "Kahyana"
-    },
-    {
-      "name": "Katuenayana",
-      "family": "Karib",
-      "povo": "Katuenayana"
-    },
-    {
       "name": "Katxuyana",
       "family": "Karib",
       "povo": "Katxuyana"
-    },
-    {
-      "name": "Mawayana",
-      "family": "Aruak",
-      "povo": "Mawayana"
-    },
-    {
-      "name": "Tunayana",
-      "family": "Karib",
-      "povo": "Tunayana"
-    },
-    {
-      "name": "Txikiyana",
-      "family": "Karib",
-      "povo": "Txikiyana"
-    },
-    {
-      "name": "Xereu-Hixkaryana",
-      "family": "—",
-      "povo": "Xereu-Hixkaryana"
-    },
-    {
-      "name": "Xereu-Katuena",
-      "family": "—",
-      "povo": "Xereu-Katuena"
     }
   ],
   "has_isolados": true,

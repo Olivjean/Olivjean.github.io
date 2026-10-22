@@ -7,7 +7,9 @@
     "MT"
   ],
   "area_km2": 1305.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Nambikwara",
@@ -31,21 +33,6 @@
       "name": "Nambikwara",
       "family": "Nambikwára",
       "povo": "Nambikwara"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Halotesu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Sawentesu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Wakalitesu"
     }
   ],
   "has_isolados": false,

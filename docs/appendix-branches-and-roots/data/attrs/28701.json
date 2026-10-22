@@ -8,7 +8,9 @@
     "MT"
   ],
   "area_km2": 49142.5,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Iriri Novo",
@@ -29,24 +31,9 @@
   ],
   "languages": [
     {
-      "name": "Isolados do Iriri Novo",
-      "family": "—",
-      "povo": "Isolados do Iriri Novo"
-    },
-    {
-      "name": "Isolados Mengra Mrari",
-      "family": "—",
-      "povo": "Isolados Mengra Mrari"
-    },
-    {
       "name": "Kayapó",
       "family": "Jê",
       "povo": "Mebengôkre (Kayapó)"
-    },
-    {
-      "name": "Kayapó",
-      "family": "Jê",
-      "povo": "Mebengôkre (Kayapó) Mekrãgnoti"
     }
   ],
   "has_isolados": true,

@@ -7,7 +7,9 @@
     "PA"
   ],
   "area_km2": 253.2,
-  "current_phase": "Declarada",
+  "current_phase": "declarada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Munduruku",

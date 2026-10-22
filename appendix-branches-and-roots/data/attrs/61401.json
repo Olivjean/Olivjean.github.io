@@ -7,20 +7,16 @@
     "MT"
   ],
   "area_km2": 4118.4,
-  "current_phase": "Declarada",
+  "current_phase": "declarada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados Kawahiva do Rio Pardo",
       "en": "Isolados Kawahiva do Rio Pardo"
     }
   ],
-  "languages": [
-    {
-      "name": "Isolados Kawahiva do Rio Pardo",
-      "family": "—",
-      "povo": "Isolados Kawahiva do Rio Pardo"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

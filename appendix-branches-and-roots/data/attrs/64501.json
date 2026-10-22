@@ -8,7 +8,9 @@
     "MT"
   ],
   "area_km2": 3622.4,
-  "current_phase": "Delimitada",
+  "current_phase": "delimitada",
+  "legally_protected_2024": false,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados Capot/Nhinore",
@@ -33,24 +35,9 @@
   ],
   "languages": [
     {
-      "name": "Isolados Capot/Nhinore",
-      "family": "—",
-      "povo": "Isolados Capot/Nhinore"
-    },
-    {
       "name": "Kayapó",
       "family": "Jê",
       "povo": "Mebengôkre (Kayapó)"
-    },
-    {
-      "name": "Kayapó",
-      "family": "Jê",
-      "povo": "Mebengôkre (Kayapó) Mekrãgnoti"
-    },
-    {
-      "name": "Kayapó",
-      "family": "Jê",
-      "povo": "Mebengôkre (Kayapó) Metyktire"
     },
     {
       "name": "Yudjá",

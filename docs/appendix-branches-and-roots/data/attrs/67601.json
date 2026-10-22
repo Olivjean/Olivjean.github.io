@@ -7,20 +7,16 @@
     "AC"
   ],
   "area_km2": 2.9,
-  "current_phase": "Em Estudo",
+  "current_phase": "restricao_de_uso",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Igarapé Taboca do Alto Tarauacá",
       "en": "Isolados do Igarapé Taboca do Alto Tarauacá"
     }
   ],
-  "languages": [
-    {
-      "name": "Isolados do Igarapé Taboca do Alto Tarauacá",
-      "family": "—",
-      "povo": "Isolados do Igarapé Taboca do Alto Tarauacá"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

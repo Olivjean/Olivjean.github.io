@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 82.1,
-  "current_phase": "Declarada",
+  "current_phase": "declarada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Mura",

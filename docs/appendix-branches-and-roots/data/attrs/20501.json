@@ -7,7 +7,9 @@
     "AC"
   ],
   "area_km2": 2328,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Ashaninka",
@@ -27,16 +29,6 @@
       "name": "Ashaninka",
       "family": "Aruak",
       "povo": "Ashaninka"
-    },
-    {
-      "name": "Mashco Isolados do Rio Envira",
-      "family": "—",
-      "povo": "Mashco Isolados do Rio Envira"
-    },
-    {
-      "name": "Yura",
-      "family": "Pano",
-      "povo": "Yura"
     }
   ],
   "has_isolados": true,

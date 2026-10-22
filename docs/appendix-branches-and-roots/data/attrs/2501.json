@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 6.5,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Mura",
@@ -49,7 +51,7 @@
   "audit_score": 9.43,
   "in_jmp_sample": true,
   "centroid": {
-    "lon": -59.3419,
-    "lat": -3.3672
+    "lon": -59.3275,
+    "lat": -3.3677
   }
 }

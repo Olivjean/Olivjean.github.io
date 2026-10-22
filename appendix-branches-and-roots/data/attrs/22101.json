@@ -7,7 +7,9 @@
     "AC"
   ],
   "area_km2": 312.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Ashaninka",
@@ -32,11 +34,6 @@
       "name": "Kaxinawa",
       "family": "Pano",
       "povo": "Huni Kuin (Kaxinawá)"
-    },
-    {
-      "name": "Isolados do Igarapé Papavo",
-      "family": "—",
-      "povo": "Isolados do Igarapé Papavo"
     }
   ],
   "has_isolados": false,

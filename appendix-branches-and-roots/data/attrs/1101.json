@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 79993.8,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Arapaso",
@@ -137,21 +139,6 @@
       "name": "Hup",
       "family": "Naduhup",
       "povo": "Hupd'äh"
-    },
-    {
-      "name": "Isolados do Igarapé Waranaçu",
-      "family": "—",
-      "povo": "Isolados do Igarapé Waranaçu"
-    },
-    {
-      "name": "Isolados do Rio Cuririari",
-      "family": "—",
-      "povo": "Isolados do Rio Cuririari"
-    },
-    {
-      "name": "Isolados do Rio Uaupés",
-      "family": "—",
-      "povo": "Isolados do Rio Uaupés"
     },
     {
       "name": "Karapanã",

@@ -7,7 +7,9 @@
     "MT"
   ],
   "area_km2": 2425.9,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Nambikwara",
@@ -55,51 +57,6 @@
       "name": "Nambikwara",
       "family": "Nambikwára",
       "povo": "Nambikwara"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Alakatesu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Alantesu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Erihitaunsu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Hahaintesu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Hoskokosu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Mamaindê"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Negarotê"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Waikisu"
-    },
-    {
-      "name": "Nambikwara",
-      "family": "Nambikwára",
-      "povo": "Nambikwara Wasusu"
     }
   ],
   "has_isolados": false,
@@ -131,7 +88,7 @@
   "audit_score": 9.5,
   "in_jmp_sample": true,
   "centroid": {
-    "lon": -59.9397,
-    "lat": -13.7285
+    "lon": -60.0707,
+    "lat": -13.7255
   }
 }

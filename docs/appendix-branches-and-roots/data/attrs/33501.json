@@ -7,7 +7,9 @@
     "TO"
   ],
   "area_km2": 13585,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Apyãwa",
@@ -41,11 +43,6 @@
       "name": "Karajá",
       "family": "Karajá",
       "povo": "Iny Karajá"
-    },
-    {
-      "name": "Karajá",
-      "family": "Karajá",
-      "povo": "Javaé"
     }
   ],
   "has_isolados": true,

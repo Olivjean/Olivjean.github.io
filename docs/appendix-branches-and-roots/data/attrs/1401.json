@@ -7,20 +7,16 @@
     "AC"
   ],
   "area_km2": 1426.2,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Alto Tarauacá",
       "en": "Isolados do Alto Tarauacá"
     }
   ],
-  "languages": [
-    {
-      "name": "Isolados do Alto Tarauacá",
-      "family": "—",
-      "povo": "Isolados do Alto Tarauacá"
-    }
-  ],
+  "languages": [],
   "has_isolados": true,
   "iltf_munis": [
     {

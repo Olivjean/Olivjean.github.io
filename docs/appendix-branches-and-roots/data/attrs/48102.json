@@ -7,7 +7,9 @@
     "AM"
   ],
   "area_km2": 5547.3,
-  "current_phase": "Homologada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Isolados do Igarapé do Natal",
@@ -19,11 +21,6 @@
     }
   ],
   "languages": [
-    {
-      "name": "Isolados do Igarapé do Natal",
-      "family": "—",
-      "povo": "Isolados do Igarapé do Natal"
-    },
     {
       "name": "Nadöb",
       "family": "Makú",

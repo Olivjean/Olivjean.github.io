@@ -7,7 +7,9 @@
     "MA"
   ],
   "area_km2": 416.4,
-  "current_phase": "Regularizada",
+  "current_phase": "regularizada",
+  "legally_protected_2024": true,
+  "legal_status_asof": "2024-12-31",
   "ethnicities": [
     {
       "pt": "Gavião Pykopjê",
@@ -32,11 +34,6 @@
       "name": "Tenetehara",
       "family": "Tupi-Guarani",
       "povo": "Guajajara"
-    },
-    {
-      "name": "Tabajara",
-      "family": "—",
-      "povo": "Tabajara"
     }
   ],
   "has_isolados": false,
