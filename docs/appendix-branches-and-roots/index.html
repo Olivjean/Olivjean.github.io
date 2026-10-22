@@ -12,20 +12,20 @@
 <meta property="og:title" content="Branches and roots: bank presence and forest preservation in Amazonian Indigenous lands">
 <meta property="og:description" content="Interactive online appendix to the working paper by Douglas Araujo and Jean de Oliveira.">
 <meta property="og:url" content="https://jean-de-oliveira.com/appendix-branches-and-roots/index.html">
-<meta property="og:image" content="https://jean-de-oliveira.com/appendix-branches-and-roots/assets/og-image.png?v=1792790005">
+<meta property="og:image" content="https://jean-de-oliveira.com/appendix-branches-and-roots/assets/og-image.png?v=1792790105">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Branches and roots: bank presence and forest preservation in Amazonian Indigenous lands">
 <meta name="twitter:description" content="Interactive online appendix.">
-<meta name="twitter:image" content="https://jean-de-oliveira.com/appendix-branches-and-roots/assets/og-image.png?v=1792790005">
+<meta name="twitter:image" content="https://jean-de-oliveira.com/appendix-branches-and-roots/assets/og-image.png?v=1792790105">
 
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fonts/source-serif-4-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/fonts/fonts.css?v=1792790005">
+<link rel="stylesheet" href="../assets/fonts/fonts.css?v=1792790105">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="assets/css/site.css?v=1792790005">
+<link rel="stylesheet" href="assets/css/site.css?v=1792790105">
 </head>
 <body>
 
@@ -49,24 +49,31 @@
 
 <main class="land">
   <div class="land-head">
-    <h2 class="land-name" id="land-name">&nbsp;</h2>
-    <div class="land-tools">
-      <button type="button" id="random-il-btn" class="btn random" data-i18n-title="selector.random_tooltip"><span class="ico" aria-hidden="true"><svg class="icon" viewBox="0 0 16 16" focusable="false"><path d="M10.6 2.3h3.1v3.1"/><path d="M2.3 13.7 13.7 2.3"/><path d="M13.7 10.6v3.1h-3.1"/><path d="M9.6 9.6l4.1 4.1"/><path d="M2.3 2.3l4 4"/></svg></span><span data-i18n="selector.random">Random</span></button>
-      <div class="picker" id="picker">
-        <div class="picker-field">
-          <input type="text" id="il-picker-input" class="picker-input"
-                 role="combobox" aria-autocomplete="list" aria-expanded="false"
-                 aria-controls="il-picker-list"
-                 data-i18n-placeholder="picker.placeholder" data-i18n-aria="selector.label"
-                 placeholder="Jump to an Indigenous Land…" aria-label="Indigenous Land"
-                 autocomplete="off" spellcheck="false">
-          <div class="picker-panel" id="il-picker-panel" hidden>
-            <div class="picker-states" id="state-filters"></div>
-            <div class="picker-list" id="il-picker-list" role="listbox"></div>
+    <div class="picker" id="picker">
+      <div class="picker-field">
+        <h2 class="land-title">
+          <button type="button" class="land-switch" id="land-switch" aria-haspopup="listbox" aria-expanded="false" aria-controls="il-picker-panel" data-i18n-title="land.change">
+            <span class="land-name" id="land-name">&nbsp;</span><svg class="icon land-chev" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3.5 6 8 10.5 12.5 6"/></svg>
+          </button>
+        </h2>
+        <div class="picker-panel" id="il-picker-panel" hidden>
+          <div class="picker-search">
+            <input type="text" id="il-picker-input" class="picker-input"
+                   role="combobox" aria-autocomplete="list" aria-expanded="false"
+                   aria-controls="il-picker-list"
+                   data-i18n-placeholder="picker.placeholder" data-i18n-aria="selector.label"
+                   placeholder="Search by name" aria-label="Indigenous Land"
+                   autocomplete="off" spellcheck="false">
           </div>
+          <div class="picker-states" id="state-filters"></div>
+          <div class="picker-list" id="il-picker-list" role="listbox"></div>
         </div>
       </div>
     </div>
+    <span class="land-alt">
+      <span class="land-or" data-i18n="land.or">or</span>
+      <button type="button" id="random-il-btn" class="btn land-random" data-i18n-title="selector.random_tooltip"><span class="ico" aria-hidden="true"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10.6 2.3h3.1v3.1"/><path d="M2.3 13.7 13.7 2.3"/><path d="M13.7 10.6v3.1h-3.1"/><path d="M9.6 9.6l4.1 4.1"/><path d="M2.3 2.3l4 4"/></svg></span><span data-i18n="selector.random">Pick a random land</span></button>
+    </span>
   </div>
 
   <div class="card">
@@ -127,13 +134,14 @@
 <script src="https://cdn.plot.ly/plotly-basic-2.27.0.min.js" charset="utf-8"></script>
 <script>
   window.OA_DATA_PATH = "data";
+  window.OA_VERSION = "1792790105";
   window.OA_BASE_PATH = "assets/lang";
   window.OA_VERSION = "1792717200";
 </script>
-<script src="assets/js/i18n.js?v=1792790005"></script>
-<script src="assets/js/brazil-map.js?v=1792790005"></script>
-<script src="assets/js/il-picker.js?v=1792790005"></script>
-<script src="assets/js/il-card.js?v=1792790005"></script>
+<script src="assets/js/i18n.js?v=1792790105"></script>
+<script src="assets/js/brazil-map.js?v=1792790105"></script>
+<script src="assets/js/il-picker.js?v=1792790105"></script>
+<script src="assets/js/il-card.js?v=1792790105"></script>
 <script>IlPicker.init(); Card.init();</script>
 
 </body>

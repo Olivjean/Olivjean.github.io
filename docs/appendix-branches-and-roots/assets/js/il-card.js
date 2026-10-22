@@ -37,7 +37,8 @@ const Card = (() => {
   const t = k => I18N.t(k);
   const $ = id => document.getElementById(id);
   const cap = s => s ? s.charAt(0).toLocaleUpperCase(I18N.locale) + s.slice(1) : s;
-  const json = url => fetch(url).then(r => { if (!r.ok) throw new Error(`${r.status} ${url}`); return r.json(); });
+  const ver = window.OA_VERSION ? `?v=${window.OA_VERSION}` : "";
+  const json = url => fetch(url + ver).then(r => { if (!r.ok) throw new Error(`${r.status} ${url}`); return r.json(); });
 
   function fetchLand(cod) {
     const key = String(cod);
@@ -409,6 +410,8 @@ const Card = (() => {
       },
     };
     Plotly.newPlot(host, [trace], layout, { displayModeBar: false, responsive: true, doubleClick: "reset" });
+    alignCaption();
+    host.on("plotly_afterplot", alignCaption);
     host.setAttribute("aria-label", spec.title);
     host.on("plotly_click", ev => {
       const pt = ev && ev.points && ev.points[0];
@@ -660,6 +663,17 @@ const Card = (() => {
 
   // Keep the map and the chart filling their boxes when the boxes change
   // height (the two columns are stretched to end on the same line).
+  // The caption spans exactly the plot area, so the source ends under the
+  // last year of the axis and the description starts at the first.
+  function alignCaption() {
+    const host = document.getElementById("plot");
+    const cap = document.getElementById("plot-caption");
+    const size = host && host._fullLayout && host._fullLayout._size;
+    if (!cap || !size) return;
+    cap.style.marginLeft = `${Math.round(size.l)}px`;
+    cap.style.width = `${Math.round(size.w)}px`;
+  }
+
   function watchSizes() {
     if (!window.ResizeObserver) return;
     const box = document.querySelector(".map-frame");
@@ -674,8 +688,10 @@ const Card = (() => {
     }
     const host = document.getElementById("plot");
     if (host) new ResizeObserver(() => {
-      const h = host.clientHeight;
-      if (h && host.layout && Math.abs((host.layout.height || 0) - h) > 1) Plotly.relayout(host, { height: h });
+      const fl = host._fullLayout;
+      const w = host.clientWidth, h = host.clientHeight;
+      if (!fl || !w || !h) return;
+      if (Math.abs(fl.width - w) > 1 || Math.abs(fl.height - h) > 1) Plotly.relayout(host, { width: w, height: h });
     }).observe(host);
   }
 

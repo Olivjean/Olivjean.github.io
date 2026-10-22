@@ -261,23 +261,7 @@ a.runhead-title:hover { color: var(--accent-deep); }
   border-bottom: 1.25px solid var(--rule);
 }
 
-/* The land head uses the card's own columns: the name sits over the map,
-   Random and the search field sit exactly over the facts column. */
-.land-head {
-  display: grid;
-  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-  gap: 14px 52px;
-  align-items: center;
-}
-
-.land-tools {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-width: 0;
-}
-
-.land-name {
+.land-title {
   min-width: 0;
   margin: 0;
   font-size: 1.65rem;
@@ -336,8 +320,48 @@ a.runhead-title:hover { color: var(--accent-deep); }
 .picker-input:focus { border-color: var(--accent); }
 .picker-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-.random { height: 40px; flex: none; }
-.btn.random { height: 40px; }
+/* The land name is the chooser: a framed key holding the heading and a
+   chevron. The list opens under it. */
+.land-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+}
+.land-head .picker { display: block; flex: none; max-width: 100%; }
+.land-alt { display: inline-flex; align-items: center; gap: 14px; flex: none; }
+.land-head .picker-field { display: inline-block; max-width: 100%; }
+.land-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  width: max-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 5px 13px 6px;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: var(--paper);
+  border: 1px solid var(--ctl-line);
+  border-bottom-color: var(--ctl-edge);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.land-switch:hover { background: var(--ctl-hover); border-color: var(--ctl-line-hover); }
+.land-switch:active,
+.land-switch[aria-expanded="true"] { background: var(--ctl-down); border-color: var(--ctl-line-hover); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12); }
+.land-name { white-space: nowrap; }
+.land-chev { flex: none; width: 0.62em; height: 0.62em; color: var(--accent); stroke-width: 2; transition: transform 0.15s ease; }
+.land-switch[aria-expanded="true"] .land-chev { transform: rotate(180deg); }
+
+.land-or { color: var(--ink-2); font-size: 1rem; }
+.btn.land-random { flex: none; }
+
+.land-head .picker-panel { right: auto; width: min(460px, calc(100vw - 32px)); }
+.picker-search .picker-input,
+.picker-search .picker-input[aria-expanded="true"] { padding-right: 12px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%234d4d4d' stroke-width='1.5' stroke-linecap='round'%3E%3Ccircle cx='6.7' cy='6.7' r='4.7'/%3E%3Cpath d='M10.2 10.2 14.2 14.2'/%3E%3C/svg%3E"); background-position: 13px 50%; background-size: 15px 15px; }
+.picker-search { padding: 10px 12px; border-bottom: 1px solid var(--hair); }
 
 .picker-panel {
   position: absolute;
@@ -1038,16 +1062,8 @@ a.runhead-title:hover { color: var(--accent-deep); }
   .lang { grid-area: lang; }
   .paper-title { margin-top: 24px; }
   .land { margin-top: 34px; }
-  .land-head {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-areas: "name random" "picker picker";
-    gap: 12px 12px;
-  }
-  .land-tools { display: contents; }
-  .land-name { grid-area: name; }
-  .random { grid-area: random; }
-  .picker { grid-area: picker; }
+  .land-title { font-size: 1.45rem; }
+  .land-name { white-space: normal; overflow-wrap: anywhere; }
   .picker-states { padding: 10px; }
   .picker-states-label { flex: 1 0 100%; }
   .state-strip {

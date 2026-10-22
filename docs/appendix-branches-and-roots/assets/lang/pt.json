@@ -1,12 +1,12 @@
 {
   "site.appendix": "Apêndice online",
   "site.paper_title": "Branches and roots: bank presence and forest preservation in Amazonian Indigenous lands",
-  "picker.placeholder": "Ir para uma Terra Indígena…",
+  "picker.placeholder": "Buscar pelo nome",
   "picker.no_results": "Nenhuma TI corresponde aos filtros atuais",
   "picker.uf_label": "Filtrar por estado:",
   "picker.more": "Mais {n} · digite para filtrar",
   "selector.label": "Terra Indígena",
-  "selector.random": "Sortear",
+  "selector.random": "Sortear uma terra",
   "selector.random_tooltip": "Abrir uma Terra Indígena sorteada",
   "lang.en": "EN",
   "lang.pt": "PT-BR",
@@ -58,5 +58,7 @@
   "footer.copy_bib": "Copiar BibTeX",
   "footer.copy_url_tooltip": "Copiar o link desta página",
   "footer.copy_bib_tooltip": "Copiar a citação em BibTeX",
-  "contact.button": "Contato"
+  "contact.button": "Contato",
+  "land.change": "Escolher outra Terra Indígena",
+  "land.or": "ou"
 }

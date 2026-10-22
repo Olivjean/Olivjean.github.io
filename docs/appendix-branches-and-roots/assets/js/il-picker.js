@@ -9,7 +9,7 @@ const IlPicker = (() => {
   let currentSlug = null;
   let options = [];
   let active = -1;
-  let input, panel, list, states, field;
+  let input, panel, list, states, field, sw;
 
   const scalar = v => Array.isArray(v) ? v[0] : v;
   const flatUfs = u => {
@@ -26,7 +26,7 @@ const IlPicker = (() => {
 
   function index() {
     if (!indexPromise) {
-      indexPromise = fetch(`${dataPath}/il_attrs.json`)
+      indexPromise = fetch(`${dataPath}/il_attrs.json${window.OA_VERSION ? `?v=${window.OA_VERSION}` : ""}`)
         .then(r => r.json())
         .then(data => {
           rows = (data || []).filter(r => r && (r.slug || r.terrai_cod)).map(r => ({
@@ -138,11 +138,13 @@ const IlPicker = (() => {
     renderList();
     panel.hidden = false;
     input.setAttribute("aria-expanded", "true");
+    if (sw) sw.setAttribute("aria-expanded", "true");
   }
 
   function close() {
     panel.hidden = true;
     input.setAttribute("aria-expanded", "false");
+    if (sw) sw.setAttribute("aria-expanded", "false");
     input.removeAttribute("aria-activedescendant");
   }
 
@@ -166,7 +168,7 @@ const IlPicker = (() => {
       if (!panel.hidden && el) { e.preventDefault(); go(el.getAttribute("href").replace("#il=", "")); }
     } else if (e.key === "Escape") {
       if (input.value) { reset(); renderList(); }
-      else { close(); input.blur(); }
+      else { close(); if (sw) sw.focus(); else input.blur(); }
     }
   }
 
@@ -190,7 +192,12 @@ const IlPicker = (() => {
     ufs = Array.from(all).sort();
     renderStates();
 
-    panel.addEventListener("mousedown", e => { if (!e.target.closest("a")) e.preventDefault(); });
+    panel.addEventListener("mousedown", e => { if (!e.target.closest("a") && e.target !== input) e.preventDefault(); });
+    sw = document.getElementById("land-switch");
+    if (sw) sw.addEventListener("click", () => {
+      if (panel.hidden) { open(); input.focus(); }
+      else { close(); }
+    });
     input.addEventListener("focus", open);
     input.addEventListener("click", open);
     input.addEventListener("input", () => { query = input.value; open(); renderList(); });
